@@ -1,0 +1,137 @@
+[
+  {
+    "age": 21,
+    "status": "ok",
+    "issue": "Verified on legislation.gov.uk s.1 (extent E+W): full age reduced from 21 to 18. (The section took effect on 1 Jan 1970; 'until the Act' is acceptable.)"
+  },
+  {
+    "age": 25,
+    "status": "ok",
+    "issue": "Verified verbatim on the archives.gov transcript, Art. I s.2."
+  },
+  {
+    "age": 26,
+    "status": "ok",
+    "issue": "Verified verbatim on Eurostat (data extracted Aug 2025): EU 26.2 in 2024, range 21.4 Finland to 31.3 Croatia. Eurostat's 'average' is the age by which 50% no longer live with parents; the text follows the source's wording."
+  },
+  {
+    "age": 27,
+    "status": "ok",
+    "issue": "CDC FastStats reports 'Mean age at first birth: 27.6', citing Births: Final Data for 2024. cdc.gov blocks curl, so this was confirmed with WebFetch only."
+  },
+  {
+    "age": 28,
+    "status": "ok",
+    "issue": "Verified verbatim in Nature 2022: WMV peaks at 28.7 years (95% CI 28.1-29.2)."
+  },
+  {
+    "age": 29,
+    "status": "ok",
+    "issue": "Britannica, checked in a real browser: born March 3, 1847; first intelligible speech March 10, 1876, with the quote as given. Age 29 years 7 days (Wikipedia gives the same dates). 'you' appears only inside the quotation."
+  },
+  {
+    "age": 30,
+    "status": "ok",
+    "issue": "The NPS page places the Batchelor 'Mary had a little lamb' paper-strip trial in July 1877 and gives Edison's dates as 1847-1931. Born 11 Feb 1847 (Wikipedia), so he was 30 in July 1877. The tinfoil phonograph (Dec 1877) would also fall at 30."
+  },
+  {
+    "age": 31,
+    "status": "ok",
+    "issue": "Verified verbatim on Eurostat Fertility statistics (extracted 19 Feb 2026): EU 29.9, highest Italy 31.9 (2024)."
+  },
+  {
+    "age": 32,
+    "status": "fix",
+    "issue": "The age is correct (born May 26, 1951 per the NASA bio PDF; launched June 18, 1983, so 32 years 23 days). But '147 hours' is NOT on the cited source page (solarsystem.nasa.gov/people/1760). It appears only in the NASA bio PDF (nasa.gov/.../ride_sally.pdf: 'Mission duration was 147 hours'). Option A: use the suggested text, which drops the hours and is supported by the cited page ('rocketed into space on Challenger's STS-7 mission'). Option B: keep the original text and change the cited source to the NASA bio PDF.",
+    "suggestedText": "Physicist Sally Ride became the first American woman in space on 18 June 1983, flying aboard the space shuttle Challenger."
+  },
+  {
+    "age": 33,
+    "status": "fix",
+    "issue": "Overgeneralised. The source's estimate is for native speakers of American English specifically ('an average 20-year-old native speaker of American English...'; 'Between the ages of 20 and 60, the average person learns 6,000 extra lemmas or about one new lemma every 2 days'). 'word' for 'lemma' is an acceptable simplification. Placement at 33 is fine because the range is 20-60.",
+    "suggestedText": "Vocabulary keeps growing through adulthood: between 20 and 60, an average native speaker of American English learns about one new word every two days."
+  },
+  {
+    "age": 34,
+    "status": "ok",
+    "issue": "King Institute: 28 Aug 1963, more than 200,000 demonstrators, 'I Have a Dream' delivered. Born Jan 15, 1929 (NobelPrize.org), so he was 34."
+  },
+  {
+    "age": 35,
+    "status": "ok",
+    "issue": "Verified verbatim on the archives.gov transcript, Art. II s.1."
+  },
+  {
+    "age": 36,
+    "status": "ok",
+    "issue": "The abstract (PubMed efetch) supports 'remains stable in adulthood (20 to 60 years), even during pregnancy'. The full text (PMC8370708) says they 'adjust for body size', so 'adjusted for body size' is supported."
+  },
+  {
+    "age": 37,
+    "status": "ok",
+    "issue": "NWHM page: born Dec 9, 1906; in 1944 commissioned and assigned to Harvard, where her team worked on the Mark I. Cross-check (Wikipedia): commissioned Lt (jg) June 27, 1944, then assigned to Harvard in mid-1944, before her Dec 9 birthday, so she was 37."
+  },
+  {
+    "age": 38,
+    "status": "ok",
+    "issue": "PubMed abstract (efetch PMID 37484700) confirms 4,824 participants from 102 countries and a bump 'common to all age groups'; the attachment is to music 'listened to in adolescence'. Optional: add the year ('a 2023 study...'), 157 chars."
+  },
+  {
+    "age": 39,
+    "status": "fix",
+    "issue": "The age rule is verified verbatim on mathunion.org. But 'one of mathematics' highest honours' is not on the cited page (grep for highest/prestig/honour finds nothing relevant); the input's check admits it is the editor's wording. The page says the medal recognises 'outstanding mathematical achievement' and is 'awarded every four years'.",
+    "suggestedText": "The Fields Medal, which recognises outstanding mathematical achievement, is kept for the young: a candidate's 40th birthday must not fall before 1 January of the award year."
+  },
+  {
+    "age": 40,
+    "status": "ok",
+    "issue": "Verified verbatim on ctext.org (Legge translation, Analects 2.4). The text does not begin with 'At N'."
+  },
+  {
+    "age": 41,
+    "status": "ok",
+    "issue": "NobelPrize.org facts page (current through 2025 laureates) names Kipling the youngest literature laureate, 'Awarded at age 41'. Born 30 Dec 1865 (Wikipedia); 1907 prize (Dec 10, 1907), so he was 41."
+  },
+  {
+    "age": 42,
+    "status": "ok",
+    "issue": "Verified verbatim on archives.gov: 42-year-old seamstress, Dec 1, 1955, refused to move, arrested. Born Feb 4, 1913 (Wikipedia), so she was 42."
+  },
+  {
+    "age": 43,
+    "status": "ok",
+    "issue": "Miller Center: 'youngest person elected US president'; campaigns page: '43-year-old Democratic challenger'. Born May 29, 1917; election Nov 8, 1960, so he was 43. Still true (no younger president elected since)."
+  },
+  {
+    "age": 44,
+    "status": "ok",
+    "issue": "Verified verbatim on Eurostat (extracted 2 Feb 2026): EU median 44.9 on 1 Jan 2025. Optional smoother wording: 'On 1 January 2025, the EU's median age was 44.9: half of all people in the European Union were older, and half were younger.'"
+  },
+  {
+    "age": 54,
+    "status": "fix",
+    "issue": "The figures are verified in the PubMed abstract (efetch PMID 22716034): 4192 volunteers, 74% of those aged 45-65 had grey hair, and onset linked to ethnic/geographical origin. But this statistic has no year, and the source has one (Br J Dermatol 2012). Per the brief, add it.",
+    "suggestedText": "In a worldwide survey of 4,192 people, published in 2012, 74% of those aged 45 to 65 had some grey hair; when it arrives varies with ethnic and geographic origin."
+  },
+  {
+    "age": 58,
+    "status": "ok",
+    "issue": "Verified verbatim in OECD Pensions at a Glance 2023 p.188: 46.1% (2002) to 64.6% (2022) 'on average'. Optional: the figure is an average across countries, so 'Across OECD countries, on average, the share...' would be more exact."
+  },
+  {
+    "age": 63,
+    "status": "ok",
+    "issue": "Verified verbatim in OECD Pensions at a Glance 2023: 2022 average NRA 63.6 women / 64.4 men (full career from age 22). 63.6 falls at age 63."
+  },
+  {
+    "age": 66,
+    "status": "ok",
+    "issue": "Verified verbatim on census.gov (May 25, 2023): 2020 about 1 in 6 aged 65+, 1920 less than 1 in 20."
+  },
+  {
+    "age": 85,
+    "status": "fix",
+    "issue": "The figures are verified verbatim (1.6m mid-2016 to 3.2m by mid-2041). But the cited ONS article is flagged 'This is not the latest release', and its 2016-based projections have since been superseded by newer ONS projections. The present-tense 'is projected' implies a current projection, so frame it as the 2018 projection with its figures.",
+    "suggestedText": "In 2018, the UK's Office for National Statistics projected that the number of people aged 85 and over would double, from 1.6 million in 2016 to 3.2 million by 2041."
+  }
+]

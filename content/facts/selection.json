@@ -54,14 +54,23 @@
     "29": 1,
     "30": 2,
     "31": 0,
-    "32": 0,
-    "33": 0,
+    "32": {
+      "pick": 0,
+      "text": "Physicist Sally Ride became the first American woman in space on 18 June 1983, flying aboard the space shuttle Challenger."
+    },
+    "33": {
+      "pick": 0,
+      "text": "Vocabulary keeps growing through adulthood: between 20 and 60, an average native speaker of American English learns about one new word every two days."
+    },
     "34": 0,
     "35": 0,
     "36": 0,
     "37": 0,
     "38": 0,
-    "39": 0,
+    "39": {
+      "pick": 0,
+      "text": "The Fields Medal, which recognises outstanding mathematical achievement, is kept for the young: a candidate's 40th birthday must not fall before 1 January of the award year."
+    },
     "40": 1,
     "41": 0,
     "42": 0,
@@ -79,7 +88,10 @@
     "51": 1,
     "52": 1,
     "53": 0,
-    "54": 0,
+    "54": {
+      "pick": 0,
+      "text": "In a worldwide survey of 4,192 people, published in 2012, 74% of those aged 45 to 65 had some grey hair; when it arrives varies with ethnic and geographic origin."
+    },
     "55": 0,
     "56": 0,
     "57": 1,
@@ -137,7 +149,10 @@
       "pick": 1,
       "text": "Some local government offices and financial institutions in Japan use earphones that vibrate the ear's cartilage, so staff helping older people need not speak loudly."
     },
-    "85": 0,
+    "85": {
+      "pick": 0,
+      "text": "In 2018, the UK's Office for National Statistics projected that the number of people aged 85 and over would double, from 1.6 million in 2016 to 3.2 million by 2041."
+    },
     "86": {
       "pick": 1,
       "text": "In the UK in 2016 to 2017, 8% of people aged 85 and over were providing informal care to others."
