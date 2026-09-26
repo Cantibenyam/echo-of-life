@@ -1,0 +1,14 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --g1: #c8c8c8;
+  --g2: #8a8a8a;
+  --g3: #4a4a4a;
+  --g4: #1c1c1c;
+}
+
+html,
+body {
+  background: var(--black);
+  color: var(--white);
+}

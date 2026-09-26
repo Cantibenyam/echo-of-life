@@ -1,0 +1,38 @@
+{
+  "name": "echo-of-life",
+  "private": true,
+  "version": "1.0.0",
+  "description": "One life, one year at a time. There is no going back.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "check-dist": "node scripts/check-dist.mjs",
+    "mortality": "node scripts/mortality/fetch-who.mjs && node scripts/mortality/build-table.mjs",
+    "audio": "node scripts/audio/fetch-commons.mjs && node scripts/audio/process.mjs && node scripts/credits/build-credits.mjs",
+    "facts": "node scripts/content/merge-facts.mjs",
+    "credits": "node scripts/credits/build-credits.mjs",
+    "verify": "npm run typecheck && npm test && npm run build && npm run check-dist && npm run test:e2e"
+  },
+  "dependencies": {
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^20.19.43",
+    "fast-check": "^4.10.2",
+    "ffmpeg-static": "^5.3.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.1",
+    "vitest": "^4.1.11"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
