@@ -71,8 +71,14 @@ export function makePad(attack: number, release: number): Tone.PolySynth<Tone.Sy
   return pad;
 }
 
-export function makePluck(): Tone.PluckSynth {
-  return new Tone.PluckSynth({ attackNoise: 0.5, dampening: 2600, resonance: 0.9, release: 1 });
+/** A soft plucked tone (a kalimba or a harp heard from the next room). */
+export function makePluck(): Tone.PolySynth<Tone.Synth> {
+  const pluck = new Tone.PolySynth(Tone.Synth, {
+    oscillator: { type: 'triangle' },
+    envelope: { attack: 0.004, decay: 0.7, sustain: 0, release: 0.6 },
+  });
+  pluck.maxPolyphony = 8;
+  return pluck;
 }
 
 export function makePulse(): Tone.MonoSynth {

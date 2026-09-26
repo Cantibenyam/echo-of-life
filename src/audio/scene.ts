@@ -16,6 +16,8 @@ export interface SceneDeps {
   readonly motif: readonly number[];
   /** Dev: build only the recordings (for balance checks). */
   readonly recordingsOnly?: boolean;
+  /** Dev: build only these layers. */
+  readonly only?: readonly string[];
 }
 
 interface Bed {
@@ -28,6 +30,15 @@ interface Bed {
 }
 
 const db = (v: number): number => Tone.dbToGain(v);
+
+/**
+ * Mix trims (dB) on top of each chapter's layer gains, set from measured levels so the drone is a bed
+ * rather than the whole sound, and the melodic layers can be heard above it.
+ */
+const TRIM: Record<string, number> = { drone: -9, pad: 2, bells: 11, pluck: 8, keys: 12, glass: 9, pulse: 6, air: 4, motif: 8 };
+const trimmed = (name: string, dB: number): number => db(dB + (TRIM[name] ?? 0));
+/** Field recordings sit about 8-10 dB under the music. */
+const RECORDING_TRIM = -5;
 
 /**
  * One chapter of the music: its drone, its instruments, its recordings. A new scene is built at each
@@ -54,7 +65,7 @@ export class Scene {
 
   private pad: Tone.PolySynth<Tone.Synth> | null = null;
   private bells: Poly | null = null;
-  private pluck: Tone.PluckSynth | null = null;
+  private pluck: Tone.PolySynth<Tone.Synth> | null = null;
   private keys: Poly | null = null;
   private pulse: Tone.MonoSynth | null = null;
   private glass: Poly | null = null;
@@ -70,14 +81,15 @@ export class Scene {
     this.out.connect(deps.bus.input);
 
     if (!deps.recordingsOnly) {
-      this.buildDrone();
-      this.buildAir();
-      this.buildPad();
-      this.buildBells();
-      this.buildPluck();
-      this.buildKeys();
-      this.buildPulse();
-      this.buildGlass();
+      const want = (name: string) => !deps.only || deps.only.includes(name);
+      if (want('drone')) this.buildDrone();
+      if (want('air')) this.buildAir();
+      if (want('pad')) this.buildPad();
+      if (want('bells')) this.buildBells();
+      if (want('pluck')) this.buildPluck();
+      if (want('keys')) this.buildKeys();
+      if (want('pulse')) this.buildPulse();
+      if (want('glass')) this.buildGlass();
     }
     this.motifVoice = makeVoice(chapter.motif.voice, 10);
     this.motifVoice.connect(this.layerGain('motif', -14));
@@ -92,7 +104,7 @@ export class Scene {
   // ---------- construction ----------
 
   private layerGain(name: string, dB: number): Tone.Gain {
-    const g = new Tone.Gain(db(dB));
+    const g = new Tone.Gain(trimmed(name, dB));
     g.connect(this.out);
     this.gains.set(name, g);
     this.nodes.push(g);
@@ -192,7 +204,7 @@ export class Scene {
     this.loop('8n', (time) => {
       if (!this.alive(time, sec(DEATH.pluckStop)) || !this.chance('pluck', time)) return;
       const tones = this.chordTones(p.octave);
-      this.pluck!.triggerAttack(hz(tones[i++ % tones.length]!), time);
+      this.pluck!.triggerAttackRelease(hz(tones[i++ % tones.length]!), 0.3, time, 0.5);
     });
   }
 
@@ -327,7 +339,7 @@ export class Scene {
     this.pickProgression();
     const ramp = sec(AUDIO.morph);
     const set = (name: string, r: Range | undefined) => {
-      if (r) this.gains.get(name)?.gain.rampTo(db(this.at(r)), ramp, at);
+      if (r) this.gains.get(name)?.gain.rampTo(trimmed(name, this.at(r)), ramp, at);
     };
     set('drone', this.c.drones.gain);
     set('air', this.c.air?.gain);
@@ -373,7 +385,7 @@ export class Scene {
   private bringIn(bed: Bed, at: number): void {
     const fadeIn = () => {
       const now = Math.max(at, this.deps.ctx.now());
-      bed.gain.gain.rampTo(db(bed.use.gain), sec(AUDIO.recordingFadeIn), now);
+      bed.gain.gain.rampTo(db(bed.use.gain + RECORDING_TRIM), sec(AUDIO.recordingFadeIn), now);
     };
     if (bed.looper) {
       fadeIn();

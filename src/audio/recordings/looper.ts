@@ -13,7 +13,7 @@ const FADE_OUT = Float32Array.from({ length: CURVE_POINTS }, (_, i) => Math.cos(
  * - pulse (clocks): a native loop between two points that sit in the quiet between ticks.
  */
 export class Looper {
-  readonly out = new Tone.Gain(1);
+  readonly out: Tone.Gain;
   private readonly rand: () => number;
   private readonly live = new Set<{ src: AudioBufferSourceNode; gain: GainNode }>();
   private clock: Tone.Clock | null = null;
@@ -25,6 +25,8 @@ export class Looper {
     private readonly info: RecordingInfo,
   ) {
     this.rand = mulberry32(hashString(info.id));
+    // Built after an async load, so name the context explicitly (an offline render may have restored the global one).
+    this.out = new Tone.Gain({ gain: 1, context: ctx });
   }
 
   start(at: number): void {
@@ -43,9 +45,13 @@ export class Looper {
       return;
     }
     this.next = at;
-    this.clock = new Tone.Clock((time) => {
-      while (this.next < time + 3) this.segment(this.next);
-    }, 2);
+    this.clock = new Tone.Clock({
+      context: this.ctx,
+      frequency: 2,
+      callback: (time) => {
+        while (this.next < time + 3) this.segment(this.next);
+      },
+    });
     this.clock.start(at);
     this.segment(this.next);
   }

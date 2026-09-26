@@ -3,7 +3,7 @@ import { AUDIO, DEATH, sec } from '../config';
 import { hallSend, hearingHz, roomSend } from './curves';
 
 /** One final listening adjustment for the whole piece. */
-export const MASTER_TRIM_DB = -6;
+export const MASTER_TRIM_DB = -4;
 
 /**
  * scenes -> input ─┬─ dry ──────────────────────┐

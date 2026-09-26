@@ -88,6 +88,7 @@ export interface RenderPlan {
   readonly lifeId?: string;
   readonly recordings?: boolean;
   readonly recordingsOnly?: boolean;
+  readonly only?: readonly string[];
 }
 
 export async function render(plan: RenderPlan): Promise<{ buffer: AudioBuffer; scenesMax: number; beats: readonly number[] }> {
@@ -95,7 +96,7 @@ export async function render(plan: RenderPlan): Promise<{ buffer: AudioBuffer; s
   let beats: readonly number[] = [];
   const out = await Tone.Offline(
     async (context) => {
-      const engine = new Engine({ lifeId: plan.lifeId ?? 'render-life-0000', offline: true, recordings: plan.recordings, recordingsOnly: plan.recordingsOnly });
+      const engine = new Engine({ lifeId: plan.lifeId ?? 'render-life-0000', offline: true, recordings: plan.recordings, recordingsOnly: plan.recordingsOnly, only: plan.only });
       await engine.init(plan.age);
       engine.begin(plan.age, false, 0);
       for (const [t, a] of plan.steps ?? []) engine.ctx.setTimeout(() => engine.setAge(a), t);
@@ -201,4 +202,32 @@ export async function wavBase64(plan: RenderPlan): Promise<string> {
   let s = '';
   for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
   return btoa(s);
+}
+
+/** RMS (dB) of the buffer within a band, via a band-pass filter in a separate offline context. */
+export async function bandDb(buf: AudioBuffer, lo: number, hi: number, from = 0, to = buf.duration): Promise<number> {
+  const ctx = new OfflineAudioContext(buf.numberOfChannels, buf.length, buf.sampleRate);
+  const src = ctx.createBufferSource();
+  src.buffer = buf;
+  const hp = ctx.createBiquadFilter();
+  hp.type = 'highpass';
+  hp.frequency.value = lo;
+  const lp = ctx.createBiquadFilter();
+  lp.type = 'lowpass';
+  lp.frequency.value = hi;
+  src.connect(hp).connect(lp).connect(ctx.destination);
+  src.start();
+  return analyze(await ctx.startRendering(), from, to).rmsDb;
+}
+
+/** Which layer puts how much energy where: [layer, lows<250, mids 250-1000, highs>1000]. */
+export async function layerBands(age: number): Promise<unknown[]> {
+  const rows: unknown[] = [];
+  for (const only of [['drone'], ['air'], ['pad'], ['bells'], ['pluck'], ['keys'], ['pulse'], ['glass'], ['heart']]) {
+    const { buffer } = await render({ age, seconds: 16, recordings: false, only });
+    const all = analyze(buffer, 6, 16).rmsDb;
+    if (all < -90) continue;
+    rows.push([only[0], +all.toFixed(1), +(await bandDb(buffer, 20, 250, 6, 16)).toFixed(1), +(await bandDb(buffer, 250, 1000, 6, 16)).toFixed(1), +(await bandDb(buffer, 1000, 16000, 6, 16)).toFixed(1)]);
+  }
+  return rows;
 }

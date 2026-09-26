@@ -184,7 +184,7 @@ export const CHAPTERS: readonly ChapterSpec[] = [
     glass: { gain: [-27, -33], density: [0.08, 0.02], octave: 5 },
     pad: { gain: [-24, -60], attack: [7, 8], release: 12, bars: [6, 8], octave: 3 },
     recordings: [
-      { id: 'wind', gain: -7 },
+      { id: 'wind', gain: -9 },
       { id: 'birdsong', gain: -11, ages: [90, 105] },
     ],
   },

@@ -19,6 +19,8 @@ export interface EngineOptions {
   readonly recordings?: boolean;
   /** Dev: render only the field recordings. */
   readonly recordingsOnly?: boolean;
+  /** Dev: render only these layers (and no heartbeat unless 'heart' is listed). */
+  readonly only?: readonly string[];
 }
 
 /**
@@ -77,6 +79,7 @@ export class Engine {
       bank: this.bank,
       motif: this.motif,
       recordingsOnly: this.opts.recordingsOnly,
+      only: this.opts.only,
     });
     this.live.push(scene);
     return scene;
@@ -116,7 +119,7 @@ export class Engine {
       bus.setAge(this.age, at, j.brightness);
       bus.fadeIn(at, fade);
       this.heart = new Heartbeat(bus.heartIn, this.age, this.ctx, this.opts.onBeat);
-      if (!this.opts.recordingsOnly) this.heart.start(at + 0.3);
+      if (!this.opts.recordingsOnly && (!this.opts.only || this.opts.only.includes('heart'))) this.heart.start(at + 0.3);
       this.current = this.newScene(this.age);
       this.current.start(at);
       this.current.fadeIn(at, fade);
