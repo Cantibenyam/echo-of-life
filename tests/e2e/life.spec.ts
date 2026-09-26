@@ -139,6 +139,18 @@ test('the ending is permanent and silent afterwards', async ({ page }) => {
   expect(errors).toEqual([]);
 });
 
+test('if the recordings fail to load, the life and the music go on', async ({ page }) => {
+  const errors = watchErrors(page);
+  await page.route('**/audio/*.mp3', (route) => route.fulfill({ status: 404, body: 'gone' }));
+  await page.goto('./');
+  await begin(page);
+  await page.waitForTimeout(BIRTH_LOCK + 200);
+  await page.keyboard.press('Space');
+  await expect.poll(async () => (await stored(page))?.age).toBe(1);
+  await page.waitForTimeout(2000);
+  expect(errors.filter((e) => !/404|Failed to load resource/.test(e))).toEqual([]);
+});
+
 test('dev overrides do nothing in production', async ({ page }) => {
   await page.goto('./?age=50&lifespan=3&fast');
   await expect(page.locator('.gate-title')).toHaveText('The Echo of Life');
