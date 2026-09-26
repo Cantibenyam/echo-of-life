@@ -1,0 +1,86 @@
+{
+  "indicator": "LIFE_0000000030",
+  "spatial": "GLOBAL",
+  "sex": "SEX_BTSX",
+  "year": 2019,
+  "source": "https://ghoapi.azureedge.net/api/LIFE_0000000030?$filter=SpatialDim%20eq%20'GLOBAL'%20and%20Dim1%20eq%20'SEX_BTSX'%20and%20TimeDim%20eq%202019",
+  "fetchedAt": "2026-09-26T12:13:57.955Z",
+  "rows": [
+    {
+      "ageGroup": "AGEGROUP_YEARS00-01",
+      "value": 0.028942508
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS01-04",
+      "value": 0.00963449
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS05-09",
+      "value": 0.003644219
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS10-14",
+      "value": 0.002782996
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS15-19",
+      "value": 0.004426008
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS20-24",
+      "value": 0.005904097
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS25-29",
+      "value": 0.006406876
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS30-34",
+      "value": 0.007852259
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS35-39",
+      "value": 0.010342724
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS40-44",
+      "value": 0.01424996
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS45-49",
+      "value": 0.019034768
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS50-54",
+      "value": 0.028151302
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS55-59",
+      "value": 0.043556808
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS60-64",
+      "value": 0.064585605
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS65-69",
+      "value": 0.095380903
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS70-74",
+      "value": 0.142379324
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS75-79",
+      "value": 0.214174767
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS80-84",
+      "value": 0.327280505
+    },
+    {
+      "ageGroup": "AGEGROUP_YEARS85PLUS",
+      "value": 1
+    }
+  ]
+}
