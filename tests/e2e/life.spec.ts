@@ -72,11 +72,15 @@ test('a year per press, a cooldown, and no way back', async ({ page }) => {
   const historyBefore = await page.evaluate(() => history.length);
   await begin(page);
   await page.waitForTimeout(BIRTH_LOCK + 200);
-  await page.keyboard.press('Space');
-  await expect.poll(async () => (await stored(page))?.age).toBe(1);
-  await page.keyboard.press('Space');
+  // Two presses in the same instant: the second falls inside the cooldown and is dropped.
+  await page.evaluate(() => {
+    const press = () => document.querySelector<HTMLButtonElement>('.advance')!.click();
+    press();
+    press();
+  });
   await page.keyboard.press('ArrowLeft');
   await page.keyboard.press('Backspace');
+  await expect.poll(async () => (await stored(page))?.age).toBe(1);
   await page.waitForTimeout(300);
   expect((await stored(page))?.age).toBe(1);
   await page.waitForTimeout(COOLDOWN);

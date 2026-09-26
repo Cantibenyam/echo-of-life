@@ -15,7 +15,7 @@ export class Heartbeat {
     pitchDecay: 0.03,
     octaves: 2,
     oscillator: { type: 'sine' },
-    envelope: { attack: 0.002, decay: 0.16, sustain: 0, release: 0.12 },
+    envelope: { attack: 0.002, decay: 0.16, sustain: 0, release: 0.08 },
   });
   private readonly gain: Tone.Gain;
   private readonly clock: Tone.Clock;
@@ -69,8 +69,8 @@ export class Heartbeat {
     const gap = 0.35 * Math.sqrt(60 / this.bpm);
     this.recent.push(t);
     if (this.recent.length > 64) this.recent.shift();
-    this.synth.triggerAttackRelease(LUB, 0.1, t, velocity);
-    this.synth.triggerAttackRelease(DUB, 0.08, t + gap, velocity * 0.6);
+    this.synth.triggerAttackRelease(LUB, 0.08, t, velocity);
+    this.synth.triggerAttackRelease(DUB, 0.07, t + gap, velocity * 0.6);
     if (this.onBeat) this.ctx.draw.schedule(this.onBeat, t);
   }
 

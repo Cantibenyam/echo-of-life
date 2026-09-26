@@ -412,8 +412,13 @@ export class Scene {
   die(t0: number): void {
     this.deathAt = t0;
     for (const bed of this.beds) bed.gain.gain.exponentialRampTo(0.0001, sec(DEATH.recordingsFade), t0);
-    this.pad?.releaseAll(t0 + sec(DEATH.padsRelease));
-    this.keys?.releaseAll(t0 + sec(DEATH.padsRelease));
+    // Release when that moment arrives, not ahead of time: a release scheduled into the future followed by
+    // an earlier note on the same voice would break Tone's start/stop ordering.
+    this.deps.ctx.setTimeout(() => {
+      if (this.disposed) return;
+      this.pad?.releaseAll();
+      this.keys?.releaseAll();
+    }, t0 + sec(DEATH.padsRelease) - this.deps.ctx.now());
     this.gains.get('drone')?.gain.exponentialRampTo(0.0001, sec(DEATH.droneFadeFor), t0 + sec(DEATH.droneFadeFrom));
     this.gains.get('air')?.gain.exponentialRampTo(0.0001, sec(DEATH.droneFadeFor), t0 + sec(DEATH.droneFadeFrom - 4));
   }
