@@ -32,6 +32,7 @@ cpSync('dist', out, { recursive: true });
 writeFileSync(resolve(out, '.nojekyll'), '');
 
 run('git init -q -b gh-pages', out);
+run('git config core.autocrlf false', out);
 run('git add -A', out);
 run(`git commit -q -m "Deploy ${commit} (${release ? 'release' : 'preview'})"`, out);
 run(`git push -f -q ${remote} gh-pages`, out);
