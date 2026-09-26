@@ -15,6 +15,16 @@ for (const f of readdirSync(DIR).filter((n) => /^part-\d+-\d+\.json$/.test(n))) 
   for (const entry of JSON.parse(readFileSync(`${DIR}/${f}`, 'utf8'))) candidates.set(entry.age, entry.candidates);
 }
 
+/** Typographer's quotes: apostrophes and quotation marks curl the right way. */
+function smarten(s) {
+  return s
+    .replace(/(\w)'(\w)/g, '$1’$2')
+    .replace(/(^|[\s(\[“])'/g, '$1‘')
+    .replace(/'/g, '’')
+    .replace(/(^|[\s(\[])"/g, '$1“')
+    .replace(/"/g, '”');
+}
+
 const problems = [];
 const selected = [];
 for (let age = 0; age <= MAX_AGE; age++) {
@@ -34,7 +44,7 @@ for (let age = 0; age <= MAX_AGE; age++) {
     problems.push(`age ${age}: candidate ${choice.pick} missing`);
     continue;
   }
-  const text = (choice.text ?? c.text).trim();
+  const text = smarten((choice.text ?? c.text).trim());
   if (text.length < 40 || text.length > 180) problems.push(`age ${age}: text length ${text.length}`);
   if (!/^https:\/\//.test(c.source.url)) problems.push(`age ${age}: source is not https`);
   selected.push({ age, text, source: { label: c.source.label, url: c.source.url }, kind: c.kind, evidence: c.evidence, check: c.check });

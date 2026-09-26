@@ -1,1109 +1,1109 @@
 [
   {
     "age": 0,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "A newborn can already pick out its mother’s voice from another woman’s, and will change the way it sucks to hear hers more often.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "DeCasper & Fifer, Science, 1980",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7375928/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 1,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a New York lab study, toddlers aged 12 to 19 months averaged 2,368 steps and 17 falls in every hour of free play.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Adolph et al., Psychological Science, 2012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591461/"
     },
     "kind": "numbers"
   },
   {
     "age": 2,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "By 30 months, most toddlers say about 50 words and put two or more together with an action word, like “doggie run”.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "CDC, Milestones by 30 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 3,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Most three-year-olds can keep a conversation going for two back-and-forth turns, and have started asking “who”, “what”, “where” or “why” questions.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "CDC, Milestones by 3 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 4,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Around four, children typically pass the classic false-belief test, predicting that someone will look for a toy where they last saw it, not where it now is.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Baillargeon, Scott & He, Trends in Cognitive Sciences, 2010",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2930901/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 5,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The grey matter of the brain’s cortex reaches its greatest volume at about 5.9 years of age, according to charts built from 123,984 MRI scans.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Bethlehem et al., Nature, 2022",
+      "url": "https://www.nature.com/articles/s41586-022-04554-y"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 6,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In November 1960, six-year-old Ruby Bridges walked into William Frantz Elementary in New Orleans, escorted by U.S. Marshals, to desegregate the school.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "National Women's History Museum, Ruby Bridges biography",
+      "url": "https://www.womenshistory.org/education-resources/biographies/ruby-bridges"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 7,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a US study of 100 children, 65% had had an imaginary companion at some point by the age of seven.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Taylor et al., Developmental Psychology, 2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15535765/"
     },
     "kind": "numbers"
   },
   {
     "age": 8,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a US study, children of five to seven recalled 60% or more of events discussed at age three, while eight- and nine-year-olds recalled under 40%.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Bauer & Larkina, Memory, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24236647/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 9,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In October 1828, nine-year-old Clara Wieck, later Clara Schumann, first played for the public, at Leipzig’s Gewandhaus concert hall.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Schumann-Portal (Schumann research archive), Leipzig 1819-1844",
+      "url": "https://www.schumann-portal.de/leipzig-1819-1844.html"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 10,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The World Health Organization counts adolescence from 10 to 19. There are more adolescents alive than ever before: 1.3 billion, one in six people on Earth.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "World Health Organization, Adolescent health",
+      "url": "https://www.who.int/health-topics/adolescent-health"
     },
     "kind": "numbers"
   },
   {
     "age": 11,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Writing under the name Gul Makai, Malala Yousafzai was 11 when she began an anonymous diary for BBC Urdu about her wish to go to school.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NobelPrize.org, Malala Yousafzai biographical",
+      "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 12,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "From about 6 to 12, the outer layers of the brain’s hearing cortex mature, as children grow sharper at telling the sounds of language apart.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Moore & Linthicum, International Journal of Audiology, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17828663/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 13,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In August 1963 ‘Fingertips – Pt 2’ made Stevie Wonder the youngest solo artist ever to reach No. 1 on the US Billboard Hot 100.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Billboard, 2017",
+      "url": "https://www.billboard.com/pro/this-week-in-billboard-chart-history-in-1963-stevie-wonder-set-a/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 14,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a study of 463 Danish choirboys, the median age at which the voice broke was 14.0 years.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Juul et al., International Journal of Andrology, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17459124/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 15,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In March 1955, 15-year-old Claudette Colvin refused to give up her seat on a segregated bus in Montgomery, nine months before Rosa Parks.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "National Geographic, 2026",
+      "url": "https://www.nationalgeographic.com/history/article/claudette-colvin-montgomery-bus-boycott"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 16,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 2007 Austria became the first EU country to lower the voting age to 16 in national elections, from 18.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Parliament of Austria, Elections FAQ",
+      "url": "https://www.parlament.gv.at/en/services/inquiry-service/faq/elections"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 17,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Asked about personally meaningful songs, 1,891 people from many countries most often named ones released when they were about 17.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Burunat et al., Memory, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40952922/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 18,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In April 2022 Japan lowered its age of adulthood from 20 to 18, the first change in roughly 140 years.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Ministry of Justice, Japan",
+      "url": "https://www.moj.go.jp/EN/MINJI/minji07_00218.html"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 19,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The mind’s raw speed at processing information peaks around 18 or 19; other abilities keep ripening for decades.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "MIT News (Hartshorne & Germine, Psychological Science), 2015",
+      "url": "https://news.mit.edu/2015/brain-peaks-at-different-ages-0306"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 20,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Sleep times drift later through the teens and reach their latest at around 20, a turning point proposed as a marker for the end of adolescence.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Nature News & Views on Roenneberg et al. (Current Biology), 2005",
+      "url": "https://www.nature.com/articles/433027a"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 21,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Until the Family Law Reform Act 1969, people in England and Wales came of full legal age at 21; the Act lowered it to 18.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "legislation.gov.uk, Family Law Reform Act 1969, s.1",
+      "url": "https://www.legislation.gov.uk/ukpga/1969/46/section/1"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 22,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In January 2021, Amanda Gorman read ‘The Hill We Climb’ at a US presidential inauguration, the youngest inaugural poet in the country’s history.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "PBS NewsHour, 2021",
+      "url": "https://www.pbs.org/newshour/live-update/inauguration-of-joe-biden-and-kamala-harris/amanda-gorman-at-22-is-the-youngest-inaugural-poet-in-u-s-history"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 23,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In June 1925 Werner Heisenberg went to the island of Helgoland to ease his hay fever, and there set out the first mathematical framework of quantum mechanics.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "American Physical Society, APS News, 2025",
+      "url": "https://www.aps.org/apsnews/2025/07/werner-heisenberg-pioneers-quantum-mechanics"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 24,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "On 28 November 1967, PhD student Jocelyn Bell, 24, recorded radio pulses one and a third seconds apart: the discovery of pulsars.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "University of Cambridge, Journeys of discovery",
+      "url": "https://www.cam.ac.uk/stories/journeysofdiscovery-pulsars"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 25,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The US Constitution sets 25 as the youngest age at which a person may serve in the House of Representatives.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US Constitution, Article I, Section 2 (National Archives transcript)",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 26,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Across the European Union, young people leave their parents’ home at 26.2 on average (2024), from 21.4 in Finland to 31.3 in Croatia.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Eurostat, Young people - housing conditions, 2025",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Young_people_-_housing_conditions"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 27,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the United States in 2024, the average age of a mother at the birth of her first child was 27.6.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "CDC/NCHS FastStats: Births (Births: Final Data for 2024)",
+      "url": "https://www.cdc.gov/nchs/fastats/births.htm"
     },
     "kind": "numbers"
   },
   {
     "age": 28,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The brain’s white matter, the wiring that links its regions, reaches its greatest volume at about 28.7 years of age.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Bethlehem et al., Brain charts for the human lifespan, Nature, 2022",
+      "url": "https://www.nature.com/articles/s41586-022-04554-y"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 29,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Alexander Graham Bell first sent clear speech by telephone in 1876, calling to his assistant: “Mr. Watson—come here—I want to see you.”",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Britannica, Alexander Graham Bell",
+      "url": "https://www.britannica.com/biography/Alexander-Graham-Bell"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 30,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 1877 Thomas Edison tested a machine for recording the human voice by speaking into it the line ‘Mary had a little lamb’.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "National Park Service, Thomas Edison National Historical Park",
+      "url": "https://www.nps.gov/edis/learn/historyculture/origins-of-sound-recording-thomas-edison.htm"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 31,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Italy has the European Union’s oldest first-time mothers: in 2024, women there had their first child at 31.9 years on average.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Eurostat, Fertility statistics, 2026",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 32,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Physicist Sally Ride became the first American woman in space in June 1983, on a shuttle mission that lasted 147 hours.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NASA, Sally Ride (1951-2012)",
+      "url": "https://solarsystem.nasa.gov/people/1760/sally-ride-1951-2012/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 33,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Vocabulary keeps growing through adulthood: between 20 and 60, an average native English speaker learns about one new word every two days.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Brysbaert et al., Frontiers in Psychology, 2016",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01116/full"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 34,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Martin Luther King Jr. gave his “I Have a Dream” speech in 1963, speaking to more than 200,000 people gathered in Washington.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Martin Luther King Jr. Research and Education Institute, Stanford",
+      "url": "https://kinginstitute.stanford.edu/march-washington-jobs-and-freedom"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 35,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The US Constitution makes 35 the youngest age at which a person may become President.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US Constitution, Article II, Section 1 (National Archives transcript)",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 36,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Metabolism holds steady through adulthood: adjusted for body size, the energy a person burns each day stays stable from 20 to 60, even during pregnancy.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Pontzer et al., Science, 2021",
+      "url": "https://europepmc.org/article/MED/34385400"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 37,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 1944 mathematician Grace Hopper, who had left teaching to join the US Navy, was assigned to Harvard, where her team worked on the Mark I, an early computer.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "National Women's History Museum, Grace Hopper",
+      "url": "https://www.womenshistory.org/education-resources/biographies/grace-hopper"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 38,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "People stay attached to the music of their youth: a study of 4,824 people from 102 countries found this ‘musical reminiscence bump’ in every age group.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Renwick & Woolhouse, Psychology of Music, 2023",
+      "url": "https://europepmc.org/article/MED/37484700"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 39,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The Fields Medal, one of mathematics’ highest honours, is kept for the young: a candidate’s 40th birthday must not fall before 1 January of the award year.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "International Mathematical Union, Fields Medal",
+      "url": "https://www.mathunion.org/imu-awards/fields-medal"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 40,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the Analects, Confucius looks back on his life in stages. Of forty he says simply: ‘At forty, I had no doubts.’",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Chinese Text Project, Analects, Wei Zheng 2.4 (James Legge translation)",
+      "url": "https://ctext.org/analects/wei-zheng"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 41,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Rudyard Kipling received the 1907 Nobel Prize in Literature, and remains the youngest person ever awarded it.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Nobel Prize facts, NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 42,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "On 1 December 1955, Rosa Parks, a 42-year-old seamstress, was arrested in Montgomery, Alabama, for refusing to give up her seat on a city bus.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US National Archives, The Arrest Records of Rosa Parks",
+      "url": "https://www.archives.gov/education/lessons/rosa-parks"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 43,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 1960, at 43, John F. Kennedy won the US presidency, becoming the youngest person ever elected to that office.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Miller Center, University of Virginia, John F. Kennedy: Life in Brief",
+      "url": "https://millercenter.org/president/kennedy/life-in-brief"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 44,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Half of all people in the European Union are older than 44.9 and half are younger, the EU’s median age on 1 January 2025.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Eurostat, Population structure and ageing, 2026",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_structure_and_ageing"
     },
     "kind": "numbers"
   },
   {
     "age": 45,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Many people first notice around age 45 that they hold a page a little farther away to read it, as the lens of the eye slowly loses its flexibility.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "MedlinePlus (US National Library of Medicine), Presbyopia, 2026",
+      "url": "https://medlineplus.gov/ency/article/001026.htm"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 46,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 1982 the typical American jazz concertgoer was 29. By 2008 the median age of the jazz audience had risen to 46.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "National Endowment for the Arts, Arts Participation 2008 (SPPA)",
+      "url": "https://www.arts.gov/sites/default/files/NEA-SPPA-brochure.pdf"
     },
     "kind": "numbers"
   },
   {
     "age": 47,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Reading other people’s emotions is a late-blooming skill: in a study of nearly 50,000 people it peaked in the 40s or 50s, long after processing speed and short-term memory.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Association for Psychological Science, on Hartshorne & Germine (Psychological Science), 2015",
+      "url": "https://www.psychologicalscience.org/news/releases/cognitive-skills-peak-at-different-ages-across-adulthood.html"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 48,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Across 145 countries, well-being follows a U-shaped curve through adulthood, dipping to its lowest point in midlife, on average around age 48, then rising again.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Blanchflower, Journal of Population Economics, 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7480662/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 49,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "A 2015 study put the median age at which American women become grandmothers at 49. In parts of Western Europe it came up to eight years later.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Leopold & Skopek, Social Forces, 2015",
+      "url": "https://academic.oup.com/sf/article-abstract/94/2/801/2583786"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 50,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In October 1966 the Carnatic singer M. S. Subbulakshmi gave a recital of Indian songs in the United Nations General Assembly Hall in New York.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "UN Photo, Celebration of United Nations Day 1966",
+      "url": "https://media.un.org/photo/en/asset/oun7/oun7615364"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 51,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In surveys of over 1.5 million Americans, everyday stress stayed high from the 20s until about age 50, then fell steeply through the 70s.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Stone, Schneider & Broderick, Journal of Psychosomatic Research, 2017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5707130/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 52,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Rabindranath Tagore, a writer of poems, songs, stories and plays in Bengali, won the 1913 Nobel Prize in Literature for verse recast in his own English words.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NobelPrize.org, Rabindranath Tagore – Facts",
+      "url": "https://www.nobelprize.org/prizes/literature/1913/tagore/facts/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 53,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Women’s voices often deepen in midlife: one study found the voices of women aged 40 to 60 were pitched 34 to 38 Hz lower than those of women aged 20 to 30.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Eichhorn, Kent, Austin et al., Journal of Voice, 2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5832520/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 54,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a worldwide survey of 4,192 people, 74% of those aged 45 to 65 had some grey hair; when it arrives varies with ethnic and geographic origin.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Panhard, Lozano & Loussouarn, British Journal of Dermatology, 2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22716034/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 55,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Among adults aged 45 to 65, musicians were better than non-musicians at following speech against background noise, a 2011 study found.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Parbery-Clark, Strait, Anderson, Hittner & Kraus, PLOS ONE, 2011",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018082"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 56,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the US in 2025, the median age of farmers, ranchers and agricultural managers was 56.1, compared with 42.1 for all employed people.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+      "url": "https://www.bls.gov/cps/cpsaat11b.htm"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 57,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In January 1955 the contralto Marian Anderson became the first African American soloist to sing at New York’s Metropolitan Opera.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NPR, 2015",
+      "url": "https://www.npr.org/sections/deceptivecadence/2015/01/07/375440168/marian-andersons-groundbreaking-met-opera-moment"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 58,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Across OECD countries, the share of people aged 55 to 64 in work rose from 46.1% in 2002 to 64.6% in 2022.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "OECD, Pensions at a Glance 2023",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pensions-at-a-glance-2023_4757bf20/678055dd-en.pdf"
     },
     "kind": "numbers"
   },
   {
     "age": 59,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In January 2026, US workers aged 55 to 64 had been with their current employer for a median of 9.6 years, more than three times as long as those aged 25 to 34.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US Bureau of Labor Statistics, Employee Tenure, January 2026",
+      "url": "https://www.bls.gov/news.release/tenure.nr0.htm"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 60,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the Analects, Confucius says that at sixty his ear became “an obedient organ for the reception of truth”.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Chinese Text Project, Analects, Wei Zheng 2.4 (James Legge translation)",
+      "url": "https://ctext.org/analects/wei-zheng"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 61,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 1991, American retirees said they had stopped working at 57 on average. By 2022 the average retirement age they reported had risen to 61.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Gallup, 2022",
+      "url": "https://news.gallup.com/poll/394943/retiring-planning-retire-later.aspx"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 62,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "A man’s speaking voice is usually at its lowest between 40 and 50; by 60 to 70 it has risen back to the pitch of his twenties.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Skoog Waller & Eriksson, Frontiers in Psychology, 2016",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01814/full"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 63,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Across OECD countries in 2022, the average normal retirement age was 63.6 for women and 64.4 for men.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "OECD, Pensions at a Glance 2023",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pensions-at-a-glance-2023_4757bf20/678055dd-en.pdf"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 64,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a 10-year study of daily emotions, the balance of positive over negative feelings kept improving with age, peaking at around 64.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Carstensen et al., Psychology and Aging, 2011",
+      "url": "https://www.anderson.ucla.edu/faculty/hal.hershfield/resources/Research/Psychology-and-Aging-2011-Carstensen.pdf"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 65,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 2018, for the first time in history, people aged 65 or over outnumbered children under five worldwide.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "UN DESA, World Population Prospects 2019",
+      "url": "https://www.un.org/development/desa/en/news/population/world-population-prospects-2019.html"
     },
     "kind": "numbers"
   },
   {
     "age": 66,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the 2020 US census, about 1 in 6 people were 65 or older. A century earlier, in 1920, fewer than 1 in 20 were.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US Census Bureau, America Counts, 2023",
+      "url": "https://www.census.gov/library/stories/2023/05/2020-census-united-states-older-population-grew.html"
     },
     "kind": "numbers"
   },
   {
     "age": 67,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In an 18-month German trial, dancers averaging 67 years old gained volume in the brain’s memory hub and, unlike a fitness group, clearly improved their balance.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Rehfeld et al., Frontiers in Human Neuroscience, 2017",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2017.00305/full"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 68,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Vocabulary is a late bloomer: in a large online study of mental skills, it peaked when participants were in their late 60s or early 70s.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Association for Psychological Science, 2015",
+      "url": "https://www.psychologicalscience.org/news/releases/cognitive-skills-peak-at-different-ages-across-adulthood.html"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 69,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a German-Swiss trial of adults aged 62 to 78, six months of piano lessons improved hearing of speech in noise in the left ear, a gain not seen in a music-listening group.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Worschech et al., Frontiers in Neuroscience, 2021",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2021.696240/full"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 70,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In 2025 Denmark voted to raise its state pension age to 70, the highest in Europe, for people born after 1970.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "CNN Business, 23 May 2025",
+      "url": "https://www.cnn.com/2025/05/23/business/denmark-retirement-age-rise-70-intl-scli"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 71,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a US trial with 390 adults averaging 71 years old, six months of singing in a community choir eased loneliness and raised interest in life.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Johnson et al., Journals of Gerontology: Series B, 2020 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30412233/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 72,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a UK survey of over 300,000 adults in 2012 to 2015, people aged 65 to 74 reported the highest average happiness of any age group.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Office for National Statistics (UK), 2016",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/measuringnationalwellbeing/atwhatageispersonalwellbeingthehighest"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 73,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Cuban singer Ibrahim Ferrer won Best New Artist at the very first Latin Grammy Awards, held in September 2000.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Billboard, 25 Years of Latin Grammys timeline, 2024",
+      "url": "https://www.billboard.com/lists/latin-grammys-25-anniversary-timeline/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 74,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Adults in their 70s who had exercised for five decades had muscle capillaries and aerobic enzymes matching those of 25-year-old exercisers.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Gries et al., Journal of Applied Physiology, 2018 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30161005/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 75,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Nelson Mandela voted for the first time in his life on 27 April 1994, and on 10 May became South Africa’s first democratically elected president.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Nelson Mandela Foundation, Biography",
+      "url": "https://www.nelsonmandela.org/content/page/biography"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 76,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the US in 2024, people aged 75 and over spent an average of 46 minutes a day reading for pleasure. Those aged 15 to 19 read for 9 minutes.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US Bureau of Labor Statistics, American Time Use Survey 2024 (via FRASER)",
+      "url": "https://fraser.stlouisfed.org/files/docs/releases/atus/atus_20250626.pdf"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 77,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "John Glenn returned to space aboard Discovery in 1998, 36 years after his first orbit, and took part in research on space flight and ageing.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NASA, Biography of John H. Glenn",
+      "url": "https://www.nasa.gov/people/biography-of-john-h-glenn/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 78,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Brenda Lee’s ‘Rockin’ Around the Christmas Tree’, recorded when she was 13, reached No. 1 on the US Hot 100 in December 2023.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Billboard, 4 Dec 2023",
+      "url": "https://www.billboard.com/lists/brenda-lee-rockin-around-the-christmas-tree-number-one-hot-100/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 79,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the US in 2024, adults aged 75 and over spent 7.6 hours a day on leisure and sports, more than any other age group.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "US Bureau of Labor Statistics, American Time Use Survey 2024 (via FRASER)",
+      "url": "https://fraser.stlouisfed.org/files/docs/releases/atus/atus_20250626.pdf"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 80,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Yuichiro Miura reached the summit of Everest on 23 May 2013, becoming the oldest man to climb it, a record he had first set in 2003.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Guinness World Records, Oldest person to climb Everest (male)",
+      "url": "https://www.guinnessworldrecords.com/world-records/oldest-person-to-climb-mt-everest-(male)"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 81,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the decades-long Seattle Longitudinal Study, fewer than half of 81-year-olds showed reliable mental decline over the preceding seven years.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Schaie & Willis, The Seattle Longitudinal Study of Adult Cognitive Development, ISSBD Bulletin, 2010",
+      "url": "https://sls.psychiatry.uw.edu/wp-content/uploads/2020/03/Seattle-Longitudinal-Study2010.pdf"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 82,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Some people over 80, dubbed SuperAgers, have unusually strong memories and a patch of brain cortex thicker than that of healthy 50- to 60-year-olds.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Rogalski et al., Journal of Cognitive Neuroscience, 2013 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23198888/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 83,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Sumiko Iwamuro, who went to DJ school at 77, was recognised in 2018 as the world’s oldest female club DJ, playing monthly in Tokyo.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Guinness World Records, Oldest club DJ (female)",
+      "url": "https://www.guinnessworldrecords.com/world-records/476833-oldest-professional-club-dj"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 84,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Some local government offices and financial institutions in Japan use earphones that vibrate the ear’s cartilage, so staff helping older people need not speak loudly.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Cabinet Office of Japan, Annual Report on the Ageing Society FY2025",
+      "url": "https://www8.cao.go.jp/kourei/english/annualreport/2025/pdf/2025.pdf"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 85,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the UK, the number of people aged 85 and over is projected to double between 2016 and 2041.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Office for National Statistics (UK), Living longer, 2018",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/articles/livinglongerhowourpopulationischangingandwhyitmatters/2018-08-13"
     },
     "kind": "numbers"
   },
   {
     "age": 86,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In the UK in 2016 to 2017, 8% of people aged 85 and over were providing informal care to others.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Office for National Statistics (UK), Living longer, 2018",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/articles/livinglongerhowourpopulationischangingandwhyitmatters/2018-08-13"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 87,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Scottish volunteers born in 1921 retook, at 87, a mental ability test they had first sat at 11, and their childhood scores still predicted their results.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Gow et al., Psychology and Aging, 2011 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20973608/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 88,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a study of adults aged 20 to 93, people who sang often kept the steadiness of their pitch and loudness with age, unlike non-singers.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Lortie et al., Journal of Voice, 2017 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27049451/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 89,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Folk singer Pete Seeger performed at the concert celebrating Barack Obama’s inauguration in January 2009, months before his 90th birthday.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Newsweek (Reuters), 28 Jan 2014",
+      "url": "https://www.newsweek.com/american-folk-singer-and-activist-pete-seeger-dies-94-227216"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 90,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In Japan, turning 90 is called sotsuju, because the shorthand form of the character 卒, written 卆, looks like 九十, the numerals for ninety.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Nippon.com, Japanese Names for Age Milestones, 2024",
+      "url": "https://www.nippon.com/en/japan-data/h01872/"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 91,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In January 2024 composer John Williams, 91, broke his own record as the oldest person nominated for a competitive Oscar, for his Indiana Jones score.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "FOX Television Stations, 2024",
+      "url": "https://www.fox29.com/news/composer-john-williams-makes-oscars-history-oldest-person-ever-nominated"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 92,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a 1998 survey of 2,262 Danes aged 92 or 93, 74% said they were always or almost always satisfied with their lives.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Nybo et al., Journal of the American Geriatrics Society, 2001 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11380754/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 93,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Singer Charles Aznavour received a star on the Hollywood Walk of Fame in August 2017, aged 93, and was still writing songs and performing.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Hollywood Walk of Fame (Hollywood Chamber of Commerce), 2017",
+      "url": "https://walkoffame.com/charles-aznavour/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 94,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "South Korea’s Song Hae, host of the TV show National Singing Contest since 1988, was certified in April 2022, aged 94, as the oldest TV music talent show host.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Guinness World Records, 2022",
+      "url": "https://www.guinnessworldrecords.com/world-records/689094-oldest-tv-music-talent-show-host"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 95,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Nola Ochs of Kansas graduated from college in May 2007, aged 95, alongside her 21-year-old granddaughter, becoming the world’s oldest college graduate.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NBC News / Associated Press, 2007",
+      "url": "https://www.nbcnews.com/id/wbna18338864"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 96,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a 1990 study, nine frail nursing-home residents aged up to 96 did eight weeks of weight training, and their strength rose by 174% on average.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Fiatarone et al., JAMA, 1990 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2342214/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 97,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Bluesman Pinetop Perkins won a Grammy in February 2011, aged 97, becoming the oldest Grammy winner.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "CBS News / Associated Press, 2011",
+      "url": "https://www.cbsnews.com/news/miss-born-pinetop-perkins-oldest-grammy-winner/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 98,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In a study of 29 people aged 90 to 101 in rural southern Italy, the elders reported better mental well-being than their younger relatives.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Scelzo et al., International Psychogeriatrics, 2018 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29229012/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 99,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Captain Tom Moore reached number one in the UK singles chart on 24 April 2020, aged 99, with ‘You’ll Never Walk Alone’, recorded with Michael Ball.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Guinness World Records, 2020",
+      "url": "https://www.guinnessworldrecords.com/news/2020/4/99-year-old-captain-tom-moore-smashes-global-fundraising-record-and-tops-uk-chart-615786"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 100,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Japan counted 153 people aged 100 or over in 1963. In 2026 it counted 107,677.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NBC News / Associated Press, 2026",
+      "url": "https://www.nbcnews.com/world/asia/japan-more-than-100000-centenarians-rcna598081"
     },
     "kind": "numbers"
   },
   {
     "age": 101,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Cuban-born painter Carmen Herrera had a solo exhibition at New York’s Whitney Museum in 2016, aged 101, and was still working in her studio almost every day.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Whitney Museum of American Art, 2016",
+      "url": "https://whitney.org/exhibitions/carmen-herrera"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 102,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Ingeborg Rapoport, barred by the Nazis from defending her doctorate in 1938, finally passed the exam in Hamburg in May 2015, aged 102.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "TIME, 2015",
+      "url": "https://time.com/3858703/102-doctorate-nazi/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 103,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Sweden’s Rut Larsson made a tandem parachute jump in May 2022, aged 103 years and 259 days, setting the Guinness record for the oldest woman to make one.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Guinness World Records, 2022",
+      "url": "https://www.guinnessworldrecords.com/news/2022/6/103-year-old-woman-breaks-oldest-tandem-parachute-jump-record-707533"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 104,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The United Nations estimated that about 722,000 people worldwide were aged 100 or older in 2024.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Pew Research Center, 2024",
+      "url": "https://www.pewresearch.org/short-reads/2024/01/09/us-centenarian-population-is-projected-to-quadruple-over-the-next-30-years/"
     },
     "kind": "numbers"
   },
   {
     "age": 105,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Eileen Ash, who first played Test cricket for England in 1937, rang the bell at Lord’s before the 2017 Women’s World Cup final, aged 105.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "BBC Sport, 2021",
+      "url": "https://www.bbc.co.uk/sport/cricket/59533539"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 106,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "British nationals can receive a birthday message from the King at 100 and 105, and then every year after their 105th birthday.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "GOV.UK",
+      "url": "https://www.gov.uk/get-birthday-anniversary-message-from-king"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 107,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "French pianist Colette Maze, who began playing at 5, was still recording her albums at home at 107, usually on Sundays, when the building was quieter.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "NPR, 2021",
+      "url": "https://www.npr.org/sections/deceptivecadence/2021/09/20/1036622670/107-year-old-french-pianist-colette-maze-new-album"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 108,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "In Japan, 108 is chaju, ‘tea longevity’, because the character for tea, 茶, can be split into 十, 十 and 八十八: 10 + 10 + 88.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Kotobank (Shogakukan Digital Daijisen dictionary)",
+      "url": "https://kotobank.jp/word/%E8%8C%B6%E5%AF%BF"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 109,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Hikaru Kato of Kumamoto, Japan, kept writing letters to local newspapers about his war experiences, each time hoping war would never return, until he was 109.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "LongeviQuest",
+      "url": "https://longeviquest.com/supercentenarian/hikaru-kato/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 110,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Gerontologists call anyone validated as having reached 110 a supercentenarian.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Gerontology Research Group",
+      "url": "https://www.grg-supercentenarians.org/world-supercentenarian-rankings-list/"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 111,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "After becoming the world’s oldest man in 2024, aged 111, Liverpool-born retired accountant John Tinniswood still listened to the radio for the news and managed his own finances.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "LongeviQuest",
+      "url": "https://longeviquest.com/supercentenarian/john-tinniswood/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 112,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "A supercentenarian tested at ages 112 and 113 performed above the average for healthy adults aged 60 to 75 on psychological tests.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "den Dunnen et al., Neurobiology of Aging, 2008 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18534718/"
     },
-    "kind": "numbers"
+    "kind": "mind"
   },
   {
     "age": 113,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Yisrael Kristal, who missed his bar mitzvah at 13 because of the First World War, finally celebrated it in 2016, aged 113, among his great-grandchildren.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Smithsonian Magazine, 2017",
+      "url": "https://www.smithsonianmag.com/smart-news/worlds-oldest-man-holocaust-survivor-dies-113-180964492/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 114,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Chiyo Miyako, who trained as a telegraph operator, was still practising calligraphy and writing haiku at 114.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "LongeviQuest",
+      "url": "https://longeviquest.com/supercentenarian/chiyo-miyako/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 115,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Sequencing the blood of a 115-year-old woman suggested that most of her white blood cells descended from just two related blood stem cells.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Holstege et al., Genome Research, 2014 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24760347/"
     },
-    "kind": "numbers"
+    "kind": "body"
   },
   {
     "age": 116,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Jiroemon Kimura of Kyotango, Japan, celebrated his 116th birthday in April 2013, the first man verified to reach that age.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Guinness World Records, 2013",
+      "url": "https://www.guinnessworldrecords.com/news/2013/6/worlds-oldest-man-ever-passes-away-aged-116-49080"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 117,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "When Nabi Tajima of Japan’s Kikai Island turned 117 in 2017, her family spanned five generations below her, down to 14 great-great-great-grandchildren.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "LongeviQuest",
+      "url": "https://longeviquest.com/supercentenarian/nabi-tajima/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 118,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Sister André, a French nun who spent 28 years caring for orphans and elderly people in Vichy, became the world’s oldest living person in April 2022, aged 118.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "LongeviQuest",
+      "url": "https://longeviquest.com/supercentenarian/lucile-randon/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 119,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Japan’s Kane Tanaka, who enjoyed board games, maths problems and chocolate, reached 119 on 2 January 2022.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "The Independent, 2022",
+      "url": "https://www.independent.co.uk/asia/japan/kane-tanaka-oldest-person-death-age-b2064718.html"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 120,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "The Book of Genesis sets the days allowed to humankind at ‘one hundred and twenty years’.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Sefaria, Genesis 6:3 (JPS Tanakh translation)",
+      "url": "https://www.sefaria.org/api/texts/Genesis.6.3"
     },
-    "kind": "numbers"
+    "kind": "world"
   },
   {
     "age": 121,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "For her 121st birthday in February 1996, Jeanne Calment released a CD, ‘Time’s Mistress’, reminiscing over rap and other music.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Deseret News / Associated Press, 1997",
+      "url": "https://www.deseret.com/1997/8/4/19327275/world-s-oldest-person-jeanne-calment-dies/"
     },
-    "kind": "numbers"
+    "kind": "people"
   },
   {
     "age": 122,
-    "text": "A placeholder for the fact about this age. The researched facts replace it.",
+    "text": "Jeanne Calment of Arles, France, born in 1875, lived to 122 years and 164 days, the greatest fully verified age of any human.",
     "source": {
-      "label": "Placeholder",
-      "url": "https://example.com/"
+      "label": "Guinness World Records",
+      "url": "https://www.guinnessworldrecords.com/world-records/oldest-person"
     },
-    "kind": "numbers"
+    "kind": "people"
   }
 ]

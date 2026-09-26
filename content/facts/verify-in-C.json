@@ -1,0 +1,288 @@
+[
+  {
+    "age": 21,
+    "text": "Until the Family Law Reform Act 1969, people in England and Wales came of full legal age at 21; the Act lowered it to 18.",
+    "source": {
+      "label": "legislation.gov.uk, Family Law Reform Act 1969, s.1",
+      "url": "https://www.legislation.gov.uk/ukpga/1969/46/section/1"
+    },
+    "kind": "world",
+    "evidence": "Reduction of age of majority from 21 to 18. … a person shall attain full age on attaining the age of eighteen instead of on attaining the age of twenty-one",
+    "check": "Section 1 of the Family Law Reform Act 1969 (England and Wales), official UK legislation site: age of majority reduced from 21 to 18. Age 21 was the former threshold."
+  },
+  {
+    "age": 25,
+    "text": "The US Constitution sets 25 as the youngest age at which a person may serve in the House of Representatives.",
+    "source": {
+      "label": "US Constitution, Article I, Section 2 (National Archives transcript)",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+    },
+    "kind": "world",
+    "evidence": "No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States",
+    "check": "The threshold is stated directly in Article I, Section 2: a Representative must have reached age 25. Verified word for word with curl on the archives.gov transcript."
+  },
+  {
+    "age": 26,
+    "text": "Across the European Union, young people leave their parents’ home at 26.2 on average (2024), from 21.4 in Finland to 31.3 in Croatia.",
+    "source": {
+      "label": "Eurostat, Young people - housing conditions, 2025",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Young_people_-_housing_conditions"
+    },
+    "kind": "world",
+    "evidence": "In 2024, young people across the EU left their parental home on average at the age of 26.2 years, ranging from 31.3 years in Croatia to 21.4 years in Finland.",
+    "check": "Eurostat Statistics Explained (data extracted August 2025, dataset yth_demo_030), EU-27, year 2024. 26.2 falls in age 26. Verified with curl."
+  },
+  {
+    "age": 27,
+    "text": "In the United States in 2024, the average age of a mother at the birth of her first child was 27.6.",
+    "source": {
+      "label": "CDC/NCHS FastStats: Births (Births: Final Data for 2024)",
+      "url": "https://www.cdc.gov/nchs/fastats/births.htm"
+    },
+    "kind": "numbers",
+    "evidence": "Mean age at first birth: 27.6",
+    "check": "CDC FastStats Births page, which cites 'Births: Final Data for 2024, tables A, C, and 1'. United States, 2024. 27.6 falls in age 27. NOTE: cdc.gov blocks curl, so this was verified through WebFetch only."
+  },
+  {
+    "age": 28,
+    "text": "The brain’s white matter, the wiring that links its regions, reaches its greatest volume at about 28.7 years of age.",
+    "source": {
+      "label": "Bethlehem et al., Brain charts for the human lifespan, Nature, 2022",
+      "url": "https://www.nature.com/articles/s41586-022-04554-y"
+    },
+    "kind": "body",
+    "evidence": "WMV also increased rapidly from mid-gestation to early childhood, peaking at 28.7 years",
+    "check": "Total white matter volume (WMV) peaks at 28.7 years (95% bootstrap CI 28.1-29.2), based on 123,984 MRI scans from 101,457 participants. 28.7 falls in age 28. Verified with curl."
+  },
+  {
+    "age": 29,
+    "text": "Alexander Graham Bell first sent clear speech by telephone in 1876, calling to his assistant: “Mr. Watson—come here—I want to see you.”",
+    "source": {
+      "label": "Britannica, Alexander Graham Bell",
+      "url": "https://www.britannica.com/biography/Alexander-Graham-Bell"
+    },
+    "kind": "people",
+    "evidence": "He first produced intelligible speech on March 10, 1876, when he summoned his laboratory assistant, Thomas A. Watson, with words that Bell transcribed in his lab notes as “Mr. Watson—come here—I want to see you.”",
+    "check": "Born March 3, 1847 (Britannica: 'born March 3, 1847, Edinburgh, Scotland'). First intelligible speech on March 10, 1876 (same page), so he was 29 years and 7 days old. Britannica blocks curl, so the page was read and searched in a real browser (Playwright)."
+  },
+  {
+    "age": 30,
+    "text": "In 1877 Thomas Edison tested a machine for recording the human voice by speaking into it the line ‘Mary had a little lamb’.",
+    "source": {
+      "label": "National Park Service, Thomas Edison National Historical Park",
+      "url": "https://www.nps.gov/edis/learn/historyculture/origins-of-sound-recording-thomas-edison.htm"
+    },
+    "kind": "people",
+    "evidence": "Edison sat down and, putting his mouth to the mouthpiece, delivered one of our favorite stereotyped sentences used in experimenting on the telephone “Mary had a little lamb” whilst I pulled the paper through.",
+    "check": "Edison born 11 Feb 1847; the recording experiments on this page date from July-December 1877, all within his 31st year (age 30). Added by the editor; evidence matched on the fetched NPS page."
+  },
+  {
+    "age": 31,
+    "text": "Italy has the European Union’s oldest first-time mothers: in 2024, women there had their first child at 31.9 years on average.",
+    "source": {
+      "label": "Eurostat, Fertility statistics, 2026",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
+    },
+    "kind": "world",
+    "evidence": "29.9 years was the average age of women at the birth of their first child in the EU in 2024, ranging from 26.9 in Bulgaria to 31.9 in Italy.",
+    "check": "Same Eurostat page and dataset as age 29 (demo_find, 2024). Italy is the top of the EU range at 31.9, which falls in age 31. Verified with curl."
+  },
+  {
+    "age": 32,
+    "text": "Physicist Sally Ride became the first American woman in space in June 1983, on a shuttle mission that lasted 147 hours.",
+    "source": {
+      "label": "NASA, Sally Ride (1951-2012)",
+      "url": "https://solarsystem.nasa.gov/people/1760/sally-ride-1951-2012/"
+    },
+    "kind": "people",
+    "evidence": "The soft-spoken California physicist broke the gender barrier on June 18, 1983, when she became the first American woman in space.",
+    "check": "Born May 26, 1951 (NASA biography PDF https://www.nasa.gov/sites/default/files/atoms/files/ride_sally.pdf: 'Born May 26, 1951, in Los Angeles'). Launched June 18, 1983, so she was 32 years 23 days old. The same PDF says 'Mission duration was 147 hours'. Verified with curl."
+  },
+  {
+    "age": 33,
+    "text": "Vocabulary keeps growing through adulthood: between 20 and 60, an average native English speaker learns about one new word every two days.",
+    "source": {
+      "label": "Brysbaert et al., Frontiers in Psychology, 2016",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01116/full"
+    },
+    "kind": "mind",
+    "evidence": "Between the ages of 20 and 60, the average person learns 6,000 extra lemmas or about one new lemma every 2 days.",
+    "check": "Not tied to one age: it holds across ages 20 to 60 (for American English speakers; 'lemma' is simplified to 'word'). Placed at 33 by editorial choice to fill a gap. Verified with curl."
+  },
+  {
+    "age": 34,
+    "text": "Martin Luther King Jr. gave his “I Have a Dream” speech in 1963, speaking to more than 200,000 people gathered in Washington.",
+    "source": {
+      "label": "Martin Luther King Jr. Research and Education Institute, Stanford",
+      "url": "https://kinginstitute.stanford.edu/march-washington-jobs-and-freedom"
+    },
+    "kind": "people",
+    "evidence": "On 28 August 1963, more than 200,000 demonstrators took part in the March on Washington for Jobs and Freedom in the nation’s capital.",
+    "check": "Born January 15, 1929 (NobelPrize.org biography, https://www.nobelprize.org/prizes/peace/1964/king/biographical/: '(January 15, 1929-April 4, 1968)'). Speech on 28 August 1963 (King Institute: 'During this event, Martin Luther King delivered his memorable “I Have a Dream” speech'), so he was 34 years 7 months old. Verified with curl."
+  },
+  {
+    "age": 35,
+    "text": "The US Constitution makes 35 the youngest age at which a person may become President.",
+    "source": {
+      "label": "US Constitution, Article II, Section 1 (National Archives transcript)",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+    },
+    "kind": "world",
+    "evidence": "neither shall any Person be eligible to that Office who shall not have attained to the Age of thirty five Years, and been fourteen Years a Resident within the United States.",
+    "check": "The threshold is stated directly in Article II, Section 1: the President must have reached age 35. Verified with curl."
+  },
+  {
+    "age": 36,
+    "text": "Metabolism holds steady through adulthood: adjusted for body size, the energy a person burns each day stays stable from 20 to 60, even during pregnancy.",
+    "source": {
+      "label": "Pontzer et al., Science, 2021",
+      "url": "https://europepmc.org/article/MED/34385400"
+    },
+    "kind": "body",
+    "evidence": "Fat-free mass-adjusted expenditure accelerates rapidly in neonates to ~50% above adult values at ~1 year; declines slowly to adult levels by ~20 years; remains stable in adulthood (20 to 60 years), even during pregnancy; then declines in older adults.",
+    "check": "Not tied to one age: it holds across ages 20 to 60. Placed at 36 by editorial choice to fill a gap. The abstract was read on europepmc.org in a real browser, because PubMed blocks automated access."
+  },
+  {
+    "age": 37,
+    "text": "In 1944 mathematician Grace Hopper, who had left teaching to join the US Navy, was assigned to Harvard, where her team worked on the Mark I, an early computer.",
+    "source": {
+      "label": "National Women's History Museum, Grace Hopper",
+      "url": "https://www.womenshistory.org/education-resources/biographies/grace-hopper"
+    },
+    "kind": "people",
+    "evidence": "In 1944, she was commissioned as a Lieutenant (Junior Grade) and assigned to the Bureau of Ordnance Computation Project at Harvard University. Her team worked on and produced the Mark I, an early prototype of the electronic computer.",
+    "check": "Born 9 Dec 1906 (same page); a 1944 assignment before 9 Dec 1944 means age 37 (she reported to Harvard in mid-1944). Added by the editor; evidence matched on the fetched page."
+  },
+  {
+    "age": 38,
+    "text": "People stay attached to the music of their youth: a study of 4,824 people from 102 countries found this ‘musical reminiscence bump’ in every age group.",
+    "source": {
+      "label": "Renwick & Woolhouse, Psychology of Music, 2023",
+      "url": "https://europepmc.org/article/MED/37484700"
+    },
+    "kind": "mind",
+    "evidence": "Results demonstrated that the musical reminiscence bump phenomenon is common to all age groups and both sexes, pervasive across all countries, and is not restricted to particular genres.",
+    "check": "Not tied to one age: it applies to 'all age groups'. The same abstract gives the sample ('4,824 participants from 102 countries') and says the attachment is to music 'preferentially listened to in adolescence'. Placed at 38 by editorial choice to fill a gap. PARTIAL: the abstract was retrieved from the Europe PMC REST API only."
+  },
+  {
+    "age": 39,
+    "text": "The Fields Medal, one of mathematics’ highest honours, is kept for the young: a candidate’s 40th birthday must not fall before 1 January of the award year.",
+    "source": {
+      "label": "International Mathematical Union, Fields Medal",
+      "url": "https://www.mathunion.org/imu-awards/fields-medal"
+    },
+    "kind": "world",
+    "evidence": "A candidate's 40th birthday must not occur before January 1st of the year of the Congress at which the Fields Medals are awarded.",
+    "check": "Under this rule, 39 is the last age at which a mathematician can still be eligible on 1 January of a Congress year. Verified with curl. 'One of mathematics' highest honours' is our own wording, not a quote from the source."
+  },
+  {
+    "age": 40,
+    "text": "In the Analects, Confucius looks back on his life in stages. Of forty he says simply: ‘At forty, I had no doubts.’",
+    "source": {
+      "label": "Chinese Text Project, Analects, Wei Zheng 2.4 (James Legge translation)",
+      "url": "https://ctext.org/analects/wei-zheng"
+    },
+    "kind": "world",
+    "evidence": "At fifteen, I had my mind bent on learning. At thirty, I stood firm. At forty, I had no doubts. At fifty, I knew the decrees of Heaven. At sixty, my ear was an obedient organ for the reception of truth.",
+    "check": "The passage names the age forty directly. Added by the editor; evidence matched on the fetched page."
+  },
+  {
+    "age": 41,
+    "text": "Rudyard Kipling received the 1907 Nobel Prize in Literature, and remains the youngest person ever awarded it.",
+    "source": {
+      "label": "Nobel Prize facts, NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+    },
+    "kind": "people",
+    "evidence": "The youngest literature laureate Nobel Prize in Literature 1907 Rudyard Kipling Awarded at age 41",
+    "check": "The Nobel Foundation states his age at the award directly ('Awarded at age 41') and lists him as the youngest literature laureate. Verified with curl. PARTIAL: his birth date was not fetched separately in this session."
+  },
+  {
+    "age": 42,
+    "text": "On 1 December 1955, Rosa Parks, a 42-year-old seamstress, was arrested in Montgomery, Alabama, for refusing to give up her seat on a city bus.",
+    "source": {
+      "label": "US National Archives, The Arrest Records of Rosa Parks",
+      "url": "https://www.archives.gov/education/lessons/rosa-parks"
+    },
+    "kind": "people",
+    "evidence": "On December 1, 1955, during a typical evening rush hour in Montgomery, Alabama, a 42-year-old woman took a seat on the bus on her way home from the Montgomery Fair department store where she worked as a seamstress.",
+    "check": "The source states her age as 42 on 1 Dec 1955 (born 4 Feb 1913). Added by the editor; evidence matched on the fetched page."
+  },
+  {
+    "age": 43,
+    "text": "In 1960, at 43, John F. Kennedy won the US presidency, becoming the youngest person ever elected to that office.",
+    "source": {
+      "label": "Miller Center, University of Virginia, John F. Kennedy: Life in Brief",
+      "url": "https://millercenter.org/president/kennedy/life-in-brief"
+    },
+    "kind": "people",
+    "evidence": "Kennedy was the youngest person elected US president and the first Roman Catholic to serve in that office. (Miller Center, Campaigns and Elections: \"Nixon against the 43-year-old Democratic challenger John F. Kennedy.\")",
+    "check": "Born 29 May 1917; elected 8 Nov 1960 at 43 (Miller Center campaigns page gives 43). Added by the editor; evidence matched on both fetched pages."
+  },
+  {
+    "age": 44,
+    "text": "Half of all people in the European Union are older than 44.9 and half are younger, the EU’s median age on 1 January 2025.",
+    "source": {
+      "label": "Eurostat, Population structure and ageing, 2026",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_structure_and_ageing"
+    },
+    "kind": "numbers",
+    "evidence": "The median age of the EU's population is increasing and was 44.9 years on 1 January 2025 (Figure 2). This means that half of the EU's population was older than 44.9 years, while the other half was younger.",
+    "check": "Eurostat Statistics Explained (data extracted 2 February 2026), EU-27, 1 January 2025. 44.9 falls in age 44. Verified with curl."
+  },
+  {
+    "age": 54,
+    "text": "In a worldwide survey of 4,192 people, 74% of those aged 45 to 65 had some grey hair; when it arrives varies with ethnic and geographic origin.",
+    "source": {
+      "label": "Panhard, Lozano & Loussouarn, British Journal of Dermatology, 2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22716034/"
+    },
+    "kind": "body",
+    "evidence": "Overall we observed that between 45 and 65 years of age, 74% of people were affected by grey hair with a mean intensity of 27%.",
+    "check": "Band 45–65; placed at 54, near its middle. The abstract also states 'The natural hair colour of 4192 healthy male and female volunteers was assessed' and 'Both age at onset and rate of greying with age appeared to be clearly linked to ethnic/geographical origin.' The PubMed page shows a CAPTCHA to automated tools, so the abstract was retrieved through NCBI E-utilities (efetch, PMID 22716034)."
+  },
+  {
+    "age": 58,
+    "text": "Across OECD countries, the share of people aged 55 to 64 in work rose from 46.1% in 2002 to 64.6% in 2022.",
+    "source": {
+      "label": "OECD, Pensions at a Glance 2023",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pensions-at-a-glance-2023_4757bf20/678055dd-en.pdf"
+    },
+    "kind": "numbers",
+    "evidence": "Employment rates of people aged 55-64 have improved sharply over the last 20 years in most OECD countries, from 46.1% in 2002 to 64.6% in 2022 on average.",
+    "check": "OECD average employment rate, ages 55–64, 2002 vs 2022 (chapter 'Changes in employment rates of older workers', p. 188). Placed at 58, inside the 55–64 band."
+  },
+  {
+    "age": 63,
+    "text": "Across OECD countries in 2022, the average normal retirement age was 63.6 for women and 64.4 for men.",
+    "source": {
+      "label": "OECD, Pensions at a Glance 2023",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pensions-at-a-glance-2023_4757bf20/678055dd-en.pdf"
+    },
+    "kind": "world",
+    "evidence": "In 2022, the OECD average NRA was equal to 64.4 years for men and 63.6 years for women.",
+    "check": "OECD average normal retirement age in 2022 (full career from age 22): women 63.6. 63.6 floors to age 63."
+  },
+  {
+    "age": 66,
+    "text": "In the 2020 US census, about 1 in 6 people were 65 or older. A century earlier, in 1920, fewer than 1 in 20 were.",
+    "source": {
+      "label": "US Census Bureau, America Counts, 2023",
+      "url": "https://www.census.gov/library/stories/2023/05/2020-census-united-states-older-population-grew.html"
+    },
+    "kind": "numbers",
+    "evidence": "In 2020, about 1 in 6 people in the United States were age 65 and over. In 1920, this proportion was less than 1 in 20.",
+    "check": "US Census Bureau story on the 2020 Census (published 25 May 2023). Place: United States; years 2020 vs 1920; share of population aged 65+. Placed at 66 as a general 65+ statistic."
+  },
+  {
+    "age": 85,
+    "text": "In the UK, the number of people aged 85 and over is projected to double between 2016 and 2041.",
+    "source": {
+      "label": "Office for National Statistics (UK), Living longer, 2018",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/articles/livinglongerhowourpopulationischangingandwhyitmatters/2018-08-13"
+    },
+    "kind": "numbers",
+    "evidence": "The fastest increase will be seen in the 85 years and over age group. In mid-2016, there were 1.6 million people aged 85 years and over (2% of the total population); by mid-2041 this is projected to double to 3.2 million (4% of the population)",
+    "check": "ONS 2016-based national population projections, UK: 1.6 million aged 85+ in mid-2016, projected 3.2 million by mid-2041. Age group 85+ -> placed at 85."
+  }
+]

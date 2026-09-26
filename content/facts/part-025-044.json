@@ -1,0 +1,372 @@
+[
+  {
+    "age": 25,
+    "candidates": [
+      {
+        "text": "The US Constitution sets 25 as the youngest age at which a person may serve in the House of Representatives.",
+        "source": {
+          "label": "US Constitution, Article I, Section 2 (National Archives transcript)",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        },
+        "kind": "world",
+        "evidence": "No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States",
+        "check": "The threshold is stated directly in Article I, Section 2: a Representative must have reached age 25. Verified word for word with curl on the archives.gov transcript."
+      },
+      {
+        "text": "Roger Bannister, a medical student, ran the first mile under four minutes in 1954, finishing in 3 minutes 59.4 seconds on a windy track in Oxford.",
+        "source": {
+          "label": "BBC On This Day, 6 May 1954",
+          "url": "https://news.bbc.co.uk/onthisday/hi/dates/stories/may/6/newsid_2511000/2511575.stm"
+        },
+        "kind": "people",
+        "evidence": "Roger Bannister, a 25-year-old British medical student, has become the first man to run a mile in less than four minutes. His time was 3mins 59.4 seconds, achieved at the Iffley Road track in Oxford",
+        "check": "Born 23 March 1929 (Guardian obituary, https://www.theguardian.com/sport/2018/mar/04/sir-roger-bannister-obituary: 'born 23 March 1929; died 3 March 2018'). Race on 6 May 1954 (BBC On This Day), so he was 25 years 1 month old; the BBC also calls him '25-year-old'. 'Windy' is backed by the BBC's 'a 15mph crosswind with gusts of up to 25mph'. Both pages verified with curl."
+      }
+    ]
+  },
+  {
+    "age": 26,
+    "candidates": [
+      {
+        "text": "Across the European Union, young people leave their parents' home at 26.2 on average (2024), from 21.4 in Finland to 31.3 in Croatia.",
+        "source": {
+          "label": "Eurostat, Young people - housing conditions, 2025",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Young_people_-_housing_conditions"
+        },
+        "kind": "world",
+        "evidence": "In 2024, young people across the EU left their parental home on average at the age of 26.2 years, ranging from 31.3 years in Croatia to 21.4 years in Finland.",
+        "check": "Eurostat Statistics Explained (data extracted August 2025, dataset yth_demo_030), EU-27, year 2024. 26.2 falls in age 26. Verified with curl."
+      }
+    ]
+  },
+  {
+    "age": 27,
+    "candidates": [
+      {
+        "text": "In the United States in 2024, the average age of a mother at the birth of her first child was 27.6.",
+        "source": {
+          "label": "CDC/NCHS FastStats: Births (Births: Final Data for 2024)",
+          "url": "https://www.cdc.gov/nchs/fastats/births.htm"
+        },
+        "kind": "numbers",
+        "evidence": "Mean age at first birth: 27.6",
+        "check": "CDC FastStats Births page, which cites 'Births: Final Data for 2024, tables A, C, and 1'. United States, 2024. 27.6 falls in age 27. NOTE: cdc.gov blocks curl, so this was verified through WebFetch only."
+      }
+    ]
+  },
+  {
+    "age": 28,
+    "candidates": [
+      {
+        "text": "The brain's white matter, the wiring that links its regions, reaches its greatest volume at about 28.7 years of age.",
+        "source": {
+          "label": "Bethlehem et al., Brain charts for the human lifespan, Nature, 2022",
+          "url": "https://www.nature.com/articles/s41586-022-04554-y"
+        },
+        "kind": "body",
+        "evidence": "WMV also increased rapidly from mid-gestation to early childhood, peaking at 28.7 years",
+        "check": "Total white matter volume (WMV) peaks at 28.7 years (95% bootstrap CI 28.1-29.2), based on 123,984 MRI scans from 101,457 participants. 28.7 falls in age 28. Verified with curl."
+      }
+    ]
+  },
+  {
+    "age": 29,
+    "candidates": [
+      {
+        "text": "In the European Union in 2024, women having their first child were 29.9 years old on average.",
+        "source": {
+          "label": "Eurostat, Fertility statistics, 2026",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
+        },
+        "kind": "world",
+        "evidence": "29.9 years was the average age of women at the birth of their first child in the EU in 2024, ranging from 26.9 in Bulgaria to 31.9 in Italy.",
+        "check": "Eurostat Statistics Explained 'Fertility statistics' (data extracted 19 February 2026, dataset demo_find), EU-27, year 2024. 29.9 falls in age 29. Verified with curl."
+      },
+      {
+        "text": "Alexander Graham Bell first sent clear speech by telephone in 1876, calling to his assistant: \"Mr. Watson—come here—I want to see you.\"",
+        "source": {
+          "label": "Britannica, Alexander Graham Bell",
+          "url": "https://www.britannica.com/biography/Alexander-Graham-Bell"
+        },
+        "kind": "people",
+        "evidence": "He first produced intelligible speech on March 10, 1876, when he summoned his laboratory assistant, Thomas A. Watson, with words that Bell transcribed in his lab notes as “Mr. Watson—come here—I want to see you.”",
+        "check": "Born March 3, 1847 (Britannica: 'born March 3, 1847, Edinburgh, Scotland'). First intelligible speech on March 10, 1876 (same page), so he was 29 years and 7 days old. Britannica blocks curl, so the page was read and searched in a real browser (Playwright)."
+      }
+    ]
+  },
+  {
+    "age": 30,
+    "candidates": [
+      {
+        "text": "The films, music and books people love most tend to come from the years between 10 and 30, the stretch of life later remembered most vividly.",
+        "source": {
+          "label": "Rubin, Rahhal & Poon, Memory & Cognition, 1998",
+          "url": "https://europepmc.org/article/MED/9519693"
+        },
+        "kind": "mind",
+        "evidence": "Evidence is reviewed that for older adults the period from 10 to 30 years of age produces recall of the most autobiographical memories, the most vivid memories, and the most important memories. It is the period from which peoples' favorite films, music, and books come",
+        "check": "This is the 'reminiscence bump'. The source gives the window as ages 10 to 30, so age 30 is its upper end. The abstract was retrieved from the Europe PMC REST API record for PMID 9519693 (DOI 10.3758/bf03211366)."
+      },
+      {
+        "text": "Tsung-Dao Lee received the 1957 Nobel Prize in Physics for his investigation of the parity laws, which led to new discoveries about elementary particles.",
+        "source": {
+          "label": "Nobel Prize facts, NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+        },
+        "kind": "people",
+        "evidence": "Nobel Prize in Physics 1957 Tsung-Dao Lee Awarded at age 30",
+        "check": "The Nobel Foundation states his age at the award directly ('Awarded at age 30'). The motivation is on the same page: 'for their penetrating investigation of the so-called parity laws which has led to important discoveries regarding the elementary particles'. Verified with curl. PARTIAL: his birth date was not fetched separately in this session."
+      },
+      {
+        "text": "In 1877 Thomas Edison tested a machine for recording the human voice by speaking into it the line 'Mary had a little lamb'.",
+        "source": {
+          "label": "National Park Service, Thomas Edison National Historical Park",
+          "url": "https://www.nps.gov/edis/learn/historyculture/origins-of-sound-recording-thomas-edison.htm"
+        },
+        "kind": "people",
+        "evidence": "Edison sat down and, putting his mouth to the mouthpiece, delivered one of our favorite stereotyped sentences used in experimenting on the telephone “Mary had a little lamb” whilst I pulled the paper through.",
+        "check": "Edison born 11 Feb 1847; the recording experiments on this page date from July-December 1877, all within his 31st year (age 30). Added by the editor; evidence matched on the fetched NPS page."
+      }
+    ]
+  },
+  {
+    "age": 31,
+    "candidates": [
+      {
+        "text": "Italy has the European Union's oldest first-time mothers: in 2024, women there had their first child at 31.9 years on average.",
+        "source": {
+          "label": "Eurostat, Fertility statistics, 2026",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
+        },
+        "kind": "world",
+        "evidence": "29.9 years was the average age of women at the birth of their first child in the EU in 2024, ranging from 26.9 in Bulgaria to 31.9 in Italy.",
+        "check": "Same Eurostat page and dataset as age 29 (demo_find, 2024). Italy is the top of the EU range at 31.9, which falls in age 31. Verified with curl."
+      },
+      {
+        "text": "Frederick Banting was awarded the 1923 Nobel Prize in Physiology or Medicine for the discovery of insulin, and remains the youngest laureate in that field.",
+        "source": {
+          "label": "Nobel Prize facts, NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+        },
+        "kind": "people",
+        "evidence": "The youngest medicine laureate Nobel Prize in Physiology or Medicine 1923 Frederick G. Banting Awarded at age 31",
+        "check": "The Nobel Foundation states his age at the award directly ('Awarded at age 31') and lists him as the youngest medicine laureate. Verified with curl. PARTIAL: his birth date was not fetched separately in this session. The subject is medical, but the fact is framed as a discovery."
+      }
+    ]
+  },
+  {
+    "age": 32,
+    "candidates": [
+      {
+        "text": "Physicist Sally Ride became the first American woman in space in June 1983, on a shuttle mission that lasted 147 hours.",
+        "source": {
+          "label": "NASA, Sally Ride (1951-2012)",
+          "url": "https://solarsystem.nasa.gov/people/1760/sally-ride-1951-2012/"
+        },
+        "kind": "people",
+        "evidence": "The soft-spoken California physicist broke the gender barrier on June 18, 1983, when she became the first American woman in space.",
+        "check": "Born May 26, 1951 (NASA biography PDF https://www.nasa.gov/sites/default/files/atoms/files/ride_sally.pdf: 'Born May 26, 1951, in Los Angeles'). Launched June 18, 1983, so she was 32 years 23 days old. The same PDF says 'Mission duration was 147 hours'. Verified with curl."
+      }
+    ]
+  },
+  {
+    "age": 33,
+    "candidates": [
+      {
+        "text": "Vocabulary keeps growing through adulthood: between 20 and 60, an average native English speaker learns about one new word every two days.",
+        "source": {
+          "label": "Brysbaert et al., Frontiers in Psychology, 2016",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01116/full"
+        },
+        "kind": "mind",
+        "evidence": "Between the ages of 20 and 60, the average person learns 6,000 extra lemmas or about one new lemma every 2 days.",
+        "check": "Not tied to one age: it holds across ages 20 to 60 (for American English speakers; 'lemma' is simplified to 'word'). Placed at 33 by editorial choice to fill a gap. Verified with curl."
+      }
+    ]
+  },
+  {
+    "age": 34,
+    "candidates": [
+      {
+        "text": "Martin Luther King Jr. gave his \"I Have a Dream\" speech in 1963, speaking to more than 200,000 people gathered in Washington.",
+        "source": {
+          "label": "Martin Luther King Jr. Research and Education Institute, Stanford",
+          "url": "https://kinginstitute.stanford.edu/march-washington-jobs-and-freedom"
+        },
+        "kind": "people",
+        "evidence": "On 28 August 1963, more than 200,000 demonstrators took part in the March on Washington for Jobs and Freedom in the nation’s capital.",
+        "check": "Born January 15, 1929 (NobelPrize.org biography, https://www.nobelprize.org/prizes/peace/1964/king/biographical/: '(January 15, 1929-April 4, 1968)'). Speech on 28 August 1963 (King Institute: 'During this event, Martin Luther King delivered his memorable “I Have a Dream” speech'), so he was 34 years 7 months old. Verified with curl."
+      }
+    ]
+  },
+  {
+    "age": 35,
+    "candidates": [
+      {
+        "text": "The US Constitution makes 35 the youngest age at which a person may become President.",
+        "source": {
+          "label": "US Constitution, Article II, Section 1 (National Archives transcript)",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        },
+        "kind": "world",
+        "evidence": "neither shall any Person be eligible to that Office who shall not have attained to the Age of thirty five Years, and been fourteen Years a Resident within the United States.",
+        "check": "The threshold is stated directly in Article II, Section 1: the President must have reached age 35. Verified with curl."
+      },
+      {
+        "text": "Mae Jemison became the first African American woman in space in 1992, spending more than 190 hours aboard the shuttle Endeavour.",
+        "source": {
+          "label": "NASA, Mae Jemison, First African American Woman in Space",
+          "url": "http://www.nasa.gov/image-feature/mae-jemison-first-african-american-woman-in-space"
+        },
+        "kind": "people",
+        "evidence": "She was the first African American woman in space.",
+        "check": "Born October 17, 1956 (NASA biography PDF, https://www.nasa.gov/wp-content/uploads/2019/09/jemison_mae.pdf: 'Born October 17, 1956, in Decatur, Alabama'). STS-47 flew September 12-20, 1992 (same PDF), so she was 35 years 11 months old. The PDF also says 'Dr. Jemison logged 190 hours, 30 minutes, 23 seconds in space.' Verified with curl. Alternative for age 35: NobelPrize.org says MLK, 'At the age of thirty-five', was 'the youngest man to have received the Nobel Peace Prize'."
+      }
+    ]
+  },
+  {
+    "age": 36,
+    "candidates": [
+      {
+        "text": "Metabolism holds steady through adulthood: adjusted for body size, the energy a person burns each day stays stable from 20 to 60, even during pregnancy.",
+        "source": {
+          "label": "Pontzer et al., Science, 2021",
+          "url": "https://europepmc.org/article/MED/34385400"
+        },
+        "kind": "body",
+        "evidence": "Fat-free mass-adjusted expenditure accelerates rapidly in neonates to ~50% above adult values at ~1 year; declines slowly to adult levels by ~20 years; remains stable in adulthood (20 to 60 years), even during pregnancy; then declines in older adults.",
+        "check": "Not tied to one age: it holds across ages 20 to 60. Placed at 36 by editorial choice to fill a gap. The abstract was read on europepmc.org in a real browser, because PubMed blocks automated access."
+      }
+    ]
+  },
+  {
+    "age": 37,
+    "candidates": [
+      {
+        "text": "In 1944 mathematician Grace Hopper, who had left teaching to join the US Navy, was assigned to Harvard, where her team worked on the Mark I, an early computer.",
+        "source": {
+          "label": "National Women's History Museum, Grace Hopper",
+          "url": "https://www.womenshistory.org/education-resources/biographies/grace-hopper"
+        },
+        "kind": "people",
+        "evidence": "In 1944, she was commissioned as a Lieutenant (Junior Grade) and assigned to the Bureau of Ordnance Computation Project at Harvard University. Her team worked on and produced the Mark I, an early prototype of the electronic computer.",
+        "check": "Born 9 Dec 1906 (same page); a 1944 assignment before 9 Dec 1944 means age 37 (she reported to Harvard in mid-1944). Added by the editor; evidence matched on the fetched page."
+      }
+    ]
+  },
+  {
+    "age": 38,
+    "candidates": [
+      {
+        "text": "People stay attached to the music of their youth: a study of 4,824 people from 102 countries found this 'musical reminiscence bump' in every age group.",
+        "source": {
+          "label": "Renwick & Woolhouse, Psychology of Music, 2023",
+          "url": "https://europepmc.org/article/MED/37484700"
+        },
+        "kind": "mind",
+        "evidence": "Results demonstrated that the musical reminiscence bump phenomenon is common to all age groups and both sexes, pervasive across all countries, and is not restricted to particular genres.",
+        "check": "Not tied to one age: it applies to 'all age groups'. The same abstract gives the sample ('4,824 participants from 102 countries') and says the attachment is to music 'preferentially listened to in adolescence'. Placed at 38 by editorial choice to fill a gap. PARTIAL: the abstract was retrieved from the Europe PMC REST API only."
+      }
+    ]
+  },
+  {
+    "age": 39,
+    "candidates": [
+      {
+        "text": "The Fields Medal, one of mathematics' highest honours, is kept for the young: a candidate's 40th birthday must not fall before 1 January of the award year.",
+        "source": {
+          "label": "International Mathematical Union, Fields Medal",
+          "url": "https://www.mathunion.org/imu-awards/fields-medal"
+        },
+        "kind": "world",
+        "evidence": "A candidate's 40th birthday must not occur before January 1st of the year of the Congress at which the Fields Medals are awarded.",
+        "check": "Under this rule, 39 is the last age at which a mathematician can still be eligible on 1 January of a Congress year. Verified with curl. 'One of mathematics' highest honours' is our own wording, not a quote from the source."
+      }
+    ]
+  },
+  {
+    "age": 40,
+    "candidates": [
+      {
+        "text": "Mental abilities peak at different ages: some crest around the end of high school, while others do not peak until the 40s or later.",
+        "source": {
+          "label": "Hartshorne & Germine, Psychological Science, 2015",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4441622/"
+        },
+        "kind": "mind",
+        "evidence": "some abilities peak and begin to decline around high school graduation; some abilities plateau in early adulthood, beginning to decline in the 30s; still others do not peak until the 40s or later.",
+        "check": "From the abstract of Hartshorne & Germine 2015. 'The 40s or later' begins at age 40. PARTIAL: PMC blocks curl, so this quote comes from WebFetch only and should be rechecked word for word."
+      },
+      {
+        "text": "In the Analects, Confucius looks back on his life in stages. Of forty he says simply: 'At forty, I had no doubts.'",
+        "source": {
+          "label": "Chinese Text Project, Analects, Wei Zheng 2.4 (James Legge translation)",
+          "url": "https://ctext.org/analects/wei-zheng"
+        },
+        "kind": "world",
+        "evidence": "At fifteen, I had my mind bent on learning. At thirty, I stood firm. At forty, I had no doubts. At fifty, I knew the decrees of Heaven. At sixty, my ear was an obedient organ for the reception of truth.",
+        "check": "The passage names the age forty directly. Added by the editor; evidence matched on the fetched page."
+      }
+    ]
+  },
+  {
+    "age": 41,
+    "candidates": [
+      {
+        "text": "Rudyard Kipling received the 1907 Nobel Prize in Literature, and remains the youngest person ever awarded it.",
+        "source": {
+          "label": "Nobel Prize facts, NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+        },
+        "kind": "people",
+        "evidence": "The youngest literature laureate Nobel Prize in Literature 1907 Rudyard Kipling Awarded at age 41",
+        "check": "The Nobel Foundation states his age at the award directly ('Awarded at age 41') and lists him as the youngest literature laureate. Verified with curl. PARTIAL: his birth date was not fetched separately in this session."
+      }
+    ]
+  },
+  {
+    "age": 42,
+    "candidates": [
+      {
+        "text": "On 1 December 1955, Rosa Parks, a 42-year-old seamstress, was arrested in Montgomery, Alabama, for refusing to give up her seat on a city bus.",
+        "source": {
+          "label": "US National Archives, The Arrest Records of Rosa Parks",
+          "url": "https://www.archives.gov/education/lessons/rosa-parks"
+        },
+        "kind": "people",
+        "evidence": "On December 1, 1955, during a typical evening rush hour in Montgomery, Alabama, a 42-year-old woman took a seat on the bus on her way home from the Montgomery Fair department store where she worked as a seamstress.",
+        "check": "The source states her age as 42 on 1 Dec 1955 (born 4 Feb 1913). Added by the editor; evidence matched on the fetched page."
+      }
+    ]
+  },
+  {
+    "age": 43,
+    "candidates": [
+      {
+        "text": "In 1960, at 43, John F. Kennedy won the US presidency, becoming the youngest person ever elected to that office.",
+        "source": {
+          "label": "Miller Center, University of Virginia, John F. Kennedy: Life in Brief",
+          "url": "https://millercenter.org/president/kennedy/life-in-brief"
+        },
+        "kind": "people",
+        "evidence": "Kennedy was the youngest person elected US president and the first Roman Catholic to serve in that office. (Miller Center, Campaigns and Elections: \"Nixon against the 43-year-old Democratic challenger John F. Kennedy.\")",
+        "check": "Born 29 May 1917; elected 8 Nov 1960 at 43 (Miller Center campaigns page gives 43). Added by the editor; evidence matched on both fetched pages."
+      }
+    ]
+  },
+  {
+    "age": 44,
+    "candidates": [
+      {
+        "text": "Half of all people in the European Union are older than 44.9 and half are younger, the EU's median age on 1 January 2025.",
+        "source": {
+          "label": "Eurostat, Population structure and ageing, 2026",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_structure_and_ageing"
+        },
+        "kind": "numbers",
+        "evidence": "The median age of the EU's population is increasing and was 44.9 years on 1 January 2025 (Figure 2). This means that half of the EU's population was older than 44.9 years, while the other half was younger.",
+        "check": "Eurostat Statistics Explained (data extracted 2 February 2026), EU-27, 1 January 2025. 44.9 falls in age 44. Verified with curl."
+      }
+    ]
+  }
+]

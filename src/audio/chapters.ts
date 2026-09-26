@@ -152,8 +152,8 @@ export const CHAPTERS: readonly ChapterSpec[] = [
     motif: { voice: 'epiano', octave: 4 },
     drones: { gain: [-18, -18] },
     pad: { gain: [-22, -22], attack: [6, 6], release: 10, bars: [4, 4], octave: 3 },
-    keys: { gain: [-24, -26], density: [0.2, 0.15], every: '1m', octave: 3 },
-    glass: { gain: [-30, -30], density: [0.05, 0.08], octave: 5 },
+    keys: { gain: [-24, -26], density: [0.4, 0.3], every: '1m', octave: 3 },
+    glass: { gain: [-30, -30], density: [0.12, 0.15], octave: 5 },
     recordings: [
       { id: 'birdsong', gain: -5 },
       { id: 'grandfather_clock', gain: -11 },
@@ -166,7 +166,7 @@ export const CHAPTERS: readonly ChapterSpec[] = [
     motif: { voice: 'glass', octave: 5 },
     drones: { gain: [-18, -18] },
     pad: { gain: [-22, -23], attack: [6, 7], release: 11, bars: [4, 6], octave: 3 },
-    glass: { gain: [-26, -27], density: [0.1, 0.08], octave: 5 },
+    glass: { gain: [-26, -27], density: [0.16, 0.12], octave: 5 },
     air: { color: 'brown', gain: [-36, -31], rate: 0.1, base: 300, octaves: 2 },
     recordings: [
       { id: 'grandfather_clock', gain: -7 },
@@ -181,7 +181,7 @@ export const CHAPTERS: readonly ChapterSpec[] = [
     motif: { voice: 'glass', octave: 5 },
     drones: { gain: [-18, -21] },
     air: { color: 'brown', gain: [-29, -27], rate: 0.07, base: 250, octaves: 2 },
-    glass: { gain: [-27, -33], density: [0.08, 0.02], octave: 5 },
+    glass: { gain: [-27, -33], density: [0.12, 0.04], octave: 5 },
     pad: { gain: [-24, -60], attack: [7, 8], release: 12, bars: [6, 8], octave: 3 },
     recordings: [
       { id: 'wind', gain: -9 },
