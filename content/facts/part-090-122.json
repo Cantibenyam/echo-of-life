@@ -1,0 +1,827 @@
+[
+  {
+    "age": 90,
+    "candidates": [
+      {
+        "text": "In a University of Edinburgh study, 106 people took the same intelligence test at 11 and again at 90; their scores, 79 years apart, were still clearly linked.",
+        "source": {
+          "label": "Deary, Pattie & Starr, Psychological Science, 2013 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24084038/"
+        },
+        "kind": "mind",
+        "evidence": "We examined the stability and concurrent and predictive validity of individual differences in the same intelligence test administered to the same individuals (the Lothian Birth Cohort of 1921, N = 106) at ages 11 and 90 years. The correlation of Moray House Test scores between age 11 and age 90 was .54 (.67 when corrected for range restriction).",
+        "check": "Study statistic, not a person: the same 106 members of the Lothian Birth Cohort 1921 were tested at age 11 and at age 90, so the retest belongs to age 90. 'Clearly linked' = correlation .54 (.67 corrected). University of Edinburgh affiliation confirmed on the University of Edinburgh Research Explorer page (https://www.research.ed.ac.uk/en/publications/the-stability-of-intelligence-from-age-11-to-age-90-years-the-lot/). 79 years = 90 - 11."
+      },
+      {
+        "text": "In Japan, turning 90 is called sotsuju, because the shorthand form of the character 卒, written 卆, looks like 九十, the numerals for ninety.",
+        "source": {
+          "label": "Nippon.com, Japanese Names for Age Milestones, 2024",
+          "url": "https://www.nippon.com/en/japan-data/h01872/"
+        },
+        "kind": "world",
+        "evidence": "The abbreviated kanji for 卒 is 卆, which looks like 九十 (kyūjū) or 90.",
+        "check": "Cultural naming: the page lists 卒寿 (Sotsuju, 90 years old). The name refers to the number 90 itself, so it belongs to age 90. Language/sound-of-words theme."
+      }
+    ]
+  },
+  {
+    "age": 91,
+    "candidates": [
+      {
+        "text": "In January 2024 composer John Williams, 91, broke his own record as the oldest person nominated for a competitive Oscar, for his Indiana Jones score.",
+        "source": {
+          "label": "FOX Television Stations, 2024",
+          "url": "https://www.fox29.com/news/composer-john-williams-makes-oscars-history-oldest-person-ever-nominated"
+        },
+        "kind": "people",
+        "evidence": "At 91, Williams was nominated for Best Original Score for \"Indiana Jones and the Dial of Destiny\" – beating his record as the oldest person to ever be nominated in a competitive Oscar award category.",
+        "check": "Born 8 February 1932 (Biography.com, https://www.biography.com/musicians/john-williams: 'BORN: February 8, 1932'). Nominations announced 23 January 2024 (FOX article published January 23, 2024). 8 Feb 2023 = 91st birthday; 23 Jan 2024 is before his 92nd birthday -> 91 years 11 months."
+      },
+      {
+        "text": "The number of Americans aged 90 and over nearly tripled in three decades, reaching 1.9 million in 2010.",
+        "source": {
+          "label": "U.S. Census Bureau, 2011",
+          "url": "https://www.census.gov/newsroom/releases/archives/aging_population/cb11-194.html"
+        },
+        "kind": "numbers",
+        "evidence": "The nation's 90-and-older population nearly tripled over the past three decades, reaching 1.9 million in 2010, according to a report released today by the U.S. Census Bureau and supported by the National Institute on Aging.",
+        "check": "Statistic: United States, population aged 90+, 1980 to 2010 (report '90+ in the United States: 2006-2008', released 17 Nov 2011). A general fact about people in their nineties, placed at 91."
+      }
+    ]
+  },
+  {
+    "age": 92,
+    "candidates": [
+      {
+        "text": "Vera Lynn, the wartime 'Forces' Sweetheart', topped the UK album chart in September 2009, aged 92, outselling the Beatles that week.",
+        "source": {
+          "label": "CNN, 2009",
+          "url": "https://www.cnn.com/2009/SHOWBIZ/09/14/lynn.charts.uk/index.html"
+        },
+        "kind": "people",
+        "evidence": "The 92-year-old's album \"We'll Meet Again -- The Very Best of Vera Lynn\" took the top spot in the British charts on Sunday, even outselling much-hyped re-mastered versions of the Beatles' back catalogue, according to the UK's Official Charts Company.",
+        "check": "Born 20 March 1917 (RNZ obituary, https://www.rnz.co.nz/news/world/419347/obituary-dame-vera-lynn-a-symbol-of-resilience-and-hope: 'She was born Vera Margaret Welch on 20 March 1917'). Chart top on Sunday 13 September 2009 (CNN story dated 14 Sept 2009). 20 Mar 2009 = 92nd birthday -> 92 years 5 months."
+      },
+      {
+        "text": "In a 1998 survey of 2,262 Danes aged 92 or 93, 74% said they were always or almost always satisfied with their lives.",
+        "source": {
+          "label": "Nybo et al., Journal of the American Geriatrics Society, 2001 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11380754/"
+        },
+        "kind": "mind",
+        "evidence": "Of the participants, 74% were always or almost always satisfied with their lives, even though only 45% reported that they \"felt well enough to do what they wanted.\"",
+        "check": "Danish 1905 Cohort Survey: 'A cross-sectional survey of all Danes born in 1905 (92-93 years of age), carried out August to October 1998', 2,262 participants. Participants were 92 or 93, so the fact fits age 92."
+      }
+    ]
+  },
+  {
+    "age": 93,
+    "candidates": [
+      {
+        "text": "Singer Charles Aznavour received a star on the Hollywood Walk of Fame in August 2017, aged 93, and was still writing songs and performing.",
+        "source": {
+          "label": "Hollywood Walk of Fame (Hollywood Chamber of Commerce), 2017",
+          "url": "https://walkoffame.com/charles-aznavour/"
+        },
+        "kind": "people",
+        "evidence": "At 93 years young, “France’s Frank Sinatra” continues to write and perform, with his family and friends by his side.",
+        "check": "Born 22 May 1924 (same page: 'Born in Paris on May 22, 1924'). Star dedicated Thursday 24 August 2017 (same page). 22 May 2017 = 93rd birthday -> 93 years 3 months."
+      },
+      {
+        "text": "The UK had an estimated 625,000 people aged 90 or over in 2024, over half as many again as in 2004.",
+        "source": {
+          "label": "Office for National Statistics, 2025",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/bulletins/estimatesoftheveryoldincludingcentenarians/2002to2024"
+        },
+        "kind": "numbers",
+        "evidence": "There were an estimated 625,000 people aged 90 years or over in the UK in 2024; this is an increase of 53.7% since 2004, and an increase of 2.2% since mid-2023.",
+        "check": "Statistic: UK, mid-2024 estimate, people aged 90+ (ONS bulletin 'Estimates of the very old, including centenarians, UK: 2002 to 2024', released 21 Oct 2025). 53.7% rise = 407,000 to 625,000. General fact about people in their nineties, placed at 93."
+      }
+    ]
+  },
+  {
+    "age": 94,
+    "candidates": [
+      {
+        "text": "South Korea's Song Hae, host of the TV show National Singing Contest since 1988, was certified in April 2022, aged 94, as the oldest TV music talent show host.",
+        "source": {
+          "label": "Guinness World Records, 2022",
+          "url": "https://www.guinnessworldrecords.com/world-records/689094-oldest-tv-music-talent-show-host"
+        },
+        "kind": "people",
+        "evidence": "The oldest TV music talent show host is Song Hae (Republic of Korea, b. 27 April 1927) who is 94 years and 350 days old, as verified in Seoul, Korea, on 12 April 2022.",
+        "check": "Born 27 April 1927 (same page). Verified 12 April 2022 -> 94 years 350 days (stated by Guinness; 27 Apr 2021 = 94th birthday). 'Song Hae has been the host of the Korean TV music talent show National Singing Contest since 1988' (same page)."
+      },
+      {
+        "text": "Brain tissue from 18 people aged 79 to 99 showed new neurons still forming in the hippocampus, the brain's centre for learning and memory.",
+        "source": {
+          "label": "National Institute on Aging (NIH), 2019",
+          "url": "https://www.nia.nih.gov/news/new-hippocampal-neurons-continue-form-older-adults-including-those-mci-alzheimers"
+        },
+        "kind": "body",
+        "evidence": "Using proxy makers of neurogenesis in the hippocampus, the area of the brain responsible for learning and memory, researchers looked at post-mortem brain tissue from 18 people ages 79 to 99.",
+        "check": "Study of Tobin et al., Cell Stem Cell 2019 (reference on the NIA page); donors aged 79-99 (mean 90.6 per the paper), 'Neurogenesis... appears to continue in people well into old age'. A general finding about the nineties, placed at 94. Text avoids the dementia framing."
+      }
+    ]
+  },
+  {
+    "age": 95,
+    "candidates": [
+      {
+        "text": "Nola Ochs of Kansas graduated from college in May 2007, aged 95, alongside her 21-year-old granddaughter, becoming the world's oldest college graduate.",
+        "source": {
+          "label": "NBC News / Associated Press, 2007",
+          "url": "https://www.nbcnews.com/id/wbna18338864"
+        },
+        "kind": "people",
+        "evidence": "When 95-year-old Nola Ochs graduates next month, she will be the world's oldest college graduate.",
+        "check": "Born November 1911 (Fort Hays State University Dept of History, 'Nola Ochs turns 100', 18 Nov 2011, https://fhsuhistory.wordpress.com/2011/11/18/nola-ochs-turns-100/). Graduation Saturday 12 May 2007 (ABC News, 12 May 2007: 'On Saturday in Kansas, a 95-year-old woman will become the world's oldest college graduate', https://abcnews.go.com/GMA/story?id=3167970). Nov 2006 = 95th birthday; May 2007 -> 95. Granddaughter: 'her 21-year-old granddaughter, Alexandra Ochs, will graduate with her' (NBC/AP)."
+      },
+      {
+        "text": "Canada's Governor General sends birthday greetings at 90 and 95, then every single year from a 100th birthday on.",
+        "source": {
+          "label": "Governor General of Canada",
+          "url": "https://www.gg.ca/en/contact-us/birthday-anniversary-greetings"
+        },
+        "kind": "world",
+        "evidence": "Upon request, greetings will be sent every five (5) years for birthdays starting at 90 and anniversaries starting at 50, then every year for birthdays starting at 100 and anniversaries starting at 70.",
+        "check": "Official rule: greetings at 90, 95, then yearly from 100; the 95th-birthday greeting places it at age 95."
+      }
+    ]
+  },
+  {
+    "age": 96,
+    "candidates": [
+      {
+        "text": "Hong Kong DJ Ray Cordeiro, named the world's most durable DJ by Guinness, hosted his final radio show in May 2021, aged 96, after more than seven decades on air.",
+        "source": {
+          "label": "BBC News, 2021",
+          "url": "https://www.bbc.com/news/world-asia-china-57129010"
+        },
+        "kind": "people",
+        "evidence": "A 96-year-old DJ in Hong Kong has hosted his final radio show, after more than seven decades in broadcasting.",
+        "check": "Born 12 December 1924 (South China Morning Post, 12 Dec 2017: 'Uncle Ray, who turns 93 on Tuesday', https://www.scmp.com/news/hong-kong/community/article/2123885/bittersweet-93rd-birthday-veteran-hong-kong-dj-uncle-ray-he). Final show Saturday 15 May 2021 (BBC dated 15 May 2021). 12 Dec 2020 = 96th birthday -> 96 years 5 months. Guinness title: 'In 2000, the Guinness Book of World Records awarded him the title of the world's most durable DJ' (BBC)."
+      },
+      {
+        "text": "Nursing-home residents aged up to 96 who lifted weights for eight weeks increased their strength by 174% on average.",
+        "source": {
+          "label": "Fiatarone et al., JAMA, 1990 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2342214/"
+        },
+        "kind": "body",
+        "evidence": "Strength gains averaged 174% +/- 31% (mean +/- SEM) in the 9 subjects who completed training.",
+        "check": "Study: 10 volunteers 'aged 90 +/- 1 years'; conclusion covers 'frail residents of nursing homes up to 96 years of age' (same abstract). A nineties finding whose stated upper age is 96, placed at 96."
+      }
+    ]
+  },
+  {
+    "age": 97,
+    "candidates": [
+      {
+        "text": "Bluesman Pinetop Perkins won a Grammy in February 2011, aged 97, becoming the oldest Grammy winner.",
+        "source": {
+          "label": "CBS News / Associated Press, 2011",
+          "url": "https://www.cbsnews.com/news/miss-born-pinetop-perkins-oldest-grammy-winner/"
+        },
+        "kind": "people",
+        "evidence": "Perkins, 97, snagged a statue Sunday for best traditional blues album for \"Joined at the Hip: Pinetop Perkins & Willie \"Big Eyes\" Smith.\" With the win, Perkins edged out the late comedian George Burns as the oldest Grammy winner, said Stephanie Schell, a spokeswoman for the Grammy organization.",
+        "check": "Born 7 July 1913 (BlackPast.org, https://blackpast.org/african-american-history/perkins-joseph-william-pinetop-1913-2011/: 'born on the Honey Island plantation near Belzoni, Mississippi on July 7, 1913'). Grammy on Sunday 13 February 2011 (AP story dated 14 Feb 2011). 7 Jul 2010 = 97th birthday -> 97 years 7 months."
+      },
+      {
+        "text": "The English word 'nonagenarian', for someone in their nineties, was coined in 1776 from the Latin nonagenarius, meaning 'containing ninety'.",
+        "source": {
+          "label": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/nonagenarian"
+        },
+        "kind": "world",
+        "evidence": "nonagenarian (n.) \"person who has reached 90 years old; person between 90 and 100 years old;\" 1776, coined in English with -an + Latin nonagenarius \"containing ninety\"",
+        "check": "Word history covering ages 90-99; placed at 97. Language theme."
+      }
+    ]
+  },
+  {
+    "age": 98,
+    "candidates": [
+      {
+        "text": "Tao Porchon-Lynch, who first saw yoga as a child on a beach in Pondicherry, India, was the world's oldest yoga instructor in 2017, aged 98.",
+        "source": {
+          "label": "ESPN, 2017",
+          "url": "https://www.espn.com/espnw/culture/feature/story/_/id/18566489/world-oldest-yoga-instructor-tao-porchon-lynch-98-journey-hollywood-back-mat"
+        },
+        "kind": "people",
+        "evidence": "That's exactly how many would describe Tao Porchon-Lynch, who at 98 is the planet's oldest yoga instructor.",
+        "check": "Born 13 August 1918 (Stanford Center on Longevity post of 13 Aug 2015: 'Today at 97-years-old', https://longevity.stanford.edu/the-worlds-oldest-yoga-teacher-turns-97-today-happy-birthday-tao/). ESPN article published 27 January 2017 -> 98 years 5 months. Pondicherry: 'She was introduced to yoga growing up in Pondicherry, a French Colony in India, where she would watch the local boys doing yoga on the beach' (Yoga Journal, https://www.yogajournal.com/teach/yoga-teacher-makes-guinness-records/). ESPN blocks curl; quote obtained via WebFetch."
+      },
+      {
+        "text": "In nine villages of southern Italy, people aged 90 to 101 reported better mental well-being than their younger relatives.",
+        "source": {
+          "label": "Scelzo et al., International Psychogeriatrics, 2018 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29229012/"
+        },
+        "kind": "mind",
+        "evidence": "Participants age ≥90 years had worse physical health but better mental well-being than their younger family members.",
+        "check": "Study of 29 people 'aged 90 to 101 years' in 'nine villages in the Cilento region of southern Italy', compared with 51 family members aged 51-75. A nineties finding placed at 98."
+      }
+    ]
+  },
+  {
+    "age": 99,
+    "candidates": [
+      {
+        "text": "Captain Tom Moore reached number one in the UK singles chart on 24 April 2020, aged 99, with 'You'll Never Walk Alone', recorded with Michael Ball.",
+        "source": {
+          "label": "Guinness World Records, 2020",
+          "url": "https://www.guinnessworldrecords.com/news/2020/4/99-year-old-captain-tom-moore-smashes-global-fundraising-record-and-tops-uk-chart-615786"
+        },
+        "kind": "people",
+        "evidence": "Not only has Tom broken this long standing record, but today (24 April 2020) Tom and Michael Ball (UK) officially topped the UK charts with their single You'll Never Walk Alone.",
+        "check": "Born 30 April 1920 (same page: 'Captain Tom Moore will turn 100 years old on April 30th 2020'). Chart top 24 April 2020 -> 99 years 11 months (Guinness: 'the oldest person to reach number one in the UK charts at 99 years and 359 days old')."
+      },
+      {
+        "text": "In Japan, 99 is hakuju, 'white longevity': take the top stroke, 一 (one), away from 百 (100) and what remains is 白, white.",
+        "source": {
+          "label": "Nippon.com, Japanese Names for Age Milestones, 2024",
+          "url": "https://www.nippon.com/en/japan-data/h01872/"
+        },
+        "kind": "world",
+        "evidence": "The kanji for 100 is 百, so take away one top stroke (which also represents the character 一, “one”)—to get 白, which, although it usually means “white,” here represents 99.",
+        "check": "Cultural naming: 白寿 (Hakuju, 99 years old). The name refers to the number 99 itself. Language theme."
+      }
+    ]
+  },
+  {
+    "age": 100,
+    "candidates": [
+      {
+        "text": "Japan counted 153 people aged 100 or over in 1963. In 2026 it counted 107,677, and nearly 88% of them were women.",
+        "source": {
+          "label": "NBC News / Associated Press, 2026",
+          "url": "https://www.nbcnews.com/world/asia/japan-more-than-100000-centenarians-rcna598081"
+        },
+        "kind": "numbers",
+        "evidence": "The Health and Welfare Ministry statistics released Tuesday show Japan now has 107,677 centenarians, up 7,914 from the previous year and exceeding the 100,000 mark for the first time. Nearly 88% of them are women.",
+        "check": "Statistic: Japan, Health and Welfare Ministry, September 2026 release. Same article: 'There were 153 people ages 100 or older in Japan when centenarian surveys began in 1963.' Placed at 100 (people aged 100+)."
+      },
+      {
+        "text": "In 1992 South Korea's president began giving citizens turning 100 a cheongryeojang, a light traditional walking cane made from goosefoot stems.",
+        "source": {
+          "label": "The Korea Times, 2014",
+          "url": "https://www.koreatimes.co.kr/www/opinion/2021/11/162_167746.html"
+        },
+        "kind": "world",
+        "evidence": "Since 1992, then-President Kim Young-sam started to present the traditional cane to 100-year-old citizens.",
+        "check": "Custom tied to the 100th year. Same page: 'a long-life walking cane called \"cheongryeo-jang\" which is made of a goosefoot herb' and 'The walking cane is strong, light and elegant.' (Column by Lee Sun-ho, published Nov 7, 2014.)"
+      }
+    ]
+  },
+  {
+    "age": 101,
+    "candidates": [
+      {
+        "text": "Cuban-born painter Carmen Herrera had a solo exhibition at New York's Whitney Museum in 2016, aged 101, and was still working in her studio almost every day.",
+        "source": {
+          "label": "Whitney Museum of American Art, 2016",
+          "url": "https://whitney.org/exhibitions/carmen-herrera"
+        },
+        "kind": "people",
+        "evidence": "Today, at the age of 101, Herrera continues to work almost every day in her studio, and her oeuvre demonstrates a disciplined but highly sophisticated exploration of color and form.",
+        "check": "Born May 30, 1915 in Havana (same page: 'Born May 30, 1915, in Havana, Cuba'). Exhibition 'Carmen Herrera: Lines of Sight', September 16, 2016 to January 2, 2017 (same page). 30 May 2016 = 101st birthday -> 101 throughout the show."
+      },
+      {
+        "text": "In Ireland, the President marks every birthday after the 100th with a specially designed commemorative coin, a new design each year.",
+        "source": {
+          "label": "President of Ireland, Centenarian Bounty",
+          "url": "https://president.ie/en/about/centenarian-bounty"
+        },
+        "kind": "world",
+        "evidence": "On his or her 101st and every subsequent birthday, the person receives a special commemorative coin in a presentation box, along with a congratulatory letter signed by the President. A new coin is designed for each year.",
+        "check": "Official scheme: first coin at the 101st birthday, so it belongs to age 101."
+      }
+    ]
+  },
+  {
+    "age": 102,
+    "candidates": [
+      {
+        "text": "Ingeborg Rapoport, barred by the Nazis from defending her doctorate in 1938, finally passed the exam in Hamburg in May 2015, aged 102.",
+        "source": {
+          "label": "TIME, 2015",
+          "url": "https://time.com/3858703/102-doctorate-nazi/"
+        },
+        "kind": "people",
+        "evidence": "A 102-year-old retired neonatologist successfully defended her doctoral thesis on Wednesday, 77 years after the Nazi regime denied her the opportunity.",
+        "check": "Born 2 September 1912 (Deutsche Biographie, https://www.deutsche-biographie.de/gnd120997363.html: '2. September 1912'). Exam 13 May 2015 at the University of Hamburg (JTA, https://www.jta.org/2017/03/27/obituaries/ingeborg-syllm-rapoport-who-earned-doctorate-80-years-after-nazis-denial-dies-at-104: 'passed the exam on May 13, 2015, at the University of Hamburg'). 2 Sep 2014 = 102nd birthday -> 102 years 8 months."
+      },
+      {
+        "text": "Among 330 Dutch centenarians who were mentally sharp at the start, thinking skills held steady for up to four years, apart from a slight dip in memory.",
+        "source": {
+          "label": "Beker et al., JAMA Network Open, 2021 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33449094/"
+        },
+        "kind": "mind",
+        "evidence": "We observed no decline across investigated cognitive domains, with the exception of a slight decline in memory function",
+        "check": "100-plus Study: 330 self-reported cognitively healthy Dutch centenarians, median age 100.5 (IQR 100.2-101.7), followed 'for up to 4 years' (same abstract). A centenarian finding placed at 102."
+      }
+    ]
+  },
+  {
+    "age": 103,
+    "candidates": [
+      {
+        "text": "Sweden's Rut Larsson made a tandem parachute jump in May 2022, aged 103 years and 259 days, setting the Guinness record for the oldest woman to make one.",
+        "source": {
+          "label": "Guinness World Records, 2022",
+          "url": "https://www.guinnessworldrecords.com/news/2022/6/103-year-old-woman-breaks-oldest-tandem-parachute-jump-record-707533"
+        },
+        "kind": "people",
+        "evidence": "At the age of 103 years 259 days, she embarked on an amazing freefall and broke the record for the oldest tandem parachute jump (female).",
+        "check": "Jump on 29 May 2022 in Motala, Sweden (same page). Guinness states the age at the jump: 103 years 259 days (implies birth 12 September 1918; 12 Sep 2021 + 259 days = 29 May 2022)."
+      },
+      {
+        "text": "Demographers named a mountainous part of Sardinia a 'Blue Zone' for its unusually high share of men living past 100.",
+        "source": {
+          "label": "Poulain et al., Experimental Gerontology, 2004 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15489066/"
+        },
+        "kind": "world",
+        "evidence": "Given the exceptionally high prevalence of male centenarians in the 'Blue Zone', it is reasonable to assume that either the environmental characteristics or the genetic factors, or both, exert their favorable effect more strongly in men than in women.",
+        "check": "Place-based centenarian fact (AKEA study; the 'Blue Zone' covers 'the mountainous areas of central Sardinia'). Applies to people aged 100+, placed at 103."
+      }
+    ]
+  },
+  {
+    "age": 104,
+    "candidates": [
+      {
+        "text": "Dorothy Hoffner of Chicago made a tandem skydive from 13,500 feet in October 2023, aged 104; she had first jumped at 100.",
+        "source": {
+          "label": "NBC News, 2023",
+          "url": "https://www.nbcnews.com/news/us-news/104-year-old-chicago-woman-jumps-chance-become-oldest-person-tandem-sk-rcna118881"
+        },
+        "kind": "people",
+        "evidence": "Dorothy Hoffner jumped 13,500 feet from a plane Sunday while strapped to an instructor, then sent in her bid for a Guinness World Record.",
+        "check": "Born 17 December 1918 (Legacy.com, https://www.legacy.com/news/celebrity-deaths/dorothy-hoffner-1918-2023-record-breaking-centenarian-skydiver/, tagged 'Born December 17 1918'; CBS Chicago: 'Hoffner would have turned 105 in December', https://www.cbsnews.com/chicago/news/104-dorothy-hoffner-oldest-tandem-skydiver-died/). Jump on Sunday 1 October 2023 (NBC dated 4 Oct 2023). 17 Dec 2022 = 104th birthday -> 104 years 9 months. First jump: 'Dorothy Hoffner first skydived four years ago on her 100th birthday' (NBC). Guinness never ratified the record, so the text claims none."
+      },
+      {
+        "text": "The United Nations estimated that about 722,000 people worldwide were aged 100 or older in 2024.",
+        "source": {
+          "label": "Pew Research Center, 2024",
+          "url": "https://www.pewresearch.org/short-reads/2024/01/09/us-centenarian-population-is-projected-to-quadruple-over-the-next-30-years/"
+        },
+        "kind": "numbers",
+        "evidence": "The world is home to an estimated 722,000 centenarians, according to the United Nations’ population projections for 2024.",
+        "check": "Statistic: global, 2024, UN World Population Prospects projection as reported by Pew. A centenarian fact placed at 104."
+      }
+    ]
+  },
+  {
+    "age": 105,
+    "candidates": [
+      {
+        "text": "Eileen Ash, who first played Test cricket for England in 1937, rang the bell at Lord's before the 2017 Women's World Cup final, aged 105.",
+        "source": {
+          "label": "BBC Sport, 2021",
+          "url": "https://www.bbc.co.uk/sport/cricket/59533539"
+        },
+        "kind": "people",
+        "evidence": "Eighty years after making her international debut, Ash rang the bell at Lord's before England's victory in the 2017 Women's World Cup final.",
+        "check": "Born 30 October 1911 (Norwich Evening News, 30 Oct 2021, marks her 110th birthday that day, https://www.eveningnews24.co.uk/news/eileen-ash-from-norwich-turns-110-8451800); same article: 'In 2017, aged 105, she was invited to ring the bell at the Lord's cricket ground'. Debut 1937 (BBC: 'The bowler made her England debut in 1937'). The 2017 final was in July, before her 106th birthday on 30 Oct 2017 -> 105."
+      },
+      {
+        "text": "Julia 'Hurricane' Hawkins, who took up running at 100, became the first woman timed over 100 metres in the 105-plus age group, in 2021, aged 105.",
+        "source": {
+          "label": "NPR, 2024",
+          "url": "https://www.npr.org/2024/10/23/g-s1-29571/senior-sprinter-julia-hurricane-hawkins-dies-at-108"
+        },
+        "kind": "people",
+        "evidence": "In 2021, at a spritely 105 years of age, Hawkins became the first female track and field athlete in the 105+ age bracket to clock a time in the 100-meter dash.",
+        "check": "Born 10 February 1916 (same page: 'Hawkins was born Feb. 10, 1916'); NPR gives her age at the 2021 race as 105 (time 1:02.95). Took up running at 100 (same page)."
+      }
+    ]
+  },
+  {
+    "age": 106,
+    "candidates": [
+      {
+        "text": "In the UK, once someone has passed 105, a birthday message from the King arrives every single year.",
+        "source": {
+          "label": "GOV.UK",
+          "url": "https://www.gov.uk/get-birthday-anniversary-message-from-king"
+        },
+        "kind": "world",
+        "evidence": "birthday each year following their 105th",
+        "check": "Official rule (list on the page: 100th birthday, 105th birthday, birthday each year following their 105th). The first of the yearly messages is the 106th birthday, so placed at 106."
+      },
+      {
+        "text": "A Somerset cider maker produced 106 bottles of 'Patch's Pride' in 2004 for 106-year-old war veteran Harry Patch, who helped taste-test it.",
+        "source": {
+          "label": "BBC News, 2004",
+          "url": "https://news.bbc.co.uk/2/hi/uk_news/england/somerset/4117003.stm"
+        },
+        "kind": "people",
+        "evidence": "A cider has been produced to celebrate the life of 106-year-old Somerset war veteran Harry Patch.",
+        "check": "BBC story of 22 Dec 2004 states his age as 106; born in 1898 (BBC 16 Dec 2005: 'Born in Bath in 1898'). Same story: 'A total of 106 bottles of Patch's Pride has been produced' and he 'helped with the development of the cider, tasting several versions'."
+      }
+    ]
+  },
+  {
+    "age": 107,
+    "candidates": [
+      {
+        "text": "Harry Patch received an honorary degree in 2005, aged 107, from the Bristol university whose tower he had helped build as a plumber in 1925.",
+        "source": {
+          "label": "BBC News, 2005",
+          "url": "https://news.bbc.co.uk/2/hi/uk_news/england/bristol/somerset/4534214.stm"
+        },
+        "kind": "people",
+        "evidence": "A 107-year-old World War I veteran has been given an honorary degree at the university he helped build.",
+        "check": "BBC story of 16 Dec 2005 states his age as 107; 'Born in Bath in 1898' (same page). 'He worked on the Wills Memorial Building in 1925' and 'The former plumber' (same page)."
+      },
+      {
+        "text": "French pianist Colette Maze, who began playing at 5, released her sixth album in September 2021, aged 107.",
+        "source": {
+          "label": "NPR, 2021",
+          "url": "https://www.npr.org/sections/deceptivecadence/2021/09/20/1036622670/107-year-old-french-pianist-colette-maze-new-album"
+        },
+        "kind": "people",
+        "evidence": "Colette Maze, now 107, began playing the piano at age 5 and defied the social conventions of her day to embrace it as a profession rather than as a pastime. Her son first arranged for her performances to be recorded when she was in her 90s. She has just released her sixth album.",
+        "check": "Born 16 June 1914 (same page: 'Maze, born on June 16, 1914'). NPR story 20 September 2021. 16 Jun 2021 = 107th birthday -> 107 years 3 months."
+      }
+    ]
+  },
+  {
+    "age": 108,
+    "candidates": [
+      {
+        "text": "In Japan, 108 is chaju, 'tea longevity', because the character for tea, 茶, can be split into 十, 十 and 八十八: 10 + 10 + 88.",
+        "source": {
+          "label": "Kotobank (Shogakukan Digital Daijisen dictionary)",
+          "url": "https://kotobank.jp/word/%E8%8C%B6%E5%AF%BF"
+        },
+        "kind": "world",
+        "evidence": "《「茶」の字を分解すると「十」「十」「八十八」となるところから》108歳のこと。また、その祝い。",
+        "check": "Dictionary definition: 茶寿 means age 108 and its celebration, from splitting 茶 into 十, 十 and 八十八. Refers to the number 108 itself. Language theme."
+      },
+      {
+        "text": "Pianist Colette Maze played to 500 people at the chateau Clos Vougeot in Burgundy in May 2023, aged 108, and still practised four to five hours a day.",
+        "source": {
+          "label": "The Connexion, 2023",
+          "url": "https://www.connexionfrance.com/article/French-news/Video-Frenchwoman-and-world-s-oldest-pianist-to-release-her-7th-album"
+        },
+        "kind": "people",
+        "evidence": "On Saturday, May 27, Ms Maze performed to 500 people on a grand piano, at the chateau Clos Vougeot in Côte-d'Or (Bourgogne-Franche-Comté).",
+        "check": "Born 16 June 1914 (NPR 2021). Concert Saturday 27 May 2023, before her 109th birthday (16 Jun 2023) -> 108 years 11 months; same page: 'The world's oldest pianist, 108-year-old Frenchwoman Colette Maze' and 'still plays piano for around four to five hours per day on her Steinway'. Album title deliberately omitted (announced title may differ from release)."
+      }
+    ]
+  },
+  {
+    "age": 109,
+    "candidates": [
+      {
+        "text": "Hikaru Kato of Kumamoto, Japan, kept writing letters to local newspapers about his war experiences, each time hoping war would never return, until he was 109.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/hikaru-kato/"
+        },
+        "kind": "people",
+        "evidence": "He also devoted time to writing, completing his autobiography and regularly submitting letters about his war experiences to local newspapers in Kumamoto until he was 109 years old, each time expressing his hope that war would never happen again.",
+        "check": "Born 2 May 1914 (same page). LongeviQuest cites a letter in the Kumamoto Nichinichi Shimbun of 10 May 2023 signed '加藤光、109'. 2 May 2023 = 109th birthday -> 109."
+      },
+      {
+        "text": "In 2008, Poet Laureate Andrew Motion wrote a poem in five parts for 109-year-old Harry Patch, the oldest surviving veteran of the First World War trenches.",
+        "source": {
+          "label": "BBC News, 2008",
+          "url": "https://news.bbc.co.uk/2/hi/uk_news/england/somerset/7279861.stm"
+        },
+        "kind": "people",
+        "evidence": "A poem has been composed by the poet laureate for the oldest surviving veteran who fought in the trenches in World War I, 109-year-old Harry Patch.",
+        "check": "BBC story of 7 March 2008 states his age as 109 (born 1898 per BBC 2005). 'The poem has five acts, each exploring different stages in Mr Patch's life' (same page). Language theme."
+      }
+    ]
+  },
+  {
+    "age": 110,
+    "candidates": [
+      {
+        "text": "Gerontologists call anyone validated as having reached 110 a supercentenarian.",
+        "source": {
+          "label": "Gerontology Research Group",
+          "url": "https://www.grg-supercentenarians.org/world-supercentenarian-rankings-list/"
+        },
+        "kind": "world",
+        "evidence": "By definition, a supercentenarian is anyone who has been validated to have lived to be 110 or over.",
+        "check": "Definition tied to the 110th birthday."
+      },
+      {
+        "text": "On her 110th birthday in 2021, former England cricketer Eileen Ash put her long life down to being happy, smiling a lot, red wine and yoga.",
+        "source": {
+          "label": "Norwich Evening News, 2021",
+          "url": "https://www.eveningnews24.co.uk/news/eileen-ash-from-norwich-turns-110-8451800"
+        },
+        "kind": "people",
+        "evidence": "She was asked whether she has a secret for living so long, to which she replied “Being happy and smiling a lot, red wine, and keeping fit with yoga!”",
+        "check": "110th birthday on 30 October 2021 (same article; England Cricket tweet of October 30, 2021: 'Celebrating her 110th birthday today')."
+      }
+    ]
+  },
+  {
+    "age": 111,
+    "candidates": [
+      {
+        "text": "In Japan, 111 is koju: its character 皇 joins 白, which is 百 (100) minus one stroke and so means 99, with 王, read as 十 and 二, making 12.",
+        "source": {
+          "label": "Kotobank (Shogakukan Digital Daijisen dictionary)",
+          "url": "https://kotobank.jp/word/%E7%9A%87%E5%AF%BF"
+        },
+        "kind": "world",
+        "evidence": "《「皇」が、百の字から一を引いた形の「白」と、分解すると二と十になる「王」の組み合わせであることから》111歳のこと。また、その祝い。",
+        "check": "Dictionary definition: 皇寿 means age 111 and its celebration (99 + 12 = 111). Refers to the number 111 itself. Language theme."
+      },
+      {
+        "text": "After becoming the world's oldest man in 2024, aged 111, retired Liverpool accountant John Tinniswood still listened to the radio for the news and managed his own finances.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/john-tinniswood/"
+        },
+        "kind": "people",
+        "evidence": "At that time, he was still able to perform most daily tasks independently – he got out of bed unassisted, listened to the radio to keep up with the news, and still managed his own finances.",
+        "check": "Born 26 August 1912 in Liverpool (same page). 'At that time' = when recognised as the world's oldest living man; the page says it was 'initially believed that Tinniswood assumed the title on 2 April' 2024. 26 Aug 2023 = 111th birthday -> 111 years 7 months. Accountant for Shell and BP (same page)."
+      }
+    ]
+  },
+  {
+    "age": 112,
+    "candidates": [
+      {
+        "text": "A supercentenarian tested at ages 112 and 113 performed above the average for healthy adults aged 60 to 75 on psychological tests.",
+        "source": {
+          "label": "den Dunnen et al., Neurobiology of Aging, 2008 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18534718/"
+        },
+        "kind": "mind",
+        "evidence": "The psychological tests revealed that her general performance was above average of healthy adults of 60-75 years.",
+        "check": "Same abstract: 'We have had the opportunity to evaluate the performance of a 112-113-year-old woman'. Tests taken at 112-113, placed at 112."
+      },
+      {
+        "text": "Venezuela's Juan Vicente Pérez Mora, who worked barefoot on his family's farm as a boy, became the world's oldest living man in January 2022, aged 112.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/juan-vicente-perez-mora/"
+        },
+        "kind": "people",
+        "evidence": "On 18 January 2022, following the death of 112-year-old Saturnino de la Fuente García of Spain, Pérez Mora became the oldest living man in the world, at the age of 112 years, 236 days.",
+        "check": "Born 27 May 1909 in El Cobre, Táchira (same page). Event 18 January 2022 -> 112 years 236 days (stated). Barefoot: 'he would always work barefoot on the farm together with his siblings' (same page)."
+      }
+    ]
+  },
+  {
+    "age": 113,
+    "candidates": [
+      {
+        "text": "Yisrael Kristal, who missed his bar mitzvah at 13 because of the First World War, finally celebrated it in 2016, aged 113, among his great-grandchildren.",
+        "source": {
+          "label": "Smithsonian Magazine, 2017",
+          "url": "https://www.smithsonianmag.com/smart-news/worlds-oldest-man-holocaust-survivor-dies-113-180964492/"
+        },
+        "kind": "people",
+        "evidence": "Last year, among his children, grandchildren and great-grandchildren, he finally took part in the milestone at age 113, the AP reports.",
+        "check": "Born 15 September 1903 (same page: 'Yisrael was born on September 15, 1903'). Bar mitzvah in 2016 at age 113 (AP via Smithsonian). Missed at 13 'due to the outbreak of World War I' (same page)."
+      },
+      {
+        "text": "New Zealand's oldest known person, Aileen Kars, celebrated her 113th birthday in Palmerston North on 12 September 2026.",
+        "source": {
+          "label": "Gerontology Research Group, 2026",
+          "url": "https://www.grg-supercentenarians.org/2026/09/13/aileen-kars-the-oldest-known-living-person-in-new-zealand-celebrated-her-113th-birthday/"
+        },
+        "kind": "people",
+        "evidence": "The Gerontology Research Group (GRG) is pleased to announce that Mrs. Aileen Emily Kars (née Schwass), the oldest known living person in New Zealand, celebrated her 113th birthday in Palmerston North, Manawatu-Whanganui, on 12 September 2026.",
+        "check": "Born 12 September 1913 (same page: 'born as Aileen Emily Schwass in Tokomaru, Manawatu-Whanganui, New Zealand (North Island), on 12 September 1913'); 113th birthday 12 September 2026 -> 113."
+      }
+    ]
+  },
+  {
+    "age": 114,
+    "candidates": [
+      {
+        "text": "Fuyo Kishimoto of Kyoto, who for years recited Buddhist sutras from memory for about three hours a day, became Japan's oldest person in August 2026, aged 114.",
+        "source": {
+          "label": "NBC News / Associated Press, 2026",
+          "url": "https://www.nbcnews.com/world/asia/japan-more-than-100000-centenarians-rcna598081"
+        },
+        "kind": "people",
+        "evidence": "Kyoto resident Fuyo Kishimoto was recently recognized as the oldest Japanese woman at age 114.",
+        "check": "Born 20 December 1911 (LongeviQuest, https://longeviquest.com/supercentenarian/fuyo-kishimoto/). 'Following the death of Shigeko Kagawa on 27 August 2026 at the age of 115, Kishimoto became the oldest living person in Japan' (LongeviQuest) -> 114 years 8 months. Sutras: 'made it a rule to spend about three hours each day reciting sutras from memory, a practice she faithfully maintained for many years' (LongeviQuest)."
+      },
+      {
+        "text": "Chiyo Miyako, who trained as a telegraph operator, was still practising calligraphy and writing haiku at 114.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/chiyo-miyako/"
+        },
+        "kind": "people",
+        "evidence": "By the time she was 110, her cognitive faculties remained strong, and she was still continuing her hobbies of calligraphy and writing haiku poetry by the age of 114.",
+        "check": "Born 2 May 1901 (same page). Age 114 as stated. Telegraph: she 'attended higher education at a telegraph school in Osaka where she studied to become a telegraph operator' (same page)."
+      }
+    ]
+  },
+  {
+    "age": 115,
+    "candidates": [
+      {
+        "text": "Sequencing the blood of a 115-year-old woman showed that most of her white blood cells descended from just two related blood stem cells.",
+        "source": {
+          "label": "Holstege et al., Genome Research, 2014 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24760347/"
+        },
+        "kind": "body",
+        "evidence": "The distribution of variant allele frequencies of these mutations suggests that the majority of the peripheral white blood cells were offspring of two related hematopoietic stem cell (HSC) clones.",
+        "check": "Study of 'a 115-yr-old woman' (title). Age 115 as stated."
+      },
+      {
+        "text": "Ethel Caterham, who travelled alone to India at 18 to work as a nanny, became the world's oldest living person on 30 April 2025, aged 115.",
+        "source": {
+          "label": "Gerontology Research Group",
+          "url": "https://www.grg-supercentenarians.org/world-supercentenarian-rankings-list/"
+        },
+        "kind": "people",
+        "evidence": "Since the death of 116-year-old Inah Canabarro Lucas of Brazil on 30 April 2025, Ethel Caterham (born 21 August 1909) of the United Kingdom is the oldest living person whose age is validated.",
+        "check": "Born 21 August 1909 (same page). 30 April 2025 -> 115 years 8 months. India: 'At 18, she travelled alone to India, where she worked as a nanny for a military family' (CNN, 2026, https://www.cnn.com/2026/08/21/uk/ethel-caterham-oldest-person-alive-scli-intl)."
+      }
+    ]
+  },
+  {
+    "age": 116,
+    "candidates": [
+      {
+        "text": "Jiroemon Kimura of Kyotango, Japan, celebrated his 116th birthday in April 2013, the first man verified to reach that age.",
+        "source": {
+          "label": "Guinness World Records, 2013",
+          "url": "https://www.guinnessworldrecords.com/news/2013/6/worlds-oldest-man-ever-passes-away-aged-116-49080"
+        },
+        "kind": "people",
+        "evidence": "Born on 19 April 1897, Jiroemon Kimura is the first man in history to have lived to 116 years old and continues to hold the world record for the Oldest man ever.",
+        "check": "Born 19 April 1897; 116th birthday 19 April 2013 (same page: 'Kimura, who celebrated his 116th birthday on 19th April 2013')."
+      },
+      {
+        "text": "Brazilian nun Inah Canabarro Lucas, a devoted supporter of the football club Internacional, became the world's oldest living person in December 2024, aged 116.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/inah-canabarro-lucas/"
+        },
+        "kind": "people",
+        "evidence": "On 29 December 2024, following the passing of 116-year-old Tomiko Itooka (Japan), she became the World’s Oldest Living Person, at the age of 116 years, 204 days.",
+        "check": "Born 8 June 1908 (same page). Event 29 December 2024 -> 116 years 204 days (stated). 'A devoted supporter of Sport Club Internacional' (same page)."
+      }
+    ]
+  },
+  {
+    "age": 117,
+    "candidates": [
+      {
+        "text": "When Nabi Tajima of Japan's Kikai Island turned 117 in 2017, her family spanned five generations below her, down to 14 great-great-great-grandchildren.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/nabi-tajima/"
+        },
+        "kind": "people",
+        "evidence": "On her 117th birthday in 2017, she had nine children (seven sons and two daughters), 28 grandchildren, 58 great-grandchildren, 64 great-great-grandchildren, and 14 great-great-great-grandchildren.",
+        "check": "Born 4 August 1900 (same page); 117th birthday 4 August 2017. Five generations = children, grandchildren, great-, great-great- and great-great-great-grandchildren."
+      },
+      {
+        "text": "Jamaica's Violet Brown became the world's oldest person in April 2017, aged 117, while her eldest son, 97, held a record as the oldest child with a living parent.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/violet-brown/"
+        },
+        "kind": "people",
+        "evidence": "On 15 April 2017, following the death of 117-year-old Emma Morano of Italy, Brown became the world’s oldest living person. She was 117 years, 36 days old at the time.",
+        "check": "Born 10 March 1900 (GRG-recognised date, same page). Event 15 April 2017 -> 117 years 36 days (stated). Son Harland Fairweather (born 15 April 1920) was 97 on that date; 'He held the Guinness World Record for the \"oldest child with a parent living\"' (same page)."
+      }
+    ]
+  },
+  {
+    "age": 118,
+    "candidates": [
+      {
+        "text": "Sister André, a French nun who spent 28 years caring for orphans and elderly people in Vichy, became the world's oldest living person in April 2022, aged 118.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/lucile-randon/"
+        },
+        "kind": "people",
+        "evidence": "On 19 April 2022, following the passing of 119-year-old Kane Tanaka, she became the World’s Oldest Living Person.",
+        "check": "Born 11 February 1904 (same page). Event 19 April 2022 -> 118 years 2 months. 'After the war, she spent 28 years working with orphans and elderly people at a hospital in Vichy' (same page)."
+      },
+      {
+        "text": "Kane Tanaka, 118, planned to carry the Olympic torch through Fukuoka in May 2021, then withdrew so as not to put others in her care home at risk.",
+        "source": {
+          "label": "BBC News, 2021",
+          "url": "https://www.bbc.com/news/world-asia-57006198"
+        },
+        "kind": "people",
+        "evidence": "Kane Tanaka, 118, was supposed to take part in the relay for Tokyo 2020 in Fukuoka, southern Japan, on 11 May.",
+        "check": "Born 2 January 1903 (The Independent, https://www.independent.co.uk/asia/japan/kane-tanaka-oldest-person-death-age-b2064718.html). Relay leg 11 May 2021 -> 118 years 4 months. Same BBC page: withdrawn 'saying she's worried about spreading Covid-19 to others in her nursing home'."
+      }
+    ]
+  },
+  {
+    "age": 119,
+    "candidates": [
+      {
+        "text": "Japan's Kane Tanaka, who enjoyed board games, maths problems and chocolate, reached 119 on 2 January 2022.",
+        "source": {
+          "label": "The Independent, 2022",
+          "url": "https://www.independent.co.uk/asia/japan/kane-tanaka-oldest-person-death-age-b2064718.html"
+        },
+        "kind": "people",
+        "evidence": "She was living at a nursing home and was in relatively good health until recently, enjoying playing board games, solving maths problems, drinking soda and eating chocolate.",
+        "check": "Born 2 January 1903 (same page: 'Born on 2 January 1903'), so her 119th birthday was 2 January 2022; the same article reports her age as 119 in April 2022."
+      },
+      {
+        "text": "Sarah Knauss of Pennsylvania, born in 1880, reached 119 in September 1999, only the second person verified to reach that age.",
+        "source": {
+          "label": "LongeviQuest",
+          "url": "https://longeviquest.com/supercentenarian/sarah-knauss/"
+        },
+        "kind": "people",
+        "evidence": "Knauss was the seventh validated person to reach the age of 115, the fourth to reach 116, the third to reach 117, and the second to reach 118 and 119.",
+        "check": "Born 24 September 1880 (same page, '1880-09-24'); 119th birthday 24 September 1999."
+      }
+    ]
+  },
+  {
+    "age": 120,
+    "candidates": [
+      {
+        "text": "The Book of Genesis sets the days allowed to humankind at 'one hundred and twenty years'.",
+        "source": {
+          "label": "Sefaria, Genesis 6:3 (JPS Tanakh translation)",
+          "url": "https://www.sefaria.org/api/texts/Genesis.6.3"
+        },
+        "kind": "world",
+        "evidence": "let the days allowed them be one hundred and twenty years.",
+        "check": "Scriptural text (Genesis 6:3) naming 120 years; refers to the number 120 itself. Fetched from Sefaria's text API (version: THE JPS TANAKH: Gender-Sensitive Edition)."
+      },
+      {
+        "text": "A week before turning 121, Jeanne Calment said of her late-life fame: 'I enjoy it all a lot. A bit more than a lot, perhaps.'",
+        "source": {
+          "label": "Deseret News / London Observer Service, 1996",
+          "url": "https://www.deseret.com/1996/2/21/19226335/121-year-old-french-woman-revels-in-newfound-celebrity/"
+        },
+        "kind": "people",
+        "evidence": "\"I enjoy everything about it,\" she says. \"I enjoy it all a lot. A bit more than a lot, perhaps.\"",
+        "check": "Born 21 February 1875 (same page: 'Born Feb. 21, 1875'; also Guinness). Interview 'A week before her 121st birthday' (article dated 21 Feb 1996) -> 120 years 11 months."
+      }
+    ]
+  },
+  {
+    "age": 121,
+    "candidates": [
+      {
+        "text": "For her 121st birthday in February 1996, Jeanne Calment released a CD, 'Time's Mistress', reminiscing over rap and other music.",
+        "source": {
+          "label": "Deseret News / Associated Press, 1997",
+          "url": "https://www.deseret.com/1997/8/4/19327275/world-s-oldest-person-jeanne-calment-dies/"
+        },
+        "kind": "people",
+        "evidence": "That was clear to those who attended her 121st birthday in February 1996, when she released her CD, \"Time's Mistress,\" which featured her reminiscing to a score of rap and other tunes.",
+        "check": "Born 21 February 1875 (Guinness, https://www.guinnessworldrecords.com/world-records/oldest-person). 121st birthday 21 February 1996. Sound theme."
+      },
+      {
+        "text": "Jeanne Calment's calm nature was part of her legend: 'That's why they call me Calment,' she joked at her 121st birthday in 1996.",
+        "source": {
+          "label": "Guinness World Records",
+          "url": "https://www.guinnessworldrecords.com/world-records/oldest-person"
+        },
+        "kind": "people",
+        "evidence": "Her tranquil state of mind probably contributed to Jeanne’s long, long life (“That’s why they call me Calment,” she quipped at her 121st birthday in 1996)",
+        "check": "Born 21 February 1875 (same page). 121st birthday 21 February 1996."
+      }
+    ]
+  },
+  {
+    "age": 122,
+    "candidates": [
+      {
+        "text": "Jeanne Calment of Arles, France, born in 1875, lived to 122 years and 164 days, the greatest fully verified age of any human.",
+        "source": {
+          "label": "Guinness World Records",
+          "url": "https://www.guinnessworldrecords.com/world-records/oldest-person"
+        },
+        "kind": "people",
+        "evidence": "The greatest fully authenticated age to which any human has ever lived is 122 years 164 days by Jeanne Louise Calment (France).",
+        "check": "Born 21 February 1875, final age reached 4 August 1997 (same page) -> 122 years 164 days."
+      },
+      {
+        "text": "Demographers estimate a greater than 99% chance that the record age of 122 will be broken by 2100.",
+        "source": {
+          "label": "Pearce & Raftery, Demographic Research, 2021",
+          "url": "https://www.demographic-research.org/articles/volume/44/52"
+        },
+        "kind": "numbers",
+        "evidence": "Based on the Bayesian analysis, there is a greater than 99% probability that the current MRAD of 122 will be broken by 2100.",
+        "check": "Projection about the maximum reported age (122, Calment). Framed as a record, not as odds of dying."
+      }
+    ]
+  }
+]

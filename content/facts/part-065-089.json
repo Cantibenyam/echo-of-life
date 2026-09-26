@@ -1,0 +1,627 @@
+[
+  {
+    "age": 65,
+    "candidates": [
+      {
+        "text": "In 2018, for the first time in history, people aged 65 or over outnumbered children under five worldwide.",
+        "source": {
+          "label": "UN DESA, World Population Prospects 2019",
+          "url": "https://www.un.org/development/desa/en/news/population/world-population-prospects-2019.html"
+        },
+        "kind": "numbers",
+        "evidence": "In 2018, for the first time in history, persons aged 65 or above outnumbered children under five years of age globally.",
+        "check": "UN DESA press release on World Population Prospects 2019. Global figure, year 2018: population aged 65+ vs children under 5. Placed at 65 because it concerns the 65+ threshold."
+      },
+      {
+        "text": "Physicist Anne L'Huillier was named a 2023 Nobel laureate for creating attosecond pulses of light, flashes brief enough to capture electrons in motion.",
+        "source": {
+          "label": "NobelPrize.org, Anne L'Huillier facts, 2023",
+          "url": "https://www.nobelprize.org/prizes/physics/2023/lhuillier/facts/"
+        },
+        "kind": "people",
+        "evidence": "Prize motivation: “for experimental methods that generate attosecond pulses of light for the study of electron dynamics in matter” [...] Attosecond pulses allow us to capture them inside atoms, molecules and solids.",
+        "check": "Birth: 'Born: 16 August 1958, Paris, France' (same facts page). Event: prize announced 3 October 2023 (NobelPrize.org physics 2023 press release, dated '3 October 2023'). 16 Aug 1958 -> 3 Oct 2023 = 65 years 1 month. Award ceremony 10 Dec 2023 is also at age 65."
+      }
+    ]
+  },
+  {
+    "age": 66,
+    "candidates": [
+      {
+        "text": "In the 2020 US census, about 1 in 6 people were 65 or older. A century earlier, in 1920, fewer than 1 in 20 were.",
+        "source": {
+          "label": "US Census Bureau, America Counts, 2023",
+          "url": "https://www.census.gov/library/stories/2023/05/2020-census-united-states-older-population-grew.html"
+        },
+        "kind": "numbers",
+        "evidence": "In 2020, about 1 in 6 people in the United States were age 65 and over. In 1920, this proportion was less than 1 in 20.",
+        "check": "US Census Bureau story on the 2020 Census (published 25 May 2023). Place: United States; years 2020 vs 1920; share of population aged 65+. Placed at 66 as a general 65+ statistic."
+      },
+      {
+        "text": "Muhammad Yunus shared the 2006 Nobel Peace Prize with Grameen Bank, which he founded to lend poor people small sums on easy terms.",
+        "source": {
+          "label": "NobelPrize.org, Muhammad Yunus facts, 2006",
+          "url": "https://www.nobelprize.org/prizes/peace/2006/yunus/facts/"
+        },
+        "kind": "people",
+        "evidence": "Grameen Bank's objective since its establishment in 1983 has been to grant poor people small loans on easy terms - so-called micro-credit - and Yunus was the bank's founder.",
+        "check": "Birth: 'Born: 28 June 1940, Chittagong, British India (now Bangladesh)' (same facts page). Event: Peace Prize announced 13 October 2006 (NobelPrize.org peace 2006 press release, dated '13 October 2006'). 28 Jun 1940 -> 13 Oct 2006 = 66 years 3 months. Ceremony 10 Dec 2006 also at 66."
+      }
+    ]
+  },
+  {
+    "age": 67,
+    "candidates": [
+      {
+        "text": "In an 18-month German trial, dancers averaging 67 years old gained volume in the brain's memory hub and, unlike a fitness group, clearly improved their balance.",
+        "source": {
+          "label": "Rehfeld et al., Frontiers in Human Neuroscience, 2017",
+          "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2017.00305/full"
+        },
+        "kind": "body",
+        "evidence": "Fourteen members of the dance (67.21 ± 3.78 years, seven females), and 12 members of the fitness group (68.67 ± 2.57 years, five females) completed the whole study. Both groups revealed hippocampal volume increases mainly in the left HC (CA1, CA2, subiculum). The dancers showed additional increases in the left dentate gyrus and the right subiculum. Moreover, only the dancers achieved a significant increase in the balance composite score.",
+        "check": "Peer-reviewed RCT (Magdeburg, Germany), 18-month intervention. Dance group mean age 67.21 years -> placed at 67. 'Memory hub' = hippocampus, which the paper describes as crucial for memory consolidation."
+      },
+      {
+        "text": "Svetlana Alexievich won the 2015 Nobel Prize in Literature for her 'polyphonic writings', books that turn interviews into a collage of many voices.",
+        "source": {
+          "label": "NobelPrize.org, Svetlana Alexievich facts, 2015",
+          "url": "https://www.nobelprize.org/prizes/literature/2015/alexievich/facts/"
+        },
+        "kind": "people",
+        "evidence": "Prize motivation: “for her polyphonic writings, a monument to suffering and courage in our time” [...] In her books she uses interviews to create a collage of a wide range of voices.",
+        "check": "Birth: 'Born: 31 May 1948, Ivano-Frankivsk, Ukraine' (same facts page). Event: prize announced 8 October 2015 (NobelPrize.org literature 2015 press release, dated '8 October 2015'). 31 May 1948 -> 8 Oct 2015 = 67 years 4 months. Ceremony 10 Dec 2015 also at 67."
+      }
+    ]
+  },
+  {
+    "age": 68,
+    "candidates": [
+      {
+        "text": "Vocabulary is a late bloomer: in a large online study of mental skills, it peaked when participants were in their late 60s or early 70s.",
+        "source": {
+          "label": "Association for Psychological Science, 2015",
+          "url": "https://www.psychologicalscience.org/news/releases/cognitive-skills-peak-at-different-ages-across-adulthood.html"
+        },
+        "kind": "mind",
+        "evidence": "The researchers also included a vocabulary test, which serves as a measure of what is known as crystallized intelligence — the accumulation of facts and knowledge. While the results confirmed that crystallized intelligence peaks later in life, the new data indicated that the peak occurred when participants were in their late 60s or early 70s, even later than previously thought.",
+        "check": "APS press release on Hartshorne & Germine (2015), Psychological Science; large online samples. Peak in 'late 60s or early 70s' -> placed at 68."
+      },
+      {
+        "text": "In a Japanese government survey of older people, more than 40% wanted to keep working until about 75 or later, or for as long as they can.",
+        "source": {
+          "label": "Cabinet Office of Japan, Annual Report on the Ageing Society FY2025",
+          "url": "https://www8.cao.go.jp/kourei/english/annualreport/2025/pdf/2025.pdf"
+        },
+        "kind": "world",
+        "evidence": "Subjects: Men and women aged 60 and over (as of October 1, 2024) [...] The total of those who answered \"Until about 75 years of age,\" \"Until about 80 years of age,\" or \"For as long as I can work\" exceeded 40%.",
+        "check": "Cabinet Office FY2024 General Survey for Measures for Ageing Society: nationwide, men and women aged 60 and over, Oct-Nov 2024, 2,188 valid responses; Chart 7 'Until How Old Do You Want to Work with Income?'. 'About 75 or later' summarises the answers 'about 75', 'about 80' and 'as long as I can work'. Place: Japan. Placed at 68 as a 60+ survey result."
+      }
+    ]
+  },
+  {
+    "age": 69,
+    "candidates": [
+      {
+        "text": "In a German-Swiss trial of older adults, after six months of piano lessons or music-listening classes, participants picked out speech in noise better.",
+        "source": {
+          "label": "Worschech et al., Frontiers in Neuroscience, 2021",
+          "url": "https://www.frontiersin.org/articles/10.3389/fnins.2021.696240/full"
+        },
+        "kind": "body",
+        "evidence": "156 healthy, normal-hearing elderly were randomly assigned to either piano playing or music listening/musical culture groups. The speech reception threshold was assessed using the International Matrix Test before and after a 6 month intervention. Bayesian multilevel modeling revealed an improvement of both groups over time under binaural conditions. [...] between 62–78 years of age (mean = 69.7, SD = 3.5) participated.",
+        "check": "Peer-reviewed randomised trial (156 participants, Hanover and Geneva); both the piano and the music-listening groups improved, with extra left-ear gains in the piano group. Participants aged 62-78, mean 69.7 -> placed at 69."
+      },
+      {
+        "text": "By the late 2070s, the world's population aged 65 and older is projected to reach 2.2 billion, outnumbering children under 18.",
+        "source": {
+          "label": "United Nations, Global Issues: Ageing (World Population Prospects 2024)",
+          "url": "https://www.un.org/en/global-issues/ageing"
+        },
+        "kind": "numbers",
+        "evidence": "By the late 2070s, the global population aged 65 and older is projected to reach 2.2 billion, surpassing the number of children under age 18.",
+        "check": "UN page summarising World Population Prospects 2024. Global projection, late 2070s, population aged 65+ vs under 18. General 65+ statistic placed at 69."
+      }
+    ]
+  },
+  {
+    "age": 70,
+    "candidates": [
+      {
+        "text": "In a Toronto study, the average 70-year-old lifelong musician understood speech in a noisy place as well as an average 50-year-old non-musician.",
+        "source": {
+          "label": "Baycrest Centre via ScienceDaily, 2011 (Zendel & Alain, Psychology and Aging)",
+          "url": "https://www.sciencedaily.com/releases/2011/09/110913091557.htm"
+        },
+        "kind": "body",
+        "evidence": "By age 70, the average musician was able to understand speech in a noisy environment as well as an average 50 year old non-musician, suggesting that lifelong musicianship can delay this age-related decline by 20 years. [...] The study was led by Baycrest's Rotman Research Institute in Toronto",
+        "check": "Press release for the peer-reviewed study (74 musicians aged 19-91, 89 non-musicians aged 18-86). The statement is explicitly about age 70."
+      },
+      {
+        "text": "In 2025 Denmark voted to raise its state pension age to 70 by 2040, the highest in Europe, for people born after 1970.",
+        "source": {
+          "label": "CNN Business, 23 May 2025",
+          "url": "https://www.cnn.com/2025/05/23/business/denmark-retirement-age-rise-70-intl-scli"
+        },
+        "kind": "world",
+        "evidence": "Denmark is set to have the highest retirement age in Europe, after lawmakers voted to raise it to 70. Parliamentarians passed a bill mandating the rise on Thursday, with 81 votes in favor and 21 against. The new law will apply to people born after December 31, 1970. [...] the state pension age increasing to 70 by 2040",
+        "check": "Place: Denmark. Law passed in May 2025 (article published 23 May 2025); pension age 70 from 2040 for people born after 31 December 1970."
+      }
+    ]
+  },
+  {
+    "age": 71,
+    "candidates": [
+      {
+        "text": "In a US trial with 390 adults averaging 71 years old, six months of singing in a community choir eased loneliness and raised interest in life.",
+        "source": {
+          "label": "Johnson et al., Journals of Gerontology: Series B, 2020 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30412233/"
+        },
+        "kind": "mind",
+        "evidence": "The sample (N = 390) had a mean age of 71.3 years (SD = 7.2); 65% were nonwhite. Six-month retention was 92%. Compared to controls, intervention group members experienced significantly greater improvements in loneliness (p = .02; standardized effect size [ES = 0.34] and interest in life (p = .008, ES = 0.39).",
+        "check": "Cluster-randomised Community of Voices trial in 12 US Administration-on-Aging senior centers; mean age 71.3 -> placed at 71."
+      },
+      {
+        "text": "In the 2020 US census, people aged 65 to 74 numbered 33.1 million, about 1 in 10 Americans.",
+        "source": {
+          "label": "US Census Bureau, America Counts, 2023",
+          "url": "https://www.census.gov/library/stories/2023/05/2020-census-united-states-older-population-grew.html"
+        },
+        "kind": "numbers",
+        "evidence": "In 2020, the 65-74 age group: Was the largest of the older age groups with 33.1 million people, representing over half of the 65-and-over population. Represented 1 in 10 Americans in 2020.",
+        "check": "2020 Census, United States, age group 65-74 (placed at 71, inside that band)."
+      }
+    ]
+  },
+  {
+    "age": 72,
+    "candidates": [
+      {
+        "text": "In a UK survey of over 300,000 adults, people aged 65 to 74 reported the highest average happiness of any age group.",
+        "source": {
+          "label": "Office for National Statistics (UK), 2016",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/measuringnationalwellbeing/atwhatageispersonalwellbeingthehighest"
+        },
+        "kind": "world",
+        "evidence": "This report analyses personal well-being data for over 300,000 adults in the UK, collected over 3 years between 2012 and 2015. [...] people aged between 65 to 74 had the highest average reported happiness – the lowest rating was amongst those aged between 45 to 59",
+        "check": "ONS Annual Population Survey, UK, 2012-2015, 'happiness yesterday' by age group; highest for 65-74 -> placed at 72."
+      },
+      {
+        "text": "Asked to predict how conflicts would unfold, older adults drew more on multiple perspectives, compromise and the limits of knowledge than younger adults.",
+        "source": {
+          "label": "Grossmann et al., PNAS, 2010 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20368436/"
+        },
+        "kind": "mind",
+        "evidence": "We show that relative to young and middle-aged people, older people make more use of higher-order reasoning schemes that emphasize the need for multiple perspectives, allow for compromise, and recognize the limits of knowledge.",
+        "check": "Peer-reviewed study with a representative US community sample; general finding about older adults, placed at 72."
+      }
+    ]
+  },
+  {
+    "age": 73,
+    "candidates": [
+      {
+        "text": "Cuban singer Ibrahim Ferrer won Best New Artist at the very first Latin Grammy Awards, held in September 2000.",
+        "source": {
+          "label": "Billboard, 25 Years of Latin Grammys timeline, 2024",
+          "url": "https://www.billboard.com/lists/latin-grammys-25-anniversary-timeline/"
+        },
+        "kind": "people",
+        "evidence": "The first annual awards, which took place on Sept. 13, 2000 at the Staples Center in Los Angeles [...] Best New Artist: Ibrahim Ferrer",
+        "check": "Birth: 'born at a social club dance in Santiago, Cuba, on 20 February 1927' (Al Jazeera, 7 Aug 2005, https://www.aljazeera.com/news/2005/8/7/cuban-singer-ibrahim-ferrer-dies). Event: 1st Latin Grammy Awards on 13 Sept 2000 (Billboard). 20 Feb 1927 -> 13 Sep 2000 = 73 years 6 months. Win also listed on latingrammy.com (1st Annual Latin Grammy Awards, Best New Artist - Winner)."
+      },
+      {
+        "text": "By 2050, one in four people living in Europe and Northern America could be aged 65 or over.",
+        "source": {
+          "label": "UN DESA, World Population Prospects 2019",
+          "url": "https://www.un.org/development/desa/en/news/population/world-population-prospects-2019.html"
+        },
+        "kind": "numbers",
+        "evidence": "By 2050, one in four persons living in Europe and Northern America could be aged 65 or over.",
+        "check": "UN DESA WPP 2019 projection for the region Europe and Northern America, year 2050, population aged 65+. General 65+ statistic placed at 73."
+      }
+    ]
+  },
+  {
+    "age": 74,
+    "candidates": [
+      {
+        "text": "In the UK, employment rates for people aged 65 and over doubled between 1993 and 2018.",
+        "source": {
+          "label": "Office for National Statistics (UK), Living longer, 2018",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/articles/livinglongerhowourpopulationischangingandwhyitmatters/2018-08-13"
+        },
+        "kind": "world",
+        "evidence": "Employment rates doubled for those aged 65 years and over between 1993 and 2018, and increased by almost one-third for those aged 50 to 64 years.",
+        "check": "ONS Labour Force Survey analysis, UK, 1993-2018, employment rate of people aged 65+. General 65+ statistic placed at 74."
+      },
+      {
+        "text": "Adults in their 70s who had exercised for five decades had muscle capillaries and aerobic enzymes matching those of 25-year-old exercisers.",
+        "source": {
+          "label": "Gries et al., Journal of Applied Physiology, 2018 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30161005/"
+        },
+        "kind": "body",
+        "evidence": "trained women ( n = 7, 72 ± 2 yr) and men ( n = 21, 74 ± 1 yr) [...] young exercisers (YE; women: n = 10, 25 ± 1 yr; men: n = 10, 25 ± 1 yr) [...] On average, LLE exercised 5 day/wk for 7 h/wk over the past 52 ± 1 yr. [...] LLE men regardless of intensity and women had similar capillarization and aerobic enzyme activity (citrate synthase and β-HAD) as YE",
+        "check": "Peer-reviewed study (Ball State University). Lifelong-exercise men averaged 74 +/- 1 years (women 72 +/- 2) -> placed at 74."
+      }
+    ]
+  },
+  {
+    "age": 75,
+    "candidates": [
+      {
+        "text": "In Japan, people aged 75 and over, 20.78 million strong, now outnumber those aged 65 to 74.",
+        "source": {
+          "label": "Cabinet Office of Japan, Annual Report on the Ageing Society FY2025",
+          "url": "https://www8.cao.go.jp/kourei/english/annualreport/2025/pdf/2025.pdf"
+        },
+        "kind": "numbers",
+        "evidence": "The population aged 75 and over is 20.78 million, accounting for 16.8% of the total population, and has overtaken the population aged 65-74 in size.",
+        "check": "Cabinet Office FY2025 summary, Section on trends in the ageing population (population estimates as of 1 October 2024). Place: Japan; group 75+ -> placed at 75."
+      },
+      {
+        "text": "Nelson Mandela voted for the first time in his life on 27 April 1994, and on 10 May became South Africa's first democratically elected president.",
+        "source": {
+          "label": "Nelson Mandela Foundation, Biography",
+          "url": "https://www.nelsonmandela.org/content/page/biography"
+        },
+        "kind": "people",
+        "evidence": "on 27 April 1994 he voted for the first time in his life [...] On 10 May 1994 he was inaugurated as South Africa’s first democratically elected President.",
+        "check": "Birth: 'born into the Madiba clan in the village of Mvezo, in the Eastern Cape, on 18 July 1918' (same page). Event: 27 April 1994 (same page). 18 Jul 1918 -> 27 Apr 1994 = 75 years 9 months; 10 May 1994 also at 75."
+      }
+    ]
+  },
+  {
+    "age": 76,
+    "candidates": [
+      {
+        "text": "In the US, people aged 75 and over spend an average of 46 minutes a day reading for pleasure. Those aged 15 to 19 read for 9.",
+        "source": {
+          "label": "US Bureau of Labor Statistics, American Time Use Survey 2024 (via FRASER)",
+          "url": "https://fraser.stlouisfed.org/files/docs/releases/atus/atus_20250626.pdf"
+        },
+        "kind": "world",
+        "evidence": "Time spent reading for personal interest and playing games or using a computer for leisure varied greatly by age. On an average day, individuals age 75 and over spent 46 minutes reading while those ages 15 to 19 read for 9 minutes.",
+        "check": "BLS news release 'American Time Use Survey - 2024 Results' (26 June 2025), text referencing table 11A. Place: United States; year 2024; age group 75+ -> placed at 76."
+      },
+      {
+        "text": "In the UK, the share of people aged 75 and over who had recently used the internet doubled between 2011 and 2017, from 20% to 41%.",
+        "source": {
+          "label": "Office for National Statistics (UK), Living longer, 2018",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/articles/livinglongerhowourpopulationischangingandwhyitmatters/2018-08-13"
+        },
+        "kind": "numbers",
+        "evidence": "Between 2011 and 2017, the proportion of people aged 75 years and over who had used the internet during the previous three months doubled (from 20% to 41%)",
+        "check": "ONS Annual Population Survey, 'Internet users, 2017', UK, Figure 46; age group 75+ -> placed at 76."
+      }
+    ]
+  },
+  {
+    "age": 77,
+    "candidates": [
+      {
+        "text": "In Japan, the 77th birthday is called kiju, after the character for joy, which in cursive script looks like the numerals seven, ten, seven.",
+        "source": {
+          "label": "The Japan Times, 28 Dec 2025",
+          "url": "https://www.japantimes.co.jp/life/2025/12/28/language/zodiac-ages-japan-birthdays/"
+        },
+        "kind": "world",
+        "evidence": "After 還暦 we have 喜寿 (kiju, the 77th birthday), whose name comes from the character 喜 (yorokobu, joy). In 草書体 (sōshotai, cursive script), the kanji appears as 㐂, resembling a stylized form of 七十七 (nana-jū-nana, 7-10-7).",
+        "check": "The Japan Times explicitly calls kiju 'the 77th birthday' (article headline: 'Why 60, 77, 80, 88 and 99 matter so much'). Place: Japan."
+      },
+      {
+        "text": "John Glenn returned to space aboard Discovery in 1998, 36 years after his first orbit, and took part in research on space flight and ageing.",
+        "source": {
+          "label": "NASA, Biography of John H. Glenn",
+          "url": "https://www.nasa.gov/people/biography-of-john-h-glenn/"
+        },
+        "kind": "people",
+        "evidence": "Born July 18, 1921 in Cambridge, Ohio. [...] Glenn flew on Mercury-6 (February 20, 1962) and STS-95 (October 29 to November 7, 1998) [...] STS-95 Discovery (October 29 to November 7, 1998) was a 9-day mission during which the crew supported a variety of research payloads including deployment of the Spartan solar-observing spacecraft, the Hubble Space Telescope Orbital Systems Test Platform, and investigations on space flight and the aging process.",
+        "check": "Birth 18 July 1921 and launch 29 October 1998 both on the NASA biography. 18 Jul 1921 -> 29 Oct 1998 = 77 years 3 months. First orbit 20 Feb 1962 -> 36 years 8 months earlier. A second NASA page (25 Years Ago: STS-95) states Glenn 'at age 77 became the oldest person to orbit the Earth'."
+      }
+    ]
+  },
+  {
+    "age": 78,
+    "candidates": [
+      {
+        "text": "Brenda Lee's 'Rockin' Around the Christmas Tree', recorded when she was 13, reached No. 1 on the US Hot 100 in December 2023.",
+        "source": {
+          "label": "Billboard, 4 Dec 2023",
+          "url": "https://www.billboard.com/lists/brenda-lee-rockin-around-the-christmas-tree-number-one-hot-100/"
+        },
+        "kind": "people",
+        "evidence": "Evergreen Lee is 78 years young; her new Hot 100 coronation will add to her birthday celebration Dec. 11. She becomes the senior-most artist to top the chart [...] she was 13 when she recorded “Rockin’ Around the Christmas Tree”",
+        "check": "Same Billboard page: 'Evergreen Lee is 78 years young; her new Hot 100 coronation will add to her birthday celebration Dec. 11', so her birthday is 11 December (born 11 Dec 1944). Event: chart dated Dec. 9, 2023, published Dec. 4-5 ('All charts (dated Dec. 9, 2023) will update on Billboard.com tomorrow (Dec. 5)'). Both dates fall before her 79th birthday on 11 Dec 2023 -> age 78 years 11 months."
+      },
+      {
+        "text": "In 2017, Japan's gerontology and geriatrics societies proposed a new definition of 'the elderly': people aged 75 and over.",
+        "source": {
+          "label": "Cabinet Office of Japan, Annual Report on the Ageing Society FY2025",
+          "url": "https://www8.cao.go.jp/kourei/english/annualreport/2025/pdf/2025.pdf"
+        },
+        "kind": "world",
+        "evidence": "For the classification and the definitions of the elderly, the \"Working Group Report on the Definition of the Elderly\" (March 2017) from the Joint Committee of Japan Gerontological Society and the Japan Geriatrics Society proposes to newly define people aged 75 and over as the elderly.",
+        "check": "Place: Japan; report dated March 2017. Threshold 75+; placed at 78."
+      }
+    ]
+  },
+  {
+    "age": 79,
+    "candidates": [
+      {
+        "text": "Studying the brains of 28 healthy donors aged 14 to 79, Columbia researchers found thousands of immature neurons in the oldest as well as the youngest.",
+        "source": {
+          "label": "Columbia University Irving Medical Center, 2018",
+          "url": "https://www.cuimc.columbia.edu/news/even-old-brains-can-make-new-neurons-study-finds"
+        },
+        "kind": "body",
+        "evidence": "used a combination of molecular probes and mathematical modeling to track neurogenesis in brains from 28 healthy donors ranging in age from 14 to 79 years old. [...] \"We found there were on the order of thousands of neuroprogenitor cells and immature neurons both in the youngest and the oldest people analyzed,\" said Boldrini.",
+        "check": "Columbia news release on Boldrini et al., Cell Stem Cell (2018). Oldest donors were 79 -> placed at 79. Note: adult human neurogenesis is still debated among researchers."
+      },
+      {
+        "text": "In the US, adults aged 75 and over spend 7.6 hours a day on leisure and sports, more than any other age group.",
+        "source": {
+          "label": "US Bureau of Labor Statistics, American Time Use Survey 2024 (via FRASER)",
+          "url": "https://fraser.stlouisfed.org/files/docs/releases/atus/atus_20250626.pdf"
+        },
+        "kind": "world",
+        "evidence": "On average, adults age 75 and over spent 7.6 hours engaged in leisure and sports activities per day--more than any other age group.",
+        "check": "BLS 'American Time Use Survey - 2024 Results', text referencing table 11A. Place: United States; year 2024; age group 75+ -> placed at 79."
+      }
+    ]
+  },
+  {
+    "age": 80,
+    "candidates": [
+      {
+        "text": "Japan's '8020' campaign hopes people keep 20 of their own teeth at 80. The share who do has grown fivefold, from about 10% to about 50%.",
+        "source": {
+          "label": "Asia Health and Wellbeing Initiative (JCIE/ERIA), AHWIN Papers No. 2, 2021",
+          "url": "https://ahwin.org/ahwin-papers-no-2-the-impact-and-future-of-japans-8020-campaign/"
+        },
+        "kind": "body",
+        "evidence": "the goal of the campaign is to ensure that people still have 20 of their original adult teeth when they reach the age of 80. Over the course of the campaign, the percentage of people achieving that “8020” goal has grown fivefold, from around 10 percent to around 50 percent.",
+        "check": "Place: Japan; nationwide campaign running over three decades (paper dated April 2021). Target age 80."
+      },
+      {
+        "text": "Yuichiro Miura reached the summit of Everest on 23 May 2013, becoming the oldest man to climb it, a record he had set twice before.",
+        "source": {
+          "label": "Guinness World Records, Oldest person to climb Everest (male)",
+          "url": "https://www.guinnessworldrecords.com/world-records/oldest-person-to-climb-mt-everest-(male)"
+        },
+        "kind": "people",
+        "evidence": "The oldest man to ascend Everest is Yuichiro Miura (Japan, b. 12 October 1932), who reached the summit on 23 May 2013 at the age of 80 years 223 days. [...] This is the third time that he has held this record: he previously reached the highest point on Earth as the world's oldest summiteer in 2003 and again at 2008.",
+        "check": "Birth 12 Oct 1932 and summit 23 May 2013, both on the Guinness page. 12 Oct 1932 -> 23 May 2013 = 80 years 223 days (as Guinness states)."
+      }
+    ]
+  },
+  {
+    "age": 81,
+    "candidates": [
+      {
+        "text": "In the decades-long Seattle Longitudinal Study, fewer than half of 81-year-olds showed reliable mental decline over the preceding seven years.",
+        "source": {
+          "label": "Schaie & Willis, The Seattle Longitudinal Study of Adult Cognitive Development, ISSBD Bulletin, 2010",
+          "url": "https://sls.psychiatry.uw.edu/wp-content/uploads/2020/03/Seattle-Longitudinal-Study2010.pdf"
+        },
+        "kind": "mind",
+        "evidence": "However, more detailed analyses of individual differences in intellectual change demonstrated that even at age 81, fewer than half of all observed individuals have shown reliable decremental change over the preceding 7 years.",
+        "check": "Statement is explicitly about age 81 (Seattle, USA; study running since 1956)."
+      },
+      {
+        "text": "Worldwide, the number of people aged 80 or over is expected to triple between 2020 and 2050, reaching 426 million.",
+        "source": {
+          "label": "World Health Organization, Ageing and health fact sheet, 2025",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health"
+        },
+        "kind": "numbers",
+        "evidence": "The number of persons aged 80 years or older is expected to triple between 2020 and 2050 to reach 426 million.",
+        "check": "WHO fact sheet (1 Oct 2025). Global projection 2020-2050 for the 80+ population. Placed at 81."
+      }
+    ]
+  },
+  {
+    "age": 82,
+    "candidates": [
+      {
+        "text": "Some people over 80, dubbed SuperAgers, have unusually strong memories and a patch of brain cortex thicker than that of healthy 50- to 60-year-olds.",
+        "source": {
+          "label": "Rogalski et al., Journal of Cognitive Neuroscience, 2013 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23198888/"
+        },
+        "kind": "body",
+        "evidence": "The Northwestern University SuperAging Project recruits community dwellers over the age of 80 who have unusually high performance on tests of episodic memory. [...] SuperAgers also displayed a patch of ACC where cortical thickness was higher than in 50- to 60-year-old younger cognitively healthy adults.",
+        "check": "Peer-reviewed report from the Northwestern SuperAging Project (Chicago); participants over 80 -> placed at 82."
+      },
+      {
+        "text": "By 2050, 80% of the world's older people are expected to be living in low- and middle-income countries.",
+        "source": {
+          "label": "World Health Organization, Ageing and health fact sheet, 2025",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health"
+        },
+        "kind": "numbers",
+        "evidence": "In 2050, 80% of older people will be living in low- and middle-income countries.",
+        "check": "WHO fact sheet 'Ageing and health' (1 Oct 2025), key facts. Global projection for 2050. General later-life statistic placed at 82."
+      }
+    ]
+  },
+  {
+    "age": 83,
+    "candidates": [
+      {
+        "text": "Sumiko Iwamuro, who went to DJ school at 77, was recognised in 2018 as the world's oldest professional club DJ, playing monthly in Tokyo.",
+        "source": {
+          "label": "Guinness World Records, Oldest club DJ (female)",
+          "url": "https://www.guinnessworldrecords.com/world-records/476833-oldest-professional-club-dj"
+        },
+        "kind": "people",
+        "evidence": "The oldest professional club DJ is Sumiko Iwamuro aka DJ Sumirock (Japan, b. 27 January 1935) aged 83 years and 118 days, who plays monthly at a club in Shinjuku, Tokyo, Japan, as of 25 May 2018. Sumiko Iwamuro aka DJ Sumirock went to a DJ school at the age of 77.",
+        "check": "Birth 27 Jan 1935 and record date 25 May 2018, both on the Guinness page. 27 Jan 1935 -> 25 May 2018 = 83 years 118 days."
+      },
+      {
+        "text": "By the mid-2030s, the world is projected to have 265 million people aged 80 and older, more than the number of infants.",
+        "source": {
+          "label": "United Nations, Global Issues: Ageing (World Population Prospects 2024)",
+          "url": "https://www.un.org/en/global-issues/ageing"
+        },
+        "kind": "numbers",
+        "evidence": "By the mid-2030s, there will be 265 million individuals aged 80 and older, outnumbering infants.",
+        "check": "UN summary of World Population Prospects 2024; global projection for the mid-2030s, population 80+ vs infants (under 1). Placed at 83."
+      }
+    ]
+  },
+  {
+    "age": 84,
+    "candidates": [
+      {
+        "text": "Tu Youyou received a 2015 Nobel Prize for artemisinin, a malaria remedy she drew from sweet wormwood in the 1970s after studying traditional herbal medicines.",
+        "source": {
+          "label": "NobelPrize.org, Tu Youyou facts, 2015",
+          "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/facts/"
+        },
+        "kind": "people",
+        "evidence": "In the 1970s, after studies of traditional herbal medicines, Tu Youyou focused on sweet wormwood and managed to extract a substance, artemisinin, which inhibits the malaria parasite.",
+        "check": "Birth: 'Born: 30 December 1930, Zhejiang Ningbo, China' (same facts page). Event: prize announced 5 October 2015 (NobelPrize.org medicine 2015 press release, dated '2015-10-05'). 30 Dec 1930 -> 5 Oct 2015 = 84 years 9 months; ceremony 10 Dec 2015 also at 84."
+      },
+      {
+        "text": "In Japan, some government offices and banks use 'cartilage conduction' earphones, which carry sound by vibrating the ear's cartilage, so staff need not speak loudly.",
+        "source": {
+          "label": "Cabinet Office of Japan, Annual Report on the Ageing Society FY2025",
+          "url": "https://www8.cao.go.jp/kourei/english/annualreport/2025/pdf/2025.pdf"
+        },
+        "kind": "world",
+        "evidence": "Cartilage conduction earphones were developed based on the \"cartilage conduction\" mechanism discovered by Dr. Yuji Hosoi of Nara Medical University, which transmits sound by vibrating the ear cartilage. [...] By using these earphones at service counters where personal information is handled, such as in local government offices and financial institutions, staff no longer need to speak loudly when assisting the elderly or others with hearing loss.",
+        "check": "Case Study 4 in the Cabinet Office FY2025 report. Place: Japan. General later-life fact placed at 84."
+      }
+    ]
+  },
+  {
+    "age": 85,
+    "candidates": [
+      {
+        "text": "In the UK, the number of people aged 85 and over is projected to double between 2016 and 2041.",
+        "source": {
+          "label": "Office for National Statistics (UK), Living longer, 2018",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/articles/livinglongerhowourpopulationischangingandwhyitmatters/2018-08-13"
+        },
+        "kind": "numbers",
+        "evidence": "The fastest increase will be seen in the 85 years and over age group. In mid-2016, there were 1.6 million people aged 85 years and over (2% of the total population); by mid-2041 this is projected to double to 3.2 million (4% of the population)",
+        "check": "ONS 2016-based national population projections, UK: 1.6 million aged 85+ in mid-2016, projected 3.2 million by mid-2041. Age group 85+ -> placed at 85."
+      },
+      {
+        "text": "Isamu Akasaki shared the 2014 Nobel Prize in Physics for efficient blue LEDs, the hard-won colour needed to make bright, energy-saving white light.",
+        "source": {
+          "label": "NobelPrize.org, Isamu Akasaki facts, 2014",
+          "url": "https://www.nobelprize.org/prizes/physics/2014/akasaki/facts/"
+        },
+        "kind": "people",
+        "evidence": "Prize motivation: “for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources” [...] Creating white light that can be used for lighting requires a combination of red, green, and blue light. Blue LEDs proved to be much more difficult to create than red and green diodes.",
+        "check": "Birth: 'Born: 30 January 1929, Chiran, Japan' (same facts page). Event: prize announced 7 October 2014 (NobelPrize.org physics 2014 press release, dated '7 October 2014'). 30 Jan 1929 -> 7 Oct 2014 = 85 years 8 months; ceremony 10 Dec 2014 also at 85."
+      }
+    ]
+  },
+  {
+    "age": 86,
+    "candidates": [
+      {
+        "text": "In healthy people into their 80s, Madrid researchers found thousands of immature neurons in the hippocampus.",
+        "source": {
+          "label": "Moreno-Jiménez et al., Nature Medicine, 2019",
+          "url": "https://www.nature.com/articles/s41591-019-0375-9"
+        },
+        "kind": "body",
+        "evidence": "we identified thousands of immature neurons in the DG of neurologically healthy human subjects up to the ninth decade of life. [...] These results demonstrate the persistence of AHN during both physiological and pathological aging in humans",
+        "check": "Peer-reviewed study (CSIC-UAM, Madrid); 'ninth decade of life' = ages 80-89, control subjects up to 87 -> placed at 86. Note: adult human neurogenesis is still debated among researchers."
+      },
+      {
+        "text": "In the UK, 8% of people aged 85 and over provide informal care to others.",
+        "source": {
+          "label": "Office for National Statistics (UK), Living longer, 2018",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/articles/livinglongerhowourpopulationischangingandwhyitmatters/2018-08-13"
+        },
+        "kind": "world",
+        "evidence": "12% of those aged 65 to 74 years, 9% of those aged 75 to 84 years and 8% of those aged 85 years and over provide care to others.",
+        "check": "ONS analysis of the Family Resources Survey (DWP), UK, 2016 to 2017 (Figure 41); age group 85+ -> placed at 86."
+      }
+    ]
+  },
+  {
+    "age": 87,
+    "candidates": [
+      {
+        "text": "Scottish volunteers born in 1921 retook, at 87, a mental ability test they had first sat at 11, and their childhood scores still predicted their results.",
+        "source": {
+          "label": "Gow et al., Psychology and Aging, 2011 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20973608/"
+        },
+        "kind": "mind",
+        "evidence": "The Lothian Birth Cohort 1921 (LBC1921) completed the MHT at ages 79 and 87. [...] Raw stability coefficients for the MHT from 11-70, 11-79, and 11-87 years were .67, .66, and .51, respectively",
+        "check": "Lothian Birth Cohort 1921 (Edinburgh, Scotland): Moray House Test at age 11 and again at 87. Explicitly about age 87."
+      },
+      {
+        "text": "Doris Lessing was named the 2007 Nobel laureate in literature, 'that epicist of the female experience', 11 days before her 88th birthday.",
+        "source": {
+          "label": "NobelPrize.org, Nobel Prize in Literature 2007 press release",
+          "url": "https://www.nobelprize.org/prizes/literature/2007/press-release/"
+        },
+        "kind": "people",
+        "evidence": "The Nobel Prize in Literature for 2007 is awarded to the English writer Doris Lessing “that epicist of the female experience, who with scepticism, fire and visionary power has subjected a divided civilisation to scrutiny”",
+        "check": "Birth: 'Born: 22 October 1919, Kermanshah, Persia (now Iran)' (NobelPrize.org Lessing facts page). Event: announcement 11 October 2007 (same press release, headed 'Press release 11 October 2007'). 22 Oct 1919 -> 11 Oct 2007 = 87 years 354 days. The 10 Dec ceremony would fall at 88, so the text refers to the announcement."
+      }
+    ]
+  },
+  {
+    "age": 88,
+    "candidates": [
+      {
+        "text": "In Japan, turning 88 is celebrated as beiju, one of a handful of milestone birthdays alongside 60, 77, 80 and 99.",
+        "source": {
+          "label": "The Japan Times, 28 Dec 2025",
+          "url": "https://www.japantimes.co.jp/life/2025/12/28/language/zodiac-ages-japan-birthdays/"
+        },
+        "kind": "world",
+        "evidence": "Japan’s milestone birthdays: Why 60, 77, 80, 88 and 99 matter so much [...] This year, my father turned 88), so my family and I celebrated his 米寿 (beiju, 88th birthday).",
+        "check": "The Japan Times ties beiju to turning 88 in ordinary age. Place: Japan."
+      },
+      {
+        "text": "In a study of adults aged 20 to 93, people who sang often kept the steadiness of their pitch and loudness with age, unlike non-singers.",
+        "source": {
+          "label": "Lortie et al., Journal of Voice, 2017 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27049451/"
+        },
+        "kind": "body",
+        "evidence": "a group of 72 healthy nonsmoking adults (20-93 years old) was recruited and separated into three groups based on their singing habits. [...] Specifically, in frequent singers, there was no decrease in the stability of pitch and amplitude with age, suggesting that the voice of frequent singers remains more stable in aging than the voice of non-singers",
+        "check": "Peer-reviewed study (Université Laval, Québec). General finding about ageing voices across 20-93, placed at 88."
+      }
+    ]
+  },
+  {
+    "age": 89,
+    "candidates": [
+      {
+        "text": "Folk singer Pete Seeger performed at the concert celebrating Barack Obama's inauguration in January 2009, months before his 90th birthday.",
+        "source": {
+          "label": "Newsweek (Reuters), 28 Jan 2014",
+          "url": "https://www.newsweek.com/american-folk-singer-and-activist-pete-seeger-dies-94-227216"
+        },
+        "kind": "people",
+        "evidence": "In January 2009, Seeger performed at a concert marking Barack Obama's presidential inauguration. He then celebrated his 90th birthday in May of that year [...] Seeger, born on May 3, 1919 in Patterson, New York",
+        "check": "Birth 3 May 1919 and event January 2009, both in the Newsweek article (birth also on PBS American Masters timeline). 3 May 1919 -> Jan 2009 = 89 years 8 months."
+      },
+      {
+        "text": "Each 1 October is the International Day of Older Persons, designated by the UN General Assembly in December 1990.",
+        "source": {
+          "label": "United Nations, International Day of Older Persons",
+          "url": "https://www.un.org/en/observances/older-persons-day"
+        },
+        "kind": "world",
+        "evidence": "On 14 December 1990, the United Nations General Assembly designated October 1 as the International Day of Older Persons",
+        "check": "Resolution 45/106 of 14 December 1990. Global observance; general later-life fact placed at 89."
+      }
+    ]
+  }
+]

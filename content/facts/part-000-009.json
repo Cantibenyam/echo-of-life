@@ -1,0 +1,252 @@
+[
+  {
+    "age": 0,
+    "candidates": [
+      {
+        "text": "A newborn can already pick out its mother's voice from another woman's, and will change the way it sucks to hear hers more often.",
+        "source": {
+          "label": "DeCasper & Fifer, Science, 1980",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7375928/"
+        },
+        "kind": "mind",
+        "evidence": "By sucking on a nonnutritive nipple in different ways, a newborn human could produce either its mother's voice or the voice of another female. Infants learned how to produce the mother's voice and produced it more often than the other voice.",
+        "check": "Subjects were newborns (neonates), so the finding sits at the very start of age 0 (months 0-11). Abstract text confirmed via NCBI E-utilities (the PubMed page itself sits behind a browser check)."
+      },
+      {
+        "text": "A baby is born with about 300 bones. Over the years many of them fuse together, leaving the 206 bones of the adult skeleton.",
+        "source": {
+          "label": "NIAMS (US National Institutes of Health), Learning About Bones",
+          "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-bones"
+        },
+        "kind": "body",
+        "evidence": "A baby is born with about 300 bones. Many of them eventually fuse (grow together) to form the 206 bones that adults have.",
+        "check": "Bone count at birth, the moment age 0 is shown. General anatomical fact, not tied to a place or year."
+      }
+    ]
+  },
+  {
+    "age": 1,
+    "candidates": [
+      {
+        "text": "Toddlers as young as 18 months will fetch a clothes peg a stranger has dropped, without being asked, thanked or rewarded.",
+        "source": {
+          "label": "Max Planck Society press release, 2006 (Warneken & Tomasello, Science)",
+          "url": "https://www.mpg.de/532681/pressRelease20060302"
+        },
+        "kind": "mind",
+        "evidence": "Felix Warneken and Mike Tomasello found that children as young as 18 months willingly helped complete strangers.",
+        "check": "18 months is inside the age-1 window (months 12-23). Same release: 'But he never directly asked the child for help, and did not thank or reward the child if the peg was retrieved.' Study at the Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany; release dated 2 March 2006."
+      },
+      {
+        "text": "Toddlers aged 12 to 19 months average about 2,368 steps and 17 falls in every hour of free play.",
+        "source": {
+          "label": "Adolph et al., Psychological Science, 2012",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591461/"
+        },
+        "kind": "numbers",
+        "evidence": "Locomotor experience was immense: 12- to 19-month-olds averaged 2368 steps and fell 17 times/hour.",
+        "check": "12-19 months lies wholly inside the age-1 window (months 12-23). Figures from spontaneous free play (abstract: 'natural infant locomotion derived from spontaneous activity during free play'); US sample, New York University lab. Text confirmed via NCBI E-utilities PMC record."
+      }
+    ]
+  },
+  {
+    "age": 2,
+    "candidates": [
+      {
+        "text": "Most children have their full set of milk teeth by the time they are two to three years old, the back molars arriving last.",
+        "source": {
+          "label": "NHS, Baby teething symptoms (reviewed 2026)",
+          "url": "https://www.nhs.uk/baby/babys-development/teething/baby-teething-symptoms/"
+        },
+        "kind": "body",
+        "evidence": "Most children will have all their milk teeth by the time they are 2 to 3 years old.",
+        "check": "'2 to 3 years old' = months 24-35, the age-2 window. Same page lists second molars last, 'around 24 months'. UK NHS guidance, page last reviewed 14 May 2026."
+      },
+      {
+        "text": "By 30 months, most toddlers say about 50 words and join two together with an action, like “doggie run”.",
+        "source": {
+          "label": "CDC, Milestones by 30 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+        },
+        "kind": "mind",
+        "evidence": "Says about 50 words Says two or more words together, with one action word, like “Doggie run”",
+        "check": "30 months is inside age 2 (months 24-35). The two quoted lines are consecutive bullets on the page. CDC defines milestones as what 'most children (75% or more) can do by a certain age'. US CDC guidance."
+      }
+    ]
+  },
+  {
+    "age": 3,
+    "candidates": [
+      {
+        "text": "Most three-year-olds can keep a conversation going for two back-and-forth turns, and have started asking who, what, where and why.",
+        "source": {
+          "label": "CDC, Milestones by 3 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+        },
+        "kind": "mind",
+        "evidence": "Talks with you in conversation using at least two back-and-forth exchanges Asks “who,” “what,” “where,” or “why” questions, like “Where is mommy/daddy?”",
+        "check": "Checklist 'by 3 years' = 36 months, start of age 3 (months 36-47). The two quoted lines are consecutive bullets on the page. CDC: milestones are what 'most children (75% or more) can do by a certain age'."
+      },
+      {
+        "text": "In France, education is compulsory from the age of three, usually in a nursery class at the école maternelle.",
+        "source": {
+          "label": "Service Public (French government), Mandatory instruction",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898?lang=en"
+        },
+        "kind": "world",
+        "evidence": "Children between the ages of 3 and 16 are subject to compulsory education.",
+        "check": "France, current rule (page verified 6 November 2025). Same page: 'From the age of 3 years, you must enroll your child in the kindergarten' (home education possible only under conditions), hence 'usually'. Age 3 = months 36-47."
+      }
+    ]
+  },
+  {
+    "age": 4,
+    "candidates": [
+      {
+        "text": "Around four, children typically pass the classic false-belief test, predicting that someone will look for a toy where they last saw it, not where it now is.",
+        "source": {
+          "label": "Baillargeon, Scott & He, Trends in Cognitive Sciences, 2010",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2930901/"
+        },
+        "kind": "mind",
+        "evidence": "Beginning at about age 4, children typically answer correctly and point to the basket (where Sally falsely believes the toy is); in contrast, most 3-year-olds point to the box (where the toy actually is)",
+        "check": "'About age 4' = months 48-59, age 4. The review notes that infants show earlier signs on non-verbal tasks, so the text is limited to the classic (verbal) test. Text confirmed via NCBI E-utilities PMC record."
+      },
+      {
+        "text": "A four-year-old's brain uses glucose at a rate equal to about two-thirds of the whole body's energy use at rest.",
+        "source": {
+          "label": "Northwestern University news, 2014 (Kuzawa et al., PNAS)",
+          "url": "https://news.northwestern.edu/stories/2014/08/a-long-childhood-feeds-the-hungry-human-brain"
+        },
+        "kind": "numbers",
+        "evidence": "At age 4 the brain consumes glucose at a rate comparable to 66 percent of the body’s resting metabolic rate (or more than 40 percent of the body’s total energy expenditure).",
+        "check": "Explicitly 'at age 4' (months 48-59). 66 percent ~ two-thirds. The PNAS abstract (PMID 25157149) gives the childhood peak as 66.3% (males) and 65.0% (females) of resting metabolic rate. Release also says absolute glucose use maxes out at age 5; the text uses only the age-4 ratio."
+      }
+    ]
+  },
+  {
+    "age": 5,
+    "candidates": [
+      {
+        "text": "In the Netherlands, children may start primary school at four, and from the age of five, going to school is compulsory.",
+        "source": {
+          "label": "Government of the Netherlands, Registering a child with a primary school",
+          "url": "https://www.government.nl/topics/primary-education/registering-a-child-with-a-primary-school"
+        },
+        "kind": "world",
+        "evidence": "From the age of 4, your child can go to primary school (basisschool). And from the age of 5, your child must go to school.",
+        "check": "Netherlands, current rule. Compulsory attendance begins at 5 = age-5 window (months 60-71); the text frames the fact around that point."
+      },
+      {
+        "text": "The grey matter of the brain's cortex reaches its greatest volume at about 5.9 years of age, according to charts built from 123,984 MRI scans.",
+        "source": {
+          "label": "Bethlehem et al., Nature, 2022",
+          "url": "https://www.nature.com/articles/s41586-022-04554-y"
+        },
+        "kind": "body",
+        "evidence": "showed an initial strong increase in GMV from mid-gestation onwards, peaking at 5.9 years (95% bootstrap confidence interval (CI) 5.8–6.1)",
+        "check": "5.9 years = about 71 months, inside the age-5 window (months 60-71); confidence interval 5.8-6.1 years. Scan count from the same paper: 'we aggregated 123,984 MRI scans, across more than 100 primary studies, from 101,457 human participants'. The paper defines GMV as 'total cortical grey matter volume (GMV)', separate from subcortical grey matter (sGMV), hence 'cortex'. Pooled international data."
+      }
+    ]
+  },
+  {
+    "age": 6,
+    "candidates": [
+      {
+        "text": "The first baby teeth usually work loose at about six, starting with the incisors, the middle teeth at the front.",
+        "source": {
+          "label": "HealthyChildren.org (American Academy of Pediatrics)",
+          "url": "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/When-Children-Begin-to-Lose-their-Baby-Teeth.aspx"
+        },
+        "kind": "body",
+        "evidence": "Baby teeth ordinarily are shed first at about age 6 when the incisors, the middle teeth in front, become loose.",
+        "check": "'About age 6' = months 72-83, age 6. US paediatric guidance (AAP)."
+      },
+      {
+        "text": "In November 1960, six-year-old Ruby Bridges walked into William Frantz Elementary in New Orleans, escorted by U.S. Marshals, to desegregate the school.",
+        "source": {
+          "label": "National Women's History Museum, Ruby Bridges biography",
+          "url": "https://www.womenshistory.org/education-resources/biographies/ruby-bridges"
+        },
+        "kind": "people",
+        "evidence": "An image of Ruby Bridges being escorted into William Frantz Elementary School by U.S. Marshals in November of 1960.",
+        "check": "Born 8 Sep 1954 (NWHM: 'Ruby Bridges was born on September 8, 1954, to Abon and Lucille Bridges'; also NPS https://www.nps.gov/people/rubybridges.htm: 'Date of Birth: September 8, 1954'). Event: NWHM caption quoted in evidence, and 'It was not until November 14, 1960, that Louisiana schools began to desegregate'. NPS: 'She was the first African American child to desegregate William Frantz Elementary School.' 8 Sep 1954 -> 14 Nov 1960 = 6 years 2 months -> age 6."
+      }
+    ]
+  },
+  {
+    "age": 7,
+    "candidates": [
+      {
+        "text": "In Finland, compulsory schooling generally begins in the year a child turns seven, after a year of pre-primary education.",
+        "source": {
+          "label": "Finnish Ministry of Education and Culture, Finnish education system",
+          "url": "https://okm.fi/en/education-system"
+        },
+        "kind": "world",
+        "evidence": "Compulsory education generally starts in the year in which children turn seven.",
+        "check": "Finland, current rule. Same page: 'pre-primary education which is provided for children in the year preceding the beginning of compulsory education'. Children born late in the year start at six, hence 'the year a child turns seven'."
+      },
+      {
+        "text": "In a US study of 100 children, 65% had had an imaginary companion at some point by the age of seven.",
+        "source": {
+          "label": "Taylor et al., Developmental Psychology, 2004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15535765/"
+        },
+        "kind": "numbers",
+        "evidence": "Overall, 65% of children up to the age of 7 had imaginary companions at some point during their lives.",
+        "check": "'Up to the age of 7' -> shown at age 7 (months 84-95). Sample: '100 children from this study were retested' three years after the preschool phase; University of Oregon, USA. Abstract confirmed via NCBI E-utilities."
+      }
+    ]
+  },
+  {
+    "age": 8,
+    "candidates": [
+      {
+        "text": "In 1764, eight-year-old Mozart composed his first symphony in a London house where, to let his father rest, the children were not allowed to play instruments.",
+        "source": {
+          "label": "English Heritage, Mozart blue plaque",
+          "url": "https://www.english-heritage.org.uk/visit/blue-plaques/wolfgang-amadeus-mozart/"
+        },
+        "kind": "people",
+        "evidence": "In 1764 the eight-year-old prodigy composed his first symphony at 180 Ebury Street in Belgravia, where he and his family stayed for several weeks.",
+        "check": "Born 27 January 1756 (Mozarteum Foundation, https://mozarteum.at/en/wolfgang-amade-mozart: 'was born on 27 January 1756'). English Heritage: the family 'moved to Belgravia from lodgings in Soho on 6 August' 1764 and 'moved back to central London in September 1764'; 'to accelerate Leopold’s recovery, the children were forbidden to play instruments in the house'. Composition Aug-Sep 1764 -> 8 years 6-8 months -> age 8. Text says 'composed', not 'premiered'."
+      },
+      {
+        "text": "Memories of age three fade slowly: children of five to seven recall most events they described then, while eight- and nine-year-olds recall under 40%.",
+        "source": {
+          "label": "Bauer & Larkina, Memory, 2014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24236647/"
+        },
+        "kind": "mind",
+        "evidence": "Children aged 5, 6, and 7 remembered 60% or more of the early-life events. In contrast, children aged 8 and 9 years remembered fewer than 40% of the early-life events.",
+        "check": "The under-40% figure applies to children aged 8 and 9 (months 96-119), so it is placed at age 8, where the drop first appears. Emory University, Atlanta, USA. Abstract confirmed via NCBI E-utilities."
+      }
+    ]
+  },
+  {
+    "age": 9,
+    "candidates": [
+      {
+        "text": "In October 1828, nine-year-old Clara Wieck, later Clara Schumann, first played for the public, at Leipzig's Gewandhaus concert hall.",
+        "source": {
+          "label": "Schumann-Portal (Schumann research archive), Leipzig 1819-1844",
+          "url": "https://www.schumann-portal.de/leipzig-1819-1844.html"
+        },
+        "kind": "people",
+        "evidence": "he introduced her to the public in a concert given by the pianist Caroline Perthaler from Graz, in the Leipziger Gewandhaus on October 20th, 1828.",
+        "check": "Born 13 September 1819 (same page: 'Clara Wieck was born on September 13, 1819'). First public appearance 20 October 1828, within another pianist's concert (her first own concert followed on 8 November 1830, aged 11). 13 Sep 1819 -> 20 Oct 1828 = 9 years 1 month -> age 9."
+      },
+      {
+        "text": "The American Academy of Sleep Medicine puts healthy sleep for children aged six to twelve at 9 to 12 hours in every 24.",
+        "source": {
+          "label": "American Academy of Sleep Medicine, Child sleep duration health advisory",
+          "url": "https://aasm.org/advocacy/position-statements/child-sleep-duration-health-advisory/"
+        },
+        "kind": "body",
+        "evidence": "Children 6 to 12 years of age should sleep 9 to 12 hours per 24 hours.",
+        "check": "Range covers ages 6-12; age 9 (months 108-119) sits in the middle of it. US professional body consensus (2016)."
+      }
+    ]
+  }
+]

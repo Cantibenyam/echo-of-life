@@ -1,0 +1,227 @@
+[
+  {
+    "age": 80,
+    "status": "fix",
+    "issue": "Age correct (12 Oct 1932 -> 23 May 2013 = 80y 223d). But 'a record he had set twice before' is contested: Guinness's page says he held it in 2003 and 2008, yet Min Bahadur Sherchan (76) summited on 25 May 2008, a day before Miura (75) on 26 May 2008, and was himself certified as the oldest. Only the 2003 record is uncontested.",
+    "suggestedText": "Yuichiro Miura reached the summit of Everest on 23 May 2013, becoming the oldest man to climb it, a record he had first set in 2003."
+  },
+  {
+    "age": 81,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 82,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 83,
+    "status": "fix",
+    "issue": "Age correct (27 Jan 1935 -> 25 May 2018 = 83y 118d). But the Guinness record title is 'Oldest club DJ (female)'. The text drops the gender and so claims she is the oldest club DJ of all.",
+    "suggestedText": "Sumiko Iwamuro, who went to DJ school at 77, was recognised in 2018 as the world's oldest female club DJ, playing monthly in Tokyo."
+  },
+  {
+    "age": 84,
+    "status": "fix",
+    "issue": "Source says 'local government offices and financial institutions', not 'government offices and banks'. It also says the earphones are for assisting 'the elderly or others with hearing loss', which is the point at this age and is missing from the text.",
+    "suggestedText": "Some local government offices and financial institutions in Japan use earphones that vibrate the ear's cartilage, so staff helping older people need not speak loudly."
+  },
+  {
+    "age": 85,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 86,
+    "status": "fix",
+    "issue": "Figure matches (8% of 85+). But the text gives no year and uses a timeless present tense. The source figure is for 2016 to 2017, UK (ONS Figure 41, Family Resources Survey).",
+    "suggestedText": "In the UK in 2016 to 2017, 8% of people aged 85 and over were providing informal care to others."
+  },
+  {
+    "age": 87,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 88,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 89,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 90,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 91,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 92,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 93,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 94,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 95,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 96,
+    "status": "fix",
+    "issue": "Figures match the abstract (174% average strength gain, 8 weeks, residents 'up to 96 years of age'). But the text states it as a general truth, with no year, and it rests on the 9 people who completed one small study (10 frail volunteers aged 90 +/- 1). The authors' Boston affiliation is not the study site, so no place is added.",
+    "suggestedText": "In a 1990 study, nine frail nursing-home residents aged up to 96 did eight weeks of weight training, and their strength rose by 174% on average."
+  },
+  {
+    "age": 97,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 98,
+    "status": "fix",
+    "issue": "Overgeneralised. The source is a study of 29 nonagenarians and centenarians chosen by their GPs, not of the people of nine villages. The text reads as if it describes everyone aged 90 to 101 there.",
+    "suggestedText": "In a study of 29 people aged 90 to 101 in rural southern Italy, the elders reported better mental well-being than their younger relatives."
+  },
+  {
+    "age": 99,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 100,
+    "status": "fix",
+    "issue": "Accurate: NBC/AP, 16 Sep 2026, gives 107,677 centenarians, nearly 88% women, and 153 in 1963. Style only: the brief asks for one idea with one number, and this carries three (153, 107,677, 88%). Suggest dropping the 88% clause and keeping the 1963 to 2026 contrast.",
+    "suggestedText": "Japan counted 153 people aged 100 or over in 1963. In 2026 it counted 107,677."
+  },
+  {
+    "age": 101,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 102,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 103,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 104,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 105,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 106,
+    "status": "fix",
+    "issue": "Overstated. GOV.UK says you 'can get' a message (from the King and the Queen Consort) for British nationals. It is sent automatically only to people on a State Pension or benefit who live in the UK; others must apply. 'Arrives every single year' implies it is automatic for everyone, and 'every single' is emphatic.",
+    "suggestedText": "British nationals can receive a birthday message from the King at 100 and 105, and then every year after their 105th birthday."
+  },
+  {
+    "age": 107,
+    "status": "reject",
+    "issue": "Wrong age. The same NPR article says the sixth album 'was released in May' (2021). Maze was born 16 June 1914, so she was 106 at release. Reuters (5 Feb 2021) also called her a '106-year-old pianist to release sixth album'. The text says 'September 2021, aged 107', which is wrong. A salvage that NPR supports: 'French pianist Colette Maze, who began playing at 5, was still recording her albums at home at 107, usually on Sundays, when the building was quieter.' (NPR, 20 Sep 2021: 'Colette Maze, now 107 ... Maze records her albums at home ... usually on Sundays')"
+  },
+  {
+    "age": 108,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 109,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 110,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 111,
+    "status": "fix",
+    "issue": "Age correct: 26 Aug 1912 -> recognised April 2024 = 111. LongeviQuest now dates the title to 29 June 2024, which also gives 111, so 'in 2024, aged 111' holds either way. But the source calls him Liverpool-born and an accountant for Shell and BP. It does not say he was a Liverpool accountant.",
+    "suggestedText": "After becoming the world's oldest man in 2024, aged 111, Liverpool-born retired accountant John Tinniswood still listened to the radio for the news and managed his own finances."
+  },
+  {
+    "age": 112,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 113,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 114,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 115,
+    "status": "fix",
+    "issue": "Slightly overstated. The abstract says the mutation pattern 'suggests' that most white blood cells were offspring of two related stem-cell clones. The text says 'showed'.",
+    "suggestedText": "Sequencing the blood of a 115-year-old woman suggested that most of her white blood cells descended from just two related blood stem cells."
+  },
+  {
+    "age": 116,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 117,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 118,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 119,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 120,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 121,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 122,
+    "status": "ok",
+    "issue": ""
+  }
+]

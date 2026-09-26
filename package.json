@@ -17,7 +17,9 @@
     "audio": "node scripts/audio/fetch-commons.mjs && node scripts/audio/process.mjs && node scripts/credits/build-credits.mjs",
     "facts": "node scripts/content/merge-facts.mjs",
     "credits": "node scripts/credits/build-credits.mjs",
-    "verify": "npm run typecheck && npm test && npm run build && npm run check-dist && npm run test:e2e"
+    "verify": "npm run typecheck && npm test && npm run build && npm run check-dist && npm run test:e2e",
+    "deploy": "node scripts/deploy-gh-pages.mjs",
+    "deploy:release": "node scripts/deploy-gh-pages.mjs --release"
   },
   "dependencies": {
     "@fontsource-variable/newsreader": "^5.3.0",

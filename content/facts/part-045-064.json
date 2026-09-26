@@ -1,0 +1,502 @@
+[
+  {
+    "age": 45,
+    "candidates": [
+      {
+        "text": "Many people first notice around age 45 that they hold a page a little farther away to read it, as the lens of the eye slowly loses its flexibility.",
+        "source": {
+          "label": "MedlinePlus (US National Library of Medicine), Presbyopia, 2026",
+          "url": "https://medlineplus.gov/ency/article/001026.htm"
+        },
+        "kind": "body",
+        "evidence": "People most often begin to notice the condition at around age 45, when they realize that they need to hold reading materials farther away in order to focus on them.",
+        "check": "Source states 'around age 45' directly; the same page explains that the elasticity of the lens decreases slowly as people age. Placed at 45. Page review date 1/27/2026. Also consistent with the NEI presbyopia page ('usually after age 45')."
+      },
+      {
+        "text": "In the US, the founders of the fastest-growing 1 in 1,000 new companies were 45 years old on average when they started them.",
+        "source": {
+          "label": "Azoulay, Jones, Kim & Miranda, American Economic Review: Insights, 2020",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20180582"
+        },
+        "kind": "numbers",
+        "evidence": "The mean age at founding for the 1-in-1,000 fastest growing new ventures is 45.0.",
+        "check": "Mean founder age 45.0 (US Census Bureau administrative data on start-ups, United States). 45.0 falls in age 45."
+      }
+    ]
+  },
+  {
+    "age": 46,
+    "candidates": [
+      {
+        "text": "In 1982 the typical American jazz concertgoer was 29. By 2008 the median age of the jazz audience had risen to 46.",
+        "source": {
+          "label": "National Endowment for the Arts, Arts Participation 2008 (SPPA)",
+          "url": "https://www.arts.gov/sites/default/files/NEA-SPPA-brochure.pdf"
+        },
+        "kind": "numbers",
+        "evidence": "Median Age of Arts Attendees: 1982–2008 [table columns 1982, 1992, 2002, 2008] Jazz 29 37 42 46",
+        "check": "Table 'Median Age of Arts Attendees: 1982–2008', row 'Jazz': 29 (1982) and 46 (2008). United States, Survey of Public Participation in the Arts. Median 46 -> age 46. Evidence is a table row, quoted in order with column years noted in brackets."
+      },
+      {
+        "text": "Pearl Buck, raised speaking both Chinese and English, won the 1938 Nobel Prize in Literature for her epic portraits of peasant life in China.",
+        "source": {
+          "label": "NobelPrize.org, Pearl Buck – Facts",
+          "url": "https://www.nobelprize.org/prizes/literature/1938/buck/facts/"
+        },
+        "kind": "people",
+        "evidence": "Prize motivation: “for her rich and truly epic descriptions of peasant life in China and for her biographical masterpieces” ... She was raised bilingual, speaking both Chinese and English.",
+        "check": "Born 26 June 1892 (NobelPrize.org facts page). Prize presented 10 December 1938 (NobelPrize.org presentation speech page: 'Presentation Speech by Per Hallström ... on December 10, 1938', https://www.nobelprize.org/prizes/literature/1938/ceremony-speech/). 26 Jun 1892 -> 10 Dec 1938 = 46; the autumn 1938 announcement also falls after her birthday, so 46 either way."
+      }
+    ]
+  },
+  {
+    "age": 47,
+    "candidates": [
+      {
+        "text": "Reading other people's emotions is a late-blooming skill: in a study of nearly 50,000 people it peaked in the 40s or 50s, long after processing speed and short-term memory.",
+        "source": {
+          "label": "Association for Psychological Science, on Hartshorne & Germine (Psychological Science), 2015",
+          "url": "https://www.psychologicalscience.org/news/releases/cognitive-skills-peak-at-different-ages-across-adulthood.html"
+        },
+        "kind": "mind",
+        "evidence": "The ability to evaluate other people’s emotional states, on the other hand, peaked much later, when participants were in their 40s or 50s.",
+        "check": "Band finding (peak in the 40s or 50s); the same release says 'test data from nearly 50,000 subjects' and that processing speed peaked around 18 or 19. Placed at 47, inside the 40s–50s band. Release dated March 6, 2015. The release also says short-term memory began to drop around age 35."
+      },
+      {
+        "text": "Oscar Arias, president of Costa Rica, won the 1987 Nobel Peace Prize for a plan to end the civil wars then devastating Central America.",
+        "source": {
+          "label": "NobelPrize.org, Oscar Arias Sánchez – Facts",
+          "url": "https://www.nobelprize.org/prizes/peace/1987/arias/facts/"
+        },
+        "kind": "people",
+        "evidence": "Costa Rica's President Oscar Arias Sánchez was awarded the Peace Prize in 1987 for a plan designed to put an end to the cruel civil wars that were devastating Central America.",
+        "check": "Born 13 September 1940 (NobelPrize.org facts page). Prize announced 'Oslo, October 13, 1987' (NobelPrize.org press release, https://www.nobelprize.org/prizes/peace/1987/press-release/). 13 Sep 1940 -> 13 Oct 1987 = 47; ceremony 10 Dec 1987 also 47."
+      }
+    ]
+  },
+  {
+    "age": 48,
+    "candidates": [
+      {
+        "text": "Across 145 countries, well-being follows a U-shaped curve through adulthood, dipping to its lowest point in midlife, on average around age 48, then rising again.",
+        "source": {
+          "label": "Blanchflower, Journal of Population Economics, 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7480662/"
+        },
+        "kind": "mind",
+        "evidence": "I use these data to estimate 477 separate country-level estimates that reach a minimum, on average, at age 48.3.",
+        "check": "Average minimum of 477 country-level estimates = 48.3 (145 countries, developing and advanced). 48.3 floors to age 48. Quote confirmed on the PMC page (WebFetch) and in the Europe PMC full text (curl)."
+      },
+      {
+        "text": "In 2008 the median age of American opera-goers was 48, up from 43 in 1982.",
+        "source": {
+          "label": "National Endowment for the Arts, Arts Participation 2008 (SPPA)",
+          "url": "https://www.arts.gov/sites/default/files/NEA-SPPA-brochure.pdf"
+        },
+        "kind": "numbers",
+        "evidence": "Median Age of Arts Attendees: 1982–2008 [table columns 1982, 1992, 2002, 2008] Opera 43 44 47 48",
+        "check": "Table 'Median Age of Arts Attendees: 1982–2008', row 'Opera': 43 (1982), 48 (2008). United States. Median 48 -> age 48."
+      }
+    ]
+  },
+  {
+    "age": 49,
+    "candidates": [
+      {
+        "text": "On 1 January 2025 half of Italy's population was older than 49.1, the highest median age in the European Union.",
+        "source": {
+          "label": "Eurostat, Population structure and ageing (data extracted February 2026)",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_structure_and_ageing"
+        },
+        "kind": "numbers",
+        "evidence": "Across the EU countries the median age ranged from 39.6 years in Ireland to 49.1 years in Italy, confirming the relatively young and relatively old population structures recorded in each of these EU countries.",
+        "check": "Median age of Italy's population on 1 January 2025 = 49.1 (EU maximum); the page defines median age as half older, half younger. 49.1 floors to age 49."
+      },
+      {
+        "text": "In the United States the median age at which women become grandmothers is 49. In parts of Western Europe it comes up to eight years later.",
+        "source": {
+          "label": "Leopold & Skopek, Social Forces, 2015",
+          "url": "https://academic.oup.com/sf/article-abstract/94/2/801/2583786"
+        },
+        "kind": "world",
+        "evidence": "Compared to the United States (49 years among women, 52 years among men), grandparenthood in Eastern Europe occurs up to three years earlier in life; in Western Europe, up to eight years later.",
+        "check": "Median age at grandparenthood for US women = 49 (survival analysis of retrospective survey data). Abstract read on the OUP page via WebFetch; exact wording confirmed by curl on the authors' abstract page (http://www.skopek.org/publications/the-demography-of-grandparenthood-an-international-profile). Placed at 49."
+      }
+    ]
+  },
+  {
+    "age": 50,
+    "candidates": [
+      {
+        "text": "In a Harvard study begun in 1938, the people most satisfied in their relationships at 50 turned out to be the healthiest at 80.",
+        "source": {
+          "label": "Harvard Gazette, 2017",
+          "url": "https://news.harvard.edu/gazette/story/2017/04/over-nearly-80-years-harvard-study-has-been-showing-how-to-live-a-healthy-and-happy-life/"
+        },
+        "kind": "mind",
+        "evidence": "“The people who were the most satisfied in their relationships at age 50 were the healthiest at age 80,” said Robert Waldinger",
+        "check": "Finding is explicitly about relationship satisfaction at age 50 (Harvard Study of Adult Development, United States). The same article says: 'When scientists began tracking the health of 268 Harvard sophomores in 1938'. Article dated April 11, 2017. Placed at 50."
+      },
+      {
+        "text": "In October 1966 the Carnatic singer M. S. Subbulakshmi gave a recital of Indian songs in the United Nations General Assembly Hall in New York.",
+        "source": {
+          "label": "UN Photo, Celebration of United Nations Day 1966",
+          "url": "https://media.un.org/photo/en/asset/oun7/oun7615364"
+        },
+        "kind": "people",
+        "evidence": "Madame M.S. Subbulakshmi, one of India's most eminent musicians, gave a recital of Indian songs today in the General Assembly Hall, as part of a 1966 United Nations Day (24 October) celebrations.",
+        "check": "Born September 16, 1916 (Press Information Bureau, Government of India: 'on September 16, 1916, ‘ M.S. Subbulakshmi, the ‘Nightingale of India’, was born at Madurai', https://www.pib.gov.in/newsite/printrelease.aspx?relid=149779&reg=48&lang=2). Recital dated 23 October 1966 (UN Photo caption, read via WebFetch because the page is script-rendered); a UN India stamp page gives 24 October 1966 (https://unindiastamps.sitslive.com/m-s). 16 Sep 1916 -> 23 or 24 Oct 1966 = 50 either way."
+      }
+    ]
+  },
+  {
+    "age": 51,
+    "candidates": [
+      {
+        "text": "In the UK the average age at which a woman reaches menopause is 51, a natural turning point in the body's hormonal rhythm.",
+        "source": {
+          "label": "NHS inform (Scotland), Menopause, 2026",
+          "url": "https://www.nhsinform.scot/healthy-living/womens-health/later-years-around-50-years-and-over/menopause-and-post-menopause-health/menopause"
+        },
+        "kind": "body",
+        "evidence": "In the UK, the average age for a woman to reach menopause is 51.",
+        "check": "Average age 51, United Kingdom. Placed at 51. Page last updated 08 September 2026."
+      },
+      {
+        "text": "In surveys of over 1.5 million Americans, everyday stress stayed high from the 20s until about age 50, then fell steeply through the 70s.",
+        "source": {
+          "label": "Stone, Schneider & Broderick, Journal of Psychosomatic Research, 2017",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5707130/"
+        },
+        "kind": "mind",
+        "evidence": "with high levels from the 20's through about age 50, followed by a precipitous decline through the 70's.",
+        "check": "Turning point 'about age 50', decline thereafter; placed at 51, the first year after it. United States, Gallup-Healthways data. The PubMed abstract (PMID 29167044, retrieved via NCBI E-utilities) states 'Using Gallup-Healthways survey data of over 1.5 million U.S. respondents'."
+      }
+    ]
+  },
+  {
+    "age": 52,
+    "candidates": [
+      {
+        "text": "In the United States the median age at which men become grandfathers is 52, and grandparenthood often arrives while people are still working.",
+        "source": {
+          "label": "Leopold & Skopek, Social Forces, 2015",
+          "url": "https://academic.oup.com/sf/article-abstract/94/2/801/2583786"
+        },
+        "kind": "world",
+        "evidence": "Compared to the United States (49 years among women, 52 years among men), grandparenthood in Eastern Europe occurs up to three years earlier in life; in Western Europe, up to eight years later. ... In all countries, grandparenthood overlaps rarely with active parenting but frequently with worker and filial roles.",
+        "check": "Median age at grandparenthood for US men = 52. Abstract read on the OUP page via WebFetch; wording confirmed by curl on the authors' abstract page (skopek.org). Placed at 52."
+      },
+      {
+        "text": "Rabindranath Tagore, a writer of poems, songs, stories and plays in Bengali, won the 1913 Nobel Prize in Literature for verse recast in his own English words.",
+        "source": {
+          "label": "NobelPrize.org, Rabindranath Tagore – Facts",
+          "url": "https://www.nobelprize.org/prizes/literature/1913/tagore/facts/"
+        },
+        "kind": "people",
+        "evidence": "Prize motivation: “because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West” ... Apart from fiction in the form of poetry, songs, stories, and dramas, it also includes portrayals of common people's lives, literary criticism, philosophy, and social issues. Tagore originally wrote in Bengali",
+        "check": "Born 7 May 1861 (NobelPrize.org facts page). Prize presented 10 December 1913 (NobelPrize.org presentation speech: 'Presentation Speech by Harald Hjärne, Chairman of the Nobel Committee of the Swedish Academy , on December 10, 1913', https://www.nobelprize.org/prizes/literature/1913/ceremony-speech/). The award year and the 10 December presentation both fall after his 7 May birthday: 7 May 1861 -> 10 Dec 1913 = 52."
+      }
+    ]
+  },
+  {
+    "age": 53,
+    "candidates": [
+      {
+        "text": "Women's voices often deepen in midlife: one study found the voices of women aged 40 to 60 were pitched 34 to 38 Hz lower than those of women aged 20 to 30.",
+        "source": {
+          "label": "Eichhorn, Kent, Austin et al., Journal of Voice, 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5832520/"
+        },
+        "kind": "body",
+        "evidence": "Differences (cohort I–cohort II) in least square means by vowel were: /i/ 35 Hz, p < .0001; /u/ 34 Hz, p < .0001; /æ/ 38 Hz, p < .0001; /ɑ/ 35 Hz, p < .0001.",
+        "check": "Cohort I = ages 20 to 30, cohort II = ages 40 to 60 (Methods). Authors conclude 'Women experience a significant decrease in fo, which is likely related to menopause.' Placed at 53, inside the 40–60 cohort and just after the UK average menopause age of 51. Full text confirmed via NCBI E-utilities (PMC XML)."
+      },
+      {
+        "text": "In October 2024 Han Kang, who began her career as a poet, was named winner of the Nobel Prize in Literature for her intense poetic prose.",
+        "source": {
+          "label": "NobelPrize.org, Nobel Prize in Literature 2024 – Press release",
+          "url": "https://www.nobelprize.org/prizes/literature/2024/press-release/"
+        },
+        "kind": "people",
+        "evidence": "Press release 10 October 2024 The Nobel Prize in Literature 2024 Han Kang The Nobel Prize in Literature for 2024 is awarded to the South Korean author Han Kang, “for her intense poetic prose that confronts historical traumas and exposes the fragility of human life”.",
+        "check": "Born 27 November 1970 (NobelPrize.org facts page, https://www.nobelprize.org/prizes/literature/2024/han/facts/, which also says 'Han Kang began her career in 1993 as a poet'). Announced 10 October 2024 -> age 53. Note: she turned 54 before the 10 December ceremony, so the text says 'was named' (announcement), not 'received'."
+      }
+    ]
+  },
+  {
+    "age": 54,
+    "candidates": [
+      {
+        "text": "In a worldwide survey of 4,192 people, 74% of those aged 45 to 65 had some grey hair; when it arrives varies with ethnic and geographic origin.",
+        "source": {
+          "label": "Panhard, Lozano & Loussouarn, British Journal of Dermatology, 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22716034/"
+        },
+        "kind": "body",
+        "evidence": "Overall we observed that between 45 and 65 years of age, 74% of people were affected by grey hair with a mean intensity of 27%.",
+        "check": "Band 45–65; placed at 54, near its middle. The abstract also states 'The natural hair colour of 4192 healthy male and female volunteers was assessed' and 'Both age at onset and rate of greying with age appeared to be clearly linked to ethnic/geographical origin.' The PubMed page shows a CAPTCHA to automated tools, so the abstract was retrieved through NCBI E-utilities (efetch, PMID 22716034)."
+      },
+      {
+        "text": "Dorothy Crowfoot Hodgkin won the 1964 Nobel Prize in Chemistry for using X-rays to work out the structures of important biochemical substances.",
+        "source": {
+          "label": "NobelPrize.org, Dorothy Crowfoot Hodgkin – Facts",
+          "url": "https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/facts/"
+        },
+        "kind": "people",
+        "evidence": "Prize motivation: “for her determinations by X-ray techniques of the structures of important biochemical substances”",
+        "check": "Born 12 May 1910 (NobelPrize.org facts page). Nobel Lecture dated 'December 11, 1964' (https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/lecture/); the 1964 prize was announced in autumn 1964. 12 May 1910 -> autumn/Dec 1964 = 54."
+      }
+    ]
+  },
+  {
+    "age": 55,
+    "candidates": [
+      {
+        "text": "Among adults aged 45 to 65, musicians were better than non-musicians at following speech against background noise, a 2011 study found.",
+        "source": {
+          "label": "Parbery-Clark, Strait, Anderson, Hittner & Kraus, PLOS ONE, 2011",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018082"
+        },
+        "kind": "mind",
+        "evidence": "We herein demonstrate enhanced speech-in-noise perception for older adult musicians between the ages of 45–65 which correlates with auditory cognitive and perceptual performance.",
+        "check": "Participants aged 45–65 (Chicago area, United States); placed at 55, the midpoint of the band."
+      },
+      {
+        "text": "In China, women in white-collar jobs have long retired at 55. A reform approved in 2024 is raising that age to 58, step by step over 15 years.",
+        "source": {
+          "label": "NPR / Associated Press, 2024",
+          "url": "https://www.npr.org/2024/09/13/g-s1-22510/china-retirement-age"
+        },
+        "kind": "world",
+        "evidence": "The policy change will be carried out over 15 years, with the retirement age for men raised to 63 years, and for women to 55 or 58 years depending on their jobs. The current retirement age is 60 for men and 50 for women in blue-collar jobs and 55 for women doing white-collar work.",
+        "check": "Retirement age of 55 for women in white-collar work (China, before the reform approved by the national legislature in September 2024; article dated September 13, 2024). Placed at 55."
+      }
+    ]
+  },
+  {
+    "age": 56,
+    "candidates": [
+      {
+        "text": "In the US in 2025, the median age of farmers, ranchers and agricultural managers was 56.1, compared with 42.1 for all employed people.",
+        "source": {
+          "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+          "url": "https://www.bls.gov/cps/cpsaat11b.htm"
+        },
+        "kind": "world",
+        "evidence": "Farmers, ranchers, and other agricultural managers | 810 | 4 | 27 | 88 | 119 | 129 | 180 | 261 | 56.1",
+        "check": "Table '11b. Employed people by detailed occupation and age', 2025 annual averages, last column = median age 56.1; 'Total, 16 years and over' median age 42.1. United States. 56.1 floors to age 56. BLS blocks curl, so the row was read via WebFetch (two separate reads gave the same 56.1)."
+      },
+      {
+        "text": "Shirin Ebadi, one of Iran's first female judges, became the first woman from the Islamic world to receive the Nobel Peace Prize, in 2003.",
+        "source": {
+          "label": "NobelPrize.org, Shirin Ebadi – Facts",
+          "url": "https://www.nobelprize.org/prizes/peace/2003/ebadi/facts/"
+        },
+        "kind": "people",
+        "evidence": "The First Female Peace Prize Laureate from the Islamic World The lawyer Shirin Ebadi was one of Iran's first female judges.",
+        "check": "Born 21 June 1947 (NobelPrize.org facts page). Prize announced 10 October 2003 (NobelPrize.org press release, https://www.nobelprize.org/prizes/peace/2003/press-release/). 21 Jun 1947 -> 10 Oct 2003 = 56; ceremony 10 Dec 2003 also 56."
+      }
+    ]
+  },
+  {
+    "age": 57,
+    "candidates": [
+      {
+        "text": "In England in 2021, women aged 55 to 59 were more likely than any other group to give unpaid care to someone: 19.9% of them did.",
+        "source": {
+          "label": "Office for National Statistics, Census 2021, Unpaid care by age, sex and deprivation",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/socialcare/articles/unpaidcarebyagesexanddeprivationenglandandwales/census2021"
+        },
+        "kind": "numbers",
+        "evidence": "In England, females aged between 55 to 59 years provided the most unpaid care (19.9%), while females aged between 5 to 17 years were least likely to provide unpaid care (1.5%).",
+        "check": "Census 2021, England, females aged 55–59: 19.9%, the highest of any age-sex group. Placed at 57, the middle of the 55–59 band."
+      },
+      {
+        "text": "In January 1955 the contralto Marian Anderson became the first African American soloist to sing at New York's Metropolitan Opera.",
+        "source": {
+          "label": "NPR, 2015",
+          "url": "https://www.npr.org/sections/deceptivecadence/2015/01/07/375440168/marian-andersons-groundbreaking-met-opera-moment"
+        },
+        "kind": "people",
+        "evidence": "Sixty years ago Wednesday, Anderson became the first African-American soloist to sing at New York's Metropolitan Opera. She was in her late 50s when she appeared Jan. 7, 1955",
+        "check": "Born February 27, 1897 (US National Archives: 'Marian Anderson (February 27, 1897 - April 8, 1993)', https://www.archives.gov/research/african-americans/individuals/marian-anderson). Met debut Jan. 7, 1955 (NPR). 27 Feb 1897 -> 7 Jan 1955 = 57 (she turned 58 seven weeks later)."
+      }
+    ]
+  },
+  {
+    "age": 58,
+    "candidates": [
+      {
+        "text": "Across OECD countries, the share of people aged 55 to 64 in work rose from 46.1% in 2002 to 64.6% in 2022.",
+        "source": {
+          "label": "OECD, Pensions at a Glance 2023",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pensions-at-a-glance-2023_4757bf20/678055dd-en.pdf"
+        },
+        "kind": "numbers",
+        "evidence": "Employment rates of people aged 55-64 have improved sharply over the last 20 years in most OECD countries, from 46.1% in 2002 to 64.6% in 2022 on average.",
+        "check": "OECD average employment rate, ages 55–64, 2002 vs 2022 (chapter 'Changes in employment rates of older workers', p. 188). Placed at 58, inside the 55–64 band."
+      },
+      {
+        "text": "Journalist Maria Ressa, co-founder of the Rappler news site in the Philippines, shared the 2021 Nobel Peace Prize for defending freedom of expression.",
+        "source": {
+          "label": "NobelPrize.org, Maria Ressa – Facts",
+          "url": "https://www.nobelprize.org/prizes/peace/2021/ressa/facts/"
+        },
+        "kind": "people",
+        "evidence": "Prize motivation: “for their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace” Prize share: 1/2 ... In 2012, she was one of the co-founders of the Rappler online news site.",
+        "check": "Born 2 October 1963 (NobelPrize.org facts page). Prize announced 8 October 2021 (NobelPrize.org press release, https://www.nobelprize.org/prizes/peace/2021/press-release/). 2 Oct 1963 -> 8 Oct 2021 = 58 (six days after her birthday); ceremony 10 Dec 2021 also 58."
+      }
+    ]
+  },
+  {
+    "age": 59,
+    "candidates": [
+      {
+        "text": "In the US, workers aged 55 to 64 have been with their current employer for a median of 9.6 years, more than three times as long as those aged 25 to 34.",
+        "source": {
+          "label": "US Bureau of Labor Statistics, Employee Tenure, January 2026",
+          "url": "https://www.bls.gov/news.release/tenure.nr0.htm"
+        },
+        "kind": "world",
+        "evidence": "For example, the median tenure of workers ages 55 to 64 (9.6 years) was more than three times that of workers ages 25 to 34 (3.0 years).",
+        "check": "US data for January 2026, age band 55–64; placed at 59, the middle of the band. BLS blocks curl, so the sentence was read via WebFetch only."
+      },
+      {
+        "text": "Donna Strickland shared the 2018 Nobel Prize in Physics for a laser technique she had developed as a doctoral student back in 1985.",
+        "source": {
+          "label": "NobelPrize.org, Donna Strickland – Facts",
+          "url": "https://www.nobelprize.org/prizes/physics/2018/strickland/facts/"
+        },
+        "kind": "people",
+        "evidence": "She pursued her doctoral studies in the U.S. at the University of Rochester, where she did her Nobel Prize awarded work. She obtained her PhD in 1989. ... In 1985, Gérard Mourou and Donna Strickland succeeded in creating ultrashort high-intensity laser pulses without destroying the amplifying material.",
+        "check": "Born 27 May 1959 (NobelPrize.org facts page). Prize announced 2 October 2018 (NobelPrize.org press release, https://www.nobelprize.org/prizes/physics/2018/press-release/). 27 May 1959 -> 2 Oct 2018 = 59."
+      }
+    ]
+  },
+  {
+    "age": 60,
+    "candidates": [
+      {
+        "text": "Vocabulary keeps growing through adult life: a typical 60-year-old American knows about 48,200 words, some 6,000 more than at 20.",
+        "source": {
+          "label": "Brysbaert, Stevens, Mandera & Keuleers, Frontiers in Psychology, 2016",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01116/full"
+        },
+        "kind": "mind",
+        "evidence": "The median score of 20-year-olds is 68.0% or 42,000 lemmas; that of 60-year-olds 78.0% or 48,200 lemmas.",
+        "check": "Median for 60-year-olds, native speakers of American English. 'Words' here are lemmas (dictionary headwords); the abstract says 'Between the ages of 20 and 60, the average person learns 6,000 extra lemmas or about one new lemma every 2 days.' Placed at 60."
+      },
+      {
+        "text": "In the Analects, Confucius says that at sixty his ear became “an obedient organ for the reception of truth”.",
+        "source": {
+          "label": "Chinese Text Project, Analects, Wei Zheng 2.4 (James Legge translation)",
+          "url": "https://ctext.org/analects/wei-zheng"
+        },
+        "kind": "world",
+        "evidence": "At fifty, I knew the decrees of Heaven. At sixty, my ear was an obedient organ for the reception of truth.",
+        "check": "The passage names sixty explicitly (Chinese original: 六十而耳順). Placed at 60."
+      }
+    ]
+  },
+  {
+    "age": 61,
+    "candidates": [
+      {
+        "text": "In 1991, American retirees said they had stopped working at 57 on average. By 2022 the average retirement age they reported had risen to 61.",
+        "source": {
+          "label": "Gallup, 2022",
+          "url": "https://news.gallup.com/poll/394943/retiring-planning-retire-later.aspx"
+        },
+        "kind": "world",
+        "evidence": "In 1991, U.S. retirees, on average, reported that they retired at age 57. Now, the average reported retirement age is up to 61.",
+        "check": "Average reported retirement age of US retirees = 61 (Gallup Economy and Personal Finance survey; article dated July 22, 2022). Placed at 61."
+      },
+      {
+        "text": "In 2020 the world's people aged 60 and over outnumbered its children under five. By 2030, one person in six will be 60 or older.",
+        "source": {
+          "label": "World Health Organization, Ageing and health fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health"
+        },
+        "kind": "numbers",
+        "evidence": "In 2020, the number of people aged 60 years and older outnumbered children younger than 5 years. ... By 2030, 1 in 6 people in the world will be aged 60 years or over.",
+        "check": "Global figures for the 60-and-over group. Placed at 61 because age 60 already carries two candidates; any age from 60 up belongs to this group."
+      }
+    ]
+  },
+  {
+    "age": 62,
+    "candidates": [
+      {
+        "text": "A man's speaking voice is usually at its lowest between 40 and 50; by 60 to 70 it has risen back to the pitch of his twenties.",
+        "source": {
+          "label": "Skoog Waller & Eriksson, Frontiers in Psychology, 2016",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01814/full"
+        },
+        "kind": "body",
+        "evidence": "follows a U-function being lowest between 40 and 50 years, reaching the level of 20–30 years at age 60–70 years, and then continues to rise",
+        "check": "Refers to fundamental frequency (f0) in aging male speakers (the sentence begins 'In contrast, f0 in aging male speakers'), citing Linville's 1996 review. Placed at 62, inside the 60–70 band."
+      },
+      {
+        "text": "In England in 2021, men aged 60 to 64 were more likely than men of any other age to give unpaid care to someone: 13.0% of them did.",
+        "source": {
+          "label": "Office for National Statistics, Census 2021, Unpaid care by age, sex and deprivation",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/socialcare/articles/unpaidcarebyagesexanddeprivationenglandandwales/census2021"
+        },
+        "kind": "numbers",
+        "evidence": "Males aged between 60 and 64 years were most likely to provide unpaid care (13.0%)",
+        "check": "Census 2021, England, males aged 60–64: 13.0%, the highest for males. Placed at 62, the middle of the 60–64 band."
+      }
+    ]
+  },
+  {
+    "age": 63,
+    "candidates": [
+      {
+        "text": "Across OECD countries in 2022, the average normal retirement age was 63.6 for women and 64.4 for men.",
+        "source": {
+          "label": "OECD, Pensions at a Glance 2023",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pensions-at-a-glance-2023_4757bf20/678055dd-en.pdf"
+        },
+        "kind": "world",
+        "evidence": "In 2022, the OECD average NRA was equal to 64.4 years for men and 63.6 years for women.",
+        "check": "OECD average normal retirement age in 2022 (full career from age 22): women 63.6. 63.6 floors to age 63."
+      },
+      {
+        "text": "Kofi Annan of Ghana, the UN's seventh Secretary-General, shared the 2001 Nobel Peace Prize with the United Nations itself.",
+        "source": {
+          "label": "NobelPrize.org, Kofi Annan – Facts",
+          "url": "https://www.nobelprize.org/prizes/peace/2001/annan/facts/"
+        },
+        "kind": "people",
+        "evidence": "In 2001, its centennial year, the Nobel Committee decided that the Peace Prize was to be divided between the United Nations (UN) and the world organization's Secretary-General, Kofi Annan. ... a position he held until 1997, when he took over as the United Nations' seventh Secretary-General.",
+        "check": "Born 8 April 1938 (NobelPrize.org facts page). Prize announced 'Oslo, 12 October, 2001' (NobelPrize.org press release, https://www.nobelprize.org/prizes/peace/2001/press-release/). 8 Apr 1938 -> 12 Oct 2001 = 63."
+      }
+    ]
+  },
+  {
+    "age": 64,
+    "candidates": [
+      {
+        "text": "In a 10-year study of daily emotions, the balance of positive over negative feelings kept improving with age, peaking at around 64.",
+        "source": {
+          "label": "Carstensen et al., Psychology and Aging, 2011",
+          "url": "https://www.anderson.ucla.edu/faculty/hal.hershfield/resources/Research/Psychology-and-Aging-2011-Carstensen.pdf"
+        },
+        "kind": "mind",
+        "evidence": "Model-based predictions, given average levels of all covariates and cautiously interpreted in the context of model assumptions, indicate that the peak is at age 64.",
+        "check": "Model-predicted peak of positive relative to negative emotional experience = age 64 (experience sampling repeated over 10 years, San Francisco Bay Area, United States). The authors add that 'the peak of emotional life may not occur until well into the 7th decade.' Placed at 64."
+      },
+      {
+        "text": "Wangari Maathai, whose Green Belt Movement planted over thirty million trees, became the first African woman to receive the Nobel Peace Prize.",
+        "source": {
+          "label": "NobelPrize.org, Wangari Maathai – Facts",
+          "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"
+        },
+        "kind": "people",
+        "evidence": "Wangari Maathai was the first African woman to receive the Nobel Peace Prize. ... The so-called Green Belt Movement spread to other African countries, and contributed to the planting of over thirty million trees.",
+        "check": "Born 1 April 1940 (NobelPrize.org facts page). Prize announced 8 October 2004 (NobelPrize.org press release, https://www.nobelprize.org/prizes/peace/2004/press-release/). 1 Apr 1940 -> 8 Oct 2004 = 64."
+      }
+    ]
+  }
+]

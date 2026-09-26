@@ -1,0 +1,183 @@
+{
+  "$comment": "Which researched candidate (0 = a, 1 = b) is shown at each age. Optional: {\"pick\": 0, \"text\": \"edited text\"} to adjust wording without changing the source.",
+  "picks": {
+    "0": 0,
+    "1": {
+      "pick": 1,
+      "text": "In a New York lab study, toddlers aged 12 to 19 months averaged 2,368 steps and 17 falls in every hour of free play."
+    },
+    "2": {
+      "pick": 1,
+      "text": "By 30 months, most toddlers say about 50 words and put two or more together with an action word, like “doggie run”."
+    },
+    "3": {
+      "pick": 0,
+      "text": "Most three-year-olds can keep a conversation going for two back-and-forth turns, and have started asking “who”, “what”, “where” or “why” questions."
+    },
+    "4": 0,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": {
+      "pick": 1,
+      "text": "In a US study, children of five to seven recalled 60% or more of events discussed at age three, while eight- and nine-year-olds recalled under 40%."
+    },
+    "9": 0,
+    "10": 1,
+    "11": 0,
+    "12": 1,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": {
+      "pick": 0,
+      "text": "In 2007 Austria became the first EU country to lower the voting age to 16 in national elections, from 18."
+    },
+    "17": {
+      "pick": 1,
+      "text": "Asked about personally meaningful songs, 1,891 people from many countries most often named ones released when they were about 17."
+    },
+    "18": 0,
+    "19": {
+      "pick": 0,
+      "text": "The mind's raw speed at processing information peaks around 18 or 19; other abilities keep ripening for decades."
+    },
+    "20": 1,
+    "21": 0,
+    "22": 1,
+    "23": 0,
+    "24": 0,
+    "45": 0,
+    "46": 0,
+    "47": 0,
+    "48": 0,
+    "49": {
+      "pick": 1,
+      "text": "A 2015 study put the median age at which American women become grandmothers at 49. In parts of Western Europe it came up to eight years later."
+    },
+    "50": 1,
+    "51": 1,
+    "52": 1,
+    "53": 0,
+    "54": 1,
+    "55": 0,
+    "56": 0,
+    "57": 1,
+    "58": 1,
+    "59": {
+      "pick": 0,
+      "text": "In January 2026, US workers aged 55 to 64 had been with their current employer for a median of 9.6 years, more than three times as long as those aged 25 to 34."
+    },
+    "60": 1,
+    "61": 0,
+    "62": 0,
+    "63": 1,
+    "64": 0,
+    "65": 0,
+    "66": 1,
+    "67": 0,
+    "68": 0,
+    "69": {
+      "pick": 0,
+      "text": "In a German-Swiss trial of adults aged 62 to 78, six months of piano lessons improved hearing of speech in noise in the left ear, a gain not seen in a music-listening group."
+    },
+    "70": {
+      "pick": 1,
+      "text": "In 2025 Denmark voted to raise its state pension age to 70, the highest in Europe, for people born after 1970."
+    },
+    "71": 0,
+    "72": {
+      "pick": 0,
+      "text": "In a UK survey of over 300,000 adults in 2012 to 2015, people aged 65 to 74 reported the highest average happiness of any age group."
+    },
+    "73": 0,
+    "74": 1,
+    "75": 1,
+    "76": {
+      "pick": 0,
+      "text": "In the US in 2024, people aged 75 and over spent an average of 46 minutes a day reading for pleasure. Those aged 15 to 19 read for 9 minutes."
+    },
+    "77": 1,
+    "78": 0,
+    "79": {
+      "pick": 1,
+      "text": "In the US in 2024, adults aged 75 and over spent 7.6 hours a day on leisure and sports, more than any other age group."
+    },
+    "80": {
+      "pick": 1,
+      "text": "Yuichiro Miura reached the summit of Everest on 23 May 2013, becoming the oldest man to climb it, a record he had first set in 2003."
+    },
+    "81": 0,
+    "82": 0,
+    "83": {
+      "pick": 0,
+      "text": "Sumiko Iwamuro, who went to DJ school at 77, was recognised in 2018 as the world's oldest female club DJ, playing monthly in Tokyo."
+    },
+    "84": {
+      "pick": 1,
+      "text": "Some local government offices and financial institutions in Japan use earphones that vibrate the ear's cartilage, so staff helping older people need not speak loudly."
+    },
+    "85": 1,
+    "86": {
+      "pick": 1,
+      "text": "In the UK in 2016 to 2017, 8% of people aged 85 and over were providing informal care to others."
+    },
+    "87": 0,
+    "88": 1,
+    "89": 0,
+    "90": 1,
+    "91": 0,
+    "92": 1,
+    "93": 0,
+    "94": 0,
+    "95": 0,
+    "96": {
+      "pick": 1,
+      "text": "In a 1990 study, nine frail nursing-home residents aged up to 96 did eight weeks of weight training, and their strength rose by 174% on average."
+    },
+    "97": 0,
+    "98": {
+      "pick": 1,
+      "text": "In a study of 29 people aged 90 to 101 in rural southern Italy, the elders reported better mental well-being than their younger relatives."
+    },
+    "99": 0,
+    "100": {
+      "pick": 0,
+      "text": "Japan counted 153 people aged 100 or over in 1963. In 2026 it counted 107,677."
+    },
+    "101": 0,
+    "102": 0,
+    "103": 0,
+    "104": 1,
+    "105": 0,
+    "106": {
+      "pick": 0,
+      "text": "British nationals can receive a birthday message from the King at 100 and 105, and then every year after their 105th birthday."
+    },
+    "107": {
+      "pick": 1,
+      "text": "French pianist Colette Maze, who began playing at 5, was still recording her albums at home at 107, usually on Sundays, when the building was quieter."
+    },
+    "108": 0,
+    "109": 0,
+    "110": 0,
+    "111": {
+      "pick": 1,
+      "text": "After becoming the world's oldest man in 2024, aged 111, Liverpool-born retired accountant John Tinniswood still listened to the radio for the news and managed his own finances."
+    },
+    "112": 0,
+    "113": 0,
+    "114": 1,
+    "115": {
+      "pick": 0,
+      "text": "Sequencing the blood of a 115-year-old woman suggested that most of her white blood cells descended from just two related blood stem cells."
+    },
+    "116": 0,
+    "117": 0,
+    "118": 0,
+    "119": 0,
+    "120": 0,
+    "121": 0,
+    "122": 0
+  }
+}

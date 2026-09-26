@@ -1,0 +1,315 @@
+[
+  {
+    "age": 0,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 1,
+    "status": "fix",
+    "issue": "The 2,368 steps / 17 falls per hour come from one laboratory-playroom sample (116 walkers aged 11.8-19.3 months from the New York City area), but the text states them as a general statistic with no place. Figures themselves match the abstract; 'about' is unnecessary with the exact figure.",
+    "suggestedText": "In a New York lab study, toddlers aged 12 to 19 months averaged 2,368 steps and 17 falls in every hour of free play."
+  },
+  {
+    "age": 2,
+    "status": "fix",
+    "issue": "CDC milestone is 'Says two or more words together, with one action word'. 'join two together with an action' drops 'words' and could read as a physical action. Figures and 30-month placement are fine (CDC page read via WebFetch; curl returned 403).",
+    "suggestedText": "By 30 months, most toddlers say about 50 words and put two or more together with an action word, like “doggie run”."
+  },
+  {
+    "age": 3,
+    "status": "fix",
+    "issue": "CDC milestone is 'Asks “who,” “what,” “where,” or “why” questions' (any of these), not all four; 'who, what, where and why' overstates it slightly. Conversation milestone and age placement are fine (CDC page read via WebFetch; curl returned 403).",
+    "suggestedText": "Most three-year-olds can keep a conversation going for two back-and-forth turns, and have started asking “who”, “what”, “where” or “why” questions."
+  },
+  {
+    "age": 4,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 5,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 6,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 7,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 8,
+    "status": "fix",
+    "issue": "'Fade slowly' is not in the source and misdescribes it: the abstract reports a drop from 60%+ recall at ages 5-7 to under 40% at ages 8-9. Also one Emory University (Atlanta, US) study stated as a general fact; different subgroups of children were tested at each age.",
+    "suggestedText": "In a US study, children of five to seven recalled 60% or more of events discussed at age three, while eight- and nine-year-olds recalled under 40%."
+  },
+  {
+    "age": 9,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 10,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 11,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 12,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 13,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 14,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 15,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 16,
+    "status": "fix",
+    "issue": "Precautionary: the Isle of Man lowered its voting age to 16 in 2006 (a Crown Dependency, not a sovereign state), so 'first country in Europe' is contestable even though the Austrian Parliament uses it; 'first EU country' follows from the source and avoids the dispute. 'From 18' strictly applies to national elections: some Austrian states already used 16 for municipal votes before 2007. The FAQ says 'the voting age in Austria was lowered to 16 (from 18 previously). For nationwide elections...'. The 2007 date is confirmed.",
+    "suggestedText": "In 2007 Austria became the first EU country to lower the voting age to 16 in national elections, from 18."
+  },
+  {
+    "age": 17,
+    "status": "fix",
+    "issue": "The abstract says participants reported 'personally meaningful songs', not their 'most meaningful' songs; 'from around the world' is a slight stretch of 'diverse geographical backgrounds'. The 1,891 participants and the peak at 17 are confirmed.",
+    "suggestedText": "Asked about personally meaningful songs, 1,891 people from many countries most often named ones released when they were about 17."
+  },
+  {
+    "age": 18,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 19,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 20,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 21,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 22,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 23,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 24,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 45,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 46,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 47,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 48,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 49,
+    "status": "fix",
+    "issue": "The figure (US women, median age at grandparenthood 49; Western Europe up to eight years later) matches the abstract, confirmed on the authors' page because academic.oup.com returns 403 to curl. But the present tense 'is 49' presents older retrospective survey data (NSFH) as current. Attribute it to the 2015 study.",
+    "suggestedText": "A 2015 study put the median age at which American women become grandmothers at 49. In parts of Western Europe it came up to eight years later."
+  },
+  {
+    "age": 50,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 51,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 52,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 53,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 54,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 55,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 56,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 57,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 58,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 59,
+    "status": "fix",
+    "issue": "Figures are confirmed on the BLS release (9.6 vs 3.0 years), but the text omits the reference date, and the brief requires the year for statistics. The data refer to January 2026 (released 24 Sept 2026).",
+    "suggestedText": "In January 2026, US workers aged 55 to 64 had been with their current employer for a median of 9.6 years, more than three times as long as those aged 25 to 34."
+  },
+  {
+    "age": 60,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 61,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 62,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 63,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 64,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 65,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 66,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 67,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 68,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 69,
+    "status": "fix",
+    "issue": "The text implies music lessons improved speech-in-noise hearing. Both arms (piano, music listening) improved binaurally, but the trial had no non-music control, and the authors write they 'cannot quantify the extent to which the general improvement over time was due to retest effects'. The design supports the piano-specific left-ear gain ('A general effect on the left ear ... is only present following instrumental music participation'). Reject instead if the editor wants only the simple 'music helps' idea.",
+    "suggestedText": "In a German-Swiss trial of adults aged 62 to 78, six months of piano lessons improved hearing of speech in noise in the left ear, a gain not seen in a music-listening group."
+  },
+  {
+    "age": 70,
+    "status": "fix",
+    "issue": "Minor internal inconsistency: people born after 31 Dec 1970 turn 70 in 2041 or later, so '70 by 2040' and 'for people born after 1970' don't agree literally. CNN has both phrases, but '2040' comes from a pension-association quote. Dropping 'by 2040' keeps only the law's own terms. Vote (May 2025, 81-21), age 70 and 'highest in Europe' are confirmed.",
+    "suggestedText": "In 2025 Denmark voted to raise its state pension age to 70, the highest in Europe, for people born after 1970."
+  },
+  {
+    "age": 71,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 72,
+    "status": "fix",
+    "issue": "Finding is confirmed ('people aged between 65 to 74 had the highest average reported happiness'), but the text omits the data years (2012-2015, ONS Annual Population Survey), and the brief requires the year for statistics.",
+    "suggestedText": "In a UK survey of over 300,000 adults in 2012 to 2015, people aged 65 to 74 reported the highest average happiness of any age group."
+  },
+  {
+    "age": 73,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 74,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 75,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 76,
+    "status": "fix",
+    "issue": "Figures are confirmed (ATUS 2024, table 11A), but the text omits the year, and the brief requires it for statistics. 'Read for 9.' also drops the unit.",
+    "suggestedText": "In the US in 2024, people aged 75 and over spent an average of 46 minutes a day reading for pleasure. Those aged 15 to 19 read for 9 minutes."
+  },
+  {
+    "age": 77,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 78,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 79,
+    "status": "fix",
+    "issue": "Figure is confirmed (7.6 hours/day, 'more than any other age group', ATUS 2024), but the text omits the year, and the brief requires it for statistics. It uses the same source and age band (75+) as age 76.",
+    "suggestedText": "In the US in 2024, adults aged 75 and over spent 7.6 hours a day on leisure and sports, more than any other age group."
+  }
+]

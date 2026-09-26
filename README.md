@@ -54,7 +54,18 @@ await r.download({ age: 34, seconds: 30 });  // a WAV to listen to
 
 ## Deploying
 
-Every push to `main` builds, tests and deploys to GitHub Pages (`.github/workflows/deploy.yml`). To release for real, set `VITE_LIFE_KEY` and `EXPECT_LIFE_KEY` to `echooflife:life` in the workflow.
+```sh
+npm run deploy           # preview: lives are kept under a preview key, so testing never spends a real one
+npm run deploy:release   # the real thing: every visitor's one life
+```
+
+Each command typechecks, tests, builds, checks `dist/` and publishes it to the `gh-pages` branch, which GitHub Pages serves.
+
+**Deploying automatically with Actions** instead:
+
+1. Give the GitHub CLI the `workflow` scope: `gh auth refresh -h github.com -s workflow`.
+2. Move `deploy/github-pages-workflow.yml` to `.github/workflows/deploy.yml`.
+3. Switch Pages to "GitHub Actions" in the repository settings.
 
 ## Credits
 

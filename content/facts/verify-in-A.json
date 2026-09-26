@@ -1,0 +1,662 @@
+[
+  {
+    "age": 0,
+    "text": "A newborn can already pick out its mother's voice from another woman's, and will change the way it sucks to hear hers more often.",
+    "source": {
+      "label": "DeCasper & Fifer, Science, 1980",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7375928/"
+    },
+    "kind": "mind",
+    "evidence": "By sucking on a nonnutritive nipple in different ways, a newborn human could produce either its mother's voice or the voice of another female. Infants learned how to produce the mother's voice and produced it more often than the other voice.",
+    "check": "Subjects were newborns (neonates), so the finding sits at the very start of age 0 (months 0-11). Abstract text confirmed via NCBI E-utilities (the PubMed page itself sits behind a browser check)."
+  },
+  {
+    "age": 1,
+    "text": "Toddlers aged 12 to 19 months average about 2,368 steps and 17 falls in every hour of free play.",
+    "source": {
+      "label": "Adolph et al., Psychological Science, 2012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591461/"
+    },
+    "kind": "numbers",
+    "evidence": "Locomotor experience was immense: 12- to 19-month-olds averaged 2368 steps and fell 17 times/hour.",
+    "check": "12-19 months lies wholly inside the age-1 window (months 12-23). Figures from spontaneous free play (abstract: 'natural infant locomotion derived from spontaneous activity during free play'); US sample, New York University lab. Text confirmed via NCBI E-utilities PMC record."
+  },
+  {
+    "age": 2,
+    "text": "By 30 months, most toddlers say about 50 words and join two together with an action, like “doggie run”.",
+    "source": {
+      "label": "CDC, Milestones by 30 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    },
+    "kind": "mind",
+    "evidence": "Says about 50 words Says two or more words together, with one action word, like “Doggie run”",
+    "check": "30 months is inside age 2 (months 24-35). The two quoted lines are consecutive bullets on the page. CDC defines milestones as what 'most children (75% or more) can do by a certain age'. US CDC guidance."
+  },
+  {
+    "age": 3,
+    "text": "Most three-year-olds can keep a conversation going for two back-and-forth turns, and have started asking who, what, where and why.",
+    "source": {
+      "label": "CDC, Milestones by 3 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    },
+    "kind": "mind",
+    "evidence": "Talks with you in conversation using at least two back-and-forth exchanges Asks “who,” “what,” “where,” or “why” questions, like “Where is mommy/daddy?”",
+    "check": "Checklist 'by 3 years' = 36 months, start of age 3 (months 36-47). The two quoted lines are consecutive bullets on the page. CDC: milestones are what 'most children (75% or more) can do by a certain age'."
+  },
+  {
+    "age": 4,
+    "text": "Around four, children typically pass the classic false-belief test, predicting that someone will look for a toy where they last saw it, not where it now is.",
+    "source": {
+      "label": "Baillargeon, Scott & He, Trends in Cognitive Sciences, 2010",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2930901/"
+    },
+    "kind": "mind",
+    "evidence": "Beginning at about age 4, children typically answer correctly and point to the basket (where Sally falsely believes the toy is); in contrast, most 3-year-olds point to the box (where the toy actually is)",
+    "check": "'About age 4' = months 48-59, age 4. The review notes that infants show earlier signs on non-verbal tasks, so the text is limited to the classic (verbal) test. Text confirmed via NCBI E-utilities PMC record."
+  },
+  {
+    "age": 5,
+    "text": "The grey matter of the brain's cortex reaches its greatest volume at about 5.9 years of age, according to charts built from 123,984 MRI scans.",
+    "source": {
+      "label": "Bethlehem et al., Nature, 2022",
+      "url": "https://www.nature.com/articles/s41586-022-04554-y"
+    },
+    "kind": "body",
+    "evidence": "showed an initial strong increase in GMV from mid-gestation onwards, peaking at 5.9 years (95% bootstrap confidence interval (CI) 5.8–6.1)",
+    "check": "5.9 years = about 71 months, inside the age-5 window (months 60-71); confidence interval 5.8-6.1 years. Scan count from the same paper: 'we aggregated 123,984 MRI scans, across more than 100 primary studies, from 101,457 human participants'. The paper defines GMV as 'total cortical grey matter volume (GMV)', separate from subcortical grey matter (sGMV), hence 'cortex'. Pooled international data."
+  },
+  {
+    "age": 6,
+    "text": "In November 1960, six-year-old Ruby Bridges walked into William Frantz Elementary in New Orleans, escorted by U.S. Marshals, to desegregate the school.",
+    "source": {
+      "label": "National Women's History Museum, Ruby Bridges biography",
+      "url": "https://www.womenshistory.org/education-resources/biographies/ruby-bridges"
+    },
+    "kind": "people",
+    "evidence": "An image of Ruby Bridges being escorted into William Frantz Elementary School by U.S. Marshals in November of 1960.",
+    "check": "Born 8 Sep 1954 (NWHM: 'Ruby Bridges was born on September 8, 1954, to Abon and Lucille Bridges'; also NPS https://www.nps.gov/people/rubybridges.htm: 'Date of Birth: September 8, 1954'). Event: NWHM caption quoted in evidence, and 'It was not until November 14, 1960, that Louisiana schools began to desegregate'. NPS: 'She was the first African American child to desegregate William Frantz Elementary School.' 8 Sep 1954 -> 14 Nov 1960 = 6 years 2 months -> age 6."
+  },
+  {
+    "age": 7,
+    "text": "In a US study of 100 children, 65% had had an imaginary companion at some point by the age of seven.",
+    "source": {
+      "label": "Taylor et al., Developmental Psychology, 2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15535765/"
+    },
+    "kind": "numbers",
+    "evidence": "Overall, 65% of children up to the age of 7 had imaginary companions at some point during their lives.",
+    "check": "'Up to the age of 7' -> shown at age 7 (months 84-95). Sample: '100 children from this study were retested' three years after the preschool phase; University of Oregon, USA. Abstract confirmed via NCBI E-utilities."
+  },
+  {
+    "age": 8,
+    "text": "Memories of age three fade slowly: children of five to seven recall most events they described then, while eight- and nine-year-olds recall under 40%.",
+    "source": {
+      "label": "Bauer & Larkina, Memory, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24236647/"
+    },
+    "kind": "mind",
+    "evidence": "Children aged 5, 6, and 7 remembered 60% or more of the early-life events. In contrast, children aged 8 and 9 years remembered fewer than 40% of the early-life events.",
+    "check": "The under-40% figure applies to children aged 8 and 9 (months 96-119), so it is placed at age 8, where the drop first appears. Emory University, Atlanta, USA. Abstract confirmed via NCBI E-utilities."
+  },
+  {
+    "age": 9,
+    "text": "In October 1828, nine-year-old Clara Wieck, later Clara Schumann, first played for the public, at Leipzig's Gewandhaus concert hall.",
+    "source": {
+      "label": "Schumann-Portal (Schumann research archive), Leipzig 1819-1844",
+      "url": "https://www.schumann-portal.de/leipzig-1819-1844.html"
+    },
+    "kind": "people",
+    "evidence": "he introduced her to the public in a concert given by the pianist Caroline Perthaler from Graz, in the Leipziger Gewandhaus on October 20th, 1828.",
+    "check": "Born 13 September 1819 (same page: 'Clara Wieck was born on September 13, 1819'). First public appearance 20 October 1828, within another pianist's concert (her first own concert followed on 8 November 1830, aged 11). 13 Sep 1819 -> 20 Oct 1828 = 9 years 1 month -> age 9."
+  },
+  {
+    "age": 10,
+    "text": "The World Health Organization counts adolescence from 10 to 19. There are more adolescents alive than ever before: 1.3 billion, one in six people on Earth.",
+    "source": {
+      "label": "World Health Organization, Adolescent health",
+      "url": "https://www.who.int/health-topics/adolescent-health"
+    },
+    "kind": "numbers",
+    "evidence": "Adolescence is the phase of life between childhood and adulthood, from ages 10 to 19. … There are more adolescents in the world than ever before: 1.3 billion, totalling one sixth of the global population.",
+    "check": "WHO defines adolescence as ages 10 to 19, so age 10 is its first year. Global figure (1.3 billion, one sixth of world population) as stated on the WHO health-topic page, current as fetched in Sept 2026; the page gives no reference year."
+  },
+  {
+    "age": 11,
+    "text": "Writing under the name Gul Makai, Malala Yousafzai was 11 when she began an anonymous diary for BBC Urdu about her wish to go to school.",
+    "source": {
+      "label": "NobelPrize.org, Malala Yousafzai biographical",
+      "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/"
+    },
+    "kind": "people",
+    "evidence": "In early 2009, Malala started to blog anonymously on the Urdu language site of the British Broadcasting Corporation (BBC). She wrote about life in the Swat Valley under Taliban rule, and about her desire to go to school. … Malala was 11 years old when she wrote her first BBC diary entry.",
+    "check": "Born 1997-07-12 (NobelPrize.org facts page: 'Born: 12 July 1997, Mingora, Pakistan', https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/); first BBC Urdu diary entry in early 2009 (NobelPrize.org biographical), i.e. before her 12th birthday on 2009-07-12 -> 11. The Nobel page also states the age explicitly. Pen name 'Gul Makai' is on the same page."
+  },
+  {
+    "age": 12,
+    "text": "From about 6 to 12, the outer layers of the brain's hearing cortex mature, as children grow sharper at telling the sounds of language apart.",
+    "source": {
+      "label": "Moore & Linthicum, International Journal of Audiology, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17828663/"
+    },
+    "kind": "body",
+    "evidence": "Later childhood, from six to twelve years, is the time of maturation of the superficial cortical layers and their intracortical connections, accompanied by appearance of the N(1) potential and improved linguistic discriminative abilities.",
+    "check": "Review 'The human auditory system: a timeline of development' gives later childhood, six to twelve years, as the period when the superficial layers of the auditory cortex mature; age 12 is the end of that window. Abstract text read via the Europe PMC API mirror of PubMed (https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17828663%20AND%20SRC:MED&resultType=core&format=json) because pubmed.ncbi.nlm.nih.gov returned a captcha to automated fetches."
+  },
+  {
+    "age": 13,
+    "text": "In August 1963 'Fingertips – Pt 2' made Stevie Wonder the youngest solo artist ever to reach No. 1 on the US Billboard Hot 100.",
+    "source": {
+      "label": "Billboard, 2017",
+      "url": "https://www.billboard.com/pro/this-week-in-billboard-chart-history-in-1963-stevie-wonder-set-a/"
+    },
+    "kind": "people",
+    "evidence": "Aug. 10, 1963 Stevie Wonder … iconic debut single, “Fingertips – Pt 2,” topped the Billboard Hot 100 for the first of three weeks. The song made him the youngest soloist ever to lead the Hot 100 … He was born Stevland Hardaway Morris (he also used the surname Judkins as a boy) on May 13, 1950 in Saginaw, Michigan.",
+    "check": "Born 1950-05-13 (Detroit Historical Society, https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/wonder-stevie); song topped the Hot 100 on 1963-08-10 (Billboard). 1963-08-10 is after his 13th birthday on 1963-05-13 -> 13 (13 years 89 days)."
+  },
+  {
+    "age": 14,
+    "text": "In a study of 463 Danish choirboys, the median age at which the voice broke was 14.0 years.",
+    "source": {
+      "label": "Juul et al., International Journal of Andrology, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17459124/"
+    },
+    "kind": "body",
+    "evidence": "retrospective analyses of age at voice break in 463 Danish choir boys … We found an overall median age at voice break of 14.0 [13.9-14.6] years",
+    "check": "Median age at voice break 14.0 years (bracketed interval in the abstract: 13.9-14.6) in 463 Danish choirboys studied over 1994-2003 (Denmark). 14.0 falls in the age-14 window. Abstract read via Europe PMC API (https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17459124%20AND%20SRC:MED&resultType=core&format=json) because PubMed returned a captcha to automated fetches."
+  },
+  {
+    "age": 15,
+    "text": "In March 1955, 15-year-old Claudette Colvin refused to give up her seat on a segregated bus in Montgomery, nine months before Rosa Parks.",
+    "source": {
+      "label": "National Geographic, 2026",
+      "url": "https://www.nationalgeographic.com/history/article/claudette-colvin-montgomery-bus-boycott"
+    },
+    "kind": "people",
+    "evidence": "She was 15-year-old Claudette Colvin, and it was March 1955, nine months before Parks … On March 2, 1955, she was arrested at the age of 15 in Montgomery, Alabama, for refusing to give up her seat to a white woman on a crowded, segregated bus. … Born in Birmingham, Alabama, in 1939",
+    "check": "Event 1955-03-02 (National Geographic; also Equal Justice Initiative, https://eji.org/news/eji-remembers-civil-rights-pioneer-claudette-colvin/: 'On March 2, 1955, 15-year-old Claudette Colvin...'). Birth year 1939 (National Geographic); exact birth date (widely given as 1939-09-05) was not confirmed on a fetched page, but both sources state her age as 15 on the day -> 15."
+  },
+  {
+    "age": 16,
+    "text": "In 2007 Austria became the first country in Europe to lower the voting age to 16 for all citizens, from 18.",
+    "source": {
+      "label": "Parliament of Austria, Elections FAQ",
+      "url": "https://www.parlament.gv.at/en/services/inquiry-service/faq/elections"
+    },
+    "kind": "world",
+    "evidence": "Austria was the first country in Europe to lower the voting age to 16 for all citizens. … With the 2007 electoral reform, the voting age in Austria was lowered to 16 (from 18 previously).",
+    "check": "Voting age 16 in Austria since the 2007 electoral reform (Federal Law Gazette I No. 28/2007), per the Austrian Parliament's own FAQ, current as fetched Sept 2026."
+  },
+  {
+    "age": 17,
+    "text": "Asked for their most meaningful songs, 1,891 people from around the world most often named ones released when they were about 17.",
+    "source": {
+      "label": "Burunat et al., Memory, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40952922/"
+    },
+    "kind": "mind",
+    "evidence": "Using responses collected from 1891 participants across diverse geographical backgrounds, we analysed the release years of personally meaningful songs. Results showed an inverted U-shaped distribution peaking at age 17",
+    "check": "Release years of personally meaningful songs, relative to each participant's age, form an inverted U peaking at age 17 (1,891 participants, diverse countries). Abstract read via Europe PMC API (https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40952922%20AND%20SRC:MED&resultType=core&format=json) because PubMed returned a captcha to automated fetches."
+  },
+  {
+    "age": 18,
+    "text": "In April 2022 Japan lowered its age of adulthood from 20 to 18, the first change in roughly 140 years.",
+    "source": {
+      "label": "Ministry of Justice, Japan",
+      "url": "https://www.moj.go.jp/EN/MINJI/minji07_00218.html"
+    },
+    "kind": "world",
+    "evidence": "a law was enacted to revise a part of the Civil Code by reducing the age of majority in the Civil Code from 20 to 18 years old. … The first review of the age of majority in the approximately 140 years since the proclamation in 1876 … This revision will be effective from April 1, 2022.",
+    "check": "Japanese Civil Code age of majority lowered from 20 to 18, law enacted 2018-06-13, in force 2022-04-01 (Ministry of Justice English page). Age 18 is the new threshold. Still in force as of the fetch (Sept 2026); alcohol/smoking ages stay at 20, not mentioned in text."
+  },
+  {
+    "age": 19,
+    "text": "The mind's raw speed at processing information peaks around 18 or 19, while vocabulary goes on growing until the late 60s or early 70s.",
+    "source": {
+      "label": "MIT News (Hartshorne & Germine, Psychological Science), 2015",
+      "url": "https://news.mit.edu/2015/brain-peaks-at-different-ages-0306"
+    },
+    "kind": "mind",
+    "evidence": "raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline. … the new data showed a later peak, in the late 60s or early 70s.",
+    "check": "Peak 'around age 18 or 19' from nearly 50,000 online participants plus standardized test norms; placed at 19, the later of the two stated years. Vocabulary peak late 60s/early 70s from the same article."
+  },
+  {
+    "age": 20,
+    "text": "Sleep times drift later through the teens and reach their latest at around 20, a turning point proposed as a marker for the end of adolescence.",
+    "source": {
+      "label": "Nature News & Views on Roenneberg et al. (Current Biology), 2005",
+      "url": "https://www.nature.com/articles/433027a"
+    },
+    "kind": "body",
+    "evidence": "Children are typically early risers but start to sleep progressively later as they enter adolescence. They reach maximum lateness at around the age of 20, when the curve abruptly starts to decline. … the authors suggest, it is the point at which an individual's curve inverses that marks the end of adolescence.",
+    "check": "Survey of 25,000 people aged 10-90 (Roenneberg et al., Curr. Biol. 2004), summarized in Nature 433:27 (2005): maximum lateness of sleep timing 'at around the age of 20'. The original paper is paywalled (cell.com returned 403), so the Nature summary is cited."
+  },
+  {
+    "age": 21,
+    "text": "In 2025, young people in Finland left their parents' home at 21.4 years on average, the earliest in the EU, where the average was 26.3.",
+    "source": {
+      "label": "Eurostat, 2026",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260915-1"
+    },
+    "kind": "numbers",
+    "evidence": "In 2025, young people in the EU left their parents’ home at an average age of 26.3 years … the lowest average ages were registered in Finland (21.4 years)",
+    "check": "Eurostat news item of 2026-09-15, dataset yth_demo_030, reference year 2025: Finland 21.4 (lowest in EU), EU average 26.3. 21.4 falls in the age-21 window."
+  },
+  {
+    "age": 22,
+    "text": "In January 2021, Amanda Gorman read 'The Hill We Climb' at a US presidential inauguration, the youngest inaugural poet in the country's history.",
+    "source": {
+      "label": "PBS NewsHour, 2021",
+      "url": "https://www.pbs.org/newshour/live-update/inauguration-of-joe-biden-and-kamala-harris/amanda-gorman-at-22-is-the-youngest-inaugural-poet-in-u-s-history"
+    },
+    "kind": "people",
+    "evidence": "Jan 20, 2021 12:20 PM EDT Amanda Gorman, at 22, is the youngest inaugural poet in U.S. history … Poet and activist Amanda S. C. Gorman was born on March 7, 1998, in Los Angeles, California.",
+    "check": "Born 1998-03-07 (BlackPast.org, https://blackpast.org/african-american-history/amanda-s-c-gorman-1998/); inauguration reading 2021-01-20 (PBS NewsHour, which also gives her age as 22). 2021-01-20 is before her 23rd birthday (2021-03-07) and after her 22nd -> 22."
+  },
+  {
+    "age": 23,
+    "text": "In June 1925 Werner Heisenberg went to the island of Helgoland to ease his hay fever, and there set out the first mathematical framework of quantum mechanics.",
+    "source": {
+      "label": "American Physical Society, APS News, 2025",
+      "url": "https://www.aps.org/apsnews/2025/07/werner-heisenberg-pioneers-quantum-mechanics"
+    },
+    "kind": "people",
+    "evidence": "On June 6, a swollen-faced, stuffy-nosed Werner Heisenberg, then 23 years old and suffering from hay fever, left his home in central Germany for the fresh air of the North Sea island of Helgoland, hoping for relief. There, he had a breakthrough, becoming the first to articulate a mathematical framework of quantum mechanics … Born: 5 December 1901, Würzburg, Germany",
+    "check": "Born 1901-12-05 (NobelPrize.org facts, https://www.nobelprize.org/prizes/physics/1932/heisenberg/facts/); left for Helgoland on 1925-06-06 and worked there in June 1925 (APS, which also says 'then 23 years old'). June 1925 is before his 24th birthday (1925-12-05) -> 23. APS notes historians doubt some romanticized details (the sunrise), not the trip or the work."
+  },
+  {
+    "age": 24,
+    "text": "On 28 November 1967, PhD student Jocelyn Bell, 24, recorded radio pulses one and a third seconds apart: the discovery of pulsars.",
+    "source": {
+      "label": "University of Cambridge, Journeys of discovery",
+      "url": "https://www.cam.ac.uk/stories/journeysofdiscovery-pulsars"
+    },
+    "kind": "people",
+    "evidence": "24-year old PhD student Jocelyn Bell … on 28 November 1967, it came again, a string of pulses one-and-a third seconds apart. … Born July 15, 1943, Jocelyn Bell Burnell",
+    "check": "Born 1943-07-15 (Astronomy magazine, https://www.astronomy.com/today-in-the-history-of-astronomy/july-15-1943-birth-of-jocelyn-bell-burnell/); first observation of the pulses on 1967-11-28 (University of Cambridge; the signal was first recorded, unrecognized, on 1967-08-06). Both dates fall after her 24th birthday (1967-07-15) -> 24; Cambridge also calls her a 24-year-old."
+  },
+  {
+    "age": 45,
+    "text": "Many people first notice around age 45 that they hold a page a little farther away to read it, as the lens of the eye slowly loses its flexibility.",
+    "source": {
+      "label": "MedlinePlus (US National Library of Medicine), Presbyopia, 2026",
+      "url": "https://medlineplus.gov/ency/article/001026.htm"
+    },
+    "kind": "body",
+    "evidence": "People most often begin to notice the condition at around age 45, when they realize that they need to hold reading materials farther away in order to focus on them.",
+    "check": "Source states 'around age 45' directly; the same page explains that the elasticity of the lens decreases slowly as people age. Placed at 45. Page review date 1/27/2026. Also consistent with the NEI presbyopia page ('usually after age 45')."
+  },
+  {
+    "age": 46,
+    "text": "In 1982 the typical American jazz concertgoer was 29. By 2008 the median age of the jazz audience had risen to 46.",
+    "source": {
+      "label": "National Endowment for the Arts, Arts Participation 2008 (SPPA)",
+      "url": "https://www.arts.gov/sites/default/files/NEA-SPPA-brochure.pdf"
+    },
+    "kind": "numbers",
+    "evidence": "Median Age of Arts Attendees: 1982–2008 [table columns 1982, 1992, 2002, 2008] Jazz 29 37 42 46",
+    "check": "Table 'Median Age of Arts Attendees: 1982–2008', row 'Jazz': 29 (1982) and 46 (2008). United States, Survey of Public Participation in the Arts. Median 46 -> age 46. Evidence is a table row, quoted in order with column years noted in brackets."
+  },
+  {
+    "age": 47,
+    "text": "Reading other people's emotions is a late-blooming skill: in a study of nearly 50,000 people it peaked in the 40s or 50s, long after processing speed and short-term memory.",
+    "source": {
+      "label": "Association for Psychological Science, on Hartshorne & Germine (Psychological Science), 2015",
+      "url": "https://www.psychologicalscience.org/news/releases/cognitive-skills-peak-at-different-ages-across-adulthood.html"
+    },
+    "kind": "mind",
+    "evidence": "The ability to evaluate other people’s emotional states, on the other hand, peaked much later, when participants were in their 40s or 50s.",
+    "check": "Band finding (peak in the 40s or 50s); the same release says 'test data from nearly 50,000 subjects' and that processing speed peaked around 18 or 19. Placed at 47, inside the 40s–50s band. Release dated March 6, 2015. The release also says short-term memory began to drop around age 35."
+  },
+  {
+    "age": 48,
+    "text": "Across 145 countries, well-being follows a U-shaped curve through adulthood, dipping to its lowest point in midlife, on average around age 48, then rising again.",
+    "source": {
+      "label": "Blanchflower, Journal of Population Economics, 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7480662/"
+    },
+    "kind": "mind",
+    "evidence": "I use these data to estimate 477 separate country-level estimates that reach a minimum, on average, at age 48.3.",
+    "check": "Average minimum of 477 country-level estimates = 48.3 (145 countries, developing and advanced). 48.3 floors to age 48. Quote confirmed on the PMC page (WebFetch) and in the Europe PMC full text (curl)."
+  },
+  {
+    "age": 49,
+    "text": "In the United States the median age at which women become grandmothers is 49. In parts of Western Europe it comes up to eight years later.",
+    "source": {
+      "label": "Leopold & Skopek, Social Forces, 2015",
+      "url": "https://academic.oup.com/sf/article-abstract/94/2/801/2583786"
+    },
+    "kind": "world",
+    "evidence": "Compared to the United States (49 years among women, 52 years among men), grandparenthood in Eastern Europe occurs up to three years earlier in life; in Western Europe, up to eight years later.",
+    "check": "Median age at grandparenthood for US women = 49 (survival analysis of retrospective survey data). Abstract read on the OUP page via WebFetch; exact wording confirmed by curl on the authors' abstract page (http://www.skopek.org/publications/the-demography-of-grandparenthood-an-international-profile). Placed at 49."
+  },
+  {
+    "age": 50,
+    "text": "In October 1966 the Carnatic singer M. S. Subbulakshmi gave a recital of Indian songs in the United Nations General Assembly Hall in New York.",
+    "source": {
+      "label": "UN Photo, Celebration of United Nations Day 1966",
+      "url": "https://media.un.org/photo/en/asset/oun7/oun7615364"
+    },
+    "kind": "people",
+    "evidence": "Madame M.S. Subbulakshmi, one of India's most eminent musicians, gave a recital of Indian songs today in the General Assembly Hall, as part of a 1966 United Nations Day (24 October) celebrations.",
+    "check": "Born September 16, 1916 (Press Information Bureau, Government of India: 'on September 16, 1916, ‘ M.S. Subbulakshmi, the ‘Nightingale of India’, was born at Madurai', https://www.pib.gov.in/newsite/printrelease.aspx?relid=149779&reg=48&lang=2). Recital dated 23 October 1966 (UN Photo caption, read via WebFetch because the page is script-rendered); a UN India stamp page gives 24 October 1966 (https://unindiastamps.sitslive.com/m-s). 16 Sep 1916 -> 23 or 24 Oct 1966 = 50 either way."
+  },
+  {
+    "age": 51,
+    "text": "In surveys of over 1.5 million Americans, everyday stress stayed high from the 20s until about age 50, then fell steeply through the 70s.",
+    "source": {
+      "label": "Stone, Schneider & Broderick, Journal of Psychosomatic Research, 2017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5707130/"
+    },
+    "kind": "mind",
+    "evidence": "with high levels from the 20's through about age 50, followed by a precipitous decline through the 70's.",
+    "check": "Turning point 'about age 50', decline thereafter; placed at 51, the first year after it. United States, Gallup-Healthways data. The PubMed abstract (PMID 29167044, retrieved via NCBI E-utilities) states 'Using Gallup-Healthways survey data of over 1.5 million U.S. respondents'."
+  },
+  {
+    "age": 52,
+    "text": "Rabindranath Tagore, a writer of poems, songs, stories and plays in Bengali, won the 1913 Nobel Prize in Literature for verse recast in his own English words.",
+    "source": {
+      "label": "NobelPrize.org, Rabindranath Tagore – Facts",
+      "url": "https://www.nobelprize.org/prizes/literature/1913/tagore/facts/"
+    },
+    "kind": "people",
+    "evidence": "Prize motivation: “because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West” ... Apart from fiction in the form of poetry, songs, stories, and dramas, it also includes portrayals of common people's lives, literary criticism, philosophy, and social issues. Tagore originally wrote in Bengali",
+    "check": "Born 7 May 1861 (NobelPrize.org facts page). Prize presented 10 December 1913 (NobelPrize.org presentation speech: 'Presentation Speech by Harald Hjärne, Chairman of the Nobel Committee of the Swedish Academy , on December 10, 1913', https://www.nobelprize.org/prizes/literature/1913/ceremony-speech/). The award year and the 10 December presentation both fall after his 7 May birthday: 7 May 1861 -> 10 Dec 1913 = 52."
+  },
+  {
+    "age": 53,
+    "text": "Women's voices often deepen in midlife: one study found the voices of women aged 40 to 60 were pitched 34 to 38 Hz lower than those of women aged 20 to 30.",
+    "source": {
+      "label": "Eichhorn, Kent, Austin et al., Journal of Voice, 2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5832520/"
+    },
+    "kind": "body",
+    "evidence": "Differences (cohort I–cohort II) in least square means by vowel were: /i/ 35 Hz, p < .0001; /u/ 34 Hz, p < .0001; /æ/ 38 Hz, p < .0001; /ɑ/ 35 Hz, p < .0001.",
+    "check": "Cohort I = ages 20 to 30, cohort II = ages 40 to 60 (Methods). Authors conclude 'Women experience a significant decrease in fo, which is likely related to menopause.' Placed at 53, inside the 40–60 cohort and just after the UK average menopause age of 51. Full text confirmed via NCBI E-utilities (PMC XML)."
+  },
+  {
+    "age": 54,
+    "text": "Dorothy Crowfoot Hodgkin won the 1964 Nobel Prize in Chemistry for using X-rays to work out the structures of important biochemical substances.",
+    "source": {
+      "label": "NobelPrize.org, Dorothy Crowfoot Hodgkin – Facts",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/facts/"
+    },
+    "kind": "people",
+    "evidence": "Prize motivation: “for her determinations by X-ray techniques of the structures of important biochemical substances”",
+    "check": "Born 12 May 1910 (NobelPrize.org facts page). Nobel Lecture dated 'December 11, 1964' (https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/lecture/); the 1964 prize was announced in autumn 1964. 12 May 1910 -> autumn/Dec 1964 = 54."
+  },
+  {
+    "age": 55,
+    "text": "Among adults aged 45 to 65, musicians were better than non-musicians at following speech against background noise, a 2011 study found.",
+    "source": {
+      "label": "Parbery-Clark, Strait, Anderson, Hittner & Kraus, PLOS ONE, 2011",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018082"
+    },
+    "kind": "mind",
+    "evidence": "We herein demonstrate enhanced speech-in-noise perception for older adult musicians between the ages of 45–65 which correlates with auditory cognitive and perceptual performance.",
+    "check": "Participants aged 45–65 (Chicago area, United States); placed at 55, the midpoint of the band."
+  },
+  {
+    "age": 56,
+    "text": "In the US in 2025, the median age of farmers, ranchers and agricultural managers was 56.1, compared with 42.1 for all employed people.",
+    "source": {
+      "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+      "url": "https://www.bls.gov/cps/cpsaat11b.htm"
+    },
+    "kind": "world",
+    "evidence": "Farmers, ranchers, and other agricultural managers | 810 | 4 | 27 | 88 | 119 | 129 | 180 | 261 | 56.1",
+    "check": "Table '11b. Employed people by detailed occupation and age', 2025 annual averages, last column = median age 56.1; 'Total, 16 years and over' median age 42.1. United States. 56.1 floors to age 56. BLS blocks curl, so the row was read via WebFetch (two separate reads gave the same 56.1)."
+  },
+  {
+    "age": 57,
+    "text": "In January 1955 the contralto Marian Anderson became the first African American soloist to sing at New York's Metropolitan Opera.",
+    "source": {
+      "label": "NPR, 2015",
+      "url": "https://www.npr.org/sections/deceptivecadence/2015/01/07/375440168/marian-andersons-groundbreaking-met-opera-moment"
+    },
+    "kind": "people",
+    "evidence": "Sixty years ago Wednesday, Anderson became the first African-American soloist to sing at New York's Metropolitan Opera. She was in her late 50s when she appeared Jan. 7, 1955",
+    "check": "Born February 27, 1897 (US National Archives: 'Marian Anderson (February 27, 1897 - April 8, 1993)', https://www.archives.gov/research/african-americans/individuals/marian-anderson). Met debut Jan. 7, 1955 (NPR). 27 Feb 1897 -> 7 Jan 1955 = 57 (she turned 58 seven weeks later)."
+  },
+  {
+    "age": 58,
+    "text": "Journalist Maria Ressa, co-founder of the Rappler news site in the Philippines, shared the 2021 Nobel Peace Prize for defending freedom of expression.",
+    "source": {
+      "label": "NobelPrize.org, Maria Ressa – Facts",
+      "url": "https://www.nobelprize.org/prizes/peace/2021/ressa/facts/"
+    },
+    "kind": "people",
+    "evidence": "Prize motivation: “for their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace” Prize share: 1/2 ... In 2012, she was one of the co-founders of the Rappler online news site.",
+    "check": "Born 2 October 1963 (NobelPrize.org facts page). Prize announced 8 October 2021 (NobelPrize.org press release, https://www.nobelprize.org/prizes/peace/2021/press-release/). 2 Oct 1963 -> 8 Oct 2021 = 58 (six days after her birthday); ceremony 10 Dec 2021 also 58."
+  },
+  {
+    "age": 59,
+    "text": "In the US, workers aged 55 to 64 have been with their current employer for a median of 9.6 years, more than three times as long as those aged 25 to 34.",
+    "source": {
+      "label": "US Bureau of Labor Statistics, Employee Tenure, January 2026",
+      "url": "https://www.bls.gov/news.release/tenure.nr0.htm"
+    },
+    "kind": "world",
+    "evidence": "For example, the median tenure of workers ages 55 to 64 (9.6 years) was more than three times that of workers ages 25 to 34 (3.0 years).",
+    "check": "US data for January 2026, age band 55–64; placed at 59, the middle of the band. BLS blocks curl, so the sentence was read via WebFetch only."
+  },
+  {
+    "age": 60,
+    "text": "In the Analects, Confucius says that at sixty his ear became “an obedient organ for the reception of truth”.",
+    "source": {
+      "label": "Chinese Text Project, Analects, Wei Zheng 2.4 (James Legge translation)",
+      "url": "https://ctext.org/analects/wei-zheng"
+    },
+    "kind": "world",
+    "evidence": "At fifty, I knew the decrees of Heaven. At sixty, my ear was an obedient organ for the reception of truth.",
+    "check": "The passage names sixty explicitly (Chinese original: 六十而耳順). Placed at 60."
+  },
+  {
+    "age": 61,
+    "text": "In 1991, American retirees said they had stopped working at 57 on average. By 2022 the average retirement age they reported had risen to 61.",
+    "source": {
+      "label": "Gallup, 2022",
+      "url": "https://news.gallup.com/poll/394943/retiring-planning-retire-later.aspx"
+    },
+    "kind": "world",
+    "evidence": "In 1991, U.S. retirees, on average, reported that they retired at age 57. Now, the average reported retirement age is up to 61.",
+    "check": "Average reported retirement age of US retirees = 61 (Gallup Economy and Personal Finance survey; article dated July 22, 2022). Placed at 61."
+  },
+  {
+    "age": 62,
+    "text": "A man's speaking voice is usually at its lowest between 40 and 50; by 60 to 70 it has risen back to the pitch of his twenties.",
+    "source": {
+      "label": "Skoog Waller & Eriksson, Frontiers in Psychology, 2016",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01814/full"
+    },
+    "kind": "body",
+    "evidence": "follows a U-function being lowest between 40 and 50 years, reaching the level of 20–30 years at age 60–70 years, and then continues to rise",
+    "check": "Refers to fundamental frequency (f0) in aging male speakers (the sentence begins 'In contrast, f0 in aging male speakers'), citing Linville's 1996 review. Placed at 62, inside the 60–70 band."
+  },
+  {
+    "age": 63,
+    "text": "Kofi Annan of Ghana, the UN's seventh Secretary-General, shared the 2001 Nobel Peace Prize with the United Nations itself.",
+    "source": {
+      "label": "NobelPrize.org, Kofi Annan – Facts",
+      "url": "https://www.nobelprize.org/prizes/peace/2001/annan/facts/"
+    },
+    "kind": "people",
+    "evidence": "In 2001, its centennial year, the Nobel Committee decided that the Peace Prize was to be divided between the United Nations (UN) and the world organization's Secretary-General, Kofi Annan. ... a position he held until 1997, when he took over as the United Nations' seventh Secretary-General.",
+    "check": "Born 8 April 1938 (NobelPrize.org facts page). Prize announced 'Oslo, 12 October, 2001' (NobelPrize.org press release, https://www.nobelprize.org/prizes/peace/2001/press-release/). 8 Apr 1938 -> 12 Oct 2001 = 63."
+  },
+  {
+    "age": 64,
+    "text": "In a 10-year study of daily emotions, the balance of positive over negative feelings kept improving with age, peaking at around 64.",
+    "source": {
+      "label": "Carstensen et al., Psychology and Aging, 2011",
+      "url": "https://www.anderson.ucla.edu/faculty/hal.hershfield/resources/Research/Psychology-and-Aging-2011-Carstensen.pdf"
+    },
+    "kind": "mind",
+    "evidence": "Model-based predictions, given average levels of all covariates and cautiously interpreted in the context of model assumptions, indicate that the peak is at age 64.",
+    "check": "Model-predicted peak of positive relative to negative emotional experience = age 64 (experience sampling repeated over 10 years, San Francisco Bay Area, United States). The authors add that 'the peak of emotional life may not occur until well into the 7th decade.' Placed at 64."
+  },
+  {
+    "age": 65,
+    "text": "In 2018, for the first time in history, people aged 65 or over outnumbered children under five worldwide.",
+    "source": {
+      "label": "UN DESA, World Population Prospects 2019",
+      "url": "https://www.un.org/development/desa/en/news/population/world-population-prospects-2019.html"
+    },
+    "kind": "numbers",
+    "evidence": "In 2018, for the first time in history, persons aged 65 or above outnumbered children under five years of age globally.",
+    "check": "UN DESA press release on World Population Prospects 2019. Global figure, year 2018: population aged 65+ vs children under 5. Placed at 65 because it concerns the 65+ threshold."
+  },
+  {
+    "age": 66,
+    "text": "Muhammad Yunus shared the 2006 Nobel Peace Prize with Grameen Bank, which he founded to lend poor people small sums on easy terms.",
+    "source": {
+      "label": "NobelPrize.org, Muhammad Yunus facts, 2006",
+      "url": "https://www.nobelprize.org/prizes/peace/2006/yunus/facts/"
+    },
+    "kind": "people",
+    "evidence": "Grameen Bank's objective since its establishment in 1983 has been to grant poor people small loans on easy terms - so-called micro-credit - and Yunus was the bank's founder.",
+    "check": "Birth: 'Born: 28 June 1940, Chittagong, British India (now Bangladesh)' (same facts page). Event: Peace Prize announced 13 October 2006 (NobelPrize.org peace 2006 press release, dated '13 October 2006'). 28 Jun 1940 -> 13 Oct 2006 = 66 years 3 months. Ceremony 10 Dec 2006 also at 66."
+  },
+  {
+    "age": 67,
+    "text": "In an 18-month German trial, dancers averaging 67 years old gained volume in the brain's memory hub and, unlike a fitness group, clearly improved their balance.",
+    "source": {
+      "label": "Rehfeld et al., Frontiers in Human Neuroscience, 2017",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2017.00305/full"
+    },
+    "kind": "body",
+    "evidence": "Fourteen members of the dance (67.21 ± 3.78 years, seven females), and 12 members of the fitness group (68.67 ± 2.57 years, five females) completed the whole study. Both groups revealed hippocampal volume increases mainly in the left HC (CA1, CA2, subiculum). The dancers showed additional increases in the left dentate gyrus and the right subiculum. Moreover, only the dancers achieved a significant increase in the balance composite score.",
+    "check": "Peer-reviewed RCT (Magdeburg, Germany), 18-month intervention. Dance group mean age 67.21 years -> placed at 67. 'Memory hub' = hippocampus, which the paper describes as crucial for memory consolidation."
+  },
+  {
+    "age": 68,
+    "text": "Vocabulary is a late bloomer: in a large online study of mental skills, it peaked when participants were in their late 60s or early 70s.",
+    "source": {
+      "label": "Association for Psychological Science, 2015",
+      "url": "https://www.psychologicalscience.org/news/releases/cognitive-skills-peak-at-different-ages-across-adulthood.html"
+    },
+    "kind": "mind",
+    "evidence": "The researchers also included a vocabulary test, which serves as a measure of what is known as crystallized intelligence — the accumulation of facts and knowledge. While the results confirmed that crystallized intelligence peaks later in life, the new data indicated that the peak occurred when participants were in their late 60s or early 70s, even later than previously thought.",
+    "check": "APS press release on Hartshorne & Germine (2015), Psychological Science; large online samples. Peak in 'late 60s or early 70s' -> placed at 68."
+  },
+  {
+    "age": 69,
+    "text": "In a German-Swiss trial of older adults, after six months of piano lessons or music-listening classes, participants picked out speech in noise better.",
+    "source": {
+      "label": "Worschech et al., Frontiers in Neuroscience, 2021",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2021.696240/full"
+    },
+    "kind": "body",
+    "evidence": "156 healthy, normal-hearing elderly were randomly assigned to either piano playing or music listening/musical culture groups. The speech reception threshold was assessed using the International Matrix Test before and after a 6 month intervention. Bayesian multilevel modeling revealed an improvement of both groups over time under binaural conditions. [...] between 62–78 years of age (mean = 69.7, SD = 3.5) participated.",
+    "check": "Peer-reviewed randomised trial (156 participants, Hanover and Geneva); both the piano and the music-listening groups improved, with extra left-ear gains in the piano group. Participants aged 62-78, mean 69.7 -> placed at 69."
+  },
+  {
+    "age": 70,
+    "text": "In 2025 Denmark voted to raise its state pension age to 70 by 2040, the highest in Europe, for people born after 1970.",
+    "source": {
+      "label": "CNN Business, 23 May 2025",
+      "url": "https://www.cnn.com/2025/05/23/business/denmark-retirement-age-rise-70-intl-scli"
+    },
+    "kind": "world",
+    "evidence": "Denmark is set to have the highest retirement age in Europe, after lawmakers voted to raise it to 70. Parliamentarians passed a bill mandating the rise on Thursday, with 81 votes in favor and 21 against. The new law will apply to people born after December 31, 1970. [...] the state pension age increasing to 70 by 2040",
+    "check": "Place: Denmark. Law passed in May 2025 (article published 23 May 2025); pension age 70 from 2040 for people born after 31 December 1970."
+  },
+  {
+    "age": 71,
+    "text": "In a US trial with 390 adults averaging 71 years old, six months of singing in a community choir eased loneliness and raised interest in life.",
+    "source": {
+      "label": "Johnson et al., Journals of Gerontology: Series B, 2020 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30412233/"
+    },
+    "kind": "mind",
+    "evidence": "The sample (N = 390) had a mean age of 71.3 years (SD = 7.2); 65% were nonwhite. Six-month retention was 92%. Compared to controls, intervention group members experienced significantly greater improvements in loneliness (p = .02; standardized effect size [ES = 0.34] and interest in life (p = .008, ES = 0.39).",
+    "check": "Cluster-randomised Community of Voices trial in 12 US Administration-on-Aging senior centers; mean age 71.3 -> placed at 71."
+  },
+  {
+    "age": 72,
+    "text": "In a UK survey of over 300,000 adults, people aged 65 to 74 reported the highest average happiness of any age group.",
+    "source": {
+      "label": "Office for National Statistics (UK), 2016",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/measuringnationalwellbeing/atwhatageispersonalwellbeingthehighest"
+    },
+    "kind": "world",
+    "evidence": "This report analyses personal well-being data for over 300,000 adults in the UK, collected over 3 years between 2012 and 2015. [...] people aged between 65 to 74 had the highest average reported happiness – the lowest rating was amongst those aged between 45 to 59",
+    "check": "ONS Annual Population Survey, UK, 2012-2015, 'happiness yesterday' by age group; highest for 65-74 -> placed at 72."
+  },
+  {
+    "age": 73,
+    "text": "Cuban singer Ibrahim Ferrer won Best New Artist at the very first Latin Grammy Awards, held in September 2000.",
+    "source": {
+      "label": "Billboard, 25 Years of Latin Grammys timeline, 2024",
+      "url": "https://www.billboard.com/lists/latin-grammys-25-anniversary-timeline/"
+    },
+    "kind": "people",
+    "evidence": "The first annual awards, which took place on Sept. 13, 2000 at the Staples Center in Los Angeles [...] Best New Artist: Ibrahim Ferrer",
+    "check": "Birth: 'born at a social club dance in Santiago, Cuba, on 20 February 1927' (Al Jazeera, 7 Aug 2005, https://www.aljazeera.com/news/2005/8/7/cuban-singer-ibrahim-ferrer-dies). Event: 1st Latin Grammy Awards on 13 Sept 2000 (Billboard). 20 Feb 1927 -> 13 Sep 2000 = 73 years 6 months. Win also listed on latingrammy.com (1st Annual Latin Grammy Awards, Best New Artist - Winner)."
+  },
+  {
+    "age": 74,
+    "text": "Adults in their 70s who had exercised for five decades had muscle capillaries and aerobic enzymes matching those of 25-year-old exercisers.",
+    "source": {
+      "label": "Gries et al., Journal of Applied Physiology, 2018 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30161005/"
+    },
+    "kind": "body",
+    "evidence": "trained women ( n = 7, 72 ± 2 yr) and men ( n = 21, 74 ± 1 yr) [...] young exercisers (YE; women: n = 10, 25 ± 1 yr; men: n = 10, 25 ± 1 yr) [...] On average, LLE exercised 5 day/wk for 7 h/wk over the past 52 ± 1 yr. [...] LLE men regardless of intensity and women had similar capillarization and aerobic enzyme activity (citrate synthase and β-HAD) as YE",
+    "check": "Peer-reviewed study (Ball State University). Lifelong-exercise men averaged 74 +/- 1 years (women 72 +/- 2) -> placed at 74."
+  },
+  {
+    "age": 75,
+    "text": "Nelson Mandela voted for the first time in his life on 27 April 1994, and on 10 May became South Africa's first democratically elected president.",
+    "source": {
+      "label": "Nelson Mandela Foundation, Biography",
+      "url": "https://www.nelsonmandela.org/content/page/biography"
+    },
+    "kind": "people",
+    "evidence": "on 27 April 1994 he voted for the first time in his life [...] On 10 May 1994 he was inaugurated as South Africa’s first democratically elected President.",
+    "check": "Birth: 'born into the Madiba clan in the village of Mvezo, in the Eastern Cape, on 18 July 1918' (same page). Event: 27 April 1994 (same page). 18 Jul 1918 -> 27 Apr 1994 = 75 years 9 months; 10 May 1994 also at 75."
+  },
+  {
+    "age": 76,
+    "text": "In the US, people aged 75 and over spend an average of 46 minutes a day reading for pleasure. Those aged 15 to 19 read for 9.",
+    "source": {
+      "label": "US Bureau of Labor Statistics, American Time Use Survey 2024 (via FRASER)",
+      "url": "https://fraser.stlouisfed.org/files/docs/releases/atus/atus_20250626.pdf"
+    },
+    "kind": "world",
+    "evidence": "Time spent reading for personal interest and playing games or using a computer for leisure varied greatly by age. On an average day, individuals age 75 and over spent 46 minutes reading while those ages 15 to 19 read for 9 minutes.",
+    "check": "BLS news release 'American Time Use Survey - 2024 Results' (26 June 2025), text referencing table 11A. Place: United States; year 2024; age group 75+ -> placed at 76."
+  },
+  {
+    "age": 77,
+    "text": "John Glenn returned to space aboard Discovery in 1998, 36 years after his first orbit, and took part in research on space flight and ageing.",
+    "source": {
+      "label": "NASA, Biography of John H. Glenn",
+      "url": "https://www.nasa.gov/people/biography-of-john-h-glenn/"
+    },
+    "kind": "people",
+    "evidence": "Born July 18, 1921 in Cambridge, Ohio. [...] Glenn flew on Mercury-6 (February 20, 1962) and STS-95 (October 29 to November 7, 1998) [...] STS-95 Discovery (October 29 to November 7, 1998) was a 9-day mission during which the crew supported a variety of research payloads including deployment of the Spartan solar-observing spacecraft, the Hubble Space Telescope Orbital Systems Test Platform, and investigations on space flight and the aging process.",
+    "check": "Birth 18 July 1921 and launch 29 October 1998 both on the NASA biography. 18 Jul 1921 -> 29 Oct 1998 = 77 years 3 months. First orbit 20 Feb 1962 -> 36 years 8 months earlier. A second NASA page (25 Years Ago: STS-95) states Glenn 'at age 77 became the oldest person to orbit the Earth'."
+  },
+  {
+    "age": 78,
+    "text": "Brenda Lee's 'Rockin' Around the Christmas Tree', recorded when she was 13, reached No. 1 on the US Hot 100 in December 2023.",
+    "source": {
+      "label": "Billboard, 4 Dec 2023",
+      "url": "https://www.billboard.com/lists/brenda-lee-rockin-around-the-christmas-tree-number-one-hot-100/"
+    },
+    "kind": "people",
+    "evidence": "Evergreen Lee is 78 years young; her new Hot 100 coronation will add to her birthday celebration Dec. 11. She becomes the senior-most artist to top the chart [...] she was 13 when she recorded “Rockin’ Around the Christmas Tree”",
+    "check": "Same Billboard page: 'Evergreen Lee is 78 years young; her new Hot 100 coronation will add to her birthday celebration Dec. 11', so her birthday is 11 December (born 11 Dec 1944). Event: chart dated Dec. 9, 2023, published Dec. 4-5 ('All charts (dated Dec. 9, 2023) will update on Billboard.com tomorrow (Dec. 5)'). Both dates fall before her 79th birthday on 11 Dec 2023 -> age 78 years 11 months."
+  },
+  {
+    "age": 79,
+    "text": "In the US, adults aged 75 and over spend 7.6 hours a day on leisure and sports, more than any other age group.",
+    "source": {
+      "label": "US Bureau of Labor Statistics, American Time Use Survey 2024 (via FRASER)",
+      "url": "https://fraser.stlouisfed.org/files/docs/releases/atus/atus_20250626.pdf"
+    },
+    "kind": "world",
+    "evidence": "On average, adults age 75 and over spent 7.6 hours engaged in leisure and sports activities per day--more than any other age group.",
+    "check": "BLS 'American Time Use Survey - 2024 Results', text referencing table 11A. Place: United States; year 2024; age group 75+ -> placed at 79."
+  }
+]
