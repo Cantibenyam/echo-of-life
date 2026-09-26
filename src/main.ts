@@ -33,6 +33,8 @@ if (import.meta.env.DEV) {
     audio: () => audio,
     loadAudio: () => loadAudio(),
     overrides: o,
+    render: () => import('./dev/render'),
+    engineStats: async () => (await import('./audio')).debugEngine()?.stats() ?? null,
   });
 }
 

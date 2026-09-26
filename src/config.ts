@@ -56,6 +56,8 @@ export const DEATH = {
   echoStep: 0.95,
   droneFadeFrom: 12,
   droneFadeFor: 10,
+  hearingFrom: 19,
+  hearingFor: 6,
   masterFadeFrom: 21,
   masterFadeFor: 4,
   close: 26.5,

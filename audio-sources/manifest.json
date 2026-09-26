@@ -1,0 +1,91 @@
+{
+  "$comment": "Which field recording plays in each slot. Swap a sound by changing its source (a Wikimedia Commons file title, or a local file with license and author), then run `npm run audio`. `within` limits where the steadiest window is searched (seconds); `length` is the kept duration.",
+  "recordings": [
+    {
+      "id": "rain",
+      "label": "Rain on a tile roof, heard from an attic",
+      "commons": "File:Regen op een pannendak - SoundCloud - Beeld en Geluid.ogg",
+      "loop": "texture"
+    },
+    {
+      "id": "birdsong",
+      "label": "Early-morning birdsong in the woods at Leersum",
+      "commons": "File:Early morning Birdsong Leersum.wav",
+      "loop": "texture"
+    },
+    {
+      "id": "playground_distant",
+      "label": "A city playground in the evening, Boxhagener Platz, Berlin",
+      "commons": "File:209901 foongaz city-playground-boxhagenerplatz-berlin.wav",
+      "loop": "texture"
+    },
+    {
+      "id": "playground_near",
+      "label": "A primary-school playground, Hilversum",
+      "commons": "File:Schoolplein van een basisschool - SoundCloud - Beeld en Geluid.ogg",
+      "loop": "texture",
+      "within": [
+        5,
+        480
+      ]
+    },
+    {
+      "id": "city",
+      "label": "An afternoon in the Vondelpark, Amsterdam",
+      "commons": "File:Algemene sfeer van het Vondelpark - SoundCloud - Beeld en Geluid.ogg",
+      "loop": "texture"
+    },
+    {
+      "id": "station",
+      "label": "A station platform as a train comes and goes, Hilversum",
+      "commons": "File:Algemene sfeer van het perron - SoundCloud - Beeld en Geluid.ogg",
+      "loop": "texture"
+    },
+    {
+      "id": "cafe",
+      "label": "The quiet murmur of a department-store lunchroom, The Hague",
+      "commons": "File:Lunchroom van de Bijenkorf - SoundCloud - Beeld en Geluid.ogg",
+      "loop": "texture"
+    },
+    {
+      "id": "kitchen_clock",
+      "label": "A kitchen clock",
+      "commons": "File:LA2 kitchen clock.ogg",
+      "loop": "pulse",
+      "length": 19
+    },
+    {
+      "id": "grandfather_clock",
+      "label": "A longcase clock",
+      "commons": "File:Tikken van een staande klok - SoundCloud - Beeld en Geluid.ogg",
+      "loop": "pulse",
+      "length": 30
+    },
+    {
+      "id": "wind",
+      "label": "Wind in the spruces of the Vijlenerbos",
+      "commons": "File:Wind in sparren in het Vijlenerbos - SoundCloud - luc de bruijn.ogg",
+      "loop": "texture"
+    },
+    {
+      "id": "sea",
+      "label": "Waves on the shore of Kalundborg Fjord",
+      "commons": "File:Oceanwavescrushing.ogg",
+      "loop": "texture"
+    },
+    {
+      "id": "infant",
+      "label": "A five-month-old babbling and laughing",
+      "commons": "File:Baby 5 months old gabbling laughing practising voice.ogg",
+      "loop": "texture",
+      "length": 30
+    },
+    {
+      "id": "bells",
+      "label": "Church bells and blackbirds on a Sunday afternoon, Nijmegen",
+      "commons": "File:Sound of church bells and birds.oga",
+      "loop": "texture",
+      "length": 36
+    }
+  ]
+}

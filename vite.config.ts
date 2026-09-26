@@ -6,6 +6,12 @@ export default defineConfig({
     target: 'es2022',
     // Recordings are fetched at runtime; never inline them.
     assetsInlineLimit: 0,
+    rolldownOptions: {
+      input: {
+        main: 'index.html',
+        credits: 'credits.html',
+      },
+    },
   },
   test: {
     environment: 'node',

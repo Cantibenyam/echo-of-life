@@ -22,17 +22,21 @@ if (!existsSync(join(DIST, 'index.html'))) {
   process.exit(1);
 }
 
-const html = readFileSync(join(DIST, 'index.html'), 'utf8');
+const pages = ['index.html', 'credits.html'].filter((p) => existsSync(join(DIST, p)));
 
-// 1. First paint is black: the inline background precedes any stylesheet.
-const inlineAt = html.search(/<style>[^<]*background:#000/);
-const firstSheetAt = html.search(/<link[^>]+rel="stylesheet"/);
-if (inlineAt < 0) fail('index.html has no inline black background style.');
-if (firstSheetAt >= 0 && inlineAt > firstSheetAt) fail('inline black background comes after the first stylesheet.');
+for (const page of pages) {
+  const html = readFileSync(join(DIST, page), 'utf8');
 
-// 2. Every root-relative asset reference carries the Pages base path.
-for (const m of html.matchAll(/(?:src|href)="(\/[^"]*)"/g)) {
-  if (!m[1].startsWith(BASE)) fail(`index.html references ${m[1]} without the ${BASE} base path.`);
+  // 1. First paint is black: the inline background precedes any stylesheet.
+  const inlineAt = html.search(/<style>[^<]*background:#000/);
+  const firstSheetAt = html.search(/<link[^>]+rel="stylesheet"/);
+  if (inlineAt < 0) fail(`${page} has no inline black background style.`);
+  if (firstSheetAt >= 0 && inlineAt > firstSheetAt) fail(`${page}: inline black background comes after the first stylesheet.`);
+
+  // 2. Every root-relative asset reference carries the Pages base path.
+  for (const m of html.matchAll(/(?:src|href)="(\/[^"]*)"/g)) {
+    if (!m[1].startsWith(BASE)) fail(`${page} references ${m[1]} without the ${BASE} base path.`);
+  }
 }
 
 // 3. Dev-only code is absent, and exactly the expected life key is present.

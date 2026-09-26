@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-09-26T12:45:13.808Z",
+  "recordings": [
+    {
+      "id": "rain",
+      "source": ".cache/audio-src/rain.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Regen op een pannendak - SoundCloud - Beeld en Geluid.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Regen_op_een_pannendak_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Regen_op_een_pannendak_-_SoundCloud_-_Beeld_en_Geluid.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "1f5e9225aa83eefdfc70a49ce49a0f089c073124",
+      "size": 44104335,
+      "mime": "application/ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Beeld en Geluid",
+      "credit": "Soundcloud: 9632342",
+      "processed": {
+        "start": 78,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -31.23
+      }
+    },
+    {
+      "id": "birdsong",
+      "source": ".cache/audio-src/birdsong.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Early morning Birdsong Leersum.wav",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Early_morning_Birdsong_Leersum.wav",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Early_morning_Birdsong_Leersum.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "8f179bf4bb9d32e58b3e642c4253ed9376012465",
+      "size": 71775820,
+      "mime": "audio/wav",
+      "license": "CC BY-SA 3.0 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+      "author": "Tammo Heikens",
+      "credit": "Own work",
+      "processed": {
+        "start": 12,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -38.35
+      }
+    },
+    {
+      "id": "playground_distant",
+      "source": ".cache/audio-src/playground_distant.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:209901 foongaz city-playground-boxhagenerplatz-berlin.wav",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:209901_foongaz_city-playground-boxhagenerplatz-berlin.wav",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/209901_foongaz_city-playground-boxhagenerplatz-berlin.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "de1b0b3e3c938eecadfaf6143050be5e986d8f37",
+      "size": 26609284,
+      "mime": "audio/wav",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "foongaz",
+      "credit": "http://freesound.org/people/foongaz/sounds/209901/",
+      "processed": {
+        "start": 16,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -31.4
+      }
+    },
+    {
+      "id": "playground_near",
+      "source": ".cache/audio-src/playground_near.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Schoolplein van een basisschool - SoundCloud - Beeld en Geluid.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Schoolplein_van_een_basisschool_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Schoolplein_van_een_basisschool_-_SoundCloud_-_Beeld_en_Geluid.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "5d3809db3a2fe05063704126ee6c686f1e80181f",
+      "size": 42783500,
+      "mime": "application/ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Beeld en Geluid",
+      "credit": "Soundcloud: 9632342",
+      "processed": {
+        "start": 53,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -17.61
+      }
+    },
+    {
+      "id": "city",
+      "source": ".cache/audio-src/city.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Algemene sfeer van het Vondelpark - SoundCloud - Beeld en Geluid.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algemene_sfeer_van_het_Vondelpark_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Algemene_sfeer_van_het_Vondelpark_-_SoundCloud_-_Beeld_en_Geluid.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "4eaa1dfc23b86a7154f20df675ec63e4408be12c",
+      "size": 29869608,
+      "mime": "application/ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Beeld en Geluid",
+      "credit": "Soundcloud: 9632342",
+      "processed": {
+        "start": 30,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -20.19
+      }
+    },
+    {
+      "id": "station",
+      "source": ".cache/audio-src/station.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Algemene sfeer van het perron - SoundCloud - Beeld en Geluid.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algemene_sfeer_van_het_perron_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Algemene_sfeer_van_het_perron_-_SoundCloud_-_Beeld_en_Geluid.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "4803a9bd06d8a12469bbf2761e607f9e27f7a482",
+      "size": 15952157,
+      "mime": "application/ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Beeld en Geluid",
+      "credit": "Soundcloud: 9632342",
+      "processed": {
+        "start": 48,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -26.03
+      }
+    },
+    {
+      "id": "cafe",
+      "source": ".cache/audio-src/cafe.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Lunchroom van de Bijenkorf - SoundCloud - Beeld en Geluid.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lunchroom_van_de_Bijenkorf_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lunchroom_van_de_Bijenkorf_-_SoundCloud_-_Beeld_en_Geluid.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "4a362d5dd7b68916ebd43958e9b840ef1e5476ec",
+      "size": 15235141,
+      "mime": "application/ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Beeld en Geluid",
+      "credit": "Soundcloud: 9632342",
+      "processed": {
+        "start": 175,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -26.01
+      }
+    },
+    {
+      "id": "kitchen_clock",
+      "source": ".cache/audio-src/kitchen_clock.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:LA2 kitchen clock.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LA2_kitchen_clock.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/LA2_kitchen_clock.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "29f83e6874aeca5681b835be40d1d8205d0d9b81",
+      "size": 272597,
+      "mime": "application/ogg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "author": "LA2",
+      "credit": "Own work",
+      "processed": {
+        "start": 2,
+        "length": 16,
+        "channels": 2,
+        "inputLUFS": -56.14
+      }
+    },
+    {
+      "id": "grandfather_clock",
+      "source": ".cache/audio-src/grandfather_clock.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Tikken van een staande klok - SoundCloud - Beeld en Geluid.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tikken_van_een_staande_klok_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tikken_van_een_staande_klok_-_SoundCloud_-_Beeld_en_Geluid.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "d04227e8bcbf111a2af873708405171166222aa2",
+      "size": 41938580,
+      "mime": "application/ogg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Beeld en Geluid",
+      "credit": "Soundcloud: 9632342",
+      "processed": {
+        "start": 78,
+        "length": 30,
+        "channels": 2,
+        "inputLUFS": -18.48
+      }
+    },
+    {
+      "id": "wind",
+      "source": ".cache/audio-src/wind.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Wind in sparren in het Vijlenerbos - SoundCloud - luc de bruijn.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Wind_in_sparren_in_het_Vijlenerbos_-_SoundCloud_-_luc_de_bruijn.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wind_in_sparren_in_het_Vijlenerbos_-_SoundCloud_-_luc_de_bruijn.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "c66a25abf1c956cd3ae4369c44fc21672e8a0b13",
+      "size": 11187532,
+      "mime": "application/ogg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "author": "luc de bruijn",
+      "credit": "Soundcloud: 23393769",
+      "processed": {
+        "start": 53,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -28.42
+      }
+    },
+    {
+      "id": "sea",
+      "source": ".cache/audio-src/sea.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Oceanwavescrushing.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oceanwavescrushing.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Oceanwavescrushing.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "3a598af423610eefef04c06bed6bcd6be8a28680",
+      "size": 2849514,
+      "mime": "application/ogg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Luftrum",
+      "credit": "http://www.freesound.org/people/Luftrum/sounds/48412/",
+      "processed": {
+        "start": 47,
+        "length": 40,
+        "channels": 2,
+        "inputLUFS": -24.36
+      }
+    },
+    {
+      "id": "infant",
+      "source": ".cache/audio-src/infant.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Baby 5 months old gabbling laughing practising voice.ogg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Baby_5_months_old_gabbling_laughing_practising_voice.ogg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Baby_5_months_old_gabbling_laughing_practising_voice.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "b95af469935259cb2df33f63623fcf638ca092cc",
+      "size": 7522147,
+      "mime": "application/ogg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "author": "stephan",
+      "credit": "http://www.pdsounds.org/audio/download/360/baby_5month_babbling.mp3 PDSounds description: http://www.pdsounds.org/sounds/baby_5_months_old_gabbling_laughing_practising_voice Transferred by Fæ",
+      "processed": {
+        "start": 216,
+        "length": 30,
+        "channels": 2,
+        "inputLUFS": -25.93
+      }
+    },
+    {
+      "id": "bells",
+      "source": ".cache/audio-src/bells.org&utm_campaign=imageinfo&utm_content=original",
+      "title": "File:Sound of church bells and birds.oga",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sound_of_church_bells_and_birds.oga",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Sound_of_church_bells_and_birds.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha1": "73c6880c69ba5a2290eace6227ef40c5af013ddd",
+      "size": 1434631,
+      "mime": "application/ogg",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "author": "lezer",
+      "credit": "http://www.pdsounds.org/audio/download/584/church+bells+and+birds.mp3 PDSounds description: http://www.pdsounds.org/sounds/church_bells_and_bird_s Transferred by Fæ",
+      "processed": {
+        "start": 16,
+        "length": 36,
+        "channels": 1,
+        "inputLUFS": -26.6
+      }
+    }
+  ]
+}
