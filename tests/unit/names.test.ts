@@ -9,7 +9,9 @@ const problem = (n: string) => {
 
 describe('names', () => {
   it('accepts ordinary names from many languages', () => {
-    for (const n of ['Ana', 'Jean-Luc', "O'Brien", 'Zoë', 'Łukasz', 'Nguyễn Văn An', '李小龍', 'Сергей', 'محمد', 'Sukanya', 'Bassam', 'Titus', 'Dick', 'Anne M. Cumming'])
+    for (const n of ['Ana', 'Jean-Luc', "O'Brien", 'Zoë', 'Łukasz', 'Nguyễn Văn An', '李小龍', 'Сергей', 'محمد', 'Sukanya', 'Bassam', 'Titus', 'Dick', 'Anne M. Cumming',
+      'Nazia Hassan', 'Nazir Ahmed', 'Nazim', 'Jonathan Allen', 'Diana Lee', 'Anna Lisa', 'Ana Lopez', 'Isis Martinez',
+      'Semen Petrov', 'Dick Van Dyke', 'Cumhur', 'Lisa Shitsuke', 'Mona Lisa'])
       expect(ok(n), n).toBe(true);
   });
 
@@ -29,7 +31,7 @@ describe('names', () => {
 
   it('refuses unkind names, however they are spelled', () => {
     expect(ok('Sh1t')).toBe(false); // digits are refused outright
-    for (const n of ['fuck', 'f u c k', 'S.h.i.t', 'FuCkEr', 'Hitler', 'Adolf Hitler', 'kkk', 'puta', 'Hurensohn', 'cunt face', 'nigger'])
+    for (const n of ['fuck', 'f u c k', 'S.h.i.t', 'FuCkEr', 'Hitler', 'Adolf Hitler', 'kkk', 'puta', 'Hurensohn', 'cunt face', 'nigger', 'Mo Nazi', 'Wanker', 'n a z i'])
       expect(problem(n), n).toBe('unkind');
   });
 });

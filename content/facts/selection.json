@@ -118,7 +118,9 @@
     "48": 0,
     "49": {
       "pick": 1,
-      "text": "A 2015 study put the median age at which American women become grandmothers at 49. In parts of Western Europe it came up to eight years later."
+      "text": "In the United States, women born in 1926 to 1943 became grandmothers at a median age of 49, according to a 2015 study comparing 25 countries.",
+      "sourceUrl": "https://pure.uva.nl/ws/files/2647419/174371_801.full.pdf",
+      "sourceLabel": "Leopold & Skopek, Social Forces, 2015 (full text)"
     },
     "50": {
       "redo": 0,
@@ -128,7 +130,9 @@
     "52": {
       "redo": 0,
       "kind": "world",
-      "text": "In the United States, men born in 1926–43 became grandfathers at a median age of 52, according to a 2015 study comparing 25 countries."
+      "text": "In the United States, men born in 1926 to 1943 became grandfathers at a median age of 52, according to a 2015 study comparing 25 countries.",
+      "sourceUrl": "https://pure.uva.nl/ws/files/2647419/174371_801.full.pdf",
+      "sourceLabel": "Leopold & Skopek, Social Forces, 2015 (full text)"
     },
     "53": 0,
     "54": {

@@ -246,6 +246,45 @@ test('the graveyard lists finished lives, safely', async ({ page }) => {
   await expect(page.locator('.stone')).toHaveCount(2);
   await expect(page.locator('.stone-name').first()).toHaveText('Ana Maria');
   await expect(page.locator('.stone-name').nth(1)).toHaveText('<b>Sam</b>');
-  await expect(page.locator('#count')).toHaveText('2 lives so far.');
+  await expect(page.locator('.grave-count')).toHaveText('2 lives so far.');
   await expect(page.locator('.stone b')).toHaveCount(0);
+  await expect(page.locator('.grave-return')).toHaveText('Return to The Echo of Life');
+});
+
+test('the way down to the graveyard is a descent, and back up again', async ({ page }) => {
+  const errors = watchErrors(page);
+  await page.goto('./');
+  await page.waitForFunction(() => document.querySelector('.gate')?.classList.contains('revealed'));
+  await page.locator('.gate-foot .grave-link').click();
+  await expect(page.locator('.stone')).toHaveCount(2, { timeout: 10_000 });
+  await expect(page.locator('.grave-title')).toBeVisible();
+  // It never scrolls: the wheel moves nothing.
+  await page.mouse.wheel(0, 900);
+  await page.waitForTimeout(300);
+  expect(await page.evaluate(() => [scrollY, document.querySelector('.grave-screen')!.scrollTop])).toEqual([0, 0]);
+  await page.locator('.grave-return').click();
+  await expect(page.locator('.graveyard-layer')).toHaveCount(0, { timeout: 10_000 });
+  await expect(page.locator('.gate-title')).toBeVisible();
+  // Looking at the graveyard spends nothing.
+  expect(await stored(page)).toBeNull();
+  expect(errors, errors.join(' | ')).toEqual([]);
+});
+
+test('the memorial fits a small phone, name, causes and all', async ({ page }) => {
+  await page.setViewportSize({ width: 360, height: 640 });
+  const record = { ...createRecord('0badcafe-1111-4222-8333-444455556666', Date.now() - 60_000, 9), age: 9, ended: Date.now(), name: 'Oluwaseun Adeyemi-Okafor' };
+  await seed(page, record);
+  await page.goto('./');
+  await expect(page.locator('.memorial-foot .grave-link')).toBeVisible();
+  const m = await page.evaluate(() => {
+    const boxes = [...document.querySelectorAll('.memorial-numeral, .memorial-line, .memorial-text > *, .memorial-foot > *')].map((n) => n.getBoundingClientRect());
+    let overlaps = 0;
+    for (let i = 0; i < boxes.length; i++)
+      for (let j = i + 1; j < boxes.length; j++) {
+        const a = boxes[i]!, b = boxes[j]!;
+        if (a.bottom > b.top + 1 && b.bottom > a.top + 1 && a.right > b.left && b.right > a.left) overlaps++;
+      }
+    return { overlaps, inView: boxes.every((r) => r.top >= 0 && r.bottom <= innerHeight) };
+  });
+  expect(m).toEqual({ overlaps: 0, inView: true });
 });

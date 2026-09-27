@@ -14,14 +14,18 @@ export type NameCheck = { readonly ok: true; readonly name: string } | { readonl
 const ALLOWED = /^[\p{L}\p{M}][\p{L}\p{M} '’.\-]*$/u;
 
 /** Real names that contain an unlucky substring. Matched as whole words. */
-const ALLOW_WORDS = new Set(['dick', 'dickens', 'dickinson', 'cumming', 'cummings', 'cockburn', 'hancock', 'peacock', 'babcock', 'hitchcock', 'shiitake']);
+const ALLOW_WORDS = new Set([
+  'dick', 'dickens', 'dickinson', 'cumming', 'cummings', 'cumhur', 'cockburn', 'hancock', 'peacock', 'babcock', 'hitchcock',
+  'shiitake', 'shitsuke', 'shitij', 'shital', 'semen', 'dyke', 'dykes',
+]);
 
-/** Beyond the English dataset: hate and a few common obscenities in other languages. */
+/** Hate and a few common obscenities in other languages, matched inside any word. */
 const BLOCK_ANYWHERE = [
-  'hitler', 'nazi', 'heilhitler', 'siegheil', 'hurensohn', 'vaffanculo', 'putain', 'scheisse', 'scheise', 'wichser', 'arschloch',
+  'hitler', 'heilhitler', 'siegheil', 'hurensohn', 'vaffanculo', 'putain', 'scheisse', 'scheise', 'wichser', 'arschloch',
   'mierda', 'pendejo', 'cabron', 'hijoputa', 'gilipollas', 'salope', 'connard', 'enculer', 'caralho', 'klootzak', 'kurwa', 'blyat', 'pizdec',
 ];
-const BLOCK_WORDS = new Set(['kkk', 'puta', 'puto', 'coño', 'cono', 'verga', 'merde', 'fotze', 'cazzo', 'stronzo', 'porra', 'foda', 'kut', 'suka', 'pizda', 'isis']);
+/** Short words that are only unkind on their own (so "Nazia" and "Sukanya" are fine). */
+const BLOCK_WORDS = new Set(['nazi', 'nazis', 'kkk', 'puta', 'puto', 'coño', 'cono', 'verga', 'merde', 'fotze', 'cazzo', 'stronzo', 'porra', 'foda', 'kut', 'suka', 'pizda']);
 
 let matcher: RegExpMatcher | null = null;
 const english = (): RegExpMatcher =>
@@ -46,10 +50,12 @@ export function checkName(raw: string): NameCheck {
 
   const words = fold(name).split(/[\s'’.\-]+/).filter(Boolean);
   const kept = words.filter((w) => !ALLOW_WORDS.has(w));
-  const joined = kept.join('');
-  if (kept.some((w) => BLOCK_WORDS.has(w))) return { ok: false, problem: 'unkind' };
-  if (BLOCK_ANYWHERE.some((t) => joined.includes(t))) return { ok: false, problem: 'unkind' };
-  // The English matcher sees the words as written and squeezed together ("f u c k").
-  if (english().hasMatch(kept.join(' ')) || english().hasMatch(joined)) return { ok: false, problem: 'unkind' };
+  // Letters spaced or dotted apart ("f u c k", "S.h.i.t") are read squeezed together as well;
+  // ordinary names are not, so "Diana Lee" is never read as one word.
+  const spacedOut = words.length >= 3 && words.filter((w) => w.length <= 2).length / words.length >= 0.6;
+  const readings = spacedOut ? [...kept, kept.join('')] : kept;
+  if (readings.some((w) => BLOCK_WORDS.has(w))) return { ok: false, problem: 'unkind' };
+  if (readings.some((w) => BLOCK_ANYWHERE.some((t) => w.includes(t)))) return { ok: false, problem: 'unkind' };
+  if (english().hasMatch(kept.join(' ')) || (spacedOut && english().hasMatch(kept.join('')))) return { ok: false, problem: 'unkind' };
   return { ok: true, name };
 }

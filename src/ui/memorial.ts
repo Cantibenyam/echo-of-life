@@ -13,7 +13,7 @@ export function showMemorial(
   parent: HTMLElement,
   record: LifeRecord,
   fromDeath: boolean,
-  links: { readonly creditsHref: string; readonly graveyardHref: string },
+  links: { readonly creditsHref: string; readonly graveyardHref: string; readonly onGraveyard?: (from: HTMLElement) => void },
 ): HTMLElement {
   const root = el('section', 'life memorial');
   root.setAttribute('aria-label', 'A life, ended');
@@ -38,19 +38,35 @@ export function showMemorial(
   if (nameLine) text.append(nameLine);
   text.append(age, when, causeBlock);
 
-  stage.append(numeral.el, line, text);
   const foot = el('div', 'memorial-foot');
-  const graveyard = el('a', 'quiet-link', 'The graveyard');
+  const graveyard = el('a', 'grave-link', 'The graveyard');
   graveyard.href = links.graveyardHref;
+  graveyard.addEventListener('click', (e) => {
+    if (!links.onGraveyard || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    links.onGraveyard(root);
+  });
   const credits = el('a', 'quiet-link', 'Sounds and sources');
   credits.href = links.creditsHref;
   foot.append(graveyard, credits);
-  root.append(stage, foot);
+  stage.append(numeral.el, line, text, foot);
+  root.append(stage);
   [numeral.el, line, age, when, causeBlock, foot, ...(nameLine ? [nameLine] : [])].forEach((n) => (n.style.opacity = '0'));
+  // Where the living line was, measured before this view settles in above it.
+  const lived = parent.querySelector('.timeline')?.getBoundingClientRect();
   parent.append(root);
 
   const reduce = reducedMotion();
   if (fromDeath) {
+    // The memorial's line sits higher than the living one did: rise from there, slowly, as it is drawn.
+    const here = line.getBoundingClientRect();
+    const dy = lived ? lived.top + lived.height / 2 - (here.top + here.height / 2) : 0;
+    if (!reduce && Math.abs(dy) > 1) {
+      stage.animate([{ transform: `translateY(${dy}px)` }, { transform: 'translateY(0)' }], {
+        duration: ms(DEATH.relayoutFor * 1000),
+        easing: 'cubic-bezier(.45,0,.25,1)',
+      });
+    }
     const drawFor = ms((DEATH.relayoutFor - 1) * 1000);
     fade(numeral.el, 1, ms(3000), ms(600));
     fade(line, 1, ms(1200));

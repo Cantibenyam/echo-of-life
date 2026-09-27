@@ -37,11 +37,11 @@ function sentFor(): string | null {
 export async function layGrave(record: LifeRecord): Promise<void> {
   if (record.ended === null || !record.name || sentFor() === record.id) return;
   try {
+    // Sent as text/plain: a "simple" cross-origin request with no preflight (the server parses the JSON itself).
     const res = await fetch(`${GRAVEYARD_API}/graves?env=${GRAVE_ENV}`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
       body: JSON.stringify({ lifeId: record.id, name: record.name, age: record.age, born: record.born, ended: record.ended }),
-      keepalive: true,
     });
     // 201: laid. 4xx: it will never be accepted (a name the server refuses), so stop trying.
     if (res.ok || (res.status >= 400 && res.status < 500 && res.status !== 429)) {

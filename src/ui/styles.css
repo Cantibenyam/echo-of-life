@@ -132,7 +132,7 @@ button {
   place-content: center;
   justify-items: center;
   gap: 1.4rem;
-  padding: 24px max(24px, env(safe-area-inset-right)) calc(72px + env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
+  padding: 24px max(24px, env(safe-area-inset-right)) calc(112px + env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
   text-align: center;
   cursor: default;
 }
@@ -234,15 +234,40 @@ button {
   }
 }
 
-.gate-foot,
-.memorial-foot {
+.gate-foot {
   position: fixed;
   left: 50%;
-  bottom: calc(22px + env(safe-area-inset-bottom));
+  bottom: calc(18px + env(safe-area-inset-bottom));
   transform: translateX(-50%);
+}
+
+.gate-foot,
+.memorial-foot {
   display: flex;
-  gap: 2.2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
   white-space: nowrap;
+}
+
+/* The way down to the graveyard: set like the title, not like a link. */
+.grave-link {
+  position: relative;
+  padding: 0.2rem 0.6rem;
+  font-weight: 220;
+  font-variation-settings: 'opsz' 72;
+  font-size: clamp(1.45rem, 1.2rem + 1vw, 1.9rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--g1);
+  text-decoration: none;
+  pointer-events: auto;
+  transition: color 0.8s var(--ease-out);
+}
+
+.grave-link:hover,
+.grave-link:focus-visible {
+  color: var(--white);
 }
 
 .gate-foot {
@@ -290,15 +315,6 @@ button {
   margin: 0;
   font-size: 0.9375rem;
   color: var(--g1);
-}
-
-.name-note {
-  margin: 0;
-  max-width: 24rem;
-  font-style: italic;
-  font-size: 0.875rem;
-  color: var(--g2);
-  text-wrap: balance;
 }
 
 .begin.waiting {
@@ -597,6 +613,19 @@ button {
 
 /* ---------- Memorial ---------- */
 
+/*
+ * More is written under the memorial's line than under a living one, and the way to the graveyard
+ * sits below it in the flow. The text row takes the room it needs; on a tall screen the line stays
+ * near the middle, on a short one it rises.
+ */
+.memorial .stage {
+  grid-template-rows: minmax(0, 1fr) 48px minmax(min-content, 1fr) auto;
+}
+
+.memorial-foot {
+  grid-row: 4;
+  margin: 1.4rem 0 18px;
+}
 
 .memorial-line {
   grid-row: 2;
@@ -711,5 +740,159 @@ button {
 
   .begin::after {
     animation: none;
+  }
+}
+
+/* ---------- The graveyard (reached by descending; it never scrolls) ---------- */
+
+.graveyard-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+}
+
+.grave-screen {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  justify-items: center;
+  padding: max(28px, env(safe-area-inset-top)) max(24px, env(safe-area-inset-right)) max(22px, env(safe-area-inset-bottom))
+    max(24px, env(safe-area-inset-left));
+  background: var(--black);
+  overflow: hidden;
+  pointer-events: auto;
+  will-change: transform;
+}
+
+.grave-head {
+  display: grid;
+  justify-items: center;
+  gap: 0.55rem;
+  text-align: center;
+}
+
+.grave-return {
+  font-size: 0.9375rem;
+}
+
+.grave-title {
+  margin: 1.1rem 0 0.1rem;
+  font-weight: 220;
+  font-variation-settings: 'opsz' 72;
+  font-size: clamp(2.2rem, 1.5rem + 3vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+.grave-lede {
+  margin: 0;
+  max-width: 30rem;
+  font-style: italic;
+  font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem);
+  color: var(--g1);
+  text-wrap: balance;
+}
+
+.grave-count {
+  margin: 0;
+  min-height: 1.5em;
+  font-size: 1rem;
+  color: var(--g2);
+}
+
+.grave-yours {
+  margin: 0.2rem 0 0;
+  font-size: 1.0625rem;
+  color: var(--g1);
+}
+
+.graves {
+  list-style: none;
+  align-self: stretch;
+  align-content: start;
+  width: min(64rem, 100%);
+  margin: clamp(1.4rem, 4vh, 3rem) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr));
+  gap: 1.6rem 1.2rem;
+}
+
+.stone {
+  display: grid;
+  justify-items: center;
+  gap: 0.1rem;
+  text-align: center;
+}
+
+.stone-name {
+  max-width: 100%;
+  font-size: 1.1875rem;
+  line-height: 1.35;
+  color: var(--white);
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.stone-age {
+  font-weight: 200;
+  font-variation-settings: 'opsz' 72;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  font-variant-numeric: lining-nums tabular-nums;
+  color: var(--g1);
+}
+
+.stone-when {
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--g3);
+}
+
+.grave-status {
+  margin: 0;
+  min-height: 1.4em;
+  font-style: italic;
+  font-size: 1.0625rem;
+  color: var(--g2);
+  text-align: center;
+}
+
+.grave-foot {
+  min-height: 3.4rem;
+  display: grid;
+  place-items: center;
+}
+
+.grave-further {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid var(--g3);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--g1);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.6s var(--ease-out), color 0.6s var(--ease-out);
+}
+
+.grave-further:hover {
+  border-color: var(--g2);
+  color: var(--white);
+}
+
+@media (max-width: 480px) {
+  .stone-name {
+    font-size: 1.0625rem;
+  }
+
+  .stone-age {
+    font-size: 2rem;
+  }
+
+  .graves {
+    gap: 1.2rem 0.8rem;
   }
 }

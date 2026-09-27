@@ -10,6 +10,7 @@ import type { LifeRecord } from './life/record';
 import { cryptoUniform, newId } from './life/rng';
 import { MemoryLifeStore, createLifeStore, type LifeStore } from './life/store';
 import { layGrave } from './graveyard/api';
+import { openGraveyard } from './ui/graveyard-view';
 import { fade, wait } from './ui/dom';
 import { mountGate, type Gate } from './ui/gate';
 import { showMemorial } from './ui/memorial';
@@ -20,7 +21,17 @@ import { MuteButton, announce } from './ui/views';
 const app = document.getElementById('app')!;
 const CREDITS_HREF = `${import.meta.env.BASE_URL}credits.html`;
 const GRAVEYARD_HREF = `${import.meta.env.BASE_URL}graveyard.html`;
-const LINKS = { creditsHref: CREDITS_HREF, graveyardHref: GRAVEYARD_HREF };
+const LINKS = { creditsHref: CREDITS_HREF, graveyardHref: GRAVEYARD_HREF, onGraveyard: descend };
+
+/** From the gate or the memorial, down into the graveyard (and back). */
+function descend(from: HTMLElement): void {
+  const r = currentRecord();
+  const yours =
+    r && r.ended !== null && r.name
+      ? `Your life: ${r.name}, ${r.age === 0 ? 'less than a year' : r.age === 1 ? '1 year' : `${r.age} years`}.`
+      : null;
+  openGraveyard({ parent: app, from, yours });
+}
 /** Presses this close (px) to a link or control never spend a year. */
 const NEAR_MISS = 24;
 
@@ -117,7 +128,7 @@ function run(effect: Effect): void {
       }
       break;
     case 'showGate':
-      gate = mountGate(app, { returning: effect.returning, creditsHref: CREDITS_HREF, graveyardHref: GRAVEYARD_HREF, onBegin });
+      gate = mountGate(app, { returning: effect.returning, creditsHref: CREDITS_HREF, graveyardHref: GRAVEYARD_HREF, onGraveyard: descend, onBegin });
       idle(() => void loadAudio());
       break;
     case 'born':

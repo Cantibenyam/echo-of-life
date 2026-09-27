@@ -51,8 +51,9 @@ for (let age = 0; age <= MAX_AGE; age++) {
   }
   const text = smarten((choice.text ?? c.text).trim());
   if (text.length < 40 || text.length > 180) problems.push(`age ${age}: text length ${text.length}`);
-  if (!/^https:\/\//.test(c.source.url)) problems.push(`age ${age}: source is not https`);
-  selected.push({ age, text, source: { label: c.source.label, url: c.source.url }, kind: choice.kind ?? c.kind, evidence: c.evidence, check: c.check });
+  if (!/^https:\/\//.test(choice.sourceUrl ?? c.source.url)) problems.push(`age ${age}: source is not https`);
+  const source = { label: choice.sourceLabel ?? c.source.label, url: choice.sourceUrl ?? c.source.url };
+  selected.push({ age, text, source, kind: choice.kind ?? c.kind, evidence: c.evidence, check: c.check });
 }
 
 if (problems.length) {

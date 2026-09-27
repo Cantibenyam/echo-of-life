@@ -7,6 +7,8 @@ export interface GateOptions {
   readonly returning: LifeRecord | null;
   readonly creditsHref: string;
   readonly graveyardHref: string;
+  /** Descend into the graveyard from this view (the link's href is the fallback). */
+  readonly onGraveyard?: (from: HTMLElement) => void;
   /**
    * Called synchronously inside the Begin/Continue gesture (audio must be unlocked there),
    * with the name given, or null when the life already has one.
@@ -48,7 +50,6 @@ export function mountGate(parent: HTMLElement, opts: GateOptions): Gate {
   // The name, asked quietly just above Begin.
   const nameBlock = el('div', 'name-block');
   const input = el('input', 'name-input');
-  const nameNote = el('p', 'name-note', 'Your name will rest in the graveyard when your life ends.');
   const nameError = el('p', 'name-error');
   nameError.id = 'name-error';
   nameError.setAttribute('aria-live', 'polite');
@@ -61,7 +62,7 @@ export function mountGate(parent: HTMLElement, opts: GateOptions): Gate {
     input.setAttribute('aria-label', 'Your name');
     input.setAttribute('aria-describedby', 'name-error');
     input.tabIndex = -1;
-    nameBlock.append(input, nameError, nameNote);
+    nameBlock.append(input, nameError);
   }
 
   let schedule: readonly number[];
@@ -85,8 +86,13 @@ export function mountGate(parent: HTMLElement, opts: GateOptions): Gate {
   root.append(...lines);
 
   const foot = el('div', 'gate-foot');
-  const graveyard = el('a', 'quiet-link', 'The graveyard');
+  const graveyard = el('a', 'grave-link', 'The graveyard');
   graveyard.href = opts.graveyardHref;
+  graveyard.addEventListener('click', (e) => {
+    if (!opts.onGraveyard || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    opts.onGraveyard(root);
+  });
   const credits = el('a', 'quiet-link', 'Sounds and sources');
   credits.href = opts.creditsHref;
   foot.append(graveyard, credits);
@@ -153,6 +159,7 @@ export function mountGate(parent: HTMLElement, opts: GateOptions): Gate {
   const onKey = (e: KeyboardEvent) => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
     if (document.activeElement !== document.body && document.activeElement !== null) return;
+    if (document.querySelector('.graveyard-layer')) return; // the graveyard is open above the gate
     e.preventDefault();
     if (revealed) begin.click();
     else root.dispatchEvent(new PointerEvent('pointerdown'));
