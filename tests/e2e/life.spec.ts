@@ -1,5 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
-import { createRecord, type LifeRecord } from '../../src/life/record';
+import { createRecord, sealLifespan, type LifeRecord } from '../../src/life/record';
 
 const KEY = process.env.EXPECT_LIFE_KEY || 'echooflife:preview:life';
 const BIRTH_LOCK = 5000;
@@ -7,7 +7,19 @@ const COOLDOWN = 3200;
 
 // Never touch the real graveyard from tests: answer its requests here and remember what was sent.
 const laid: Record<string, unknown>[] = [];
+const drawn: Record<string, unknown>[] = [];
+/** The lifespan the (mock) graveyard draws for new lives, and how long it takes to answer. */
+let draw = { lifespan: 90, delayMs: 0, fail: false };
 test.beforeEach(async ({ page }) => {
+  draw = { lifespan: 90, delayMs: 0, fail: false };
+  await page.route('**/lives**', async (route) => {
+    const body = JSON.parse(route.request().postData() ?? '{}') as { lifeId: string };
+    drawn.push(body);
+    if (draw.delayMs) await new Promise((r) => setTimeout(r, draw.delayMs));
+    if (draw.fail) return route.fulfill({ status: 503, body: '{"error":"unavailable"}', headers: { 'access-control-allow-origin': '*' } });
+    const seal = sealLifespan(draw.lifespan, body.lifeId);
+    return route.fulfill({ status: 201, contentType: 'application/json', body: JSON.stringify({ seal, born: Date.now() }), headers: { 'access-control-allow-origin': '*' } });
+  });
   await page.route('**/graves**', async (route) => {
     const req = route.request();
     if (req.method() === 'POST') {
@@ -151,7 +163,7 @@ test('the ending is permanent and silent afterwards', async ({ page }) => {
   await expect(page.locator('.memorial-age')).toHaveText('A life of 1 year.', { timeout: 40_000 });
   await expect(page.locator('.memorial-name')).toHaveText('Ana');
   await expect(page.locator('.memorial-cause')).toContainText('the most common causes of death among children under five');
-  await expect.poll(() => laid.find((g) => g.lifeId === record.id)).toMatchObject({ name: 'Ana', age: 1 });
+  await expect.poll(() => laid.find((g) => g.lifeId === record.id)).toMatchObject({ age: 1 });
 
   // Forever after: the memorial, at once, and no audio context is ever created.
   await page.addInitScript(() => {
@@ -305,4 +317,49 @@ test('the memorial fits a small phone, name, causes and all', async ({ page }) =
   await expect(page.locator('.graveyard-layer')).toHaveCount(0, { timeout: 10_000 });
   await expect(page.locator('.memorial-name')).toBeInViewport();
   expect(await page.evaluate(() => document.querySelector('.memorial')!.getAnimations().length)).toBe(0);
+});
+
+test('the graveyard draws each lifespan, and the grave is laid at that age', async ({ page }) => {
+  test.setTimeout(90_000);
+  draw.lifespan = 0;
+  await page.goto('./');
+  await begin(page, 'Mira');
+  await expect.poll(async () => (await stored(page))?.id).toBeTruthy();
+  const id = (await stored(page))!.id;
+  await expect.poll(() => drawn.find((d) => d.lifeId === id)).toMatchObject({ name: 'Mira' });
+  await page.waitForTimeout(BIRTH_LOCK + 300);
+  await page.keyboard.press('Space');
+  // Drawn 0: the first press is the last.
+  await expect.poll(async () => (await stored(page))?.ended).not.toBeNull();
+  expect((await stored(page))?.age).toBe(0);
+  await expect.poll(() => laid.find((g) => g.lifeId === id)).toMatchObject({ age: 0 });
+  await expect(page.locator('.memorial-age')).toHaveText('Less than a year.', { timeout: 40_000 });
+});
+
+test('presses wait while the graveyard is drawing the life', async ({ page }) => {
+  draw.delayMs = BIRTH_LOCK + 3000;
+  await page.goto('./');
+  await begin(page);
+  await page.waitForTimeout(BIRTH_LOCK + 500);
+  await page.keyboard.press('Space');
+  await page.waitForTimeout(500);
+  expect((await stored(page))?.age).toBe(0);
+  await page.waitForTimeout(3000); // the answer has come
+  await page.keyboard.press('Space');
+  await expect.poll(async () => (await stored(page))?.age).toBe(1);
+});
+
+test("if the graveyard can't be reached, the life still goes on", async ({ page }) => {
+  draw.fail = true;
+  const errors = watchErrors(page);
+  await page.goto('./');
+  await begin(page);
+  await page.waitForTimeout(BIRTH_LOCK + 300);
+  await page.keyboard.press('Space');
+  // The press is lived (with the lifespan drawn on the device, which may even be 0).
+  await expect.poll(async () => {
+    const r = await stored(page);
+    return r?.age === 1 || r?.ended != null;
+  }).toBe(true);
+  expect(errors.filter((e) => !/503|Failed to load resource/.test(e))).toEqual([]);
 });

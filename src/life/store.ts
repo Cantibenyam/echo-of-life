@@ -15,12 +15,14 @@ export interface LifeStore {
 /**
  * The irreversibility guard. A stored life may only move forward:
  * same id, age never lower, a name once given is kept, and once ended it never changes again.
+ * The lifespan may be replaced (by the one the graveyard drew) only before the first year is lived.
  */
 export function canReplace(prev: LifeRecord | null, next: LifeRecord): boolean {
   if (!prev) return true;
   if (prev.id !== next.id) return false;
   if (next.age < prev.age) return false;
   if (prev.name !== null && next.name !== prev.name) return false;
+  if (next.seal !== prev.seal && (prev.age !== 0 || next.age !== 0 || prev.ended !== null)) return false;
   if (prev.ended !== null) return next.ended === prev.ended && next.age === prev.age && next.name === prev.name;
   return true;
 }

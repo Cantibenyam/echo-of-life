@@ -1,4 +1,4 @@
-import { sampleLifespan } from './mortality';
+import { MAX_AGE, sampleLifespan } from './mortality';
 import { createRecord, lifespanOf, type LifeRecord } from './record';
 
 /**
@@ -27,6 +27,8 @@ export type Event =
   /** A press on the timeline. `stored` is a fresh read (another tab may have moved on). */
   | { readonly t: 'press'; readonly now: number; readonly stored: LifeRecord | null }
   | { readonly t: 'external'; readonly record: LifeRecord | null }
+  /** The graveyard drew this life's lifespan (sealed). Taken only before the first year is lived. */
+  | { readonly t: 'sealed'; readonly id: string; readonly seal: number }
   | { readonly t: 'dyingDone' };
 
 export type Effect =
@@ -56,8 +58,12 @@ const same = (state: State): Step => ({ state, effects: [] });
 function furthest(ours: LifeRecord, stored: LifeRecord | null): LifeRecord {
   if (!stored || stored.id !== ours.id) return ours;
   if (stored.ended !== null) return stored;
+  // Still at birth: the stored life may carry the lifespan the graveyard drew (from another tab).
+  if (stored.age === 0 && ours.age === 0) return stored;
   return stored.age > ours.age ? stored : ours;
 }
+
+const unborn = (r: LifeRecord): boolean => r.age === 0 && r.ended === null;
 
 export const initialState: State = { k: 'boot' };
 
@@ -98,7 +104,15 @@ export function reduce(state: State, event: Event, cfg: MachineConfig): Step {
         if (!r || r.id !== state.record.id) return same(state);
         if (r.ended !== null) return { state: { k: 'ended', record: r }, effects: [{ t: 'showMemorial', record: r, fromDeath: false }] };
         if (r.age > state.record.age) return { state: { ...state, record: r }, effects: [{ t: 'jumped', record: r }] };
+        if (unborn(r) && unborn(state.record)) return same({ ...state, record: r });
         return same(state);
+      }
+      if (event.t === 'sealed') {
+        const r = state.record;
+        if (event.id !== r.id || !unborn(r) || event.seal === r.seal) return same(state);
+        if (!Number.isInteger(event.seal) || event.seal < 0 || event.seal > MAX_AGE) return same(state);
+        const sealed: LifeRecord = { ...r, seal: event.seal };
+        return { state: { ...state, record: sealed }, effects: [{ t: 'save', record: sealed }] };
       }
       if (event.t !== 'press') return same(state);
       if (event.now < state.coolUntil) return same(state);

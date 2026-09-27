@@ -47,9 +47,14 @@ await r.download({ age: 34, seconds: 30 });  // a WAV to listen to
 
 ## The graveyard
 
-Every life begins with a name. When the life ends, the name and the age it reached are sent to the graveyard, which anyone can visit from the gate or the memorial (`graveyard.html`).
+Every life begins with a name. When the life ends, its grave is laid in the graveyard, which anyone can visit from the gate or the memorial (`graveyard.html`).
 
-- **Backend:** a Neon Function (`backend/graveyard/index.ts`) in the Neon project `echo-of-life`, backed by one table (`backend/graveyard/schema.sql`). It accepts a grave only if its name passes `src/shared/names.ts`, the same rules the page uses. It also limits each IP (hashed) to 12 graves an hour and ignores duplicates.
+Every grave is a life really lived, and the rules are the same for everyone:
+- **At birth**, the page asks the graveyard (`POST /lives`) to draw the lifespan from the same WHO table. The graveyard keeps it, with the name and the time of birth, and the page lives by it. Asking again for the same life gives the same answer. Presses wait for the answer for up to 10 seconds; if the graveyard can't be reached, the life goes on with a lifespan drawn on the device and leaves no grave.
+- **At death**, the page sends only the life's id and age (`POST /graves`). The graveyard lays the grave only for a life it drew, at exactly the age it drew, and only once enough real time has passed to live it (3 s a year; a press takes 3.2 s). The name and the age laid are the graveyard's own.
+- So no one can add a grave without living that life through, choose an age, or skip the wait.
+
+- **Backend:** a Neon Function (`backend/graveyard/index.ts`) in the Neon project `echo-of-life`, backed by two tables, `lives` and `graves` (`backend/graveyard/schema.sql`). A name must pass `src/shared/names.ts`, the same rules the page uses. Each IP (hashed) can begin 20 lives and lay 12 graves an hour; duplicates are ignored.
 - **Environments:** graves are kept apart by build: `dev`, `preview` and `release`. Tests never touch the real graveyard.
 - **Moderation:** to hide a grave, run `update graves set hidden = true where id = <id>;` in the Neon SQL editor.
 - **Redeploying the function:** run `node scripts/backend/build-graveyard.mjs`, then deploy `.cache/graveyard/function.zip` as the `graveyard` function, either with `neon functions deploy graveyard --src backend/graveyard/index.ts` or through the Neon API.

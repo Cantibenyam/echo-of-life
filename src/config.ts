@@ -99,5 +99,13 @@ export const GRAVE_ENV: 'dev' | 'preview' | 'release' = import.meta.env.DEV
     ? 'release'
     : 'preview';
 
+/**
+ * A new life asks the graveyard for its lifespan. Presses wait for the answer up to DRAW_WAIT_MS (real
+ * time: the network does not speed up with ?fast); an answer is still taken until DRAW_TIMEOUT_MS if
+ * no year has been lived yet.
+ */
+export const DRAW_WAIT_MS = 10_000;
+export const DRAW_TIMEOUT_MS = 20_000;
+
 /** Remembers that this device's grave has been laid, so it is sent once. */
 export const GRAVE_SENT_KEY = `${LIFE_KEY}:grave`;

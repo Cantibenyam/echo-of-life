@@ -3,13 +3,13 @@ import '@fontsource-variable/newsreader/opsz-italic.css';
 import './ui/styles.css';
 
 import type { AudioApi } from './audio/types';
-import { DEATH, LIFE_KEY, MUTED_KEY, T, ms, setTimeScale } from './config';
+import { DEATH, DRAW_WAIT_MS, LIFE_KEY, MUTED_KEY, T, ms, setTimeScale } from './config';
 import { factFor } from './content/facts';
 import { initialState, reduce, type Effect, type Event, type MachineConfig, type State } from './life/machine';
 import type { LifeRecord } from './life/record';
 import { cryptoUniform, newId } from './life/rng';
 import { MemoryLifeStore, createLifeStore, type LifeStore } from './life/store';
-import { layGrave } from './graveyard/api';
+import { drawLife, layGrave } from './graveyard/api';
 import { openGraveyard } from './ui/graveyard-view';
 import { fade, wait } from './ui/dom';
 import { mountGate, type Gate } from './ui/gate';
@@ -36,12 +36,17 @@ function descend(from: HTMLElement): void {
 const NEAR_MISS = 24;
 
 let store: LifeStore = createLifeStore(LIFE_KEY);
+/** Dev overrides (?age, ?lifespan) keep their own lifespan: the graveyard is not asked. */
+let devLife = false;
 
 if (import.meta.env.DEV) {
   const dev = await import('./dev/overrides');
   const o = dev.readOverrides();
   if (o.fast) setTimeScale(0.1);
-  if (o.active) store = new MemoryLifeStore(dev.devRecord(o));
+  if (o.active) {
+    store = new MemoryLifeStore(dev.devRecord(o));
+    devLife = true;
+  }
   dev.expose({
     state: () => state,
     audio: () => audio,
@@ -134,6 +139,7 @@ function run(effect: Effect): void {
     case 'born':
     case 'resumed':
       enterLife(effect.record, effect.t === 'born' ? 'birth' : 'resume');
+      drawFromGraveyard(effect.record);
       break;
     case 'advanced':
       onAdvanced(effect.record);
@@ -190,6 +196,28 @@ function enterLife(record: LifeRecord, mode: 'birth' | 'resume'): void {
   if (mode === 'birth') requestPersistence();
 }
 
+// ---------- The graveyard draws every life ----------
+
+/** Until when presses wait for the graveyard's answer (0: not waiting). */
+let drawingUntil = 0;
+const waitingForDraw = (): boolean => Date.now() < drawingUntil;
+
+/**
+ * Before the first year, the graveyard draws the lifespan, so that every grave is a life really lived.
+ * Asked again on Continue while still at birth (the same life gets the same answer).
+ */
+function drawFromGraveyard(record: LifeRecord): void {
+  if (devLife || record.age !== 0 || record.ended !== null || !record.name) return;
+  const until = Date.now() + DRAW_WAIT_MS;
+  drawingUntil = until;
+  window.setTimeout(scheduleReady, DRAW_WAIT_MS);
+  void drawLife(record).then((seal) => {
+    if (drawingUntil === until) drawingUntil = 0;
+    if (seal !== null) dispatch({ t: 'sealed', id: record.id, seal });
+    scheduleReady();
+  });
+}
+
 function onAdvanced(record: LifeRecord): void {
   stage?.advanceTo(record.age);
   audio?.setAge(record.age);
@@ -202,7 +230,7 @@ function scheduleReady(): void {
   window.clearTimeout(readyTimer);
   stage?.setReady(false);
   if (state.k !== 'alive') return;
-  const wait = Math.max(0, state.coolUntil - Date.now());
+  const wait = Math.max(0, state.coolUntil - Date.now(), waitingForDraw() ? drawingUntil - Date.now() : 0);
   readyTimer = window.setTimeout(() => stage?.setReady(true), wait);
 }
 
@@ -262,6 +290,7 @@ function onPress(e: MouseEvent): void {
       startAudio(state.record, false);
     }
   }
+  if (waitingForDraw()) return; // the graveyard is still drawing this life
   dispatch({ t: 'press', now: Date.now(), stored: freshRead() });
 }
 

@@ -88,6 +88,16 @@ describe('store guard', () => {
     expect(canReplace(named, { ...named, age: 3 })).toBe(true);
   });
 
+  it('lets the graveyard replace the lifespan only before the first year', () => {
+    const drawn: LifeRecord = { ...base, seal: sealLifespan(71, base.id) };
+    expect(canReplace(base, drawn)).toBe(true);
+    const lived: LifeRecord = { ...base, age: 1 };
+    expect(canReplace(lived, { ...lived, seal: drawn.seal })).toBe(false);
+    expect(canReplace(base, { ...drawn, age: 1 })).toBe(false);
+    const dead: LifeRecord = { ...base, ended: 1_700_000_100_000 };
+    expect(canReplace(dead, { ...dead, seal: drawn.seal })).toBe(false);
+  });
+
   it('persists through localStorage and refuses backwards writes', () => {
     const storage = new FakeStorage();
     const store = new LocalLifeStore(storage, KEY);

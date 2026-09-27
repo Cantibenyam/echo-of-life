@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import fc from 'fast-check';
 import { initialState, reduce, type Effect, type Event, type MachineConfig, type State } from '../../src/life/machine';
-import { createRecord, lifespanOf, type LifeRecord } from '../../src/life/record';
+import { createRecord, lifespanOf, sealLifespan, type LifeRecord } from '../../src/life/record';
 import { TABLE } from '../../src/life/mortality';
 
 const cfg: MachineConfig = { cooldownMs: 3200, birthLockMs: 5000, resumeLockMs: 2500 };
@@ -133,11 +133,35 @@ describe('life machine', () => {
     expect(r.effects.at(-1)).toEqual({ t: 'resumed', record: rec });
   });
 
+  it('takes the lifespan the graveyard drew, but only before the first year', () => {
+    const born = run([
+      { t: 'loaded', record: null },
+      { t: 'begin', now: 0, u: uFor(40), id: ID, stored: null },
+    ]).state;
+    const sealed = run([{ t: 'sealed', id: ID, seal: sealLifespan(0, ID) }], born);
+    expect(sealed.effects).toHaveLength(1);
+    expect(sealed.effects[0]!.t).toBe('save');
+    // Drawn 0: the first press after the birth lock ends the life.
+    const pressed = run([{ t: 'press', now: cfg.birthLockMs, stored: null }], sealed.state);
+    expect(pressed.state.k).toBe('dying');
+    expect(pressed.state.k === 'dying' && pressed.state.record.age).toBe(0);
+
+    // Too late: a year has been lived, or the life is ending; and never for another life.
+    const lived = run([{ t: 'press', now: cfg.birthLockMs, stored: null }], born).state;
+    expect(lived.k === 'alive' && lived.record.age).toBe(1);
+    expect(reduce(lived, { t: 'sealed', id: ID, seal: sealLifespan(90, ID) }, cfg)).toEqual({ state: lived, effects: [] });
+    expect(reduce(born, { t: 'sealed', id: 'another-life', seal: 3 }, cfg)).toEqual({ state: born, effects: [] });
+    expect(reduce(born, { t: 'sealed', id: ID, seal: 500 }, cfg)).toEqual({ state: born, effects: [] });
+    const dying = run([{ t: 'press', now: cfg.birthLockMs, stored: null }], sealed.state).state;
+    expect(reduce(dying, { t: 'sealed', id: ID, seal: sealLifespan(90, ID) }, cfg)).toEqual({ state: dying, effects: [] });
+  });
+
   it('property: age never decreases, never passes the lifespan, and the life ends exactly once', () => {
     const eventArb = fc.oneof(
       fc.record({ t: fc.constant('press' as const), dt: fc.integer({ min: 0, max: 8000 }) }),
       fc.record({ t: fc.constant('dyingDone' as const) }),
       fc.record({ t: fc.constant('begin' as const) }),
+      fc.record({ t: fc.constant('sealed' as const), lifespan: fc.integer({ min: 0, max: 122 }) }),
     );
     fc.assert(
       fc.property(fc.integer({ min: 0, max: 122 }), fc.array(eventArb, { maxLength: 300 }), (lifespan, script) => {
@@ -145,6 +169,7 @@ describe('life machine', () => {
         let now = 0;
         let lastAge = 0;
         let endedSaves = 0;
+        let livedSeal: number | null = null; // the seal once a year has been lived: it never changes again
         const begin = reduce(state, { t: 'begin', now, u: uFor(lifespan), id: ID, stored: null }, cfg);
         state = begin.state;
         for (const s of script) {
@@ -152,6 +177,8 @@ describe('life machine', () => {
           if (s.t === 'press') {
             now += s.dt;
             step = reduce(state, { t: 'press', now, stored: null }, cfg);
+          } else if (s.t === 'sealed') {
+            step = reduce(state, { t: 'sealed', id: ID, seal: sealLifespan(s.lifespan, ID) }, cfg);
           } else if (s.t === 'begin') {
             step = reduce(state, { t: 'begin', now, u: 0.5, id: 'zzzzzzzz', stored: null }, cfg);
           } else {
@@ -161,7 +188,11 @@ describe('life machine', () => {
           for (const e of step.effects) {
             if (e.t === 'save') {
               expect(e.record.age).toBeGreaterThanOrEqual(lastAge);
-              expect(e.record.age).toBeLessThanOrEqual(lifespan);
+              expect(e.record.age).toBeLessThanOrEqual(lifespanOf(e.record));
+              if (e.record.age > 0) {
+                livedSeal ??= e.record.seal;
+                expect(e.record.seal).toBe(livedSeal);
+              }
               lastAge = e.record.age;
               if (e.record.ended !== null) endedSaves++;
             }
@@ -170,7 +201,7 @@ describe('life machine', () => {
         }
         if (state.k === 'dying' || state.k === 'ended') {
           expect(endedSaves).toBe(1);
-          expect(state.record.age).toBe(lifespan);
+          expect(state.record.age).toBe(lifespanOf(state.record));
         }
       }),
       { numRuns: 10_000 },

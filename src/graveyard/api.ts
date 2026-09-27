@@ -1,4 +1,4 @@
-import { GRAVEYARD_API, GRAVE_ENV, GRAVE_SENT_KEY } from '../config';
+import { DRAW_TIMEOUT_MS, GRAVEYARD_API, GRAVE_ENV, GRAVE_SENT_KEY } from '../config';
 import type { LifeRecord } from '../life/record';
 
 export interface Grave {
@@ -31,6 +31,31 @@ function sentFor(): string | null {
 }
 
 /**
+ * Asks the graveyard to draw this life's lifespan (it keeps it, and only lays a grave at that age).
+ * Resolves to the sealed lifespan, or null if the graveyard can't be reached: then the life goes on
+ * with the one drawn here, and leaves no grave. Asking again for the same life gives the same answer.
+ */
+export async function drawLife(record: LifeRecord): Promise<number | null> {
+  const abort = new AbortController();
+  const timer = setTimeout(() => abort.abort(), DRAW_TIMEOUT_MS);
+  try {
+    const res = await fetch(`${GRAVEYARD_API}/lives?env=${GRAVE_ENV}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+      body: JSON.stringify({ lifeId: record.id, name: record.name }),
+      signal: abort.signal,
+    });
+    if (!res.ok) return null;
+    const { seal } = (await res.json()) as { seal?: unknown };
+    return typeof seal === 'number' ? seal : null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/**
  * Lays this life's grave, once. Called when the life ends, and again whenever the memorial is shown
  * in case the first attempt never arrived (offline, tab closed). Never throws.
  */
@@ -41,9 +66,10 @@ export async function layGrave(record: LifeRecord): Promise<void> {
     const res = await fetch(`${GRAVEYARD_API}/graves?env=${GRAVE_ENV}`, {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
-      body: JSON.stringify({ lifeId: record.id, name: record.name, age: record.age, born: record.born, ended: record.ended }),
+      // The name and the age laid are the graveyard's own; the age sent here is only checked against them.
+      body: JSON.stringify({ lifeId: record.id, age: record.age, ended: record.ended }),
     });
-    // 201: laid. 4xx: it will never be accepted (a name the server refuses), so stop trying.
+    // 201: laid. 4xx: it will never be accepted (a life the graveyard didn't draw), so stop trying.
     if (res.ok || (res.status >= 400 && res.status < 500 && res.status !== 429)) {
       try {
         localStorage.setItem(GRAVE_SENT_KEY, record.id);
