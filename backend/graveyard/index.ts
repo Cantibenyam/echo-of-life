@@ -35,11 +35,6 @@ const GRAVES_PER_HOUR = 12;
 const LIVES_PER_HOUR = 20;
 /** The fastest a year can be lived is one press per 3.2 s cooldown; allow a little less. */
 const MIN_MS_PER_YEAR = 3000;
-/**
- * While pages from before lives were drawn here may still be open, their graves are taken the old way.
- * Set to false once the page that asks for its lifespan is released.
- */
-const ACCEPT_UNDRAWN = true;
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 type Env = 'release' | 'preview' | 'dev';
@@ -149,7 +144,7 @@ async function lay(req: Request, url: URL, h: Record<string, string>): Promise<R
   const id = lifeId.toLowerCase();
 
   const life = await findLife(env, id);
-  if (!life) return ACCEPT_UNDRAWN ? layUndrawn(req, env, id, body, h) : json({ error: 'unknown life' }, 409, h);
+  if (!life) return json({ error: 'unknown life' }, 409, h);
   if (age !== life.lifespan) return json({ error: 'not this life' }, 409, h);
   const born = Number(life.born);
   const now = Number(life.now);
@@ -169,28 +164,6 @@ async function lay(req: Request, url: URL, h: Record<string, string>): Promise<R
     `insert into graves (life_id, env, name, age, born_at, ended_at, ip_hash)
      values ($1, $2, $3, $4, $5, $6, $7) on conflict (env, life_id) do nothing`,
     [id, env, life.name, life.lifespan, new Date(born).toISOString(), new Date(endedAt).toISOString(), ipHash],
-  );
-  return json({ ok: true }, 201, h);
-}
-
-/** The old way, for pages from before lives were drawn here (see ACCEPT_UNDRAWN). */
-async function layUndrawn(req: Request, env: Env, id: string, body: Record<string, unknown>, h: Record<string, string>): Promise<Response> {
-  const { name, age, born, ended } = body as { name: unknown; age: number; born: unknown; ended: unknown };
-  const check = checkName(typeof name === 'string' ? name : '');
-  if (!check.ok) return json({ error: 'name', problem: check.problem }, 422, h);
-  const now = Date.now();
-  const endedAt = typeof ended === 'number' && ended > 1.6e12 && ended <= now + 300_000 ? ended : now;
-  const bornAt = typeof born === 'number' && born > 1.6e12 && born <= endedAt ? born : null;
-  const ipHash = ipHashOf(req);
-  const [{ recent }] = await query<{ recent: number }>(
-    "select count(*)::int as recent from graves where ip_hash = $1 and created_at > now() - interval '1 hour'",
-    [ipHash],
-  );
-  if (recent >= GRAVES_PER_HOUR) return json({ error: 'slow down' }, 429, h);
-  await query(
-    `insert into graves (life_id, env, name, age, born_at, ended_at, ip_hash)
-     values ($1, $2, $3, $4, $5, $6, $7) on conflict (env, life_id) do nothing`,
-    [id, env, check.name, age, bornAt === null ? null : new Date(bornAt).toISOString(), new Date(endedAt).toISOString(), ipHash],
   );
   return json({ ok: true }, 201, h);
 }
