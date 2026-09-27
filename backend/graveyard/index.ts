@@ -69,7 +69,9 @@ async function readBody(req: Request): Promise<Record<string, unknown> | null> {
 }
 
 function ipHashOf(req: Request): string {
-  const ip = (req.headers.get('x-forwarded-for') ?? '').split(',')[0]!.trim() || 'unknown';
+  // The platform's proxy appends the address it saw; anything before it is whatever the client sent.
+  const hops = (req.headers.get('x-forwarded-for') ?? '').split(',').map((s) => s.trim()).filter(Boolean);
+  const ip = hops[hops.length - 1] ?? 'unknown';
   return createHash('sha256').update(`${SALT}:${ip}`).digest('hex').slice(0, 32);
 }
 
