@@ -729,6 +729,12 @@ button {
   pointer-events: auto;
 }
 
+/* Links still fading in can't be pressed: a tap during an arrival must not lead anywhere. */
+.gate .asleep a,
+.life .asleep a {
+  pointer-events: none;
+}
+
 /* ---------- Reduced motion: dissolves only ---------- */
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,7 +1,7 @@
 import { ms, T } from '../config';
 import type { LifeRecord } from '../life/record';
 import { NAME_MAX, checkName, type NameProblem } from '../shared/names';
-import { el, fade, reducedMotion } from './dom';
+import { el, fade, reducedMotion, wakeAfter } from './dom';
 
 export interface GateOptions {
   readonly returning: LifeRecord | null;
@@ -85,7 +85,7 @@ export function mountGate(parent: HTMLElement, opts: GateOptions): Gate {
   }
   root.append(...lines);
 
-  const foot = el('div', 'gate-foot');
+  const foot = el('div', 'gate-foot asleep');
   const graveyard = el('a', 'grave-link', 'The graveyard');
   graveyard.href = opts.graveyardHref;
   graveyard.addEventListener('click', (e) => {
@@ -152,7 +152,7 @@ export function mountGate(parent: HTMLElement, opts: GateOptions): Gate {
       input.tabIndex = 0;
       setTimeout(() => input.focus({ preventScroll: true }), ms(900));
     }
-    fade(foot, 1, ms(1800), ms(600));
+    wakeAfter(foot, fade(foot, 1, ms(1800), ms(600)));
   };
 
   // Keyboard: once everything is shown, Enter or Space begins (Tab also reaches the button).

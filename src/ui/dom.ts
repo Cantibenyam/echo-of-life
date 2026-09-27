@@ -34,6 +34,12 @@ export function fade(node: HTMLElement, to: number, duration: number, delay = 0)
   return anim;
 }
 
+/** Keeps a node's links out of reach until its fade-in has finished: nothing unseen can be pressed. */
+export function wakeAfter(node: HTMLElement, anim: Animation): void {
+  node.classList.add('asleep');
+  anim.addEventListener('finish', () => node.classList.remove('asleep'));
+}
+
 export function formatAgeWords(age: number): string {
   if (age === 0) return 'Less than a year.';
   if (age === 1) return 'A life of 1 year.';

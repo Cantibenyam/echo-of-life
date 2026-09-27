@@ -78,6 +78,11 @@ test('the gate: early presses reveal, never begin; Begin is birth', async ({ pag
   const errors = watchErrors(page);
   await page.goto('./');
   await expect(page.locator('.gate-title')).toHaveText('The Echo of Life');
+  // An early tap where the (still invisible) graveyard link sits only brings the lines in sooner.
+  const link = (await page.locator('.gate-foot .grave-link').boundingBox())!;
+  await page.mouse.click(link.x + link.width / 2, link.y + link.height / 2);
+  await page.waitForTimeout(600);
+  await expect(page.locator('.graveyard-layer')).toHaveCount(0);
   await page.mouse.click(200, 200);
   expect(await stored(page)).toBeNull();
   await begin(page);
@@ -287,4 +292,17 @@ test('the memorial fits a small phone, name, causes and all', async ({ page }) =
     return { overlaps, inView: boxes.every((r) => r.top >= 0 && r.bottom <= innerHeight) };
   });
   expect(m).toEqual({ overlaps: 0, inView: true });
+
+  // The way down is there too, once it can be seen, and it comes back to the memorial.
+  const link = (await page.locator('.memorial-foot .grave-link').boundingBox())!;
+  await page.mouse.click(link.x + link.width / 2, link.y + link.height / 2);
+  await page.waitForTimeout(600);
+  await expect(page.locator('.graveyard-layer')).toHaveCount(0);
+  await expect(page.locator('.memorial-foot.asleep')).toHaveCount(0, { timeout: 10_000 });
+  await page.locator('.memorial-foot .grave-link').click();
+  await expect(page.locator('.stone')).toHaveCount(2, { timeout: 10_000 });
+  await page.locator('.grave-return').click();
+  await expect(page.locator('.graveyard-layer')).toHaveCount(0, { timeout: 10_000 });
+  await expect(page.locator('.memorial-name')).toBeInViewport();
+  expect(await page.evaluate(() => document.querySelector('.memorial')!.getAnimations().length)).toBe(0);
 });
