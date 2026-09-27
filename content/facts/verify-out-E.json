@@ -1,0 +1,86 @@
+[
+  {
+    "age": 50,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 52,
+    "status": "fix",
+    "issue": "Stale present tense. The US figure comes from NSFH Wave 3 (2001–02) and describes parents born 1926–43. Full text (same article, UvA repository PDF https://pure.uva.nl/ws/files/2647419/174371_801.full.pdf): 'the present study represents parents from the birth cohorts of ... 1926 to 1943 (NSFH)'; 'Our analysis draws from data collected in 25 countries'; 'Men from the United States ... averaging at a median age of 52.' 'Men become grandfathers at 52' reads as current, but the paper calls these cohorts a benchmark. Add the PDF as source (the OUP URL gives 403 and the abstract has no cohort years). The age-49 fact (US women, same study) has the same problem, so fix the pair together.",
+    "suggestedText": "In the United States, men born in 1926–43 became grandfathers at a median age of 52, according to a 2015 study comparing 25 countries."
+  },
+  {
+    "age": 57,
+    "status": "ok",
+    "issue": "Note: CRS Table 1 gives the 'Average (mean) age' as 57.9, excluding Delegates and the Resident Commissioner. It sits at 57 only under floor placement (57.9 would round to 58). That matches the brief's '27' example, so it is fine."
+  },
+  {
+    "age": 73,
+    "status": "ok",
+    "issue": "Note: correct and current as of Sept 2026, verbatim on the IRS page (updated 10 Dec 2024). SECURE 2.0 raises the RMD age to 75 for people born in 1960 or later (from 2033). The IRS page doesn't say so, but the fact will need revisiting then."
+  },
+  {
+    "age": 75,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 77,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 78,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 80,
+    "status": "fix",
+    "issue": "Slightly imprecise. UDG no. 33 excludes cardinals who 'have reached their eightieth birthday before the day of the Roman Pontiff's death or the day when the Apostolic See becomes vacant'. The test is the day of the vacancy, not the conclave, so a cardinal who turns 80 during the interregnum still votes. As worded, 'who have reached their 80th birthday do not vote' is wrong for him. The rule is still in force.",
+    "suggestedText": "Catholic cardinals who turn 80 before the day the papacy falls vacant do not vote in the conclave that elects the next pope."
+  },
+  {
+    "age": 83,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 89,
+    "status": "fix",
+    "issue": "Overstated mechanism. 45 CFR 164.514(b)(2)(i)(C) requires 'all ages over 89' to be removed, 'except that such ages ... may be aggregated into a single category of age 90 or older'. Grouping is optional, so older ages don't simply 'become 90 or older'. The '89 is the oldest age that may be shown' part is correct.",
+    "suggestedText": "In US health records de-identified under HIPAA’s ‘safe harbor’ method, 89 is the oldest age that may be shown; older ages are removed or grouped as ‘90 or older’."
+  },
+  {
+    "age": 91,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 93,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 94,
+    "status": "fix",
+    "issue": "Wording: 'Japan counted' suggests an enumeration, but the source is the Statistics Bureau's Population Estimates (推計), not a census count. The figures are correct: Table 1, total population, 1 Oct 2024, age 94 = 273 thousand (men 67, women 206; 75% women).",
+    "suggestedText": "Japan had an estimated 273,000 people aged 94 on 1 October 2024, about three in four of them women."
+  },
+  {
+    "age": 95,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 97,
+    "status": "ok",
+    "issue": "Note: accurate. NobelPrize.org lists John B. Goodenough, Chemistry 2019, 'Awarded at age 97' as the oldest in all categories, and no 2025 laureate was older. Editorial caution: this is a record held by one person, which Brief 2 favours only from 105 up, though the age is the subject of the sentence. Re-check after the 2026 Nobel announcements, from about 5 October 2026."
+  },
+  {
+    "age": 99,
+    "status": "ok",
+    "issue": ""
+  }
+]

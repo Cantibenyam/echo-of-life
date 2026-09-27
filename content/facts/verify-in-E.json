@@ -1,0 +1,178 @@
+[
+  {
+    "age": 50,
+    "text": "In China’s ancient Book of Rites, 50 is when ‘he is getting grey’ and ‘can discharge all the duties of an officer’.",
+    "source": {
+      "label": "James Legge (trans.), The Li Ki, Book I: Khü Lî, Part I (Sacred Books of the East vol. 27, 1885), Internet Sacred Text Archive",
+      "url": "https://sacred-texts.com/cfu/liki/liki01.htm"
+    },
+    "kind": "world",
+    "evidence": "When he is fifty, we say, 'He is getting grey;' he can discharge all the duties of an officer.",
+    "check": "Legge's translation of the Book of Rites (Liji), chapter Qu Li I, which names each decade of life (forty, fifty, sixty, seventy, eighty or ninety). The line is specifically about age fifty. Different text from the Analects lines used at 40 and 60. Minor overlap in theme with the grey-hair survey at 54."
+  },
+  {
+    "age": 52,
+    "text": "In the United States, men become grandfathers at a median age of 52, according to a 2015 study comparing 25 countries.",
+    "source": {
+      "label": "Leopold & Skopek, 'The Demography of Grandparenthood: An International Profile', Social Forces 94(2), 2015",
+      "url": "https://academic.oup.com/sf/article-abstract/94/2/801/2583786"
+    },
+    "kind": "world",
+    "evidence": "we analyzed retrospective data from the United States (NSFH) and 24 European countries (GGS, ESS, DEAS). ... Compared to the United States (49 years among women, 52 years among men), grandparenthood in Eastern Europe occurs up to three years earlier in life; in Western Europe, up to eight years later.",
+    "check": "Median age at grandparenthood, US men = 52 (US plus 24 European countries = 25). OUP returned 403 to curl, so the abstract (including the '24 European countries' detail) was read this session through WebFetch only. Same study as the fact at 49 (US women), so the two read as a pair."
+  },
+  {
+    "age": 57,
+    "text": "The average age of US Representatives at the start of the 119th Congress, in January 2025, was 57.9 years.",
+    "source": {
+      "label": "Congressional Research Service, Membership of the 119th Congress: A Profile (R48535), 2025, via EveryCRSReport.com",
+      "url": "https://www.everycrsreport.com/reports/R48535.html"
+    },
+    "kind": "numbers",
+    "evidence": "The average age of Members of the House at the beginning of the 119th Congress was 57.9 years; of Senators, 63.9 years.",
+    "check": "119th Congress began 3 January 2025 (report text: 'at the beginning of the 119th Congress (January 3, 2025)'). An average of 57.9 years means the typical member is 57 in completed years. congress.gov returned 403, so the CRS text was read on the EveryCRSReport mirror."
+  },
+  {
+    "age": 73,
+    "text": "In the United States, 73 is the age at which savers must generally start taking ‘required minimum distributions’ from IRAs and retirement plans.",
+    "source": {
+      "label": "Internal Revenue Service (US), Retirement plan and IRA required minimum distributions FAQs",
+      "url": "https://www.irs.gov/retirement-plans/retirement-plan-and-ira-required-minimum-distributions-faqs"
+    },
+    "kind": "world",
+    "evidence": "Required Minimum Distributions (RMDs) are minimum amounts that IRA and retirement plan account owners generally must withdraw annually starting with the year they reach age 73.",
+    "check": "US federal rule; the threshold age is exactly 73. (Workplace-plan participants who are still working may delay; 'generally' in the text covers this.)"
+  },
+  {
+    "age": 75,
+    "text": "Since July 2022, Canada’s Old Age Security pension has been 10% higher from the month after a person turns 75.",
+    "source": {
+      "label": "Old Age Security Act (Canada), s. 7(5), Justice Laws Website",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/O-9/FullText.html"
+    },
+    "kind": "world",
+    "evidence": "Full monthly pension — persons aged 75 years or older (5) Beginning in the payment quarter commencing on July 1, 2022, for the period that begins in the month after the month in which a person attains 75 years of age, the amount of the full monthly pension, as it is calculated in accordance with subsections (1) to (4), is increased by 10%.",
+    "check": "Canadian federal law; the increase is tied to attaining 75. (canada.ca would not load via curl; the statute itself was fetched instead. A WebFetch of canada.ca's OAS payments page agreed: 'In July 2022, the Old Age Security pension was permanently increased by 10% for seniors aged 75 and over.')"
+  },
+  {
+    "age": 77,
+    "text": "In Japan, 77 is kiju, named for the character 喜, joy, which in cursive script looks like 七十七, the numerals for seventy-seven.",
+    "source": {
+      "label": "The Japan Times, 28 Dec 2025",
+      "url": "https://www.japantimes.co.jp/life/2025/12/28/language/zodiac-ages-japan-birthdays/"
+    },
+    "kind": "world",
+    "evidence": "After 還暦 we have 喜寿 (kiju, the 77th birthday), whose name comes from the character 喜 (yorokobu, joy). In 草書体 (sōshotai, cursive script), the kanji appears as 㐂, resembling a stylized form of 七十七 (nana-jū-nana, 7-10-7).",
+    "check": "Kiju is explicitly 'the 77th birthday'. Same pattern as sotsuju at 90. The rest of the article is paywalled, but this passage is on the public part. Nippon.com (Japan Data, 5 Jan 2024) confirms: '喜寿 ( Kiju , 77 years old)'."
+  },
+  {
+    "age": 78,
+    "text": "Japan’s population pyramid dips at 78: in 2024 there were 1.09 million people that age but 1.78 million aged 77, a trace of the fall in births around 1945.",
+    "source": {
+      "label": "Statistics Bureau of Japan, Population Estimates as of 1 October 2024, Table 1 (population by single year of age) and Figure 2 (population pyramid)",
+      "url": "https://www.stat.go.jp/data/jinsui/2024np/pdf/2024np.pdf"
+    },
+    "kind": "numbers",
+    "evidence": "78、79歳： 第２次世界大戦終戦（1945年） 前後における出生減 ... 77 / 1,784 / 808 / 975 / 82.9 ... 78 / 1,088 / 483 / 605 / 79.9",
+    "check": "Japan, 1 October 2024. Pyramid annotation: 'Ages 78, 79: the fall in births around the end of the Second World War (1945)'. Table 1 (thousands): age 77 = 1,784, age 78 = 1,088. Both in the same Statistics Bureau PDF."
+  },
+  {
+    "age": 80,
+    "text": "Catholic cardinals who have reached their 80th birthday do not vote in the conclave that elects a new pope.",
+    "source": {
+      "label": "John Paul II, Apostolic Constitution Universi Dominici Gregis (1996), Vatican",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/apost_constitutions/documents/hf_jp-ii_apc_22021996_universi-dominici-gregis.html"
+    },
+    "kind": "world",
+    "evidence": "The right to elect the Roman Pontiff belongs exclusively to the Cardinals of Holy Roman Church, with the exception of those who have reached their eightieth birthday before the day of the Roman Pontiff's death or the day when the Apostolic See becomes vacant.",
+    "check": "Church law, no. 33. The age limit is exactly the 80th birthday. The preamble notes the rule was kept from Paul VI."
+  },
+  {
+    "age": 83,
+    "text": "Some Jewish men celebrate a second bar mitzvah at 83, having lived a life span of 70 years since the first, at 13.",
+    "source": {
+      "label": "My Jewish Learning, The Adult Bar/Bat Mitzvah",
+      "url": "https://www.myjewishlearning.com/article/motivations-for-adult-barbat-mitzvah/"
+    },
+    "kind": "world",
+    "evidence": "Most descriptions of an adult bar or bat mitzvah tend to focus on people of a certain age: women old enough to have grown up when females had no ritual purpose on the bimah (pulpit) of any synagogue and 83-year-old men who celebrate a second bar mitzvah, having lived a life span of 70 years since the first.",
+    "check": "Custom tied to exactly 83 (13 + 70). The same page states 'by Jewish law, a boy reaches adulthood when he turns 13'. Different angle from the fact at 113 (a first bar mitzvah held 100 years late)."
+  },
+  {
+    "age": 89,
+    "text": "In US health records de-identified under HIPAA’s ‘safe harbor’ method, 89 is the oldest age that may be shown; older ages become ‘90 or older’.",
+    "source": {
+      "label": "45 CFR 164.514(b)(2) (HIPAA Privacy Rule, 'safe harbor' de-identification), Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/45/164.514"
+    },
+    "kind": "world",
+    "evidence": "(i) The following identifiers of the individual or of relatives, employers, or household members of the individual, are removed: ... (C) All elements of dates (except year) for dates directly related to an individual, including birth date, admission date, discharge date, date of death; and all ages over 89 and all elements of dates (including year) indicative of such age, except that such ages and elements may be aggregated into a single category of age 90 or older;",
+    "check": "US federal regulation, 'safe harbor' de-identification method only (the alternative 'expert determination' method in 164.514(b)(1) is not bound by this list): ages over 89 must be removed or grouped as '90 or older', so 89 is the highest age that can be stated. The same text was also fetched from the eCFR renderer (ecfr.gov). HHS's own guidance page returned 403."
+  },
+  {
+    "age": 91,
+    "text": "Korean has a word for age 91: mangbaek (望百), ‘looking toward a hundred’.",
+    "source": {
+      "label": "National Institute of Korean Language, Standard Korean Language Dictionary, entry 망백",
+      "url": "https://stdict.korean.go.kr/search/searchResult.do?pageSize=10&searchKeyword=%EB%A7%9D%EB%B0%B1"
+    },
+    "kind": "world",
+    "evidence": "망백 (望百) 「명사」 백(百)을 바라본다는 뜻으로, 나이 아흔한 살을 이르는 말.",
+    "check": "Translation: 'Mangbaek (望百), noun: meaning to look toward a hundred (百); a word for the age of ninety-one.' The same dictionary defines 망구 (望九), 'looking toward ninety', as the age of 81 (아흔을 바라본다는 뜻으로, 나이 여든한 살을 이르는 말)."
+  },
+  {
+    "age": 93,
+    "text": "The UK had about 76,900 people aged 93 in mid-2024, up from about 47,700 in 2004, official estimates show.",
+    "source": {
+      "label": "Office for National Statistics, Mid-2002 to mid-2024 population estimates of the very old, UK (released 21 Oct 2025), 'UK Persons' sheet",
+      "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/datasets/midyearpopulationestimatesoftheveryoldincludingcentenariansunitedkingdom/current/ukevo2024.xls"
+    },
+    "kind": "numbers",
+    "evidence": "Mid-2002 to mid-2024 population estimates of the very old (including centenarians), persons, UK (provisional) ... Year 2024, 93: 76860 ... Year 2004, 93: 47680",
+    "check": "ONS single-year estimates, UK, age exactly 93, mid-2024 vs mid-2004 (+61%). Rounded to the nearest 10 by ONS; 'about' in the text."
+  },
+  {
+    "age": 94,
+    "text": "Japan counted 273,000 people aged 94 in October 2024, about three in four of them women.",
+    "source": {
+      "label": "Statistics Bureau of Japan, Population Estimates as of 1 October 2024, Table 1 (population by single year of age)",
+      "url": "https://www.stat.go.jp/data/jinsui/2024np/pdf/2024np.pdf"
+    },
+    "kind": "numbers",
+    "evidence": "（単位 千人）... 94 / 273 / 67 / 206 / 32.7",
+    "check": "Official single-year estimates for Japan, 1 October 2024 (thousands): age 94 total 273, men 67, women 206 (206/273 = 75%)."
+  },
+  {
+    "age": 95,
+    "text": "Canada’s Governor General sends birthday greetings, on request, at 90 and 95, then every year from the 100th birthday.",
+    "source": {
+      "label": "Governor General of Canada, Request Birthday and Anniversary Greetings",
+      "url": "https://www.gg.ca/en/contact-us/birthday-anniversary-greetings"
+    },
+    "kind": "world",
+    "evidence": "Upon request, greetings will be sent every five (5) years for birthdays starting at 90 and anniversaries starting at 50, then every year for birthdays starting at 100 and anniversaries starting at 70.",
+    "check": "Official rule: birthday greetings at 90, 95, then yearly from 100. The 95th birthday is one of the named greeting ages. 90 already has sotsuju, so the fact sits at 95."
+  },
+  {
+    "age": 97,
+    "text": "97 is the greatest age at which anyone has been awarded a Nobel Prize: John B. Goodenough, in chemistry, in 2019.",
+    "source": {
+      "label": "NobelPrize.org, Nobel Prize facts",
+      "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+    },
+    "kind": "numbers",
+    "evidence": "The oldest Nobel Prize laureates in all categories / Nobel Prize in Chemistry 2019 / John B. Goodenough / Awarded at age 97 / “for the development of lithium-ion batteries”",
+    "check": "Record age across all prize categories = 97. Caution: this is a record held by one person, close to the old milestone style. Brief 2 allows record-age framing only for 105 and above, so it is offered as an option only. The same page lists the next-oldest as Arthur Ashkin, awarded at 96 (Physics 2018)."
+  },
+  {
+    "age": 99,
+    "text": "In Japan, 99 is hakuju, ‘white longevity’: take the top stroke, 一 (one), away from 百 (100) and what remains is 白, white.",
+    "source": {
+      "label": "Nippon.com, Japanese Names for Age Milestones from 60 to 100, 5 Jan 2024",
+      "url": "https://www.nippon.com/en/japan-data/h01872/"
+    },
+    "kind": "world",
+    "evidence": "白寿 ( Hakuju , 99 years old) The kanji for 100 is 百, so take away one top stroke (which also represents the character 一, “one”)—to get 白, which, although it usually means “white,” here represents 99. ... The character 寿, which appears second in this and all subsequent names, means both “congratulations” and “longevity.”",
+    "check": "Traditional Japanese milestone name for exactly 99. The Korean Standard Dictionary gives the same derivation for Korean 백수 (白壽): '아흔아홉 살. ‘百’에서 ‘一’을 빼면 99가 되고 ‘白’ 자가 되는 데서 유래한다.'"
+  }
+]

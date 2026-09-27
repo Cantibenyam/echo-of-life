@@ -1,0 +1,160 @@
+[
+  {
+    "age": 6,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 9,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 11,
+    "status": "fix",
+    "issue": "Source is NHS 111 Wales, but the text says 'The UK’s NHS'. The NHS is four separate systems, and the place should match the cited page. Figure (11) is verbatim.",
+    "suggestedText": "NHS Wales gives 11 as the average age for girls to start puberty."
+  },
+  {
+    "age": 13,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 15,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 22,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 23,
+    "status": "fix",
+    "issue": "Figure confirmed in ms2.xls (1990, women, 23.9). But MS-2 is an estimated median age at first marriage. 'The median American woman married for the first time at 23.9' reads as a statement about all women, including those who never married.",
+    "suggestedText": "In 1990 the median age at first marriage for US women was 23.9, Census Bureau estimates show."
+  },
+  {
+    "age": 24,
+    "status": "fix",
+    "issue": "Abstract confirmed (3,305 players aged 16-44; slowing begins at 24). The study is cross-sectional, comparing players of different ages at one time. 'Their in-game responses began to slow' implies each player was tracked as they aged. Use the paper's framing.",
+    "suggestedText": "In a study of 3,305 StarCraft 2 players aged 16 to 44, age-related slowing of in-game response times began at 24."
+  },
+  {
+    "age": 29,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 30,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 32,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 34,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 37,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 41,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 42,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 43,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 101,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 102,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 103,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 105,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 107,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 109,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 111,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 113,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 114,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 116,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 117,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 118,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 119,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 121,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "age": 122,
+    "status": "ok",
+    "issue": ""
+  }
+]

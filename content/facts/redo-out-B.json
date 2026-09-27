@@ -45,7 +45,7 @@
         },
         "kind": "people",
         "evidence": "we analyzed retrospective data from the United States (NSFH) and 24 European countries (GGS, ESS, DEAS). ... Compared to the United States (49 years among women, 52 years among men), grandparenthood in Eastern Europe occurs up to three years earlier in life; in Western Europe, up to eight years later.",
-        "check": "Median age at grandparenthood, US men = 52 (US plus 24 European countries = 25). OUP returned 403 to curl; abstract read via WebFetch, and it matches the wording confirmed by curl in the earlier round. Same study as the fact at 49 (US women), so the two read as a pair."
+        "check": "Median age at grandparenthood, US men = 52 (US plus 24 European countries = 25). OUP returned 403 to curl, so the abstract (including the '24 European countries' detail) was read this session through WebFetch only. Same study as the fact at 49 (US women), so the two read as a pair."
       },
       {
         "text": "In 2020, the median age of registered nurses in the United States was 52, up from 51 in 2017.",
@@ -248,24 +248,24 @@
     "age": 89,
     "candidates": [
       {
-        "text": "Under US health-privacy rules, 89 is the oldest age that may appear in de-identified records; anyone older is grouped as ‘90 or older’.",
+        "text": "In US health records de-identified under HIPAA's ‘safe harbor’ method, 89 is the oldest age that may be shown; older ages become ‘90 or older’.",
         "source": {
           "label": "45 CFR 164.514(b)(2) (HIPAA Privacy Rule, 'safe harbor' de-identification), Legal Information Institute, Cornell Law School",
           "url": "https://www.law.cornell.edu/cfr/text/45/164.514"
         },
         "kind": "world",
         "evidence": "(i) The following identifiers of the individual or of relatives, employers, or household members of the individual, are removed: ... (C) All elements of dates (except year) for dates directly related to an individual, including birth date, admission date, discharge date, date of death; and all ages over 89 and all elements of dates (including year) indicative of such age, except that such ages and elements may be aggregated into a single category of age 90 or older;",
-        "check": "US federal regulation: ages over 89 must be removed or grouped as '90 or older', so 89 is the highest age that can be stated. The same text was also fetched from the eCFR renderer (ecfr.gov). HHS's own guidance page returned 403."
+        "check": "US federal regulation, 'safe harbor' de-identification method only (the alternative 'expert determination' method in 164.514(b)(1) is not bound by this list): ages over 89 must be removed or grouped as '90 or older', so 89 is the highest age that can be stated. The same text was also fetched from the eCFR renderer (ecfr.gov). HHS's own guidance page returned 403."
       },
       {
-        "text": "In Japan in October 2024, 437,000 women and 220,000 men were aged 89, about two women for every man.",
+        "text": "Japan counted about 657,000 people aged 89 in October 2024, according to official population estimates.",
         "source": {
           "label": "Statistics Bureau of Japan, Population Estimates as of 1 October 2024, Table 1 (population by single year of age)",
           "url": "https://www.stat.go.jp/data/jinsui/2024np/pdf/2024np.pdf"
         },
         "kind": "numbers",
         "evidence": "（単位 千人）... 89 / 657 / 220 / 437 / 50.3",
-        "check": "Official single-year estimates for Japan, 1 October 2024 (thousands): age 89 total 657, men 220, women 437; sex ratio 50.3 men per 100 women (注: 女性100人に対する男性の数). A count, not a survival statistic, but it reflects one; use with care."
+        "check": "Official single-year estimates for Japan, 1 October 2024 (thousands): age 89 total 657 (men 220, women 437). Count-type fallback."
       }
     ]
   },
@@ -308,14 +308,14 @@
         "check": "ONS single-year estimates, UK, age exactly 93, mid-2024 vs mid-2004 (+61%). Rounded to the nearest 10 by ONS; 'about' in the text."
       },
       {
-        "text": "Japan counted 344,000 people aged 93 in October 2024: 254,000 women and 91,000 men.",
+        "text": "Japan counted about 344,000 people aged 93 in October 2024, according to official population estimates.",
         "source": {
           "label": "Statistics Bureau of Japan, Population Estimates as of 1 October 2024, Table 1 (population by single year of age)",
           "url": "https://www.stat.go.jp/data/jinsui/2024np/pdf/2024np.pdf"
         },
         "kind": "numbers",
         "evidence": "（単位 千人）... 93 / 344 / 91 / 254 / 35.8",
-        "check": "Official single-year estimates for Japan, 1 October 2024 (thousands): age 93 total 344, men 91, women 254 (the table rounds, so they do not add exactly)."
+        "check": "Official single-year estimates for Japan, 1 October 2024 (thousands): age 93 total 344 (men 91, women 254). Count-type fallback."
       }
     ]
   },
@@ -373,16 +373,6 @@
     "age": 97,
     "candidates": [
       {
-        "text": "97 is the greatest age at which anyone has been awarded a Nobel Prize: John B. Goodenough, in chemistry, in 2019.",
-        "source": {
-          "label": "NobelPrize.org, Nobel Prize facts",
-          "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
-        },
-        "kind": "people",
-        "evidence": "The oldest Nobel Prize laureates in all categories / Nobel Prize in Chemistry 2019 / John B. Goodenough / Awarded at age 97 / “for the development of lithium-ion batteries”",
-        "check": "Record age across all prize categories = 97. Worded with the age as the subject, as brief 2 allows for record ages. The same page lists the next-oldest as Arthur Ashkin, awarded at 96 (Physics 2018)."
-      },
-      {
         "text": "The UK had about 22,700 people aged 97 in mid-2024, up from about 13,100 in 2004, official estimates show.",
         "source": {
           "label": "Office for National Statistics, Mid-2002 to mid-2024 population estimates of the very old, UK (released 21 Oct 2025), 'UK Persons' sheet",
@@ -391,6 +381,16 @@
         "kind": "numbers",
         "evidence": "Mid-2002 to mid-2024 population estimates of the very old (including centenarians), persons, UK (provisional) ... Year 2024, 97: 22670 ... Year 2004, 97: 13070",
         "check": "ONS single-year estimates, UK, age exactly 97, mid-2024 vs mid-2004. Rounded to the nearest 10 by ONS; 'about' in the text."
+      },
+      {
+        "text": "97 is the greatest age at which anyone has been awarded a Nobel Prize: John B. Goodenough, in chemistry, in 2019.",
+        "source": {
+          "label": "NobelPrize.org, Nobel Prize facts",
+          "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+        },
+        "kind": "people",
+        "evidence": "The oldest Nobel Prize laureates in all categories / Nobel Prize in Chemistry 2019 / John B. Goodenough / Awarded at age 97 / “for the development of lithium-ion batteries”",
+        "check": "Record age across all prize categories = 97. Caution: this is a record held by one person, close to the old milestone style. Brief 2 allows record-age framing only for 105 and above, so it is offered as an option only. The same page lists the next-oldest as Arthur Ashkin, awarded at 96 (Physics 2018)."
       }
     ]
   },

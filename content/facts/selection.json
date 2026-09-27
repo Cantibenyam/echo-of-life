@@ -1,5 +1,5 @@
 {
-  "$comment": "Which researched candidate (0 = a, 1 = b) is shown at each age. Optional: {\"pick\": 0, \"text\": \"edited text\"} to adjust wording without changing the source.",
+  "$comment": "Which researched candidate is shown at each age: a number picks from content/facts/part-*.json (0 = a, 1 = b); {\"redo\": i} picks from the second round (content/facts/redo-out-*.json, facts about the age itself). Optional \"text\" adjusts wording and \"kind\" re-labels it, without changing the source.",
   "picks": {
     "0": 0,
     "1": {
@@ -29,7 +29,8 @@
     },
     "10": 1,
     "11": {
-      "redo": 0
+      "redo": 0,
+      "text": "NHS Wales gives 11 as the average age for girls to start puberty."
     },
     "12": 1,
     "13": {
@@ -60,10 +61,12 @@
       "redo": 0
     },
     "23": {
-      "redo": 0
+      "redo": 0,
+      "text": "In 1990 the median age at first marriage for US women was 23.9, Census Bureau estimates show."
     },
     "24": {
-      "redo": 0
+      "redo": 0,
+      "text": "In a study of 3,305 StarCraft 2 players aged 16 to 44, age-related slowing of in-game response times began at 24."
     },
     "25": 0,
     "26": 0,
@@ -117,9 +120,16 @@
       "pick": 1,
       "text": "A 2015 study put the median age at which American women become grandmothers at 49. In parts of Western Europe it came up to eight years later."
     },
-    "50": 1,
+    "50": {
+      "redo": 0,
+      "kind": "world"
+    },
     "51": 1,
-    "52": 1,
+    "52": {
+      "redo": 0,
+      "kind": "world",
+      "text": "In the United States, men born in 1926–43 became grandfathers at a median age of 52, according to a 2015 study comparing 25 countries."
+    },
     "53": 0,
     "54": {
       "pick": 0,
@@ -127,7 +137,10 @@
     },
     "55": 0,
     "56": 0,
-    "57": 1,
+    "57": {
+      "redo": 0,
+      "kind": "numbers"
+    },
     "58": 0,
     "59": {
       "pick": 0,
@@ -155,28 +168,35 @@
       "pick": 0,
       "text": "In a UK survey of over 300,000 adults in 2012 to 2015, people aged 65 to 74 reported the highest average happiness of any age group."
     },
-    "73": 0,
+    "73": {
+      "redo": 0
+    },
     "74": 1,
-    "75": 1,
+    "75": {
+      "redo": 0
+    },
     "76": {
       "pick": 0,
       "text": "In the US in 2024, people aged 75 and over spent an average of 46 minutes a day reading for pleasure. Those aged 15 to 19 read for 9 minutes."
     },
-    "77": 1,
-    "78": 0,
+    "77": {
+      "redo": 0
+    },
+    "78": {
+      "redo": 0
+    },
     "79": {
       "pick": 1,
       "text": "In the US in 2024, adults aged 75 and over spent 7.6 hours a day on leisure and sports, more than any other age group."
     },
     "80": {
-      "pick": 1,
-      "text": "Yuichiro Miura reached the summit of Everest on 23 May 2013, becoming the oldest man to climb it, a record he had first set in 2003."
+      "redo": 1,
+      "text": "Catholic cardinals who turn 80 before the day the papacy falls vacant do not vote in the conclave that elects the next pope."
     },
     "81": 0,
     "82": 0,
     "83": {
-      "pick": 0,
-      "text": "Sumiko Iwamuro, who went to DJ school at 77, was recognised in 2018 as the world's oldest female club DJ, playing monthly in Tokyo."
+      "redo": 0
     },
     "84": {
       "pick": 1,
@@ -192,23 +212,39 @@
     },
     "87": 0,
     "88": 1,
-    "89": 0,
+    "89": {
+      "redo": 0,
+      "text": "In US health records de-identified under HIPAA’s ‘safe harbor’ method, 89 is the oldest age that may be shown; older ages are removed or grouped as ‘90 or older’."
+    },
     "90": 1,
-    "91": 0,
+    "91": {
+      "redo": 0
+    },
     "92": 1,
-    "93": 0,
-    "94": 0,
-    "95": 0,
+    "93": {
+      "redo": 0
+    },
+    "94": {
+      "redo": 1,
+      "text": "Japan had an estimated 273,000 people aged 94 on 1 October 2024, about three in four of them women."
+    },
+    "95": {
+      "redo": 0
+    },
     "96": {
       "pick": 1,
       "text": "In a 1990 study, nine frail nursing-home residents aged up to 96 did eight weeks of weight training, and their strength rose by 174% on average."
     },
-    "97": 0,
+    "97": {
+      "redo": 0
+    },
     "98": {
       "pick": 1,
       "text": "In a study of 29 people aged 90 to 101 in rural southern Italy, the elders reported better mental well-being than their younger relatives."
     },
-    "99": 0,
+    "99": {
+      "redo": 0
+    },
     "100": {
       "pick": 0,
       "text": "Japan counted 153 people aged 100 or over in 1963. In 2026 it counted 107,677."
