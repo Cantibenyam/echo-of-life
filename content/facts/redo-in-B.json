@@ -1,0 +1,258 @@
+[
+  {
+    "age": 50,
+    "current_milestone_fact": "In October 1966 the Carnatic singer M. S. Subbulakshmi gave a recital of Indian songs in the United Nations General Assembly Hall in New York.",
+    "existing_alternates": [
+      {
+        "text": "In a Harvard study begun in 1938, the people most satisfied in their relationships at 50 turned out to be the healthiest at 80.",
+        "source": {
+          "label": "Harvard Gazette, 2017",
+          "url": "https://news.harvard.edu/gazette/story/2017/04/over-nearly-80-years-harvard-study-has-been-showing-how-to-live-a-healthy-and-happy-life/"
+        },
+        "kind": "mind",
+        "evidence": "“The people who were the most satisfied in their relationships at age 50 were the healthiest at age 80,” said Robert Waldinger",
+        "check": "Finding is explicitly about relationship satisfaction at age 50 (Harvard Study of Adult Development, United States). The same article says: 'When scientists began tracking the health of 268 Harvard sophomores in 1938'. Article dated April 11, 2017. Placed at 50."
+      }
+    ]
+  },
+  {
+    "age": 52,
+    "current_milestone_fact": "Rabindranath Tagore, a writer of poems, songs, stories and plays in Bengali, won the 1913 Nobel Prize in Literature for verse recast in his own English words.",
+    "existing_alternates": [
+      {
+        "text": "In the United States the median age at which men become grandfathers is 52, and grandparenthood often arrives while people are still working.",
+        "source": {
+          "label": "Leopold & Skopek, Social Forces, 2015",
+          "url": "https://academic.oup.com/sf/article-abstract/94/2/801/2583786"
+        },
+        "kind": "world",
+        "evidence": "Compared to the United States (49 years among women, 52 years among men), grandparenthood in Eastern Europe occurs up to three years earlier in life; in Western Europe, up to eight years later. ... In all countries, grandparenthood overlaps rarely with active parenting but frequently with worker and filial roles.",
+        "check": "Median age at grandparenthood for US men = 52. Abstract read on the OUP page via WebFetch; wording confirmed by curl on the authors' abstract page (skopek.org). Placed at 52."
+      }
+    ]
+  },
+  {
+    "age": 57,
+    "current_milestone_fact": "In January 1955 the contralto Marian Anderson became the first African American soloist to sing at New York’s Metropolitan Opera.",
+    "existing_alternates": [
+      {
+        "text": "In England in 2021, women aged 55 to 59 were more likely than any other group to give unpaid care to someone: 19.9% of them did.",
+        "source": {
+          "label": "Office for National Statistics, Census 2021, Unpaid care by age, sex and deprivation",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/socialcare/articles/unpaidcarebyagesexanddeprivationenglandandwales/census2021"
+        },
+        "kind": "numbers",
+        "evidence": "In England, females aged between 55 to 59 years provided the most unpaid care (19.9%), while females aged between 5 to 17 years were least likely to provide unpaid care (1.5%).",
+        "check": "Census 2021, England, females aged 55–59: 19.9%, the highest of any age-sex group. Placed at 57, the middle of the 55–59 band."
+      }
+    ]
+  },
+  {
+    "age": 73,
+    "current_milestone_fact": "Cuban singer Ibrahim Ferrer won Best New Artist at the very first Latin Grammy Awards, held in September 2000.",
+    "existing_alternates": [
+      {
+        "text": "By 2050, one in four people living in Europe and Northern America could be aged 65 or over.",
+        "source": {
+          "label": "UN DESA, World Population Prospects 2019",
+          "url": "https://www.un.org/development/desa/en/news/population/world-population-prospects-2019.html"
+        },
+        "kind": "numbers",
+        "evidence": "By 2050, one in four persons living in Europe and Northern America could be aged 65 or over.",
+        "check": "UN DESA WPP 2019 projection for the region Europe and Northern America, year 2050, population aged 65+. General 65+ statistic placed at 73."
+      }
+    ]
+  },
+  {
+    "age": 75,
+    "current_milestone_fact": "Nelson Mandela voted for the first time in his life on 27 April 1994, and on 10 May became South Africa’s first democratically elected president.",
+    "existing_alternates": [
+      {
+        "text": "In Japan, people aged 75 and over, 20.78 million strong, now outnumber those aged 65 to 74.",
+        "source": {
+          "label": "Cabinet Office of Japan, Annual Report on the Ageing Society FY2025",
+          "url": "https://www8.cao.go.jp/kourei/english/annualreport/2025/pdf/2025.pdf"
+        },
+        "kind": "numbers",
+        "evidence": "The population aged 75 and over is 20.78 million, accounting for 16.8% of the total population, and has overtaken the population aged 65-74 in size.",
+        "check": "Cabinet Office FY2025 summary, Section on trends in the ageing population (population estimates as of 1 October 2024). Place: Japan; group 75+ -> placed at 75."
+      }
+    ]
+  },
+  {
+    "age": 77,
+    "current_milestone_fact": "John Glenn returned to space aboard Discovery in 1998, 36 years after his first orbit, and took part in research on space flight and ageing.",
+    "existing_alternates": [
+      {
+        "text": "In Japan, the 77th birthday is called kiju, after the character for joy, which in cursive script looks like the numerals seven, ten, seven.",
+        "source": {
+          "label": "The Japan Times, 28 Dec 2025",
+          "url": "https://www.japantimes.co.jp/life/2025/12/28/language/zodiac-ages-japan-birthdays/"
+        },
+        "kind": "world",
+        "evidence": "After 還暦 we have 喜寿 (kiju, the 77th birthday), whose name comes from the character 喜 (yorokobu, joy). In 草書体 (sōshotai, cursive script), the kanji appears as 㐂, resembling a stylized form of 七十七 (nana-jū-nana, 7-10-7).",
+        "check": "The Japan Times explicitly calls kiju 'the 77th birthday' (article headline: 'Why 60, 77, 80, 88 and 99 matter so much'). Place: Japan."
+      }
+    ]
+  },
+  {
+    "age": 78,
+    "current_milestone_fact": "Brenda Lee’s ‘Rockin’ Around the Christmas Tree’, recorded when she was 13, reached No. 1 on the US Hot 100 in December 2023.",
+    "existing_alternates": [
+      {
+        "text": "In 2017, Japan's gerontology and geriatrics societies proposed a new definition of 'the elderly': people aged 75 and over.",
+        "source": {
+          "label": "Cabinet Office of Japan, Annual Report on the Ageing Society FY2025",
+          "url": "https://www8.cao.go.jp/kourei/english/annualreport/2025/pdf/2025.pdf"
+        },
+        "kind": "world",
+        "evidence": "For the classification and the definitions of the elderly, the \"Working Group Report on the Definition of the Elderly\" (March 2017) from the Joint Committee of Japan Gerontological Society and the Japan Geriatrics Society proposes to newly define people aged 75 and over as the elderly.",
+        "check": "Place: Japan; report dated March 2017. Threshold 75+; placed at 78."
+      }
+    ]
+  },
+  {
+    "age": 80,
+    "current_milestone_fact": "Yuichiro Miura reached the summit of Everest on 23 May 2013, becoming the oldest man to climb it, a record he had first set in 2003.",
+    "existing_alternates": [
+      {
+        "text": "Japan's '8020' campaign hopes people keep 20 of their own teeth at 80. The share who do has grown fivefold, from about 10% to about 50%.",
+        "source": {
+          "label": "Asia Health and Wellbeing Initiative (JCIE/ERIA), AHWIN Papers No. 2, 2021",
+          "url": "https://ahwin.org/ahwin-papers-no-2-the-impact-and-future-of-japans-8020-campaign/"
+        },
+        "kind": "body",
+        "evidence": "the goal of the campaign is to ensure that people still have 20 of their original adult teeth when they reach the age of 80. Over the course of the campaign, the percentage of people achieving that “8020” goal has grown fivefold, from around 10 percent to around 50 percent.",
+        "check": "Place: Japan; nationwide campaign running over three decades (paper dated April 2021). Target age 80."
+      }
+    ]
+  },
+  {
+    "age": 83,
+    "current_milestone_fact": "Sumiko Iwamuro, who went to DJ school at 77, was recognised in 2018 as the world’s oldest female club DJ, playing monthly in Tokyo.",
+    "existing_alternates": [
+      {
+        "text": "By the mid-2030s, the world is projected to have 265 million people aged 80 and older, more than the number of infants.",
+        "source": {
+          "label": "United Nations, Global Issues: Ageing (World Population Prospects 2024)",
+          "url": "https://www.un.org/en/global-issues/ageing"
+        },
+        "kind": "numbers",
+        "evidence": "By the mid-2030s, there will be 265 million individuals aged 80 and older, outnumbering infants.",
+        "check": "UN summary of World Population Prospects 2024; global projection for the mid-2030s, population 80+ vs infants (under 1). Placed at 83."
+      }
+    ]
+  },
+  {
+    "age": 89,
+    "current_milestone_fact": "Folk singer Pete Seeger performed at the concert celebrating Barack Obama’s inauguration in January 2009, months before his 90th birthday.",
+    "existing_alternates": [
+      {
+        "text": "Each 1 October is the International Day of Older Persons, designated by the UN General Assembly in December 1990.",
+        "source": {
+          "label": "United Nations, International Day of Older Persons",
+          "url": "https://www.un.org/en/observances/older-persons-day"
+        },
+        "kind": "world",
+        "evidence": "On 14 December 1990, the United Nations General Assembly designated October 1 as the International Day of Older Persons",
+        "check": "Resolution 45/106 of 14 December 1990. Global observance; general later-life fact placed at 89."
+      }
+    ]
+  },
+  {
+    "age": 91,
+    "current_milestone_fact": "In January 2024 composer John Williams, 91, broke his own record as the oldest person nominated for a competitive Oscar, for his Indiana Jones score.",
+    "existing_alternates": [
+      {
+        "text": "The number of Americans aged 90 and over nearly tripled in three decades, reaching 1.9 million in 2010.",
+        "source": {
+          "label": "U.S. Census Bureau, 2011",
+          "url": "https://www.census.gov/newsroom/releases/archives/aging_population/cb11-194.html"
+        },
+        "kind": "numbers",
+        "evidence": "The nation's 90-and-older population nearly tripled over the past three decades, reaching 1.9 million in 2010, according to a report released today by the U.S. Census Bureau and supported by the National Institute on Aging.",
+        "check": "Statistic: United States, population aged 90+, 1980 to 2010 (report '90+ in the United States: 2006-2008', released 17 Nov 2011). A general fact about people in their nineties, placed at 91."
+      }
+    ]
+  },
+  {
+    "age": 93,
+    "current_milestone_fact": "Singer Charles Aznavour received a star on the Hollywood Walk of Fame in August 2017, aged 93, and was still writing songs and performing.",
+    "existing_alternates": [
+      {
+        "text": "The UK had an estimated 625,000 people aged 90 or over in 2024, over half as many again as in 2004.",
+        "source": {
+          "label": "Office for National Statistics, 2025",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/bulletins/estimatesoftheveryoldincludingcentenarians/2002to2024"
+        },
+        "kind": "numbers",
+        "evidence": "There were an estimated 625,000 people aged 90 years or over in the UK in 2024; this is an increase of 53.7% since 2004, and an increase of 2.2% since mid-2023.",
+        "check": "Statistic: UK, mid-2024 estimate, people aged 90+ (ONS bulletin 'Estimates of the very old, including centenarians, UK: 2002 to 2024', released 21 Oct 2025). 53.7% rise = 407,000 to 625,000. General fact about people in their nineties, placed at 93."
+      }
+    ]
+  },
+  {
+    "age": 94,
+    "current_milestone_fact": "South Korea’s Song Hae, host of the TV show National Singing Contest since 1988, was certified in April 2022, aged 94, as the oldest TV music talent show host.",
+    "existing_alternates": [
+      {
+        "text": "Brain tissue from 18 people aged 79 to 99 showed new neurons still forming in the hippocampus, the brain's centre for learning and memory.",
+        "source": {
+          "label": "National Institute on Aging (NIH), 2019",
+          "url": "https://www.nia.nih.gov/news/new-hippocampal-neurons-continue-form-older-adults-including-those-mci-alzheimers"
+        },
+        "kind": "body",
+        "evidence": "Using proxy makers of neurogenesis in the hippocampus, the area of the brain responsible for learning and memory, researchers looked at post-mortem brain tissue from 18 people ages 79 to 99.",
+        "check": "Study of Tobin et al., Cell Stem Cell 2019 (reference on the NIA page); donors aged 79-99 (mean 90.6 per the paper), 'Neurogenesis... appears to continue in people well into old age'. A general finding about the nineties, placed at 94. Text avoids the dementia framing."
+      }
+    ]
+  },
+  {
+    "age": 95,
+    "current_milestone_fact": "Nola Ochs of Kansas graduated from college in May 2007, aged 95, alongside her 21-year-old granddaughter, becoming the world’s oldest college graduate.",
+    "existing_alternates": [
+      {
+        "text": "Canada's Governor General sends birthday greetings at 90 and 95, then every single year from a 100th birthday on.",
+        "source": {
+          "label": "Governor General of Canada",
+          "url": "https://www.gg.ca/en/contact-us/birthday-anniversary-greetings"
+        },
+        "kind": "world",
+        "evidence": "Upon request, greetings will be sent every five (5) years for birthdays starting at 90 and anniversaries starting at 50, then every year for birthdays starting at 100 and anniversaries starting at 70.",
+        "check": "Official rule: greetings at 90, 95, then yearly from 100; the 95th-birthday greeting places it at age 95."
+      }
+    ]
+  },
+  {
+    "age": 97,
+    "current_milestone_fact": "Bluesman Pinetop Perkins won a Grammy in February 2011, aged 97, becoming the oldest Grammy winner.",
+    "existing_alternates": [
+      {
+        "text": "The English word 'nonagenarian', for someone in their nineties, was coined in 1776 from the Latin nonagenarius, meaning 'containing ninety'.",
+        "source": {
+          "label": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/nonagenarian"
+        },
+        "kind": "world",
+        "evidence": "nonagenarian (n.) \"person who has reached 90 years old; person between 90 and 100 years old;\" 1776, coined in English with -an + Latin nonagenarius \"containing ninety\"",
+        "check": "Word history covering ages 90-99; placed at 97. Language theme."
+      }
+    ]
+  },
+  {
+    "age": 99,
+    "current_milestone_fact": "Captain Tom Moore reached number one in the UK singles chart on 24 April 2020, aged 99, with ‘You’ll Never Walk Alone’, recorded with Michael Ball.",
+    "existing_alternates": [
+      {
+        "text": "In Japan, 99 is hakuju, 'white longevity': take the top stroke, 一 (one), away from 百 (100) and what remains is 白, white.",
+        "source": {
+          "label": "Nippon.com, Japanese Names for Age Milestones, 2024",
+          "url": "https://www.nippon.com/en/japan-data/h01872/"
+        },
+        "kind": "world",
+        "evidence": "The kanji for 100 is 百, so take away one top stroke (which also represents the character 一, “one”)—to get 白, which, although it usually means “white,” here represents 99.",
+        "check": "Cultural naming: 白寿 (Hakuju, 99 years old). The name refers to the number 99 itself. Language theme."
+      }
+    ]
+  }
+]

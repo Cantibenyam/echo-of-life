@@ -5,6 +5,26 @@ const KEY = process.env.EXPECT_LIFE_KEY || 'echooflife:preview:life';
 const BIRTH_LOCK = 5000;
 const COOLDOWN = 3200;
 
+// Never touch the real graveyard from tests: answer its requests here and remember what was sent.
+const laid: Record<string, unknown>[] = [];
+test.beforeEach(async ({ page }) => {
+  await page.route('**/graves**', async (route) => {
+    const req = route.request();
+    if (req.method() === 'POST') {
+      laid.push(JSON.parse(req.postData() ?? '{}'));
+      return route.fulfill({ status: 201, contentType: 'application/json', body: '{"ok":true}', headers: { 'access-control-allow-origin': '*' } });
+    }
+    if (req.method() === 'OPTIONS') {
+      return route.fulfill({ status: 204, headers: { 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, POST, OPTIONS', 'access-control-allow-headers': 'content-type' } });
+    }
+    const graves = [
+      { id: 3, name: 'Ana Maria', age: 67, ended: Date.now() - 3_600_000 },
+      { id: 2, name: '<b>Sam</b>', age: 0, ended: Date.now() - 86_400_000 },
+    ];
+    return route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ graves, total: 2, next: null }), headers: { 'access-control-allow-origin': '*' } });
+  });
+});
+
 function watchErrors(page: Page): string[] {
   const errors: string[] = [];
   page.on('console', (m) => {
@@ -33,10 +53,12 @@ async function seed(page: Page, record: LifeRecord): Promise<void> {
   );
 }
 
-async function begin(page: Page): Promise<void> {
+async function begin(page: Page, name = 'Ana'): Promise<void> {
   const button = page.locator('button.begin');
   await expect(button).toBeVisible();
   await page.waitForFunction(() => document.querySelector('.gate')?.classList.contains('revealed'));
+  const input = page.locator('.name-input');
+  if (await input.count()) await input.fill(name);
   await button.click();
 }
 
@@ -47,6 +69,7 @@ test('first paint is black', async ({ page, request }) => {
   expect(html).toMatch(/<style>[^<]*background:#000/);
   expect(html).toContain('<meta name="theme-color" content="#000000"');
   await page.goto('./', { waitUntil: 'commit' });
+  await page.waitForFunction(() => document.documentElement !== null && document.head !== null);
   const bg = await page.evaluate(() => getComputedStyle(document.documentElement).backgroundColor);
   expect(bg).toBe('rgb(0, 0, 0)');
 });
@@ -63,7 +86,7 @@ test('the gate: early presses reveal, never begin; Begin is birth', async ({ pag
   expect(rec?.age).toBe(0);
   expect(rec?.ended).toBeNull();
   await expect(page.locator('#announce')).toContainText('Age 0');
-  expect(errors).toEqual([]);
+  expect(errors, errors.join(" | ")).toEqual([]);
 });
 
 test('a year per press, a cooldown, and no way back', async ({ page }) => {
@@ -93,7 +116,7 @@ test('a year per press, a cooldown, and no way back', async ({ page }) => {
   await expect(page.locator('.gate')).toContainText('You are 2.');
   await begin(page);
   await expect(numeral(page)).toHaveText('2');
-  expect(errors).toEqual([]);
+  expect(errors, errors.join(" | ")).toEqual([]);
 });
 
 test('a tap right beside a link or the mute control never spends a year', async ({ page }) => {
@@ -121,6 +144,9 @@ test('the ending is permanent and silent afterwards', async ({ page }) => {
   await page.mouse.click(150, 150);
   await expect.poll(async () => (await stored(page))?.ended).not.toBeNull();
   await expect(page.locator('.memorial-age')).toHaveText('A life of 1 year.', { timeout: 40_000 });
+  await expect(page.locator('.memorial-name')).toHaveText('Ana');
+  await expect(page.locator('.memorial-cause')).toContainText('the most common causes of death among children under five');
+  await expect.poll(() => laid.find((g) => g.lifeId === record.id)).toMatchObject({ name: 'Ana', age: 1 });
 
   // Forever after: the memorial, at once, and no audio context is ever created.
   await page.addInitScript(() => {
@@ -140,7 +166,7 @@ test('the ending is permanent and silent afterwards', async ({ page }) => {
   await page.waitForTimeout(1500);
   expect(await page.evaluate(() => (window as unknown as { __contexts: number }).__contexts)).toBe(0);
   expect((await stored(page))?.age).toBe(1);
-  expect(errors).toEqual([]);
+  expect(errors, errors.join(" | ")).toEqual([]);
 });
 
 test('if the recordings fail to load, the life and the music go on', async ({ page }) => {
@@ -196,4 +222,30 @@ test('reduced motion: dissolves only', async ({ page }) => {
   await begin(page);
   const d = await page.evaluate(() => getComputedStyle(document.querySelector('.track')!).transitionDuration);
   expect(d).toBe('0s');
+});
+
+test('a life needs a kind name before it begins', async ({ page }) => {
+  await page.goto('./');
+  await page.waitForFunction(() => document.querySelector('.gate')?.classList.contains('revealed'));
+  const input = page.locator('.name-input');
+  await expect(page.locator('button.begin')).toHaveAttribute('aria-disabled', 'true');
+  await input.press('Enter');
+  await expect(page.locator('.name-error')).toHaveText('A name, please.');
+  expect(await stored(page)).toBeNull();
+  await input.fill('f u c k');
+  await input.press('Enter');
+  await expect(page.locator('.name-error')).toHaveText('Please choose another name.');
+  expect(await stored(page)).toBeNull();
+  await input.fill('  Zoë   Ann ');
+  await input.press('Enter');
+  await expect.poll(async () => (await stored(page))?.name).toBe('Zoë Ann');
+});
+
+test('the graveyard lists finished lives, safely', async ({ page }) => {
+  await page.goto('./graveyard.html');
+  await expect(page.locator('.stone')).toHaveCount(2);
+  await expect(page.locator('.stone-name').first()).toHaveText('Ana Maria');
+  await expect(page.locator('.stone-name').nth(1)).toHaveText('<b>Sam</b>');
+  await expect(page.locator('#count')).toHaveText('2 lives so far.');
+  await expect(page.locator('.stone b')).toHaveCount(0);
 });

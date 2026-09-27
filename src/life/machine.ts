@@ -15,7 +15,15 @@ export type State =
 export type Event =
   | { readonly t: 'loaded'; readonly record: LifeRecord | null }
   /** The begin/continue press. `stored` is a fresh read of storage at that moment. */
-  | { readonly t: 'begin'; readonly now: number; readonly u: number; readonly id: string; readonly stored: LifeRecord | null }
+  | {
+      readonly t: 'begin';
+      readonly now: number;
+      readonly u: number;
+      readonly id: string;
+      readonly stored: LifeRecord | null;
+      /** The name given at the gate (null when continuing a life that already has one). */
+      readonly name?: string | null;
+    }
   /** A press on the timeline. `stored` is a fresh read (another tab may have moved on). */
   | { readonly t: 'press'; readonly now: number; readonly stored: LifeRecord | null }
   | { readonly t: 'external'; readonly record: LifeRecord | null }
@@ -65,17 +73,19 @@ export function reduce(state: State, event: Event, cfg: MachineConfig): Step {
     case 'gate': {
       if (event.t === 'external') return same({ k: 'gate', record: event.record ?? state.record });
       if (event.t !== 'begin') return same(state);
-      const existing = event.stored ?? state.record;
-      if (existing) {
-        if (existing.ended !== null) {
-          return { state: { k: 'ended', record: existing }, effects: [{ t: 'showMemorial', record: existing, fromDeath: false }] };
+      const found = event.stored ?? state.record;
+      if (found) {
+        if (found.ended !== null) {
+          return { state: { k: 'ended', record: found }, effects: [{ t: 'showMemorial', record: found, fromDeath: false }] };
         }
+        // A life begun before names existed takes the name given now.
+        const existing: LifeRecord = found.name === null && event.name ? { ...found, name: event.name } : found;
         return {
           state: { k: 'alive', record: existing, coolUntil: event.now + cfg.resumeLockMs },
           effects: [{ t: 'save', record: existing }, { t: 'resumed', record: existing }],
         };
       }
-      const record = createRecord(event.id, event.now, sampleLifespan(event.u));
+      const record = createRecord(event.id, event.now, sampleLifespan(event.u), event.name ?? null);
       return {
         state: { k: 'alive', record, coolUntil: event.now + cfg.birthLockMs },
         effects: [{ t: 'save', record }, { t: 'born', record }],

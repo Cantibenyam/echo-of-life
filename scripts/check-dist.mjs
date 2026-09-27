@@ -22,7 +22,7 @@ if (!existsSync(join(DIST, 'index.html'))) {
   process.exit(1);
 }
 
-const pages = ['index.html', 'credits.html'].filter((p) => existsSync(join(DIST, p)));
+const pages = ['index.html', 'credits.html', 'graveyard.html'].filter((p) => existsSync(join(DIST, p)));
 
 for (const page of pages) {
   const html = readFileSync(join(DIST, page), 'utf8');

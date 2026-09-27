@@ -67,14 +67,14 @@
   },
   {
     "age": 6,
-    "text": "In November 1960, six-year-old Ruby Bridges walked into William Frantz Elementary in New Orleans, escorted by U.S. Marshals, to desegregate the school.",
+    "text": "The first baby teeth usually work loose at about six, starting with the incisors, the middle teeth at the front.",
     "source": {
-      "label": "National Women's History Museum, Ruby Bridges biography",
-      "url": "https://www.womenshistory.org/education-resources/biographies/ruby-bridges"
+      "label": "HealthyChildren.org (American Academy of Pediatrics)",
+      "url": "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/When-Children-Begin-to-Lose-their-Baby-Teeth.aspx"
     },
-    "kind": "people",
-    "evidence": "An image of Ruby Bridges being escorted into William Frantz Elementary School by U.S. Marshals in November of 1960.",
-    "check": "Born 8 Sep 1954 (NWHM: 'Ruby Bridges was born on September 8, 1954, to Abon and Lucille Bridges'; also NPS https://www.nps.gov/people/rubybridges.htm: 'Date of Birth: September 8, 1954'). Event: NWHM caption quoted in evidence, and 'It was not until November 14, 1960, that Louisiana schools began to desegregate'. NPS: 'She was the first African American child to desegregate William Frantz Elementary School.' 8 Sep 1954 -> 14 Nov 1960 = 6 years 2 months -> age 6."
+    "kind": "body",
+    "evidence": "Baby teeth ordinarily are shed first at about age 6 when the incisors, the middle teeth in front, become loose.",
+    "check": "Re-fetched with curl this session; sentence found verbatim. 'About age 6' = months 72-83, age 6. US paediatric guidance (AAP)."
   },
   {
     "age": 7,
@@ -100,14 +100,14 @@
   },
   {
     "age": 9,
-    "text": "In October 1828, nine-year-old Clara Wieck, later Clara Schumann, first played for the public, at Leipzig’s Gewandhaus concert hall.",
+    "text": "In 2023 about 138 million people worldwide were 9 years old, according to UN estimates.",
     "source": {
-      "label": "Schumann-Portal (Schumann research archive), Leipzig 1819-1844",
-      "url": "https://www.schumann-portal.de/leipzig-1819-1844.html"
+      "label": "UN DESA, World Population Prospects 2024 (WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv)",
+      "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv.gz"
     },
-    "kind": "people",
-    "evidence": "he introduced her to the public in a concert given by the pianist Caroline Perthaler from Graz, in the Leipziger Gewandhaus on October 20th, 1828.",
-    "check": "Born 13 September 1819 (same page: 'Clara Wieck was born on September 13, 1819'). First public appearance 20 October 1828, within another pianist's concert (her first own concert followed on 8 November 1830, aged 11). 13 Sep 1819 -> 20 Oct 1828 = 9 years 1 month -> age 9."
+    "kind": "numbers",
+    "evidence": "Location: World | Variant: Medium | Time: 2023 | AgeGrp: 9 | PopMale: 71259.268 | PopFemale: 66970.379 | PopTotal: 138229.646",
+    "check": "Downloaded the WPP 2024 single-age CSV; population is in thousands, so 138,229,646 = about 138 million. 2023 is the last estimate year (2024+ are projections). Age 9 exactly."
   },
   {
     "age": 10,
@@ -122,14 +122,14 @@
   },
   {
     "age": 11,
-    "text": "Writing under the name Gul Makai, Malala Yousafzai was 11 when she began an anonymous diary for BBC Urdu about her wish to go to school.",
+    "text": "The UK’s NHS gives 11 as the average age for girls to start puberty.",
     "source": {
-      "label": "NobelPrize.org, Malala Yousafzai biographical",
-      "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/"
+      "label": "NHS 111 Wales, Puberty",
+      "url": "https://111.wales.nhs.uk/puberty/"
     },
-    "kind": "people",
-    "evidence": "In early 2009, Malala started to blog anonymously on the Urdu language site of the British Broadcasting Corporation (BBC). She wrote about life in the Swat Valley under Taliban rule, and about her desire to go to school. … Malala was 11 years old when she wrote her first BBC diary entry.",
-    "check": "Born 1997-07-12 (NobelPrize.org facts page: 'Born: 12 July 1997, Mingora, Pakistan', https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/); first BBC Urdu diary entry in early 2009 (NobelPrize.org biographical), i.e. before her 12th birthday on 2009-07-12 -> 11. The Nobel page also states the age explicitly. Pen name 'Gul Makai' is on the same page."
+    "kind": "body",
+    "evidence": "The average age for girls to start puberty is 11, while for boys the average age is 12. But it's perfectly normal for puberty to begin at any point between the ages of 8 and 13 in girls and 9 and 14 in boys.",
+    "check": "Re-fetched with curl this session; text verbatim. NHS (Wales) guidance, UK; no survey year given. The boys' figure (12) was left out to keep one number."
   },
   {
     "age": 12,
@@ -144,14 +144,14 @@
   },
   {
     "age": 13,
-    "text": "In August 1963 ‘Fingertips – Pt 2’ made Stevie Wonder the youngest solo artist ever to reach No. 1 on the US Billboard Hot 100.",
+    "text": "In Jewish law a boy comes of age at 13 and one day, becoming bar mitzvah: bound to keep the commandments.",
     "source": {
-      "label": "Billboard, 2017",
-      "url": "https://www.billboard.com/pro/this-week-in-billboard-chart-history-in-1963-stevie-wonder-set-a/"
+      "label": "Jewish Virtual Library (Encyclopaedia Judaica), Bar/Bat Mitzvah",
+      "url": "https://www.jewishvirtuallibrary.org/bar-bat-mitzvah"
     },
-    "kind": "people",
-    "evidence": "Aug. 10, 1963 Stevie Wonder … iconic debut single, “Fingertips – Pt 2,” topped the Billboard Hot 100 for the first of three weeks. The song made him the youngest soloist ever to lead the Hot 100 … He was born Stevland Hardaway Morris (he also used the surname Judkins as a boy) on May 13, 1950 in Saginaw, Michigan.",
-    "check": "Born 1950-05-13 (Detroit Historical Society, https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/wonder-stevie); song topped the Hot 100 on 1963-08-10 (Billboard). 1963-08-10 is after his 13th birthday on 1963-05-13 -> 13 (13 years 89 days)."
+    "kind": "world",
+    "evidence": "term denoting both the attainment of religious and legal maturity as well as the occasion at which this status is formally assumed for boys at the age of 13 plus one day, for girls at 12 plus one day (Maim. Yad, Ishut, 2:9–10).",
+    "check": "Encyclopaedia Judaica entry on JVL, fetched with curl. A boy's majority begins at 13 plus one day, so the custom sits at age 13. My Jewish Learning (fetched) agrees: 'Coming of age for a Jew, which happens automatically at age 13 for a boy and 12 for a girl'."
   },
   {
     "age": 14,
@@ -166,14 +166,14 @@
   },
   {
     "age": 15,
-    "text": "In March 1955, 15-year-old Claudette Colvin refused to give up her seat on a segregated bus in Montgomery, nine months before Rosa Parks.",
+    "text": "Across Latin America a girl’s 15th birthday is marked by the quinceañera, a coming-of-age celebration whose name means ‘15-year-old girl’.",
     "source": {
-      "label": "National Geographic, 2026",
-      "url": "https://www.nationalgeographic.com/history/article/claudette-colvin-montgomery-bus-boycott"
+      "label": "HISTORY (A&E), How the Quinceañera Became a Latin American Rite of Passage, 2025",
+      "url": "https://www.history.com/articles/quinceanera-tradition-history"
     },
-    "kind": "people",
-    "evidence": "She was 15-year-old Claudette Colvin, and it was March 1955, nine months before Parks … On March 2, 1955, she was arrested at the age of 15 in Montgomery, Alabama, for refusing to give up her seat to a white woman on a crowded, segregated bus. … Born in Birmingham, Alabama, in 1939",
-    "check": "Event 1955-03-02 (National Geographic; also Equal Justice Initiative, https://eji.org/news/eji-remembers-civil-rights-pioneer-claudette-colvin/: 'On March 2, 1955, 15-year-old Claudette Colvin...'). Birth year 1939 (National Geographic); exact birth date (widely given as 1939-09-05) was not confirmed on a fetched page, but both sources state her age as 15 on the day -> 15."
+    "kind": "world",
+    "evidence": "Marking a girl’s 15th birthday, it’s much more than a fiesta—it commemorates her transition into womanhood. What is a Quinceañera? The word “quinceañera” literally means \"15-year-old girl\" in Spanish.",
+    "check": "Article by Jeanhee Kim, published 20 June 2025, fetched with curl. The custom is tied to the 15th birthday, so it sits at age 15."
   },
   {
     "age": 16,
@@ -243,36 +243,36 @@
   },
   {
     "age": 22,
-    "text": "In January 2021, Amanda Gorman read ‘The Hill We Climb’ at a US presidential inauguration, the youngest inaugural poet in the country’s history.",
+    "text": "In large online studies, short-term memory for names peaked at around 22, years earlier than memory for faces.",
     "source": {
-      "label": "PBS NewsHour, 2021",
-      "url": "https://www.pbs.org/newshour/live-update/inauguration-of-joe-biden-and-kamala-harris/amanda-gorman-at-22-is-the-youngest-inaugural-poet-in-u-s-history"
+      "label": "Hartshorne & Germine, Psychological Science, 2015 (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4441622/"
     },
-    "kind": "people",
-    "evidence": "Jan 20, 2021 12:20 PM EDT Amanda Gorman, at 22, is the youngest inaugural poet in U.S. history … Poet and activist Amanda S. C. Gorman was born on March 7, 1998, in Los Angeles, California.",
-    "check": "Born 1998-03-07 (BlackPast.org, https://blackpast.org/african-american-history/amanda-s-c-gorman-1998/); inauguration reading 2021-01-20 (PBS NewsHour, which also gives her age as 22). 2021-01-20 is before her 23rd birthday (2021-03-07) and after her 22nd -> 22."
+    "kind": "mind",
+    "evidence": "Recent evidence shows that whereas short-term memory for names and inverted faces peaks around 22, neither short-term memory for faces nor quantity discrimination peaks until around 30",
+    "check": "Sentence in Hartshorne & Germine 2015 (citing Germine, Duchaine & Nakayama 2011, 60,000+ web participants, abstract checked on Europe PMC). Full text confirmed via NCBI E-utilities (the PMC page sits behind a browser check). Peak age 'around 22'."
   },
   {
     "age": 23,
-    "text": "In June 1925 Werner Heisenberg went to the island of Helgoland to ease his hay fever, and there set out the first mathematical framework of quantum mechanics.",
+    "text": "In 1990 the median American woman married for the first time at 23.9.",
     "source": {
-      "label": "American Physical Society, APS News, 2025",
-      "url": "https://www.aps.org/apsnews/2025/07/werner-heisenberg-pioneers-quantum-mechanics"
+      "label": "US Census Bureau, Table MS-2: Estimated Median Age at First Marriage, by Sex: 1890 to Present (Dec 2025)",
+      "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls"
     },
-    "kind": "people",
-    "evidence": "On June 6, a swollen-faced, stuffy-nosed Werner Heisenberg, then 23 years old and suffering from hay fever, left his home in central Germany for the fresh air of the North Sea island of Helgoland, hoping for relief. There, he had a breakthrough, becoming the first to articulate a mathematical framework of quantum mechanics … Born: 5 December 1901, Würzburg, Germany",
-    "check": "Born 1901-12-05 (NobelPrize.org facts, https://www.nobelprize.org/prizes/physics/1932/heisenberg/facts/); left for Helgoland on 1925-06-06 and worked there in June 1925 (APS, which also says 'then 23 years old'). June 1925 is before his 24th birthday (1925-12-05) -> 23. APS notes historians doubt some romanticized details (the sunrise), not the trip or the work."
+    "kind": "world",
+    "evidence": "Year | Men's median age at first marriage | Women's median age at first marriage ... 1990.0 | 26.1 | 23.9",
+    "check": "Downloaded ms2.xls (Census Bureau, CPS). Women, 1990 = 23.9, which falls in age 23. Past tense for a dated figure."
   },
   {
     "age": 24,
-    "text": "On 28 November 1967, PhD student Jocelyn Bell, 24, recorded radio pulses one and a third seconds apart: the discovery of pulsars.",
+    "text": "In a study of 3,305 StarCraft 2 players aged 16 to 44, the speed of their in-game responses began to slow at 24.",
     "source": {
-      "label": "University of Cambridge, Journeys of discovery",
-      "url": "https://www.cam.ac.uk/stories/journeysofdiscovery-pulsars"
+      "label": "Thompson, Blair & Henrey, PLOS ONE, 2014 ('Over the hill at 24')",
+      "url": "https://europepmc.org/article/MED/24718593"
     },
-    "kind": "people",
-    "evidence": "24-year old PhD student Jocelyn Bell … on 28 November 1967, it came again, a string of pulses one-and-a third seconds apart. … Born July 15, 1943, Jocelyn Bell Burnell",
-    "check": "Born 1943-07-15 (Astronomy magazine, https://www.astronomy.com/today-in-the-history-of-astronomy/july-15-1943-birth-of-jocelyn-bell-burnell/); first observation of the pulses on 1967-11-28 (University of Cambridge; the signal was first recorded, unrecognized, on 1967-08-06). Both dates fall after her 24th birthday (1967-07-15) -> 24; Cambridge also calls her a 24-year-old."
+    "kind": "mind",
+    "evidence": "In this paper we analyze the influence of age on performance using a dataset of 3,305 players, aged 16-44 ... Using a piecewise regression analysis, we find that age-related slowing of within-game, self-initiated response times begins at 24 years of age.",
+    "check": "Abstract retrieved via the Europe PMC REST API (PMID 24718593, PMC3981764, DOI 10.1371/journal.pone.0094215). The turning point is stated as exactly 24."
   },
   {
     "age": 25,
@@ -320,25 +320,25 @@
   },
   {
     "age": 29,
-    "text": "Alexander Graham Bell first sent clear speech by telephone in 1876, calling to his assistant: “Mr. Watson—come here—I want to see you.”",
+    "text": "In the European Union in 2024, women having their first child were 29.9 years old on average.",
     "source": {
-      "label": "Britannica, Alexander Graham Bell",
-      "url": "https://www.britannica.com/biography/Alexander-Graham-Bell"
+      "label": "Eurostat, Fertility statistics, 2026",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
     },
-    "kind": "people",
-    "evidence": "He first produced intelligible speech on March 10, 1876, when he summoned his laboratory assistant, Thomas A. Watson, with words that Bell transcribed in his lab notes as “Mr. Watson—come here—I want to see you.”",
-    "check": "Born March 3, 1847 (Britannica: 'born March 3, 1847, Edinburgh, Scotland'). First intelligible speech on March 10, 1876 (same page), so he was 29 years and 7 days old. Britannica blocks curl, so the page was read and searched in a real browser (Playwright)."
+    "kind": "world",
+    "evidence": "29.9 years was the average age of women at the birth of their first child in the EU in 2024, ranging from 26.9 in Bulgaria to 31.9 in Italy.",
+    "check": "Re-fetched with curl this session (Data extracted on 19 February 2026, dataset demo_find). EU-27, 2024. 29.9 falls in age 29."
   },
   {
     "age": 30,
-    "text": "In 1877 Thomas Edison tested a machine for recording the human voice by speaking into it the line ‘Mary had a little lamb’.",
+    "text": "The world’s median age was 30.4 in 2023: half of all people alive were younger, and half older, UN estimates show.",
     "source": {
-      "label": "National Park Service, Thomas Edison National Historical Park",
-      "url": "https://www.nps.gov/edis/learn/historyculture/origins-of-sound-recording-thomas-edison.htm"
+      "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+      "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
     },
-    "kind": "people",
-    "evidence": "Edison sat down and, putting his mouth to the mouthpiece, delivered one of our favorite stereotyped sentences used in experimenting on the telephone “Mary had a little lamb” whilst I pulled the paper through.",
-    "check": "Edison born 11 Feb 1847; the recording experiments on this page date from July-December 1877, all within his 31st year (age 30). Added by the editor; evidence matched on the fetched NPS page."
+    "kind": "numbers",
+    "evidence": "Location: World | LocTypeName: World | Variant: Medium | Time: 2023 | MedianAgePop: 30.3637 | TPopulation1July: 8091734.93",
+    "check": "Downloaded the WPP 2024 indicators CSV. World median age 30.36 at 1 July 2023 (last estimate year; 2024 = 30.6 is a projection). Falls in age 30."
   },
   {
     "age": 31,
@@ -353,14 +353,14 @@
   },
   {
     "age": 32,
-    "text": "Physicist Sally Ride became the first American woman in space on 18 June 1983, flying aboard the space shuttle Challenger.",
+    "text": "Counting all births, Ireland’s mothers were the EU’s oldest in 2024, at 32.7 years old on average.",
     "source": {
-      "label": "NASA, Sally Ride (1951-2012)",
-      "url": "https://solarsystem.nasa.gov/people/1760/sally-ride-1951-2012/"
+      "label": "Eurostat, demo_find (Fertility indicators: mean age of women at childbirth)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_find?time=2024&lang=en"
     },
-    "kind": "people",
-    "evidence": "The soft-spoken California physicist broke the gender barrier on June 18, 1983, when she became the first American woman in space.",
-    "check": "Born May 26, 1951 (NASA biography PDF https://www.nasa.gov/sites/default/files/atoms/files/ride_sally.pdf: 'Born May 26, 1951, in Los Angeles'). Launched June 18, 1983, so she was 32 years 23 days old. The same PDF says 'Mission duration was 147 hours'. Verified with curl."
+    "kind": "world",
+    "evidence": "\"label\":\"Fertility indicators\" ... indic_de AGEMOTH (Mean age of women at childbirth), geo IE (Ireland), time 2024: 32.7",
+    "check": "Eurostat API (JSON-stat) fetched with curl, updated 25 Sept 2026. All births (not first births; Italy's 31.9 at age 31 is for first births), 2024. Ireland 32.7 is the highest EU value (Spain, Italy and Luxembourg 32.6). Falls in age 32."
   },
   {
     "age": 33,
@@ -375,14 +375,14 @@
   },
   {
     "age": 34,
-    "text": "Martin Luther King Jr. gave his “I Have a Dream” speech in 1963, speaking to more than 200,000 people gathered in Washington.",
+    "text": "In England and Wales in 2023, the median age of men entering an opposite-sex marriage was 34.8, among the highest on record.",
     "source": {
-      "label": "Martin Luther King Jr. Research and Education Institute, Stanford",
-      "url": "https://kinginstitute.stanford.edu/march-washington-jobs-and-freedom"
+      "label": "Office for National Statistics (UK), Marriages and civil partnerships in England and Wales (released 18 Nov 2025)",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/marriagecohabitationandcivilpartnerships/bulletins/marriagesinenglandandwalesprovisional/2023"
     },
-    "kind": "people",
-    "evidence": "On 28 August 1963, more than 200,000 demonstrators took part in the March on Washington for Jobs and Freedom in the nation’s capital.",
-    "check": "Born January 15, 1929 (NobelPrize.org biography, https://www.nobelprize.org/prizes/peace/1964/king/biographical/: '(January 15, 1929-April 4, 1968)'). Speech on 28 August 1963 (King Institute: 'During this event, Martin Luther King delivered his memorable “I Have a Dream” speech'), so he was 34 years 7 months old. Verified with curl."
+    "kind": "world",
+    "evidence": "The median age for men and women entering an opposite-sex marriage in 2023 remained among the highest median ages recorded, at 34.8 years and 33.0 years, respectively.",
+    "check": "ONS bulletin (2023 edition URL; also fetched via /latest) with curl, Release date: 18 November 2025. This is the median age at all opposite-sex marriages, not first marriages; the text does not say 'first'. 34.8 falls in age 34."
   },
   {
     "age": 35,
@@ -408,14 +408,14 @@
   },
   {
     "age": 37,
-    "text": "In 1944 mathematician Grace Hopper, who had left teaching to join the US Navy, was assigned to Harvard, where her team worked on the Mark I, an early computer.",
+    "text": "The 2010 US census found a median age of 37.2, then a new high for the country.",
     "source": {
-      "label": "National Women's History Museum, Grace Hopper",
-      "url": "https://www.womenshistory.org/education-resources/biographies/grace-hopper"
+      "label": "US Census Bureau, Age and Sex Composition: 2010 (2010 Census Brief C2010BR-03), 2011",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/2011/dec/c2010br-03.pdf"
     },
-    "kind": "people",
-    "evidence": "In 1944, she was commissioned as a Lieutenant (Junior Grade) and assigned to the Bureau of Ordnance Computation Project at Harvard University. Her team worked on and produced the Mark I, an early prototype of the electronic computer.",
-    "check": "Born 9 Dec 1906 (same page); a 1944 assignment before 9 Dec 1944 means age 37 (she reported to Harvard in mid-1944). Added by the editor; evidence matched on the fetched page."
+    "kind": "numbers",
+    "evidence": "In 2010, the median age increased to a new high of 37.2 years, from 35.3 years in 2000",
+    "check": "Census brief PDF (issued May 2011) fetched with curl and read with pypdf. US, 2010 census. 37.2 falls in age 37. Past tense for a dated figure."
   },
   {
     "age": 38,
@@ -452,36 +452,36 @@
   },
   {
     "age": 41,
-    "text": "Rudyard Kipling received the 1907 Nobel Prize in Literature, and remains the youngest person ever awarded it.",
+    "text": "Across 2.7 million US founders in 2007 to 2014 whose new firms hired staff, the mean age at founding was 41.9.",
     "source": {
-      "label": "Nobel Prize facts, NobelPrize.org",
-      "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+      "label": "Azoulay, Jones, Kim & Miranda, Age and High-Growth Entrepreneurship, NBER Working Paper 24489, 2018",
+      "url": "https://www.nber.org/system/files/working_papers/w24489/w24489.pdf"
     },
-    "kind": "people",
-    "evidence": "The youngest literature laureate Nobel Prize in Literature 1907 Rudyard Kipling Awarded at age 41",
-    "check": "The Nobel Foundation states his age at the award directly ('Awarded at age 41') and lists him as the youngest literature laureate. Verified with curl. PARTIAL: his birth date was not fetched separately in this session."
+    "kind": "numbers",
+    "evidence": "Across the 2.7 million founders in the U.S. between 2007-2014 who started companies that go on to hire at least one employee, the mean age for the entrepreneurs at founding is 41.9.",
+    "check": "NBER PDF fetched with curl and read with pypdf; also Table 2 'US (entire) 41.9'. The figure is in the body text, not the AER: Insights abstract (which gives 45.0 for the fastest-growing firms). 41.9 falls in age 41."
   },
   {
     "age": 42,
-    "text": "On 1 December 1955, Rosa Parks, a 42-year-old seamstress, was arrested in Montgomery, Alabama, for refusing to give up her seat on a city bus.",
+    "text": "Europe had the oldest population of any world region in 2023, with a median age of 42.2, UN estimates show.",
     "source": {
-      "label": "US National Archives, The Arrest Records of Rosa Parks",
-      "url": "https://www.archives.gov/education/lessons/rosa-parks"
+      "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+      "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
     },
-    "kind": "people",
-    "evidence": "On December 1, 1955, during a typical evening rush hour in Montgomery, Alabama, a 42-year-old woman took a seat on the bus on her way home from the Montgomery Fair department store where she worked as a seamstress.",
-    "check": "The source states her age as 42 on 1 Dec 1955 (born 4 Feb 1913). Added by the editor; evidence matched on the fetched page."
+    "kind": "numbers",
+    "evidence": "Location: Europe | LocTypeName: Geographic region | Variant: Medium | Time: 2023 | MedianAgePop: 42.2305 (Northern America 38.2655; Oceania 32.8847; Asia 31.7365; Latin America and the Caribbean 30.9279; Africa 19.0316)",
+    "check": "Downloaded the WPP 2024 indicators CSV. Among the UN geographic regions, Europe's 42.23 (1 July 2023) is the highest. Falls in age 42."
   },
   {
     "age": 43,
-    "text": "In 1960, at 43, John F. Kennedy won the US presidency, becoming the youngest person ever elected to that office.",
+    "text": "In the US in 2025, the median age of elementary and middle school teachers was 43.4.",
     "source": {
-      "label": "Miller Center, University of Virginia, John F. Kennedy: Life in Brief",
-      "url": "https://millercenter.org/president/kennedy/life-in-brief"
+      "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+      "url": "https://www.bls.gov/cps/cpsaat11b.htm"
     },
-    "kind": "people",
-    "evidence": "Kennedy was the youngest person elected US president and the first Roman Catholic to serve in that office. (Miller Center, Campaigns and Elections: \"Nixon against the 43-year-old Democratic challenger John F. Kennedy.\")",
-    "check": "Born 29 May 1917; elected 8 Nov 1960 at 43 (Miller Center campaigns page gives 43). Added by the editor; evidence matched on both fetched pages."
+    "kind": "world",
+    "evidence": "11b. Employed people by detailed occupation and age ... Elementary and middle school teachers | 3,511 | 9 | 196 | 769 | 921 | 922 | 539 | 154 | 43.4",
+    "check": "BLS table fetched with curl (Last Modified Date: February 20, 2026). 2025 annual averages; last column is median age. Secondary school teachers are also 43.4. Falls in age 43."
   },
   {
     "age": 44,
@@ -1112,36 +1112,36 @@
   },
   {
     "age": 101,
-    "text": "Cuban-born painter Carmen Herrera had a solo exhibition at New York’s Whitney Museum in 2016, aged 101, and was still working in her studio almost every day.",
+    "text": "In Ireland, 101 brings the first of the President’s commemorative coins, sent on every birthday after the 100th, with a new design each year.",
     "source": {
-      "label": "Whitney Museum of American Art, 2016",
-      "url": "https://whitney.org/exhibitions/carmen-herrera"
+      "label": "President of Ireland, Centenarian Bounty",
+      "url": "https://president.ie/en/about/centenarian-bounty"
     },
-    "kind": "people",
-    "evidence": "Today, at the age of 101, Herrera continues to work almost every day in her studio, and her oeuvre demonstrates a disciplined but highly sophisticated exploration of color and form.",
-    "check": "Born May 30, 1915 in Havana (same page: 'Born May 30, 1915, in Havana, Cuba'). Exhibition 'Carmen Herrera: Lines of Sight', September 16, 2016 to January 2, 2017 (same page). 30 May 2016 = 101st birthday -> 101 throughout the show."
+    "kind": "world",
+    "evidence": "Since 1 January 2000, the President of Ireland has also marked the birthday of people over the age of 100 years. On his or her 101st and every subsequent birthday, the person receives a special commemorative coin in a presentation box, along with a congratulatory letter signed by the President. A new coin is designed for each year.",
+    "check": "Official scheme on president.ie (fetched): the 100th birthday brings the bounty and a message; the first coin comes at the 101st birthday, so the coin custom begins at exactly 101."
   },
   {
     "age": 102,
-    "text": "Ingeborg Rapoport, barred by the Nazis from defending her doctorate in 1938, finally passed the exam in Hamburg in May 2015, aged 102.",
+    "text": "About 2,620 people in the UK were aged 102 in mid-2024, according to official estimates.",
     "source": {
-      "label": "TIME, 2015",
-      "url": "https://time.com/3858703/102-doctorate-nazi/"
+      "label": "ONS, Mid-year population estimates of the very old, including centenarians, UK (released 21 October 2025)",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/datasets/midyearpopulationestimatesoftheveryoldincludingcentenariansunitedkingdom"
     },
-    "kind": "people",
-    "evidence": "A 102-year-old retired neonatologist successfully defended her doctoral thesis on Wednesday, 77 years after the Nazi regime denied her the opportunity.",
-    "check": "Born 2 September 1912 (Deutsche Biographie, https://www.deutsche-biographie.de/gnd120997363.html: '2. September 1912'). Exam 13 May 2015 at the University of Hamburg (JTA, https://www.jta.org/2017/03/27/obituaries/ingeborg-syllm-rapoport-who-earned-doctorate-80-years-after-nazis-denial-dies-at-104: 'passed the exam on May 13, 2015, at the University of Hamburg'). 2 Sep 2014 = 102nd birthday -> 102 years 8 months."
+    "kind": "numbers",
+    "evidence": "Mid-2002 to mid-2024 population estimates of the very old (including centenarians), persons, UK (provisional) … Year: 2024 | 102: 2620",
+    "check": "ONS workbook ukevo2024.xls (direct file: https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/datasets/midyearpopulationestimatesoftheveryoldincludingcentenariansunitedkingdom/current/ukevo2024.xls), sheet 'UK Persons', title row quoted, then row 2024, column '102' = 2620. Single-year estimates run 90 to 104 plus '105 and over'. ONS notes the figures are provisional and rounded to the nearest 10, so the text says 'about'/'an estimated'."
   },
   {
     "age": 103,
-    "text": "Sweden’s Rut Larsson made a tandem parachute jump in May 2022, aged 103 years and 259 days, setting the Guinness record for the oldest woman to make one.",
+    "text": "Japan’s 2020 census counted 7,304 people aged 103.",
     "source": {
-      "label": "Guinness World Records, 2022",
-      "url": "https://www.guinnessworldrecords.com/news/2022/6/103-year-old-woman-breaks-oldest-tandem-parachute-jump-record-707533"
+      "label": "Statistics Bureau of Japan, 2020 Census, Basic Complete Tabulation, Table 3-1 (e-Stat)",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142412"
     },
-    "kind": "people",
-    "evidence": "At the age of 103 years 259 days, she embarked on an amazing freefall and broke the record for the oldest tandem parachute jump (female).",
-    "check": "Jump on 29 May 2022 in Motala, Sweden (same page). Guinness states the age at the jump: 103 years 259 days (implies birth 12 September 1918; 12 Sep 2021 + 259 days = 29 May 2022)."
+    "kind": "numbers",
+    "evidence": "第３－１表　男女，年齢（各歳），出生の月，国籍総数か日本人別人口－全国 … 00000_全国 | 0_国籍総数 | 0_総数 | 104_103歳 | 7304",
+    "check": "2020 Census of Japan (reference date 1 October 2020), Table 3-1, whole country, all nationalities, both sexes, row '104_103歳' (age 103) = 7304. Downloaded xlsx b03_01 from this e-Stat page (direct file: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032142412&fileKind=0). Evidence is the cell values of that row, joined with |. Census counts are self-reported ages, not individually validated, so the text says 'counted', not 'verified'."
   },
   {
     "age": 104,
@@ -1156,14 +1156,14 @@
   },
   {
     "age": 105,
-    "text": "Eileen Ash, who first played Test cricket for England in 1937, rang the bell at Lord’s before the 2017 Women’s World Cup final, aged 105.",
+    "text": "105 is where ‘semi-supercentenarian’ begins: researchers use the word for people aged 105 to 109.",
     "source": {
-      "label": "BBC Sport, 2021",
-      "url": "https://www.bbc.co.uk/sport/cricket/59533539"
+      "label": "Hirata et al., Nature Communications, 2020 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32732919/"
     },
-    "kind": "people",
-    "evidence": "Eighty years after making her international debut, Ash rang the bell at Lord's before England's victory in the 2017 Women's World Cup final.",
-    "check": "Born 30 October 1911 (Norwich Evening News, 30 Oct 2021, marks her 110th birthday that day, https://www.eveningnews24.co.uk/news/eileen-ash-from-norwich-turns-110-8451800); same article: 'In 2017, aged 105, she was invited to ring the bell at the Lord's cricket ground'. Debut 1937 (BBC: 'The bowler made her England debut in 1937'). The 2017 final was in July, before her 106th birthday on 30 Oct 2017 -> 105."
+    "kind": "world",
+    "evidence": "including 36 supercentenarians, 572 semi-supercentenarians (105-109 years), 288 centenarians (100-104 years), and 531 very old people (85-99 years).",
+    "check": "Peer-reviewed abstract (Keio University Centre for Supercentenarian Medical Research) defines semi-supercentenarians as 105-109 years; 105 is the lower, defining edge of the term. Abstract fetched via NCBI E-utilities for PMID 32732919."
   },
   {
     "age": 106,
@@ -1178,14 +1178,14 @@
   },
   {
     "age": 107,
-    "text": "French pianist Colette Maze, who began playing at 5, was still recording her albums at home at 107, usually on Sundays, when the building was quieter.",
+    "text": "Japan’s 2020 census counted 1,058 people aged 107.",
     "source": {
-      "label": "NPR, 2021",
-      "url": "https://www.npr.org/sections/deceptivecadence/2021/09/20/1036622670/107-year-old-french-pianist-colette-maze-new-album"
+      "label": "Statistics Bureau of Japan, 2020 Census, Basic Complete Tabulation, Table 3-1 (e-Stat)",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142412"
     },
-    "kind": "people",
-    "evidence": "Colette Maze, now 107, began playing the piano at age 5 and defied the social conventions of her day to embrace it as a profession rather than as a pastime. Her son first arranged for her performances to be recorded when she was in her 90s. She has just released her sixth album.",
-    "check": "Born 16 June 1914 (same page: 'Maze, born on June 16, 1914'). NPR story 20 September 2021. 16 Jun 2021 = 107th birthday -> 107 years 3 months."
+    "kind": "numbers",
+    "evidence": "第３－１表　男女，年齢（各歳），出生の月，国籍総数か日本人別人口－全国 … 00000_全国 | 0_国籍総数 | 0_総数 | 108_107歳 | 1058",
+    "check": "2020 Census of Japan (reference date 1 October 2020), Table 3-1, whole country, all nationalities, both sexes, row '108_107歳' (age 107) = 1058. Downloaded xlsx b03_01 from this e-Stat page (direct file: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032142412&fileKind=0). Evidence is the cell values of that row, joined with |. Census counts are self-reported ages, not individually validated, so the text says 'counted', not 'verified'."
   },
   {
     "age": 108,
@@ -1200,14 +1200,14 @@
   },
   {
     "age": 109,
-    "text": "Hikaru Kato of Kumamoto, Japan, kept writing letters to local newspapers about his war experiences, each time hoping war would never return, until he was 109.",
+    "text": "Japan’s 2020 census counted 211 people aged 109.",
     "source": {
-      "label": "LongeviQuest",
-      "url": "https://longeviquest.com/supercentenarian/hikaru-kato/"
+      "label": "Statistics Bureau of Japan, 2020 Census, Basic Complete Tabulation, Table 3-1 (e-Stat)",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142412"
     },
-    "kind": "people",
-    "evidence": "He also devoted time to writing, completing his autobiography and regularly submitting letters about his war experiences to local newspapers in Kumamoto until he was 109 years old, each time expressing his hope that war would never happen again.",
-    "check": "Born 2 May 1914 (same page). LongeviQuest cites a letter in the Kumamoto Nichinichi Shimbun of 10 May 2023 signed '加藤光、109'. 2 May 2023 = 109th birthday -> 109."
+    "kind": "numbers",
+    "evidence": "第３－１表　男女，年齢（各歳），出生の月，国籍総数か日本人別人口－全国 … 00000_全国 | 0_国籍総数 | 0_総数 | 110_109歳 | 211",
+    "check": "2020 Census of Japan (reference date 1 October 2020), Table 3-1, whole country, all nationalities, both sexes, row '110_109歳' (age 109) = 211. Downloaded xlsx b03_01 from this e-Stat page (direct file: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032142412&fileKind=0). Evidence is the cell values of that row, joined with |. Census counts are self-reported ages, not individually validated, so the text says 'counted', not 'verified'. The next row is '111_110歳以上' (110 and over) = 141, so 109 is the last single year in the table."
   },
   {
     "age": 110,
@@ -1222,14 +1222,14 @@
   },
   {
     "age": 111,
-    "text": "After becoming the world’s oldest man in 2024, aged 111, Liverpool-born retired accountant John Tinniswood still listened to the radio for the news and managed his own finances.",
+    "text": "In Japan, 111 is koju (皇寿): the character 皇 splits into 白, read as 99, and 王, read as 12, which add up to 111.",
     "source": {
-      "label": "LongeviQuest",
-      "url": "https://longeviquest.com/supercentenarian/john-tinniswood/"
+      "label": "Kotobank (Shogakukan Digital Daijisen dictionary)",
+      "url": "https://kotobank.jp/word/%E7%9A%87%E5%AF%BF"
     },
-    "kind": "people",
-    "evidence": "At that time, he was still able to perform most daily tasks independently – he got out of bed unassisted, listened to the radio to keep up with the news, and still managed his own finances.",
-    "check": "Born 26 August 1912 in Liverpool (same page). 'At that time' = when recognised as the world's oldest living man; the page says it was 'initially believed that Tinniswood assumed the title on 2 April' 2024. 26 Aug 2023 = 111th birthday -> 111 years 7 months. Accountant for Shell and BP (same page)."
+    "kind": "world",
+    "evidence": "《「皇」が、百の字から一を引いた形の「白」と、分解すると二と十になる「王」の組み合わせであることから》111歳のこと。また、その祝い。",
+    "check": "Dictionary definition (Digital Daijisen; the Nihon Kokugo Daijiten entry on the same page agrees): 皇寿 means age 111 and its celebration. 白 is 百 (100) minus 一 (1) = 99; 王 breaks into 十 and 二 = 12; 99 + 12 = 111."
   },
   {
     "age": 112,
@@ -1244,25 +1244,25 @@
   },
   {
     "age": 113,
-    "text": "Yisrael Kristal, who missed his bar mitzvah at 13 because of the First World War, finally celebrated it in 2016, aged 113, among his great-grandchildren.",
+    "text": "More than 500 people in verified history had reached 113 by September 2026, according to LongeviQuest.",
     "source": {
-      "label": "Smithsonian Magazine, 2017",
-      "url": "https://www.smithsonianmag.com/smart-news/worlds-oldest-man-holocaust-survivor-dies-113-180964492/"
+      "label": "LongeviQuest, Oldest People Ever (validated), page 6",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/?page=6"
     },
-    "kind": "people",
-    "evidence": "Last year, among his children, grandchildren and great-grandchildren, he finally took part in the milestone at age 113, the AP reports.",
-    "check": "Born 15 September 1903 (same page: 'Yisrael was born on September 15, 1903'). Bar mitzvah in 2016 at age 113 (AP via Smithsonian). Missed at 13 'due to the outbreak of World War I' (same page)."
+    "kind": "numbers",
+    "evidence": "522 Margaret Whitlock 05/03/1906 05/03/2019 113 0 Female United States United States Validated 523 Mathilde Lartigue 24/03/1905 24/03/2018 113 0 Female France France Validated",
+    "check": "LongeviQuest ranked list (fetched 27 September 2026): rank 523 is the last person aged 113+ (rank 524, living, was 112 years 363 days). The exact count changes within days (rank 524 turns 113 on 29 September 2026), so the text uses 'more than 500' with a date."
   },
   {
     "age": 114,
-    "text": "Chiyo Miyako, who trained as a telegraph operator, was still practising calligraphy and writing haiku at 114.",
+    "text": "Fewer than ten men in verified history had reached 114 by September 2026.",
     "source": {
-      "label": "LongeviQuest",
-      "url": "https://longeviquest.com/supercentenarian/chiyo-miyako/"
+      "label": "LongeviQuest, Oldest Men Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-men-ever/"
     },
-    "kind": "people",
-    "evidence": "By the time she was 110, her cognitive faculties remained strong, and she was still continuing her hobbies of calligraphy and writing haiku poetry by the age of 114.",
-    "check": "Born 2 May 1901 (same page). Age 114 as stated. Telegraph: she 'attended higher education at a telegraph school in Osaka where she studied to become a telegraph operator' (same page)."
+    "kind": "numbers",
+    "evidence": "10 Fred Hale 01/12/1890 19/11/2004 113 354 Male United States United States Validated",
+    "check": "LongeviQuest (fetched 27 September 2026) lists 8 men who reached 114 (rank 8 Joan Riudavets Moll 114 81; rank 9 João Marinho Neto, living, 113 357, turns 114 on 5 October 2026); rank 10 (quoted) is 113, so at most nine men can be at 114 or above. GRG's 'Validated male supercentenarians: 112+' list (fetched; ages computed from its birth and death dates) gives 9, adding Horacio Celi Mendoza. Both are under ten, so the text uses 'fewer than ten' and a date."
   },
   {
     "age": 115,
@@ -1277,47 +1277,47 @@
   },
   {
     "age": 116,
-    "text": "Jiroemon Kimura of Kyotango, Japan, celebrated his 116th birthday in April 2013, the first man verified to reach that age.",
+    "text": "116 is the greatest age any man has been verified to reach: Jiroemon Kimura of Japan lived to 116 years and 54 days.",
     "source": {
-      "label": "Guinness World Records, 2013",
-      "url": "https://www.guinnessworldrecords.com/news/2013/6/worlds-oldest-man-ever-passes-away-aged-116-49080"
+      "label": "LongeviQuest, Supercentenarian FAQ",
+      "url": "https://longeviquest.com/supercentenarian-faq/"
     },
-    "kind": "people",
-    "evidence": "Born on 19 April 1897, Jiroemon Kimura is the first man in history to have lived to 116 years old and continues to hold the world record for the Oldest man ever.",
-    "check": "Born 19 April 1897; 116th birthday 19 April 2013 (same page: 'Kimura, who celebrated his 116th birthday on 19th April 2013')."
+    "kind": "numbers",
+    "evidence": "The oldest verified man is Jiroemon Kimura of Japan who lived 116 years, 54 days (1897-2013).",
+    "check": "LongeviQuest FAQ; the men's list agrees ('1 Jiroemon Kimura 19/04/1897 12/06/2013 116 54 Male Japan'), and GRG's male 112+ list has no other man at 116. The age 116 is the subject: the male record."
   },
   {
     "age": 117,
-    "text": "When Nabi Tajima of Japan’s Kikai Island turned 117 in 2017, her family spanned five generations below her, down to 14 great-great-great-grandchildren.",
+    "text": "Only 13 people in verified history had reached 117 by September 2026.",
     "source": {
-      "label": "LongeviQuest",
-      "url": "https://longeviquest.com/supercentenarian/nabi-tajima/"
+      "label": "LongeviQuest, Oldest People Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/"
     },
-    "kind": "people",
-    "evidence": "On her 117th birthday in 2017, she had nine children (seven sons and two daughters), 28 grandchildren, 58 great-grandchildren, 64 great-great-grandchildren, and 14 great-great-great-grandchildren.",
-    "check": "Born 4 August 1900 (same page); 117th birthday 4 August 2017. Five generations = children, grandchildren, great-, great-great- and great-great-great-grandchildren."
+    "kind": "numbers",
+    "evidence": "13 Misao Okawa 05/03/1898 01/04/2015 117 27 Female Japan Japan Validated 14 Francisca Celsa dos Santos 21/10/1904 05/10/2021 116 349 Female Brazil Brazil Validated",
+    "check": "LongeviQuest ranked list (fetched 27 September 2026): ranks 1-13 reached 117 (rank 12 is Ethel Caterham, living, 117 years 37 days), rank 14 is 116. GRG's 'Validated supercentenarians: 114+' list (fetched; ages computed from dates) gives the same 13 names. The next living person who could reach 117 is Naomi Whitehead, in September 2027."
   },
   {
     "age": 118,
-    "text": "Sister André, a French nun who spent 28 years caring for orphans and elderly people in Vichy, became the world’s oldest living person in April 2022, aged 118.",
+    "text": "Only four people in verified history had reached 118 by September 2026.",
     "source": {
-      "label": "LongeviQuest",
-      "url": "https://longeviquest.com/supercentenarian/lucile-randon/"
+      "label": "LongeviQuest, Oldest People Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/"
     },
-    "kind": "people",
-    "evidence": "On 19 April 2022, following the passing of 119-year-old Kane Tanaka, she became the World’s Oldest Living Person.",
-    "check": "Born 11 February 1904 (same page). Event 19 April 2022 -> 118 years 2 months. 'After the war, she spent 28 years working with orphans and elderly people at a hospital in Vichy' (same page)."
+    "kind": "numbers",
+    "evidence": "4 Lucile Randon 11/02/1904 17/01/2023 118 340 Female France France Validated 5 Nabi Tajima 04/08/1900 21/04/2018 117 260 Female Japan Japan Validated",
+    "check": "LongeviQuest ranked list (fetched 27 September 2026): ranks 1-4 (Calment 122, Tanaka 119, Knauss 119, Randon 118) reached 118; rank 5 stopped at 117. GRG's 114+ list gives the same four. Dated because Ethel Caterham (117) could raise it in August 2027."
   },
   {
     "age": 119,
-    "text": "Japan’s Kane Tanaka, who enjoyed board games, maths problems and chocolate, reached 119 on 2 January 2022.",
+    "text": "119 is the greatest age verified in both the US and Japan, reached by Sarah Knauss in 1999 and Kane Tanaka in 2022.",
     "source": {
-      "label": "The Independent, 2022",
-      "url": "https://www.independent.co.uk/asia/japan/kane-tanaka-oldest-person-death-age-b2064718.html"
+      "label": "LongeviQuest, Oldest People Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/"
     },
-    "kind": "people",
-    "evidence": "She was living at a nursing home and was in relatively good health until recently, enjoying playing board games, solving maths problems, drinking soda and eating chocolate.",
-    "check": "Born 2 January 1903 (same page: 'Born on 2 January 1903'), so her 119th birthday was 2 January 2022; the same article reports her age as 119 in April 2022."
+    "kind": "numbers",
+    "evidence": "1 Jeanne Calment 21/02/1875 04/08/1997 122 164 Female France France Validated 2 Kane Tanaka 02/01/1903 19/04/2022 119 107 Female Japan Japan Validated 3 Sarah Knauss 24/09/1880 30/12/1999 119 97 Female United States United States Validated",
+    "check": "Only Calment (France) ranks above them, so they hold the national records. Knauss was born 24 September 1880 (119 on 24 September 1999); Tanaka 2 January 1903 (119 on 2 January 2022). GRG's 114+ list agrees."
   },
   {
     "age": 120,
@@ -1332,24 +1332,24 @@
   },
   {
     "age": 121,
-    "text": "For her 121st birthday in February 1996, Jeanne Calment released a CD, ‘Time’s Mistress’, reminiscing over rap and other music.",
+    "text": "121 has been reached by only one verified person: Jeanne Calment of France, who turned 121 in February 1996.",
     "source": {
-      "label": "Deseret News / Associated Press, 1997",
-      "url": "https://www.deseret.com/1997/8/4/19327275/world-s-oldest-person-jeanne-calment-dies/"
+      "label": "Guinness World Records, Oldest person ever",
+      "url": "https://www.guinnessworldrecords.com/world-records/oldest-person"
     },
-    "kind": "people",
-    "evidence": "That was clear to those who attended her 121st birthday in February 1996, when she released her CD, \"Time's Mistress,\" which featured her reminiscing to a score of rap and other tunes.",
-    "check": "Born 21 February 1875 (Guinness, https://www.guinnessworldrecords.com/world-records/oldest-person). 121st birthday 21 February 1996. Sound theme."
+    "kind": "numbers",
+    "evidence": "she quipped at her 121st birthday in 1996",
+    "check": "Guinness, same page: 'Born on 21 February 1875', so she turned 121 on 21 February 1996. LongeviQuest's validated list (fetched 27 September 2026) shows everyone else stopped at 119 or below ('2 Kane Tanaka ... 119 107'), and GRG's 114+ list agrees, so she is the only person verified at 121."
   },
   {
     "age": 122,
-    "text": "Jeanne Calment of Arles, France, born in 1875, lived to 122 years and 164 days, the greatest fully verified age of any human.",
+    "text": "122 is the greatest age any human has been verified to reach: Jeanne Calment of Arles, France, lived to 122 years and 164 days.",
     "source": {
-      "label": "Guinness World Records",
+      "label": "Guinness World Records, Oldest person ever",
       "url": "https://www.guinnessworldrecords.com/world-records/oldest-person"
     },
-    "kind": "people",
+    "kind": "numbers",
     "evidence": "The greatest fully authenticated age to which any human has ever lived is 122 years 164 days by Jeanne Louise Calment (France).",
-    "check": "Born 21 February 1875, final age reached 4 August 1997 (same page) -> 122 years 164 days."
+    "check": "Guinness record page; LongeviQuest's FAQ and validated list ('1 Jeanne Calment 21/02/1875 04/08/1997 122 164') agree. The age 122 is the subject: the human record."
   }
 ]

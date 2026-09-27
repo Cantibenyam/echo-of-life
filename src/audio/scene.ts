@@ -272,7 +272,13 @@ export class Scene {
 
   private loop(interval: Tone.Unit.Time, fn: (time: number) => void): void {
     const l = new Tone.Loop((time) => {
-      if (!this.disposed) fn(time);
+      // Late callbacks (the page stalled) are dropped rather than bunched together.
+      if (this.disposed || (!this.deps.ctx.isOffline && time < this.deps.ctx.currentTime)) return;
+      try {
+        fn(time);
+      } catch {
+        /* a scheduling hiccup skips one note, never the music */
+      }
     }, interval);
     this.loops.push(l);
   }

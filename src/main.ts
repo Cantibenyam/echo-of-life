@@ -9,6 +9,7 @@ import { initialState, reduce, type Effect, type Event, type MachineConfig, type
 import type { LifeRecord } from './life/record';
 import { cryptoUniform, newId } from './life/rng';
 import { MemoryLifeStore, createLifeStore, type LifeStore } from './life/store';
+import { layGrave } from './graveyard/api';
 import { fade, wait } from './ui/dom';
 import { mountGate, type Gate } from './ui/gate';
 import { showMemorial } from './ui/memorial';
@@ -18,6 +19,8 @@ import { MuteButton, announce } from './ui/views';
 
 const app = document.getElementById('app')!;
 const CREDITS_HREF = `${import.meta.env.BASE_URL}credits.html`;
+const GRAVEYARD_HREF = `${import.meta.env.BASE_URL}graveyard.html`;
+const LINKS = { creditsHref: CREDITS_HREF, graveyardHref: GRAVEYARD_HREF };
 /** Presses this close (px) to a link or control never spend a year. */
 const NEAR_MISS = 24;
 
@@ -114,7 +117,7 @@ function run(effect: Effect): void {
       }
       break;
     case 'showGate':
-      gate = mountGate(app, { returning: effect.returning, creditsHref: CREDITS_HREF, onBegin });
+      gate = mountGate(app, { returning: effect.returning, creditsHref: CREDITS_HREF, graveyardHref: GRAVEYARD_HREF, onBegin });
       idle(() => void loadAudio());
       break;
     case 'born':
@@ -132,6 +135,7 @@ function run(effect: Effect): void {
       break;
     case 'die':
       onDie();
+      void layGrave(effect.record);
       break;
     case 'showMemorial':
       onMemorial(effect.record, effect.fromDeath);
@@ -140,9 +144,9 @@ function run(effect: Effect): void {
 }
 
 /** Inside the Begin/Continue gesture. */
-function onBegin(): void {
+function onBegin(name: string | null): void {
   if (audio && !muted) audio.unlock();
-  dispatch({ t: 'begin', now: Date.now(), u: cryptoUniform(), id: newId(), stored: freshRead() });
+  dispatch({ t: 'begin', now: Date.now(), u: cryptoUniform(), id: newId(), stored: freshRead(), name });
 }
 
 function enterLife(record: LifeRecord, mode: 'birth' | 'resume'): void {
@@ -211,7 +215,8 @@ function onMemorial(record: LifeRecord, fromDeath: boolean): void {
   mute?.el.remove();
   mute = null;
   if (!fromDeath && audio?.started()) audio.die();
-  showMemorial(app, record, fromDeath, CREDITS_HREF);
+  showMemorial(app, record, fromDeath, LINKS);
+  if (!fromDeath) void layGrave(record);
 }
 
 // ---------- Input ----------
@@ -233,13 +238,14 @@ function onPress(e: MouseEvent): void {
   // A real pointer press next to a link or the mute control is ignored (keyboard presses have detail 0).
   if (e.detail > 0 && nearInteractive(e.clientX, e.clientY)) return;
   if (audio && !muted) {
-    if (audio.started() && audio.needsResume()) {
-      // This touch only brings the sound back; it never spends a year.
+    if (resumeMessage && audio.started() && audio.needsResume()) {
+      // While "touch to bring back the sound" is showing, a touch only does that; it never spends a year.
       audio.resume();
-      if (resumeMessage) stage?.showMessage(null);
+      stage?.showMessage(null);
       resumeMessage = false;
       return;
     }
+    if (audio.started() && audio.needsResume()) audio.resume();
     if (!audio.started()) {
       audio.unlock();
       startAudio(state.record, false);

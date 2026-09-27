@@ -1,0 +1,114 @@
+{
+  "year": 2019,
+  "source": {
+    "label": "WHO Global Health Estimates, 2019",
+    "url": "https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death"
+  },
+  "groups": [
+    {
+      "from": 0,
+      "to": 4,
+      "label": "children under five",
+      "causes": [
+        "complications of being born too early",
+        "pneumonia and other chest infections",
+        "lack of oxygen or injury during birth"
+      ],
+      "shares": [
+        0.185,
+        0.139,
+        0.117
+      ]
+    },
+    {
+      "from": 5,
+      "to": 14,
+      "label": "people aged 5 to 14",
+      "causes": [
+        "pneumonia and other chest infections",
+        "road injuries",
+        "childhood diseases such as measles and whooping cough"
+      ],
+      "shares": [
+        0.084,
+        0.081,
+        0.074
+      ]
+    },
+    {
+      "from": 15,
+      "to": 29,
+      "label": "people aged 15 to 29",
+      "causes": [
+        "road injuries",
+        "violence",
+        "suicide"
+      ],
+      "shares": [
+        0.132,
+        0.096,
+        0.085
+      ]
+    },
+    {
+      "from": 30,
+      "to": 49,
+      "label": "people aged 30 to 49",
+      "causes": [
+        "heart disease",
+        "road injuries",
+        "HIV/AIDS"
+      ],
+      "shares": [
+        0.1,
+        0.07,
+        0.069
+      ]
+    },
+    {
+      "from": 50,
+      "to": 59,
+      "label": "people aged 50 to 59",
+      "causes": [
+        "heart disease",
+        "stroke",
+        "cirrhosis of the liver"
+      ],
+      "shares": [
+        0.16,
+        0.11,
+        0.049
+      ]
+    },
+    {
+      "from": 60,
+      "to": 69,
+      "label": "people aged 60 to 69",
+      "causes": [
+        "heart disease",
+        "stroke",
+        "chronic lung disease"
+      ],
+      "shares": [
+        0.176,
+        0.139,
+        0.064
+      ]
+    },
+    {
+      "from": 70,
+      "to": 122,
+      "label": "people aged 70 and over",
+      "causes": [
+        "heart disease",
+        "stroke",
+        "chronic lung disease"
+      ],
+      "shares": [
+        0.198,
+        0.159,
+        0.094
+      ]
+    }
+  ]
+}

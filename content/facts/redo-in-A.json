@@ -1,0 +1,192 @@
+[
+  {
+    "age": 6,
+    "current_milestone_fact": "In November 1960, six-year-old Ruby Bridges walked into William Frantz Elementary in New Orleans, escorted by U.S. Marshals, to desegregate the school.",
+    "existing_alternates": [
+      {
+        "text": "The first baby teeth usually work loose at about six, starting with the incisors, the middle teeth at the front.",
+        "source": {
+          "label": "HealthyChildren.org (American Academy of Pediatrics)",
+          "url": "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/When-Children-Begin-to-Lose-their-Baby-Teeth.aspx"
+        },
+        "kind": "body",
+        "evidence": "Baby teeth ordinarily are shed first at about age 6 when the incisors, the middle teeth in front, become loose.",
+        "check": "'About age 6' = months 72-83, age 6. US paediatric guidance (AAP)."
+      }
+    ]
+  },
+  {
+    "age": 9,
+    "current_milestone_fact": "In October 1828, nine-year-old Clara Wieck, later Clara Schumann, first played for the public, at Leipzig’s Gewandhaus concert hall.",
+    "existing_alternates": [
+      {
+        "text": "The American Academy of Sleep Medicine puts healthy sleep for children aged six to twelve at 9 to 12 hours in every 24.",
+        "source": {
+          "label": "American Academy of Sleep Medicine, Child sleep duration health advisory",
+          "url": "https://aasm.org/advocacy/position-statements/child-sleep-duration-health-advisory/"
+        },
+        "kind": "body",
+        "evidence": "Children 6 to 12 years of age should sleep 9 to 12 hours per 24 hours.",
+        "check": "Range covers ages 6-12; age 9 (months 108-119) sits in the middle of it. US professional body consensus (2016)."
+      }
+    ]
+  },
+  {
+    "age": 11,
+    "current_milestone_fact": "Writing under the name Gul Makai, Malala Yousafzai was 11 when she began an anonymous diary for BBC Urdu about her wish to go to school.",
+    "existing_alternates": [
+      {
+        "text": "The NHS gives 11 as the average age for girls to start puberty, and 12 for boys, though anywhere from 8 to 14 is normal.",
+        "source": {
+          "label": "NHS 111 Wales, Puberty",
+          "url": "https://111.wales.nhs.uk/puberty/"
+        },
+        "kind": "body",
+        "evidence": "The average age for girls to start puberty is 11, while for boys the average age is 12. … But it's perfectly normal for puberty to begin at any point between the ages of 8 and 13 in girls and 9 and 14 in boys.",
+        "check": "NHS (Wales) health A-Z page: average onset age 11 for girls (placed at age 11), 12 for boys; normal range 8-13 in girls and 9-14 in boys, so '8 to 14' covers both. UK guidance, no survey year given."
+      }
+    ]
+  },
+  {
+    "age": 13,
+    "current_milestone_fact": "In August 1963 ‘Fingertips – Pt 2’ made Stevie Wonder the youngest solo artist ever to reach No. 1 on the US Billboard Hot 100.",
+    "existing_alternates": [
+      {
+        "text": "The American Academy of Sleep Medicine's range for teenagers aged 13 to 18 is 8 to 10 hours of sleep a day, down from 9 to 12 for children.",
+        "source": {
+          "label": "Paruthi et al., AASM consensus, J Clin Sleep Med (via PMC), 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877308/"
+        },
+        "kind": "body",
+        "evidence": "Children 6 to 12 years of age should sleep 9 to 12 hours per 24 hours … Teenagers 13 to 18 years of age should sleep 8 to 10 hours per 24 hours on a regular basis to promote optimal health.",
+        "check": "AASM consensus statement: the teenage band starts at 13 (8-10 h per 24 h), replacing the 6-12 band (9-12 h). Age 13 is the first year of the new band. US professional body recommendation, 2016."
+      }
+    ]
+  },
+  {
+    "age": 15,
+    "current_milestone_fact": "In March 1955, 15-year-old Claudette Colvin refused to give up her seat on a segregated bus in Montgomery, nine months before Rosa Parks.",
+    "existing_alternates": [
+      {
+        "text": "The United Nations counts ages 15 to 24 as youth. About 1.2 billion people fall in that span today, 16 per cent of the world's population.",
+        "source": {
+          "label": "United Nations, Youth",
+          "url": "https://www.un.org/en/global-issues/youth"
+        },
+        "kind": "world",
+        "evidence": "defines ‘youth’ as those persons between the ages of 15 and 24 years. … Today, there are 1.2 billion young people aged 15 to 24 years, accounting for 16 per cent of the global population.",
+        "check": "UN statistical definition of youth is 15-24 (General Assembly resolution 36/28, 1981), so 15 is its first year. Global count 1.2 billion (16%) as stated on the UN Youth page, fetched Sept 2026; no reference year given on the page."
+      }
+    ]
+  },
+  {
+    "age": 22,
+    "current_milestone_fact": "In January 2021, Amanda Gorman read ‘The Hill We Climb’ at a US presidential inauguration, the youngest inaugural poet in the country’s history.",
+    "existing_alternates": [
+      {
+        "text": "The ability to remember new names peaks at around 22, while memory for faces keeps improving until about 30.",
+        "source": {
+          "label": "Hartshorne & Germine, Psychological Science (via PMC), 2015",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4441622/"
+        },
+        "kind": "mind",
+        "evidence": "Recent evidence shows that whereas short-term memory for names and inverted faces peaks around 22, neither short-term memory for faces nor quantity discrimination peaks until around 30",
+        "check": "Peak 'around 22' for short-term memory for names; faces around 30. Stated in Hartshorne & Germine 2015, citing Germine, Duchaine & Nakayama 2011 (large online samples, mostly US)."
+      }
+    ]
+  },
+  {
+    "age": 23,
+    "current_milestone_fact": "In June 1925 Werner Heisenberg went to the island of Helgoland to ease his hay fever, and there set out the first mathematical framework of quantum mechanics.",
+    "existing_alternates": [
+      {
+        "text": "In a study of nearly 50,000 people, short-term memory kept improving until around 25 before levelling off.",
+        "source": {
+          "label": "MIT News (Hartshorne & Germine, Psychological Science), 2015",
+          "url": "https://news.mit.edu/2015/brain-peaks-at-different-ages-0306"
+        },
+        "kind": "mind",
+        "evidence": "The researchers gathered data from nearly 50,000 subjects … short-term memory continues to improve until around age 25, when it levels off",
+        "check": "Ongoing process at 23: short-term memory still rising, levelling off around 25 (nearly 50,000 online participants). Same study as the age-19 candidate; different finding."
+      }
+    ]
+  },
+  {
+    "age": 24,
+    "current_milestone_fact": "On 28 November 1967, PhD student Jocelyn Bell, 24, recorded radio pulses one and a third seconds apart: the discovery of pulsars.",
+    "existing_alternates": [
+      {
+        "text": "The prefrontal cortex, behind the forehead, is one of the last parts of the brain to mature; the brain finishes developing in the mid-to-late 20s.",
+        "source": {
+          "label": "National Institute of Mental Health (NIH), The Teen Brain",
+          "url": "https://www.nimh.nih.gov/health/publications/the-teen-brain-7-things-to-know"
+        },
+        "kind": "mind",
+        "evidence": "The brain finishes developing and maturing in the mid-to-late 20s. The part of the brain behind the forehead, called the prefrontal cortex, is one of the last parts to mature.",
+        "check": "NIMH: brain maturation completes in the mid-to-late 20s, prefrontal cortex among the last regions. Placed at 24 as an ongoing process (still maturing); no single-age claim is made."
+      }
+    ]
+  },
+  {
+    "age": 29,
+    "current_milestone_fact": "Alexander Graham Bell first sent clear speech by telephone in 1876, calling to his assistant: “Mr. Watson—come here—I want to see you.”",
+    "existing_alternates": [
+      {
+        "text": "In the European Union in 2024, women having their first child were 29.9 years old on average.",
+        "source": {
+          "label": "Eurostat, Fertility statistics, 2026",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
+        },
+        "kind": "world",
+        "evidence": "29.9 years was the average age of women at the birth of their first child in the EU in 2024, ranging from 26.9 in Bulgaria to 31.9 in Italy.",
+        "check": "Eurostat Statistics Explained 'Fertility statistics' (data extracted 19 February 2026, dataset demo_find), EU-27, year 2024. 29.9 falls in age 29. Verified with curl."
+      }
+    ]
+  },
+  {
+    "age": 30,
+    "current_milestone_fact": "In 1877 Thomas Edison tested a machine for recording the human voice by speaking into it the line ‘Mary had a little lamb’.",
+    "existing_alternates": [
+      {
+        "text": "The films, music and books people love most tend to come from the years between 10 and 30, the stretch of life later remembered most vividly.",
+        "source": {
+          "label": "Rubin, Rahhal & Poon, Memory & Cognition, 1998",
+          "url": "https://europepmc.org/article/MED/9519693"
+        },
+        "kind": "mind",
+        "evidence": "Evidence is reviewed that for older adults the period from 10 to 30 years of age produces recall of the most autobiographical memories, the most vivid memories, and the most important memories. It is the period from which peoples' favorite films, music, and books come",
+        "check": "This is the 'reminiscence bump'. The source gives the window as ages 10 to 30, so age 30 is its upper end. The abstract was retrieved from the Europe PMC REST API record for PMID 9519693 (DOI 10.3758/bf03211366)."
+      }
+    ]
+  },
+  {
+    "age": 32,
+    "current_milestone_fact": "Physicist Sally Ride became the first American woman in space on 18 June 1983, flying aboard the space shuttle Challenger.",
+    "existing_alternates": []
+  },
+  {
+    "age": 34,
+    "current_milestone_fact": "Martin Luther King Jr. gave his “I Have a Dream” speech in 1963, speaking to more than 200,000 people gathered in Washington.",
+    "existing_alternates": []
+  },
+  {
+    "age": 37,
+    "current_milestone_fact": "In 1944 mathematician Grace Hopper, who had left teaching to join the US Navy, was assigned to Harvard, where her team worked on the Mark I, an early computer.",
+    "existing_alternates": []
+  },
+  {
+    "age": 41,
+    "current_milestone_fact": "Rudyard Kipling received the 1907 Nobel Prize in Literature, and remains the youngest person ever awarded it.",
+    "existing_alternates": []
+  },
+  {
+    "age": 42,
+    "current_milestone_fact": "On 1 December 1955, Rosa Parks, a 42-year-old seamstress, was arrested in Montgomery, Alabama, for refusing to give up her seat on a city bus.",
+    "existing_alternates": []
+  },
+  {
+    "age": 43,
+    "current_milestone_fact": "In 1960, at 43, John F. Kennedy won the US presidency, becoming the youngest person ever elected to that office.",
+    "existing_alternates": []
+  }
+]

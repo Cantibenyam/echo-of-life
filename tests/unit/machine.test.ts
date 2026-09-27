@@ -50,6 +50,20 @@ describe('life machine', () => {
     expect(lifespanOf(rec)).toBe(40);
   });
 
+  it('carries the name given at the gate, and names an older unnamed life on continue', () => {
+    const born = run([
+      { t: 'loaded', record: null },
+      { t: 'begin', now: 0, u: uFor(40), id: ID, stored: null, name: 'Ana' },
+    ]);
+    expect((born.state as { record: LifeRecord }).record.name).toBe('Ana');
+    const unnamed = { ...createRecord(ID, 1, 60), age: 5 };
+    const resumed = run([
+      { t: 'loaded', record: unnamed },
+      { t: 'begin', now: 9, u: 0.5, id: 'ignored-0000', stored: unnamed, name: 'Bea' },
+    ]);
+    expect(resumed.effects[1]).toEqual({ t: 'save', record: { ...unnamed, name: 'Bea' } });
+  });
+
   it('respects the birth lock and the cooldown, dropping early presses', () => {
     const born = run([
       { t: 'loaded', record: null },

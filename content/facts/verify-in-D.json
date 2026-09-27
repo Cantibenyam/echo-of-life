@@ -1,0 +1,343 @@
+[
+  {
+    "age": 6,
+    "text": "The first baby teeth usually work loose at about six, starting with the incisors, the middle teeth at the front.",
+    "source": {
+      "label": "HealthyChildren.org (American Academy of Pediatrics)",
+      "url": "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/When-Children-Begin-to-Lose-their-Baby-Teeth.aspx"
+    },
+    "kind": "body",
+    "evidence": "Baby teeth ordinarily are shed first at about age 6 when the incisors, the middle teeth in front, become loose.",
+    "check": "Re-fetched with curl this session; sentence found verbatim. 'About age 6' = months 72-83, age 6. US paediatric guidance (AAP)."
+  },
+  {
+    "age": 9,
+    "text": "In 2023 about 138 million people worldwide were 9 years old, according to UN estimates.",
+    "source": {
+      "label": "UN DESA, World Population Prospects 2024 (WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv)",
+      "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv.gz"
+    },
+    "kind": "numbers",
+    "evidence": "Location: World | Variant: Medium | Time: 2023 | AgeGrp: 9 | PopMale: 71259.268 | PopFemale: 66970.379 | PopTotal: 138229.646",
+    "check": "Downloaded the WPP 2024 single-age CSV; population is in thousands, so 138,229,646 = about 138 million. 2023 is the last estimate year (2024+ are projections). Age 9 exactly."
+  },
+  {
+    "age": 11,
+    "text": "The UK’s NHS gives 11 as the average age for girls to start puberty.",
+    "source": {
+      "label": "NHS 111 Wales, Puberty",
+      "url": "https://111.wales.nhs.uk/puberty/"
+    },
+    "kind": "body",
+    "evidence": "The average age for girls to start puberty is 11, while for boys the average age is 12. But it's perfectly normal for puberty to begin at any point between the ages of 8 and 13 in girls and 9 and 14 in boys.",
+    "check": "Re-fetched with curl this session; text verbatim. NHS (Wales) guidance, UK; no survey year given. The boys' figure (12) was left out to keep one number."
+  },
+  {
+    "age": 13,
+    "text": "In Jewish law a boy comes of age at 13 and one day, becoming bar mitzvah: bound to keep the commandments.",
+    "source": {
+      "label": "Jewish Virtual Library (Encyclopaedia Judaica), Bar/Bat Mitzvah",
+      "url": "https://www.jewishvirtuallibrary.org/bar-bat-mitzvah"
+    },
+    "kind": "world",
+    "evidence": "term denoting both the attainment of religious and legal maturity as well as the occasion at which this status is formally assumed for boys at the age of 13 plus one day, for girls at 12 plus one day (Maim. Yad, Ishut, 2:9–10).",
+    "check": "Encyclopaedia Judaica entry on JVL, fetched with curl. A boy's majority begins at 13 plus one day, so the custom sits at age 13. My Jewish Learning (fetched) agrees: 'Coming of age for a Jew, which happens automatically at age 13 for a boy and 12 for a girl'."
+  },
+  {
+    "age": 15,
+    "text": "Across Latin America a girl’s 15th birthday is marked by the quinceañera, a coming-of-age celebration whose name means ‘15-year-old girl’.",
+    "source": {
+      "label": "HISTORY (A&E), How the Quinceañera Became a Latin American Rite of Passage, 2025",
+      "url": "https://www.history.com/articles/quinceanera-tradition-history"
+    },
+    "kind": "world",
+    "evidence": "Marking a girl’s 15th birthday, it’s much more than a fiesta—it commemorates her transition into womanhood. What is a Quinceañera? The word “quinceañera” literally means \"15-year-old girl\" in Spanish.",
+    "check": "Article by Jeanhee Kim, published 20 June 2025, fetched with curl. The custom is tied to the 15th birthday, so it sits at age 15."
+  },
+  {
+    "age": 22,
+    "text": "In large online studies, short-term memory for names peaked at around 22, years earlier than memory for faces.",
+    "source": {
+      "label": "Hartshorne & Germine, Psychological Science, 2015 (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4441622/"
+    },
+    "kind": "mind",
+    "evidence": "Recent evidence shows that whereas short-term memory for names and inverted faces peaks around 22, neither short-term memory for faces nor quantity discrimination peaks until around 30",
+    "check": "Sentence in Hartshorne & Germine 2015 (citing Germine, Duchaine & Nakayama 2011, 60,000+ web participants, abstract checked on Europe PMC). Full text confirmed via NCBI E-utilities (the PMC page sits behind a browser check). Peak age 'around 22'."
+  },
+  {
+    "age": 23,
+    "text": "In 1990 the median American woman married for the first time at 23.9.",
+    "source": {
+      "label": "US Census Bureau, Table MS-2: Estimated Median Age at First Marriage, by Sex: 1890 to Present (Dec 2025)",
+      "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls"
+    },
+    "kind": "world",
+    "evidence": "Year | Men's median age at first marriage | Women's median age at first marriage ... 1990.0 | 26.1 | 23.9",
+    "check": "Downloaded ms2.xls (Census Bureau, CPS). Women, 1990 = 23.9, which falls in age 23. Past tense for a dated figure."
+  },
+  {
+    "age": 24,
+    "text": "In a study of 3,305 StarCraft 2 players aged 16 to 44, the speed of their in-game responses began to slow at 24.",
+    "source": {
+      "label": "Thompson, Blair & Henrey, PLOS ONE, 2014 ('Over the hill at 24')",
+      "url": "https://europepmc.org/article/MED/24718593"
+    },
+    "kind": "mind",
+    "evidence": "In this paper we analyze the influence of age on performance using a dataset of 3,305 players, aged 16-44 ... Using a piecewise regression analysis, we find that age-related slowing of within-game, self-initiated response times begins at 24 years of age.",
+    "check": "Abstract retrieved via the Europe PMC REST API (PMID 24718593, PMC3981764, DOI 10.1371/journal.pone.0094215). The turning point is stated as exactly 24."
+  },
+  {
+    "age": 29,
+    "text": "In the European Union in 2024, women having their first child were 29.9 years old on average.",
+    "source": {
+      "label": "Eurostat, Fertility statistics, 2026",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
+    },
+    "kind": "world",
+    "evidence": "29.9 years was the average age of women at the birth of their first child in the EU in 2024, ranging from 26.9 in Bulgaria to 31.9 in Italy.",
+    "check": "Re-fetched with curl this session (Data extracted on 19 February 2026, dataset demo_find). EU-27, 2024. 29.9 falls in age 29."
+  },
+  {
+    "age": 30,
+    "text": "The world’s median age was 30.4 in 2023: half of all people alive were younger, and half older, UN estimates show.",
+    "source": {
+      "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+      "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
+    },
+    "kind": "numbers",
+    "evidence": "Location: World | LocTypeName: World | Variant: Medium | Time: 2023 | MedianAgePop: 30.3637 | TPopulation1July: 8091734.93",
+    "check": "Downloaded the WPP 2024 indicators CSV. World median age 30.36 at 1 July 2023 (last estimate year; 2024 = 30.6 is a projection). Falls in age 30."
+  },
+  {
+    "age": 32,
+    "text": "Counting all births, Ireland’s mothers were the EU’s oldest in 2024, at 32.7 years old on average.",
+    "source": {
+      "label": "Eurostat, demo_find (Fertility indicators: mean age of women at childbirth)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_find?time=2024&lang=en"
+    },
+    "kind": "world",
+    "evidence": "\"label\":\"Fertility indicators\" ... indic_de AGEMOTH (Mean age of women at childbirth), geo IE (Ireland), time 2024: 32.7",
+    "check": "Eurostat API (JSON-stat) fetched with curl, updated 25 Sept 2026. All births (not first births; Italy's 31.9 at age 31 is for first births), 2024. Ireland 32.7 is the highest EU value (Spain, Italy and Luxembourg 32.6). Falls in age 32."
+  },
+  {
+    "age": 34,
+    "text": "In England and Wales in 2023, the median age of men entering an opposite-sex marriage was 34.8, among the highest on record.",
+    "source": {
+      "label": "Office for National Statistics (UK), Marriages and civil partnerships in England and Wales (released 18 Nov 2025)",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/marriagecohabitationandcivilpartnerships/bulletins/marriagesinenglandandwalesprovisional/2023"
+    },
+    "kind": "world",
+    "evidence": "The median age for men and women entering an opposite-sex marriage in 2023 remained among the highest median ages recorded, at 34.8 years and 33.0 years, respectively.",
+    "check": "ONS bulletin (2023 edition URL; also fetched via /latest) with curl, Release date: 18 November 2025. This is the median age at all opposite-sex marriages, not first marriages; the text does not say 'first'. 34.8 falls in age 34."
+  },
+  {
+    "age": 37,
+    "text": "The 2010 US census found a median age of 37.2, then a new high for the country.",
+    "source": {
+      "label": "US Census Bureau, Age and Sex Composition: 2010 (2010 Census Brief C2010BR-03), 2011",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/2011/dec/c2010br-03.pdf"
+    },
+    "kind": "numbers",
+    "evidence": "In 2010, the median age increased to a new high of 37.2 years, from 35.3 years in 2000",
+    "check": "Census brief PDF (issued May 2011) fetched with curl and read with pypdf. US, 2010 census. 37.2 falls in age 37. Past tense for a dated figure."
+  },
+  {
+    "age": 41,
+    "text": "Across 2.7 million US founders in 2007 to 2014 whose new firms hired staff, the mean age at founding was 41.9.",
+    "source": {
+      "label": "Azoulay, Jones, Kim & Miranda, Age and High-Growth Entrepreneurship, NBER Working Paper 24489, 2018",
+      "url": "https://www.nber.org/system/files/working_papers/w24489/w24489.pdf"
+    },
+    "kind": "numbers",
+    "evidence": "Across the 2.7 million founders in the U.S. between 2007-2014 who started companies that go on to hire at least one employee, the mean age for the entrepreneurs at founding is 41.9.",
+    "check": "NBER PDF fetched with curl and read with pypdf; also Table 2 'US (entire) 41.9'. The figure is in the body text, not the AER: Insights abstract (which gives 45.0 for the fastest-growing firms). 41.9 falls in age 41."
+  },
+  {
+    "age": 42,
+    "text": "Europe had the oldest population of any world region in 2023, with a median age of 42.2, UN estimates show.",
+    "source": {
+      "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+      "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
+    },
+    "kind": "numbers",
+    "evidence": "Location: Europe | LocTypeName: Geographic region | Variant: Medium | Time: 2023 | MedianAgePop: 42.2305 (Northern America 38.2655; Oceania 32.8847; Asia 31.7365; Latin America and the Caribbean 30.9279; Africa 19.0316)",
+    "check": "Downloaded the WPP 2024 indicators CSV. Among the UN geographic regions, Europe's 42.23 (1 July 2023) is the highest. Falls in age 42."
+  },
+  {
+    "age": 43,
+    "text": "In the US in 2025, the median age of elementary and middle school teachers was 43.4.",
+    "source": {
+      "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+      "url": "https://www.bls.gov/cps/cpsaat11b.htm"
+    },
+    "kind": "world",
+    "evidence": "11b. Employed people by detailed occupation and age ... Elementary and middle school teachers | 3,511 | 9 | 196 | 769 | 921 | 922 | 539 | 154 | 43.4",
+    "check": "BLS table fetched with curl (Last Modified Date: February 20, 2026). 2025 annual averages; last column is median age. Secondary school teachers are also 43.4. Falls in age 43."
+  },
+  {
+    "age": 101,
+    "text": "In Ireland, 101 brings the first of the President’s commemorative coins, sent on every birthday after the 100th, with a new design each year.",
+    "source": {
+      "label": "President of Ireland, Centenarian Bounty",
+      "url": "https://president.ie/en/about/centenarian-bounty"
+    },
+    "kind": "world",
+    "evidence": "Since 1 January 2000, the President of Ireland has also marked the birthday of people over the age of 100 years. On his or her 101st and every subsequent birthday, the person receives a special commemorative coin in a presentation box, along with a congratulatory letter signed by the President. A new coin is designed for each year.",
+    "check": "Official scheme on president.ie (fetched): the 100th birthday brings the bounty and a message; the first coin comes at the 101st birthday, so the coin custom begins at exactly 101."
+  },
+  {
+    "age": 102,
+    "text": "About 2,620 people in the UK were aged 102 in mid-2024, according to official estimates.",
+    "source": {
+      "label": "ONS, Mid-year population estimates of the very old, including centenarians, UK (released 21 October 2025)",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/datasets/midyearpopulationestimatesoftheveryoldincludingcentenariansunitedkingdom"
+    },
+    "kind": "numbers",
+    "evidence": "Mid-2002 to mid-2024 population estimates of the very old (including centenarians), persons, UK (provisional) … Year: 2024 | 102: 2620",
+    "check": "ONS workbook ukevo2024.xls (direct file: https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/ageing/datasets/midyearpopulationestimatesoftheveryoldincludingcentenariansunitedkingdom/current/ukevo2024.xls), sheet 'UK Persons', title row quoted, then row 2024, column '102' = 2620. Single-year estimates run 90 to 104 plus '105 and over'. ONS notes the figures are provisional and rounded to the nearest 10, so the text says 'about'/'an estimated'."
+  },
+  {
+    "age": 103,
+    "text": "Japan’s 2020 census counted 7,304 people aged 103.",
+    "source": {
+      "label": "Statistics Bureau of Japan, 2020 Census, Basic Complete Tabulation, Table 3-1 (e-Stat)",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142412"
+    },
+    "kind": "numbers",
+    "evidence": "第３－１表　男女，年齢（各歳），出生の月，国籍総数か日本人別人口－全国 … 00000_全国 | 0_国籍総数 | 0_総数 | 104_103歳 | 7304",
+    "check": "2020 Census of Japan (reference date 1 October 2020), Table 3-1, whole country, all nationalities, both sexes, row '104_103歳' (age 103) = 7304. Downloaded xlsx b03_01 from this e-Stat page (direct file: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032142412&fileKind=0). Evidence is the cell values of that row, joined with |. Census counts are self-reported ages, not individually validated, so the text says 'counted', not 'verified'."
+  },
+  {
+    "age": 105,
+    "text": "105 is where ‘semi-supercentenarian’ begins: researchers use the word for people aged 105 to 109.",
+    "source": {
+      "label": "Hirata et al., Nature Communications, 2020 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32732919/"
+    },
+    "kind": "world",
+    "evidence": "including 36 supercentenarians, 572 semi-supercentenarians (105-109 years), 288 centenarians (100-104 years), and 531 very old people (85-99 years).",
+    "check": "Peer-reviewed abstract (Keio University Centre for Supercentenarian Medical Research) defines semi-supercentenarians as 105-109 years; 105 is the lower, defining edge of the term. Abstract fetched via NCBI E-utilities for PMID 32732919."
+  },
+  {
+    "age": 107,
+    "text": "Japan’s 2020 census counted 1,058 people aged 107.",
+    "source": {
+      "label": "Statistics Bureau of Japan, 2020 Census, Basic Complete Tabulation, Table 3-1 (e-Stat)",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142412"
+    },
+    "kind": "numbers",
+    "evidence": "第３－１表　男女，年齢（各歳），出生の月，国籍総数か日本人別人口－全国 … 00000_全国 | 0_国籍総数 | 0_総数 | 108_107歳 | 1058",
+    "check": "2020 Census of Japan (reference date 1 October 2020), Table 3-1, whole country, all nationalities, both sexes, row '108_107歳' (age 107) = 1058. Downloaded xlsx b03_01 from this e-Stat page (direct file: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032142412&fileKind=0). Evidence is the cell values of that row, joined with |. Census counts are self-reported ages, not individually validated, so the text says 'counted', not 'verified'."
+  },
+  {
+    "age": 109,
+    "text": "Japan’s 2020 census counted 211 people aged 109.",
+    "source": {
+      "label": "Statistics Bureau of Japan, 2020 Census, Basic Complete Tabulation, Table 3-1 (e-Stat)",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142412"
+    },
+    "kind": "numbers",
+    "evidence": "第３－１表　男女，年齢（各歳），出生の月，国籍総数か日本人別人口－全国 … 00000_全国 | 0_国籍総数 | 0_総数 | 110_109歳 | 211",
+    "check": "2020 Census of Japan (reference date 1 October 2020), Table 3-1, whole country, all nationalities, both sexes, row '110_109歳' (age 109) = 211. Downloaded xlsx b03_01 from this e-Stat page (direct file: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032142412&fileKind=0). Evidence is the cell values of that row, joined with |. Census counts are self-reported ages, not individually validated, so the text says 'counted', not 'verified'. The next row is '111_110歳以上' (110 and over) = 141, so 109 is the last single year in the table."
+  },
+  {
+    "age": 111,
+    "text": "In Japan, 111 is koju (皇寿): the character 皇 splits into 白, read as 99, and 王, read as 12, which add up to 111.",
+    "source": {
+      "label": "Kotobank (Shogakukan Digital Daijisen dictionary)",
+      "url": "https://kotobank.jp/word/%E7%9A%87%E5%AF%BF"
+    },
+    "kind": "world",
+    "evidence": "《「皇」が、百の字から一を引いた形の「白」と、分解すると二と十になる「王」の組み合わせであることから》111歳のこと。また、その祝い。",
+    "check": "Dictionary definition (Digital Daijisen; the Nihon Kokugo Daijiten entry on the same page agrees): 皇寿 means age 111 and its celebration. 白 is 百 (100) minus 一 (1) = 99; 王 breaks into 十 and 二 = 12; 99 + 12 = 111."
+  },
+  {
+    "age": 113,
+    "text": "More than 500 people in verified history had reached 113 by September 2026, according to LongeviQuest.",
+    "source": {
+      "label": "LongeviQuest, Oldest People Ever (validated), page 6",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/?page=6"
+    },
+    "kind": "numbers",
+    "evidence": "522 Margaret Whitlock 05/03/1906 05/03/2019 113 0 Female United States United States Validated 523 Mathilde Lartigue 24/03/1905 24/03/2018 113 0 Female France France Validated",
+    "check": "LongeviQuest ranked list (fetched 27 September 2026): rank 523 is the last person aged 113+ (rank 524, living, was 112 years 363 days). The exact count changes within days (rank 524 turns 113 on 29 September 2026), so the text uses 'more than 500' with a date."
+  },
+  {
+    "age": 114,
+    "text": "Fewer than ten men in verified history had reached 114 by September 2026.",
+    "source": {
+      "label": "LongeviQuest, Oldest Men Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-men-ever/"
+    },
+    "kind": "numbers",
+    "evidence": "10 Fred Hale 01/12/1890 19/11/2004 113 354 Male United States United States Validated",
+    "check": "LongeviQuest (fetched 27 September 2026) lists 8 men who reached 114 (rank 8 Joan Riudavets Moll 114 81; rank 9 João Marinho Neto, living, 113 357, turns 114 on 5 October 2026); rank 10 (quoted) is 113, so at most nine men can be at 114 or above. GRG's 'Validated male supercentenarians: 112+' list (fetched; ages computed from its birth and death dates) gives 9, adding Horacio Celi Mendoza. Both are under ten, so the text uses 'fewer than ten' and a date."
+  },
+  {
+    "age": 116,
+    "text": "116 is the greatest age any man has been verified to reach: Jiroemon Kimura of Japan lived to 116 years and 54 days.",
+    "source": {
+      "label": "LongeviQuest, Supercentenarian FAQ",
+      "url": "https://longeviquest.com/supercentenarian-faq/"
+    },
+    "kind": "numbers",
+    "evidence": "The oldest verified man is Jiroemon Kimura of Japan who lived 116 years, 54 days (1897-2013).",
+    "check": "LongeviQuest FAQ; the men's list agrees ('1 Jiroemon Kimura 19/04/1897 12/06/2013 116 54 Male Japan'), and GRG's male 112+ list has no other man at 116. The age 116 is the subject: the male record."
+  },
+  {
+    "age": 117,
+    "text": "Only 13 people in verified history had reached 117 by September 2026.",
+    "source": {
+      "label": "LongeviQuest, Oldest People Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/"
+    },
+    "kind": "numbers",
+    "evidence": "13 Misao Okawa 05/03/1898 01/04/2015 117 27 Female Japan Japan Validated 14 Francisca Celsa dos Santos 21/10/1904 05/10/2021 116 349 Female Brazil Brazil Validated",
+    "check": "LongeviQuest ranked list (fetched 27 September 2026): ranks 1-13 reached 117 (rank 12 is Ethel Caterham, living, 117 years 37 days), rank 14 is 116. GRG's 'Validated supercentenarians: 114+' list (fetched; ages computed from dates) gives the same 13 names. The next living person who could reach 117 is Naomi Whitehead, in September 2027."
+  },
+  {
+    "age": 118,
+    "text": "Only four people in verified history had reached 118 by September 2026.",
+    "source": {
+      "label": "LongeviQuest, Oldest People Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/"
+    },
+    "kind": "numbers",
+    "evidence": "4 Lucile Randon 11/02/1904 17/01/2023 118 340 Female France France Validated 5 Nabi Tajima 04/08/1900 21/04/2018 117 260 Female Japan Japan Validated",
+    "check": "LongeviQuest ranked list (fetched 27 September 2026): ranks 1-4 (Calment 122, Tanaka 119, Knauss 119, Randon 118) reached 118; rank 5 stopped at 117. GRG's 114+ list gives the same four. Dated because Ethel Caterham (117) could raise it in August 2027."
+  },
+  {
+    "age": 119,
+    "text": "119 is the greatest age verified in both the US and Japan, reached by Sarah Knauss in 1999 and Kane Tanaka in 2022.",
+    "source": {
+      "label": "LongeviQuest, Oldest People Ever (validated)",
+      "url": "https://longeviquest.com/atlas/oldest-people-ever/"
+    },
+    "kind": "numbers",
+    "evidence": "1 Jeanne Calment 21/02/1875 04/08/1997 122 164 Female France France Validated 2 Kane Tanaka 02/01/1903 19/04/2022 119 107 Female Japan Japan Validated 3 Sarah Knauss 24/09/1880 30/12/1999 119 97 Female United States United States Validated",
+    "check": "Only Calment (France) ranks above them, so they hold the national records. Knauss was born 24 September 1880 (119 on 24 September 1999); Tanaka 2 January 1903 (119 on 2 January 2022). GRG's 114+ list agrees."
+  },
+  {
+    "age": 121,
+    "text": "121 has been reached by only one verified person: Jeanne Calment of France, who turned 121 in February 1996.",
+    "source": {
+      "label": "Guinness World Records, Oldest person ever",
+      "url": "https://www.guinnessworldrecords.com/world-records/oldest-person"
+    },
+    "kind": "numbers",
+    "evidence": "she quipped at her 121st birthday in 1996",
+    "check": "Guinness, same page: 'Born on 21 February 1875', so she turned 121 on 21 February 1996. LongeviQuest's validated list (fetched 27 September 2026) shows everyone else stopped at 119 or below ('2 Kane Tanaka ... 119 107'), and GRG's 114+ list agrees, so she is the only person verified at 121."
+  },
+  {
+    "age": 122,
+    "text": "122 is the greatest age any human has been verified to reach: Jeanne Calment of Arles, France, lived to 122 years and 164 days.",
+    "source": {
+      "label": "Guinness World Records, Oldest person ever",
+      "url": "https://www.guinnessworldrecords.com/world-records/oldest-person"
+    },
+    "kind": "numbers",
+    "evidence": "The greatest fully authenticated age to which any human has ever lived is 122 years 164 days by Jeanne Louise Calment (France).",
+    "check": "Guinness record page; LongeviQuest's FAQ and validated list ('1 Jeanne Calment 21/02/1875 04/08/1997 122 164') agree. The age 122 is the subject: the human record."
+  }
+]

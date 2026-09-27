@@ -14,6 +14,11 @@ const candidates = new Map();
 for (const f of readdirSync(DIR).filter((n) => /^part-\d+-\d+\.json$/.test(n))) {
   for (const entry of JSON.parse(readFileSync(`${DIR}/${f}`, 'utf8'))) candidates.set(entry.age, entry.candidates);
 }
+// Second-round research: facts about the age itself (content/facts/BRIEF-2.md).
+const redo = new Map();
+for (const f of readdirSync(DIR).filter((n) => /^redo-out-[A-Z]\.json$/.test(n))) {
+  for (const entry of JSON.parse(readFileSync(`${DIR}/${f}`, 'utf8'))) redo.set(entry.age, entry.candidates);
+}
 
 /** Typographer's quotes: apostrophes and quotation marks curl the right way. */
 function smarten(s) {
@@ -39,15 +44,15 @@ for (let age = 0; age <= MAX_AGE; age++) {
     continue;
   }
   const choice = typeof pick === 'number' ? { pick } : pick;
-  const c = cands[choice.pick];
+  const c = choice.redo !== undefined ? redo.get(age)?.[choice.redo] : cands[choice.pick];
   if (!c) {
-    problems.push(`age ${age}: candidate ${choice.pick} missing`);
+    problems.push(`age ${age}: candidate ${choice.redo ?? choice.pick} missing`);
     continue;
   }
   const text = smarten((choice.text ?? c.text).trim());
   if (text.length < 40 || text.length > 180) problems.push(`age ${age}: text length ${text.length}`);
   if (!/^https:\/\//.test(c.source.url)) problems.push(`age ${age}: source is not https`);
-  selected.push({ age, text, source: { label: c.source.label, url: c.source.url }, kind: c.kind, evidence: c.evidence, check: c.check });
+  selected.push({ age, text, source: { label: c.source.label, url: c.source.url }, kind: choice.kind ?? c.kind, evidence: c.evidence, check: c.check });
 }
 
 if (problems.length) {

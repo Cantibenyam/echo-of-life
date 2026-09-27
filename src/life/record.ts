@@ -14,6 +14,8 @@ export interface LifeRecord {
   /** Epoch ms of death, or null while alive. Once set it never changes. */
   readonly ended: number | null;
   readonly model: string;
+  /** The name given at the start, for the graveyard. Once set it never changes. */
+  readonly name: string | null;
 }
 
 const N = MAX_AGE + 1;
@@ -32,8 +34,8 @@ export function lifespanOf(record: LifeRecord): number {
   return (record.seal - keyOf(record.id) + N) % N;
 }
 
-export function createRecord(id: string, born: number, lifespan: number): LifeRecord {
-  return { v: 1, id, born, age: 0, seal: sealLifespan(lifespan, id), ended: null, model: MODEL_ID };
+export function createRecord(id: string, born: number, lifespan: number, name: string | null = null): LifeRecord {
+  return { v: 1, id, born, age: 0, seal: sealLifespan(lifespan, id), ended: null, model: MODEL_ID, name };
 }
 
 export const isEnded = (r: LifeRecord): boolean => r.ended !== null;
@@ -58,5 +60,6 @@ export function migrate(raw: unknown): LifeRecord | 'foreign' | null {
   if (!isInt(r.age, 0, MAX_AGE) || !isInt(r.seal, 0, MAX_AGE)) return null;
   if (r.ended !== null && !isTime(r.ended)) return null;
   if (typeof r.model !== 'string') return null;
-  return { v: 1, id: r.id, born: r.born, age: r.age, seal: r.seal, ended: r.ended as number | null, model: r.model };
+  const name = typeof r.name === 'string' && r.name.length > 0 && r.name.length <= 48 ? r.name : null;
+  return { v: 1, id: r.id, born: r.born, age: r.age, seal: r.seal, ended: r.ended as number | null, model: r.model, name };
 }

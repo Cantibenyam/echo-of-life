@@ -43,6 +43,14 @@ describe('record', () => {
     }
   });
 
+  it('keeps a name when there is one, and older records without one still load', () => {
+    const r = createRecord(newId(), 1_700_000_000_000, 40, 'Ana');
+    expect((migrate(JSON.parse(JSON.stringify(r))) as LifeRecord).name).toBe('Ana');
+    const { name: _drop, ...older } = r;
+    void _drop;
+    expect((migrate(older) as LifeRecord).name).toBeNull();
+  });
+
   it('migrates v1, rejects garbage, and marks newer schemas foreign', () => {
     const r = createRecord(newId(), 1_700_000_000_000, 40);
     expect(migrate(JSON.parse(JSON.stringify(r)))).toEqual(r);
@@ -69,6 +77,15 @@ describe('store guard', () => {
     expect(canReplace(dead, older)).toBe(false);
     expect(canReplace(dead, { ...dead, age: 6 })).toBe(false);
     expect(canReplace(dead, dead)).toBe(true);
+  });
+
+  it('lets a name be given once, and never changed', () => {
+    const unnamed = { ...base, age: 2 };
+    const named: LifeRecord = { ...unnamed, name: 'Ana' };
+    expect(canReplace(unnamed, named)).toBe(true);
+    expect(canReplace(named, { ...named, name: 'Bea' })).toBe(false);
+    expect(canReplace(named, { ...named, name: null })).toBe(false);
+    expect(canReplace(named, { ...named, age: 3 })).toBe(true);
   });
 
   it('persists through localStorage and refuses backwards writes', () => {

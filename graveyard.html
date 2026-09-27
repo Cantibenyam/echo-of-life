@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>html,body{margin:0;background:#000;color:#fff}html{color-scheme:dark}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#000000" />
+    <title>The graveyard, The Echo of Life</title>
+    <meta name="description" content="Everyone who has lived a life in The Echo of Life, and for how long." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body class="graveyard-page">
+    <main class="graveyard">
+      <a class="quiet-link back" href="./">Return to The Echo of Life</a>
+      <h1>The graveyard</h1>
+      <p class="lede">Everyone who has lived a life here, and for how long.</p>
+      <p class="count" id="count" aria-live="polite"></p>
+      <p class="yours" id="yours" hidden></p>
+      <ol class="graves" id="graves"></ol>
+      <p class="status" id="status" aria-live="polite"></p>
+      <button class="more" id="more" type="button" hidden>Walk further</button>
+    </main>
+    <script type="module" src="/src/graveyard.ts"></script>
+  </body>
+</html>

@@ -7,6 +7,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const manifest = JSON.parse(readFileSync('audio-sources/manifest.json', 'utf8'));
 const lock = JSON.parse(readFileSync('audio-sources/sources.lock.json', 'utf8'));
 const facts = JSON.parse(readFileSync('src/content/facts.json', 'utf8'));
+const causes = JSON.parse(readFileSync('src/content/death-causes.json', 'utf8'));
 const REPO = 'https://github.com/Cantibenyam/echo-of-life';
 const WHO = 'https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-life-expectancy-and-healthy-life-expectancy';
 
@@ -69,6 +70,16 @@ ${recItems}
         for both sexes (<a href="${WHO}">Global Health Observatory</a>), extended past 85 along a Gompertz curve fitted to
         WHO's life expectancy at 85. It is kept sealed on your device. The music never knows it.
       </p>
+      <p>
+        The causes of death shown when a life ends are the leading causes worldwide for that age group in
+        ${causes.year}, from the <a href="${esc(causes.source.url)}">WHO Global Health Estimates</a>.
+      </p>
+
+      <h2>The graveyard</h2>
+      <p>
+        When a life ends, the name given at its start and the age it reached are kept in the graveyard, which anyone can
+        visit. Names pass through a filter for unkind words. Nothing else about a visitor is stored.
+      </p>
 
       <h2>Facts, by age</h2>
       <ol class="facts">
@@ -101,6 +112,8 @@ ${recs.map((r) => `- **${r.label}**: [${shortTitle(r.title)}](${r.pageUrl}) by $
 ## Mortality
 
 WHO Global Health Observatory, 2019 global life table (both sexes): indicators LIFE_0000000030 (nqx) and LIFE_0000000035 (ex). Extended past 85 with a Gompertz curve calibrated to WHO's e85. See \`scripts/mortality/\`.
+
+Causes of death shown when a life ends: WHO Global Health Estimates 2021 (deaths by cause, age and sex, ${causes.year}). See \`scripts/content/build-death-causes.mjs\`.
 
 ## Facts
 

@@ -16,19 +16,31 @@
     },
     "4": 0,
     "5": 1,
-    "6": 1,
+    "6": {
+      "redo": 0
+    },
     "7": 1,
     "8": {
       "pick": 1,
       "text": "In a US study, children of five to seven recalled 60% or more of events discussed at age three, while eight- and nine-year-olds recalled under 40%."
     },
-    "9": 0,
+    "9": {
+      "redo": 2
+    },
     "10": 1,
-    "11": 0,
+    "11": {
+      "redo": 0
+    },
     "12": 1,
-    "13": 0,
+    "13": {
+      "redo": 0,
+      "kind": "world"
+    },
     "14": 0,
-    "15": 0,
+    "15": {
+      "redo": 0,
+      "kind": "world"
+    },
     "16": {
       "pick": 0,
       "text": "In 2007 Austria became the first EU country to lower the voting age to 16 in national elections, from 18."
@@ -44,37 +56,58 @@
     },
     "20": 1,
     "21": 1,
-    "22": 1,
-    "23": 0,
-    "24": 0,
+    "22": {
+      "redo": 0
+    },
+    "23": {
+      "redo": 0
+    },
+    "24": {
+      "redo": 0
+    },
     "25": 0,
     "26": 0,
     "27": 0,
     "28": 0,
-    "29": 1,
-    "30": 2,
+    "29": {
+      "redo": 0
+    },
+    "30": {
+      "redo": 0
+    },
     "31": 0,
     "32": {
-      "pick": 0,
-      "text": "Physicist Sally Ride became the first American woman in space on 18 June 1983, flying aboard the space shuttle Challenger."
+      "redo": 0
     },
     "33": {
       "pick": 0,
       "text": "Vocabulary keeps growing through adulthood: between 20 and 60, an average native speaker of American English learns about one new word every two days."
     },
-    "34": 0,
+    "34": {
+      "redo": 0
+    },
     "35": 0,
     "36": 0,
-    "37": 0,
+    "37": {
+      "redo": 1
+    },
     "38": 0,
     "39": {
       "pick": 0,
       "text": "The Fields Medal, which recognises outstanding mathematical achievement, is kept for the young: a candidate's 40th birthday must not fall before 1 January of the award year."
     },
     "40": 1,
-    "41": 0,
-    "42": 0,
-    "43": 0,
+    "41": {
+      "redo": 0,
+      "kind": "numbers"
+    },
+    "42": {
+      "redo": 0
+    },
+    "43": {
+      "redo": 0,
+      "kind": "world"
+    },
     "44": 0,
     "45": 0,
     "46": 0,
@@ -180,39 +213,67 @@
       "pick": 0,
       "text": "Japan counted 153 people aged 100 or over in 1963. In 2026 it counted 107,677."
     },
-    "101": 0,
-    "102": 0,
-    "103": 0,
+    "101": {
+      "redo": 0
+    },
+    "102": {
+      "redo": 0
+    },
+    "103": {
+      "redo": 0
+    },
     "104": 1,
-    "105": 0,
+    "105": {
+      "redo": 1
+    },
     "106": {
       "pick": 0,
       "text": "British nationals can receive a birthday message from the King at 100 and 105, and then every year after their 105th birthday."
     },
     "107": {
-      "pick": 1,
-      "text": "French pianist Colette Maze, who began playing at 5, was still recording her albums at home at 107, usually on Sundays, when the building was quieter."
+      "redo": 0
     },
     "108": 0,
-    "109": 0,
+    "109": {
+      "redo": 0
+    },
     "110": 0,
     "111": {
-      "pick": 1,
-      "text": "After becoming the world's oldest man in 2024, aged 111, Liverpool-born retired accountant John Tinniswood still listened to the radio for the news and managed his own finances."
+      "redo": 0
     },
     "112": 0,
-    "113": 0,
-    "114": 1,
+    "113": {
+      "redo": 1
+    },
+    "114": {
+      "redo": 0
+    },
     "115": {
       "pick": 0,
       "text": "Sequencing the blood of a 115-year-old woman suggested that most of her white blood cells descended from just two related blood stem cells."
     },
-    "116": 0,
-    "117": 0,
-    "118": 0,
-    "119": 0,
+    "116": {
+      "redo": 0,
+      "kind": "numbers"
+    },
+    "117": {
+      "redo": 0
+    },
+    "118": {
+      "redo": 0
+    },
+    "119": {
+      "redo": 0,
+      "kind": "numbers"
+    },
     "120": 0,
-    "121": 0,
-    "122": 0
+    "121": {
+      "redo": 0,
+      "kind": "numbers"
+    },
+    "122": {
+      "redo": 0,
+      "kind": "numbers"
+    }
   }
 }

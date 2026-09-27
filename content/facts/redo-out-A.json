@@ -1,0 +1,462 @@
+[
+  {
+    "age": 6,
+    "candidates": [
+      {
+        "text": "The first baby teeth usually work loose at about six, starting with the incisors, the middle teeth at the front.",
+        "source": {
+          "label": "HealthyChildren.org (American Academy of Pediatrics)",
+          "url": "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/When-Children-Begin-to-Lose-their-Baby-Teeth.aspx"
+        },
+        "kind": "body",
+        "evidence": "Baby teeth ordinarily are shed first at about age 6 when the incisors, the middle teeth in front, become loose.",
+        "check": "Re-fetched with curl this session; sentence found verbatim. 'About age 6' = months 72-83, age 6. US paediatric guidance (AAP)."
+      },
+      {
+        "text": "The first permanent back teeth are nicknamed '6-year molars': they come in between the ages of 5 and 7, with six at the centre.",
+        "source": {
+          "label": "National Institute of Dental and Craniofacial Research (NIH), The Tooth Decay Process",
+          "url": "https://www.nidcr.nih.gov/health-info/tooth-decay/more-info/tooth-decay-process"
+        },
+        "kind": "body",
+        "evidence": "The first permanent molars called, \"6 year molars,\" come in between the ages of 5 and 7. The second permanent molars, \"12 year molars,\" come in when a child is between 11 and 14 years old.",
+        "check": "NIDCR (US NIH) page fetched with curl. The range 5-7 is centred on 6, and the teeth are named for age 6. The text says so ('with six at the centre')."
+      }
+    ]
+  },
+  {
+    "age": 9,
+    "candidates": [
+      {
+        "text": "Nine is the midpoint of the 6-to-12 age band for which the American Academy of Sleep Medicine advises 9 to 12 hours of sleep a day.",
+        "source": {
+          "label": "American Academy of Sleep Medicine, Child Sleep Duration Health Advisory (updated 2016)",
+          "url": "https://aasm.org/advocacy/position-statements/child-sleep-duration-health-advisory/"
+        },
+        "kind": "body",
+        "evidence": "Children 6 to 12 years of age should sleep 9 to 12 hours per 24 hours.",
+        "check": "Fetched aasm.org page with curl ('Adopted by the AASM Board of Directors: Feb. 17, 2014 Updated by the AASM Board of Directors: April 3, 2016'). US professional body. The band is 6-12, and 9 is its centre; the text says so."
+      },
+      {
+        "text": "England's national times tables check is taken in Year 4, for ages 8 to 9: the school year in which children turn 9.",
+        "source": {
+          "label": "GOV.UK, The national curriculum",
+          "url": "https://www.gov.uk/national-curriculum"
+        },
+        "kind": "world",
+        "evidence": "Key stage 2 (KS2) Child’s age Year Assessment 7 to 8 Year 3 Not applicable 8 to 9 Year 4 Times tables check 9 to 10 Year 5 Not applicable",
+        "check": "GOV.UK table (fetched with curl): Year 4 = child's age 8 to 9, assessment 'Times tables check'. 9 is the upper edge of that band (children turn 9 during Year 4); the text says so. England only."
+      },
+      {
+        "text": "In 2023 about 138 million people worldwide were 9 years old, according to UN estimates.",
+        "source": {
+          "label": "UN DESA, World Population Prospects 2024 (WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv)",
+          "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv.gz"
+        },
+        "kind": "numbers",
+        "evidence": "Location: World | Variant: Medium | Time: 2023 | AgeGrp: 9 | PopMale: 71259.268 | PopFemale: 66970.379 | PopTotal: 138229.646",
+        "check": "Downloaded the WPP 2024 single-age CSV; population is in thousands, so 138,229,646 = about 138 million. 2023 is the last estimate year (2024+ are projections). Age 9 exactly."
+      }
+    ]
+  },
+  {
+    "age": 11,
+    "candidates": [
+      {
+        "text": "The UK's NHS gives 11 as the average age for girls to start puberty.",
+        "source": {
+          "label": "NHS 111 Wales, Puberty",
+          "url": "https://111.wales.nhs.uk/puberty/"
+        },
+        "kind": "body",
+        "evidence": "The average age for girls to start puberty is 11, while for boys the average age is 12. But it's perfectly normal for puberty to begin at any point between the ages of 8 and 13 in girls and 9 and 14 in boys.",
+        "check": "Re-fetched with curl this session; text verbatim. NHS (Wales) guidance, UK; no survey year given. The boys' figure (12) was left out to keep one number."
+      },
+      {
+        "text": "In England's national curriculum, Key Stage 3 begins in Year 7, when children are 11 to 12, so 11 is its starting age.",
+        "source": {
+          "label": "GOV.UK, The national curriculum",
+          "url": "https://www.gov.uk/national-curriculum"
+        },
+        "kind": "world",
+        "evidence": "Key stage 3 (KS3) Child’s age Year Assessment 11 to 12 Year 7 Not applicable 12 to 13 Year 8 Not applicable 13 to 14 Year 9 Not applicable",
+        "check": "GOV.UK key-stage table (fetched with curl). KS3 opens with Year 7 at age 11 to 12, so 11 is the lower edge; the text says so. England only."
+      }
+    ]
+  },
+  {
+    "age": 13,
+    "candidates": [
+      {
+        "text": "In Jewish law a boy comes of age at 13 and one day, becoming bar mitzvah: bound to keep the commandments.",
+        "source": {
+          "label": "Jewish Virtual Library (Encyclopaedia Judaica), Bar/Bat Mitzvah",
+          "url": "https://www.jewishvirtuallibrary.org/bar-bat-mitzvah"
+        },
+        "kind": "people",
+        "evidence": "term denoting both the attainment of religious and legal maturity as well as the occasion at which this status is formally assumed for boys at the age of 13 plus one day, for girls at 12 plus one day (Maim. Yad, Ishut, 2:9–10).",
+        "check": "Encyclopaedia Judaica entry on JVL, fetched with curl. A boy's majority begins at 13 plus one day, so the custom sits at age 13. My Jewish Learning (fetched) agrees: 'Coming of age for a Jew, which happens automatically at age 13 for a boy and 12 for a girl'."
+      },
+      {
+        "text": "US federal rules on children's online privacy (COPPA) define a child as anyone under 13, so 13 is where their protections end.",
+        "source": {
+          "label": "eCFR, 16 CFR 312.2 Definitions (Children's Online Privacy Protection Rule)",
+          "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-312/section-312.2"
+        },
+        "kind": "world",
+        "evidence": "§ 312.2 Definitions. Child means an individual under the age of 13.",
+        "check": "US federal regulation (eCFR, fetched with curl). The FTC COPPA FAQ (fetched) adds: 'The Rule was designed to protect children under age 13'. 13 is the first age outside the rule's definition of a child. No claim made about social-media age limits."
+      }
+    ]
+  },
+  {
+    "age": 15,
+    "candidates": [
+      {
+        "text": "Across Latin America a girl's 15th birthday is marked by the quinceañera, a coming-of-age celebration whose name means '15-year-old girl'.",
+        "source": {
+          "label": "HISTORY (A&E), How the Quinceañera Became a Latin American Rite of Passage, 2025",
+          "url": "https://www.history.com/articles/quinceanera-tradition-history"
+        },
+        "kind": "people",
+        "evidence": "Marking a girl’s 15th birthday, it’s much more than a fiesta—it commemorates her transition into womanhood. What is a Quinceañera? The word “quinceañera” literally means \"15-year-old girl\" in Spanish.",
+        "check": "Article by Jeanhee Kim, published 20 June 2025, fetched with curl. The custom is tied to the 15th birthday, so it sits at age 15."
+      },
+      {
+        "text": "The United Nations defines youth, for statistical purposes, as ages 15 to 24, so 15 is its first year.",
+        "source": {
+          "label": "United Nations, Youth",
+          "url": "https://www.un.org/en/global-issues/youth"
+        },
+        "kind": "world",
+        "evidence": "For statistical purposes, however, the United Nations—without prejudice to any other definitions made by Member States—defines ‘youth’ as those persons between the ages of 15 and 24 years.",
+        "check": "Re-fetched with curl this session. UN definition endorsed by General Assembly resolution 36/28 (1981). 15 is the lower edge of the 15-24 range; the text says so."
+      }
+    ]
+  },
+  {
+    "age": 22,
+    "candidates": [
+      {
+        "text": "In large online studies, short-term memory for names peaked at around 22, years earlier than memory for faces.",
+        "source": {
+          "label": "Hartshorne & Germine, Psychological Science, 2015 (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4441622/"
+        },
+        "kind": "mind",
+        "evidence": "Recent evidence shows that whereas short-term memory for names and inverted faces peaks around 22, neither short-term memory for faces nor quantity discrimination peaks until around 30",
+        "check": "Sentence in Hartshorne & Germine 2015 (citing Germine, Duchaine & Nakayama 2011, 60,000+ web participants, abstract checked on Europe PMC). Full text confirmed via NCBI E-utilities (the PMC page sits behind a browser check). Peak age 'around 22'."
+      },
+      {
+        "text": "In 1956 and again in 1959, US men first married at a median age of 22.5, the lowest in Census Bureau records going back to 1890.",
+        "source": {
+          "label": "US Census Bureau, Table MS-2: Estimated Median Age at First Marriage, by Sex: 1890 to Present (Dec 2025)",
+          "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls"
+        },
+        "kind": "world",
+        "evidence": "Table MS-2. Estimated Median Age at First Marriage, by Sex: 1890 to Present | 1959.0 | 22.5 | 20.2 ... 1956.0 | 22.5 | 20.1 ... 1890 Census | 26.1 | 22.0",
+        "check": "Downloaded ms2.xls (Internet Release Date: December 2025). Men's column: 22.5 in 1956 and 1959 is the minimum of the whole 1890-2025 series (next lowest 22.6). 22.5 falls in age 22."
+      },
+      {
+        "text": "In Norway in 2025, young people left their parents' home at 22.9 years old on average.",
+        "source": {
+          "label": "Eurostat, yth_demo_030 (Estimated average age of young persons leaving the parental household)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/yth_demo_030?time=2024&time=2025&lang=en"
+        },
+        "kind": "world",
+        "evidence": "\"label\":\"Estimated average age of young persons leaving the parental household\" ... unit AVG, sex T (Total), geo NO (Norway), time 2025: 22.9",
+        "check": "Eurostat API (JSON-stat) fetched with curl, dataset updated 16 April 2026. Norway, both sexes, 2025 = 22.9, which falls in age 22. Same dataset as the age-26 fact, different country."
+      }
+    ]
+  },
+  {
+    "age": 23,
+    "candidates": [
+      {
+        "text": "In 1990 the median American woman married for the first time at 23.9.",
+        "source": {
+          "label": "US Census Bureau, Table MS-2: Estimated Median Age at First Marriage, by Sex: 1890 to Present (Dec 2025)",
+          "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls"
+        },
+        "kind": "world",
+        "evidence": "Year | Men's median age at first marriage | Women's median age at first marriage ... 1990.0 | 26.1 | 23.9",
+        "check": "Downloaded ms2.xls (Census Bureau, CPS). Women, 1990 = 23.9, which falls in age 23. Past tense for a dated figure."
+      },
+      {
+        "text": "In France in 2025, young people left their parents' home at 23.8 years old on average.",
+        "source": {
+          "label": "Eurostat, yth_demo_030 (Estimated average age of young persons leaving the parental household)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/yth_demo_030?time=2024&time=2025&lang=en"
+        },
+        "kind": "world",
+        "evidence": "\"label\":\"Estimated average age of young persons leaving the parental household\" ... unit AVG, sex T (Total), geo FR (France), time 2025: 23.8",
+        "check": "Eurostat API (JSON-stat) fetched with curl, dataset updated 16 April 2026. France, both sexes, 2025 = 23.8 (2024: 23.5), which falls in age 23."
+      }
+    ]
+  },
+  {
+    "age": 24,
+    "candidates": [
+      {
+        "text": "In a study of 3,305 StarCraft 2 players aged 16 to 44, the speed of their in-game responses began to slow at 24.",
+        "source": {
+          "label": "Thompson, Blair & Henrey, PLOS ONE, 2014 ('Over the hill at 24')",
+          "url": "https://europepmc.org/article/MED/24718593"
+        },
+        "kind": "mind",
+        "evidence": "In this paper we analyze the influence of age on performance using a dataset of 3,305 players, aged 16-44 ... Using a piecewise regression analysis, we find that age-related slowing of within-game, self-initiated response times begins at 24 years of age.",
+        "check": "Abstract retrieved via the Europe PMC REST API (PMID 24718593, PMC3981764, DOI 10.1371/journal.pone.0094215). The turning point is stated as exactly 24."
+      },
+      {
+        "text": "In 2018, researchers in The Lancet proposed that adolescence be defined as ages 10 to 24, making 24 its last year.",
+        "source": {
+          "label": "Sawyer et al., The age of adolescence, Lancet Child & Adolescent Health, 2018 (Europe PMC)",
+          "url": "https://europepmc.org/article/MED/30169257"
+        },
+        "kind": "mind",
+        "evidence": "Rather than age 10-19 years, a definition of 10-24 years corresponds more closely to adolescent growth and popular understandings of this life phase",
+        "check": "Abstract retrieved via the Europe PMC REST API (PMID 30169257, DOI 10.1016/s2352-4642(18)30022-1). 24 is the upper edge of the proposed range; the text says so."
+      },
+      {
+        "text": "In Germany in 2025, young people left their parents' home at 24.1 years old on average.",
+        "source": {
+          "label": "Eurostat, yth_demo_030 (Estimated average age of young persons leaving the parental household)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/yth_demo_030?time=2024&time=2025&lang=en"
+        },
+        "kind": "world",
+        "evidence": "\"label\":\"Estimated average age of young persons leaving the parental household\" ... unit AVG, sex T (Total), geo DE (Germany), time 2025: 24.1",
+        "check": "Eurostat API (JSON-stat) fetched with curl, dataset updated 16 April 2026. Germany, both sexes, 2025 = 24.1 (2024: 23.9), which falls in age 24."
+      }
+    ]
+  },
+  {
+    "age": 29,
+    "candidates": [
+      {
+        "text": "In the European Union in 2024, women having their first child were 29.9 years old on average.",
+        "source": {
+          "label": "Eurostat, Fertility statistics, 2026",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Fertility_statistics"
+        },
+        "kind": "world",
+        "evidence": "29.9 years was the average age of women at the birth of their first child in the EU in 2024, ranging from 26.9 in Bulgaria to 31.9 in Italy.",
+        "check": "Re-fetched with curl this session (Data extracted on 19 February 2026, dataset demo_find). EU-27, 2024. 29.9 falls in age 29."
+      },
+      {
+        "text": "Half of Indonesia's people were younger than 29.8 in 2023, UN estimates show.",
+        "source": {
+          "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+          "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
+        },
+        "kind": "numbers",
+        "evidence": "Location: Indonesia | LocTypeName: Country/Area | Variant: Medium | Time: 2023 | MedianAgePop: 29.8305 | TPopulation1July: 281190.067",
+        "check": "Downloaded the WPP 2024 indicators CSV. Median age 29.83 on 1 July 2023 (last estimate year) falls in age 29. Indonesia is the world's fourth most populous country (281 million)."
+      }
+    ]
+  },
+  {
+    "age": 30,
+    "candidates": [
+      {
+        "text": "The world's median age was 30.4 in 2023: half of all people alive were younger, and half older, UN estimates show.",
+        "source": {
+          "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+          "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
+        },
+        "kind": "numbers",
+        "evidence": "Location: World | LocTypeName: World | Variant: Medium | Time: 2023 | MedianAgePop: 30.3637 | TPopulation1July: 8091734.93",
+        "check": "Downloaded the WPP 2024 indicators CSV. World median age 30.36 at 1 July 2023 (last estimate year; 2024 = 30.6 is a projection). Falls in age 30."
+      },
+      {
+        "text": "In the United States in 2024, men marrying for the first time had a median age of 30.2.",
+        "source": {
+          "label": "US Census Bureau, Table MS-2: Estimated Median Age at First Marriage, by Sex: 1890 to Present (Dec 2025)",
+          "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls"
+        },
+        "kind": "world",
+        "evidence": "Year | Men's median age at first marriage | Women's median age at first marriage ... 2024.0 | 30.2 | 28.6",
+        "check": "Downloaded ms2.xls (CPS ASEC). Men, 2024 = 30.2, which falls in age 30. The 2025 value (30.8) also falls in 30 but carries a population-estimates methodology footnote, so 2024 is used."
+      },
+      {
+        "text": "In a large web study, performance on two working-memory tasks peaked at around 30, later than raw processing speed.",
+        "source": {
+          "label": "Hartshorne & Germine, Psychological Science, 2015 (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4441622/"
+        },
+        "kind": "mind",
+        "evidence": "Results for Experiment 2 ( Figures 3A and 3C ) show the same ordering in age-of-peak-performance as in the standardized test results: the two working memory tasks peaked at around 30 years, significantly later than processing speed",
+        "check": "Full text confirmed via NCBI E-utilities (PMC page behind a browser check). Experiment 2 used web samples of around 10,000 participants per task; peak 'around 30 years'."
+      }
+    ]
+  },
+  {
+    "age": 32,
+    "candidates": [
+      {
+        "text": "Counting all births, Ireland's mothers were the EU's oldest in 2024, at 32.7 years old on average.",
+        "source": {
+          "label": "Eurostat, demo_find (Fertility indicators: mean age of women at childbirth)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_find?time=2024&lang=en"
+        },
+        "kind": "world",
+        "evidence": "\"label\":\"Fertility indicators\" ... indic_de AGEMOTH (Mean age of women at childbirth), geo IE (Ireland), time 2024: 32.7",
+        "check": "Eurostat API (JSON-stat) fetched with curl, updated 25 Sept 2026. All births (not first births; Italy's 31.9 at age 31 is for first births), 2024. Ireland 32.7 is the highest EU value (Spain, Italy and Luxembourg 32.6). Falls in age 32."
+      },
+      {
+        "text": "Women's fertility begins to decline gradually but significantly at about 32, according to a 2014 opinion from US obstetricians and fertility specialists.",
+        "source": {
+          "label": "ACOG Committee Opinion No. 589 (with ASRM), Obstetrics & Gynecology, 2014 (Europe PMC)",
+          "url": "https://europepmc.org/article/MED/24553169"
+        },
+        "kind": "body",
+        "evidence": "The fecundity of women decreases gradually but significantly beginning approximately at age 32 years and decreases more rapidly after age 37 years.",
+        "check": "Abstract retrieved via the Europe PMC REST API (PMID 24553169; also Fertil Steril PMID 24559617). 'Beginning approximately at age 32' marks 32 as the turning point. Only the 32 figure is used here; 37 is used at age 37."
+      }
+    ]
+  },
+  {
+    "age": 34,
+    "candidates": [
+      {
+        "text": "In England and Wales in 2023, the median age of men entering an opposite-sex marriage was 34.8, among the highest on record.",
+        "source": {
+          "label": "Office for National Statistics (UK), Marriages and civil partnerships in England and Wales (released 18 Nov 2025)",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/marriagecohabitationandcivilpartnerships/bulletins/marriagesinenglandandwalesprovisional/2023"
+        },
+        "kind": "world",
+        "evidence": "The median age for men and women entering an opposite-sex marriage in 2023 remained among the highest median ages recorded, at 34.8 years and 33.0 years, respectively.",
+        "check": "ONS bulletin (2023 edition URL; also fetched via /latest) with curl, Release date: 18 November 2025. This is the median age at all opposite-sex marriages, not first marriages; the text does not say 'first'. 34.8 falls in age 34."
+      },
+      {
+        "text": "Half of Türkiye's population was younger than 34.4 on 1 January 2025, according to Eurostat.",
+        "source": {
+          "label": "Eurostat, demo_pjanind (Median age of population)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjanind?indic_de=MEDAGEPOP&time=2025&time=2024&lang=en"
+        },
+        "kind": "numbers",
+        "evidence": "\"label\":\"Population structure indicators at national level\" ... indic_de MEDAGEPOP (Median age of population), geo TR (Türkiye), time 2025: 34.4",
+        "check": "Eurostat API (JSON-stat) fetched with curl, updated 25 Sept 2026. Falls in age 34. Caution: UN WPP 2024 gives a lower median (32.5 for mid-2023), so keep this as the secondary candidate."
+      }
+    ]
+  },
+  {
+    "age": 37,
+    "candidates": [
+      {
+        "text": "After about 37, women's fertility declines more rapidly than before, according to a 2014 opinion from US obstetricians and fertility specialists.",
+        "source": {
+          "label": "ACOG Committee Opinion No. 589 (with ASRM), Obstetrics & Gynecology, 2014 (Europe PMC)",
+          "url": "https://europepmc.org/article/MED/24553169"
+        },
+        "kind": "body",
+        "evidence": "The fecundity of women decreases gradually but significantly beginning approximately at age 32 years and decreases more rapidly after age 37 years.",
+        "check": "Abstract retrieved via the Europe PMC REST API (PMID 24553169). 'Decreases more rapidly after age 37 years' marks 37 as the turning point. Only the 37 figure is used here; 32 is used at age 32."
+      },
+      {
+        "text": "The 2010 US census found a median age of 37.2, then a new high for the country.",
+        "source": {
+          "label": "US Census Bureau, Age and Sex Composition: 2010 (2010 Census Brief C2010BR-03), 2011",
+          "url": "https://www.census.gov/content/dam/Census/library/publications/2011/dec/c2010br-03.pdf"
+        },
+        "kind": "numbers",
+        "evidence": "In 2010, the median age increased to a new high of 37.2 years, from 35.3 years in 2000",
+        "check": "Census brief PDF (issued May 2011) fetched with curl and read with pypdf. US, 2010 census. 37.2 falls in age 37. Past tense for a dated figure."
+      },
+      {
+        "text": "Iceland's median age was 37.2 on 1 January 2025, according to Eurostat.",
+        "source": {
+          "label": "Eurostat, demo_pjanind (Median age of population)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjanind?indic_de=MEDAGEPOP&time=2025&time=2024&lang=en"
+        },
+        "kind": "numbers",
+        "evidence": "\"label\":\"Population structure indicators at national level\" ... indic_de MEDAGEPOP (Median age of population), geo IS (Iceland), time 2025: 37.2",
+        "check": "Eurostat API (JSON-stat) fetched with curl, updated 25 Sept 2026. Falls in age 37."
+      }
+    ]
+  },
+  {
+    "age": 41,
+    "candidates": [
+      {
+        "text": "Across 2.7 million US founders in 2007 to 2014 whose new firms hired staff, the mean age at founding was 41.9.",
+        "source": {
+          "label": "Azoulay, Jones, Kim & Miranda, Age and High-Growth Entrepreneurship, NBER Working Paper 24489, 2018",
+          "url": "https://www.nber.org/system/files/working_papers/w24489/w24489.pdf"
+        },
+        "kind": "people",
+        "evidence": "Across the 2.7 million founders in the U.S. between 2007-2014 who started companies that go on to hire at least one employee, the mean age for the entrepreneurs at founding is 41.9.",
+        "check": "NBER PDF fetched with curl and read with pypdf; also Table 2 'US (entire) 41.9'. The figure is in the body text, not the AER: Insights abstract (which gives 45.0 for the fastest-growing firms). 41.9 falls in age 41."
+      },
+      {
+        "text": "In the US in 2025, the median age of pharmacists was 41.4.",
+        "source": {
+          "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+          "url": "https://www.bls.gov/cps/cpsaat11b.htm"
+        },
+        "kind": "people",
+        "evidence": "11b. Employed people by detailed occupation and age ... Pharmacists | 365 | 0 | 13 | 98 | 121 | 74 | 37 | 22 | 41.4",
+        "check": "BLS table fetched with curl (browser headers; Last Modified Date: February 20, 2026). 2025 annual averages; last column is median age. 41.4 falls in age 41."
+      },
+      {
+        "text": "Half of Sweden's population was younger than 41.2 on 1 January 2025, according to Eurostat.",
+        "source": {
+          "label": "Eurostat, demo_pjanind (Median age of population)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjanind?indic_de=MEDAGEPOP&time=2025&time=2024&lang=en"
+        },
+        "kind": "numbers",
+        "evidence": "\"label\":\"Population structure indicators at national level\" ... indic_de MEDAGEPOP (Median age of population), geo SE (Sweden), time 2025: 41.2",
+        "check": "Eurostat API (JSON-stat) fetched with curl, updated 25 Sept 2026. Falls in age 41."
+      }
+    ]
+  },
+  {
+    "age": 42,
+    "candidates": [
+      {
+        "text": "Europe had the oldest population of any world region in 2023, with a median age of 42.2, UN estimates show.",
+        "source": {
+          "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+          "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
+        },
+        "kind": "numbers",
+        "evidence": "Location: Europe | LocTypeName: Geographic region | Variant: Medium | Time: 2023 | MedianAgePop: 42.2305 (Northern America 38.2655; Oceania 32.8847; Asia 31.7365; Latin America and the Caribbean 30.9279; Africa 19.0316)",
+        "check": "Downloaded the WPP 2024 indicators CSV. Among the UN geographic regions, Europe's 42.23 (1 July 2023) is the highest. Falls in age 42."
+      },
+      {
+        "text": "In the US in 2025, the median age of registered nurses was 42.3.",
+        "source": {
+          "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+          "url": "https://www.bls.gov/cps/cpsaat11b.htm"
+        },
+        "kind": "people",
+        "evidence": "11b. Employed people by detailed occupation and age ... Registered nurses | 3,528 | 8 | 193 | 953 | 889 | 731 | 568 | 188 | 42.3",
+        "check": "BLS table fetched with curl (Last Modified Date: February 20, 2026). 2025 annual averages; last column is median age. 42.3 falls in age 42. (The age-56 fact cites the same table's all-worker median of 42.1; this uses a different row.)"
+      }
+    ]
+  },
+  {
+    "age": 43,
+    "candidates": [
+      {
+        "text": "In the US in 2025, the median age of elementary and middle school teachers was 43.4.",
+        "source": {
+          "label": "US Bureau of Labor Statistics, Current Population Survey table 11b, 2025",
+          "url": "https://www.bls.gov/cps/cpsaat11b.htm"
+        },
+        "kind": "people",
+        "evidence": "11b. Employed people by detailed occupation and age ... Elementary and middle school teachers | 3,511 | 9 | 196 | 769 | 921 | 922 | 539 | 154 | 43.4",
+        "check": "BLS table fetched with curl (Last Modified Date: February 20, 2026). 2025 annual averages; last column is median age. Secondary school teachers are also 43.4. Falls in age 43."
+      },
+      {
+        "text": "Half of Poland's population was older than 43.4 on 1 January 2025, according to Eurostat.",
+        "source": {
+          "label": "Eurostat, demo_pjanind (Median age of population)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjanind?indic_de=MEDAGEPOP&time=2025&time=2024&lang=en"
+        },
+        "kind": "numbers",
+        "evidence": "\"label\":\"Population structure indicators at national level\" ... indic_de MEDAGEPOP (Median age of population), geo PL (Poland), time 2025: 43.4",
+        "check": "Eurostat API (JSON-stat) fetched with curl, updated 25 Sept 2026. Poland 43.4 (2024: 43.0). Falls in age 43."
+      }
+    ]
+  }
+]

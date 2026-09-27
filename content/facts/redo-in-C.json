@@ -1,0 +1,132 @@
+[
+  {
+    "age": 101,
+    "current_milestone_fact": "Cuban-born painter Carmen Herrera had a solo exhibition at New York’s Whitney Museum in 2016, aged 101, and was still working in her studio almost every day.",
+    "existing_alternates": [
+      {
+        "text": "In Ireland, the President marks every birthday after the 100th with a specially designed commemorative coin, a new design each year.",
+        "source": {
+          "label": "President of Ireland, Centenarian Bounty",
+          "url": "https://president.ie/en/about/centenarian-bounty"
+        },
+        "kind": "world",
+        "evidence": "On his or her 101st and every subsequent birthday, the person receives a special commemorative coin in a presentation box, along with a congratulatory letter signed by the President. A new coin is designed for each year.",
+        "check": "Official scheme: first coin at the 101st birthday, so it belongs to age 101."
+      }
+    ]
+  },
+  {
+    "age": 102,
+    "current_milestone_fact": "Ingeborg Rapoport, barred by the Nazis from defending her doctorate in 1938, finally passed the exam in Hamburg in May 2015, aged 102.",
+    "existing_alternates": [
+      {
+        "text": "Among 330 Dutch centenarians who were mentally sharp at the start, thinking skills held steady for up to four years, apart from a slight dip in memory.",
+        "source": {
+          "label": "Beker et al., JAMA Network Open, 2021 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33449094/"
+        },
+        "kind": "mind",
+        "evidence": "We observed no decline across investigated cognitive domains, with the exception of a slight decline in memory function",
+        "check": "100-plus Study: 330 self-reported cognitively healthy Dutch centenarians, median age 100.5 (IQR 100.2-101.7), followed 'for up to 4 years' (same abstract). A centenarian finding placed at 102."
+      }
+    ]
+  },
+  {
+    "age": 103,
+    "current_milestone_fact": "Sweden’s Rut Larsson made a tandem parachute jump in May 2022, aged 103 years and 259 days, setting the Guinness record for the oldest woman to make one.",
+    "existing_alternates": [
+      {
+        "text": "Demographers named a mountainous part of Sardinia a 'Blue Zone' for its unusually high share of men living past 100.",
+        "source": {
+          "label": "Poulain et al., Experimental Gerontology, 2004 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15489066/"
+        },
+        "kind": "world",
+        "evidence": "Given the exceptionally high prevalence of male centenarians in the 'Blue Zone', it is reasonable to assume that either the environmental characteristics or the genetic factors, or both, exert their favorable effect more strongly in men than in women.",
+        "check": "Place-based centenarian fact (AKEA study; the 'Blue Zone' covers 'the mountainous areas of central Sardinia'). Applies to people aged 100+, placed at 103."
+      }
+    ]
+  },
+  {
+    "age": 105,
+    "current_milestone_fact": "Eileen Ash, who first played Test cricket for England in 1937, rang the bell at Lord’s before the 2017 Women’s World Cup final, aged 105.",
+    "existing_alternates": []
+  },
+  {
+    "age": 107,
+    "current_milestone_fact": "French pianist Colette Maze, who began playing at 5, was still recording her albums at home at 107, usually on Sundays, when the building was quieter.",
+    "existing_alternates": []
+  },
+  {
+    "age": 109,
+    "current_milestone_fact": "Hikaru Kato of Kumamoto, Japan, kept writing letters to local newspapers about his war experiences, each time hoping war would never return, until he was 109.",
+    "existing_alternates": []
+  },
+  {
+    "age": 111,
+    "current_milestone_fact": "After becoming the world’s oldest man in 2024, aged 111, Liverpool-born retired accountant John Tinniswood still listened to the radio for the news and managed his own finances.",
+    "existing_alternates": [
+      {
+        "text": "In Japan, 111 is koju: its character 皇 joins 白, which is 百 (100) minus one stroke and so means 99, with 王, read as 十 and 二, making 12.",
+        "source": {
+          "label": "Kotobank (Shogakukan Digital Daijisen dictionary)",
+          "url": "https://kotobank.jp/word/%E7%9A%87%E5%AF%BF"
+        },
+        "kind": "world",
+        "evidence": "《「皇」が、百の字から一を引いた形の「白」と、分解すると二と十になる「王」の組み合わせであることから》111歳のこと。また、その祝い。",
+        "check": "Dictionary definition: 皇寿 means age 111 and its celebration (99 + 12 = 111). Refers to the number 111 itself. Language theme."
+      }
+    ]
+  },
+  {
+    "age": 113,
+    "current_milestone_fact": "Yisrael Kristal, who missed his bar mitzvah at 13 because of the First World War, finally celebrated it in 2016, aged 113, among his great-grandchildren.",
+    "existing_alternates": []
+  },
+  {
+    "age": 114,
+    "current_milestone_fact": "Chiyo Miyako, who trained as a telegraph operator, was still practising calligraphy and writing haiku at 114.",
+    "existing_alternates": []
+  },
+  {
+    "age": 116,
+    "current_milestone_fact": "Jiroemon Kimura of Kyotango, Japan, celebrated his 116th birthday in April 2013, the first man verified to reach that age.",
+    "existing_alternates": []
+  },
+  {
+    "age": 117,
+    "current_milestone_fact": "When Nabi Tajima of Japan’s Kikai Island turned 117 in 2017, her family spanned five generations below her, down to 14 great-great-great-grandchildren.",
+    "existing_alternates": []
+  },
+  {
+    "age": 118,
+    "current_milestone_fact": "Sister André, a French nun who spent 28 years caring for orphans and elderly people in Vichy, became the world’s oldest living person in April 2022, aged 118.",
+    "existing_alternates": []
+  },
+  {
+    "age": 119,
+    "current_milestone_fact": "Japan’s Kane Tanaka, who enjoyed board games, maths problems and chocolate, reached 119 on 2 January 2022.",
+    "existing_alternates": []
+  },
+  {
+    "age": 121,
+    "current_milestone_fact": "For her 121st birthday in February 1996, Jeanne Calment released a CD, ‘Time’s Mistress’, reminiscing over rap and other music.",
+    "existing_alternates": []
+  },
+  {
+    "age": 122,
+    "current_milestone_fact": "Jeanne Calment of Arles, France, born in 1875, lived to 122 years and 164 days, the greatest fully verified age of any human.",
+    "existing_alternates": [
+      {
+        "text": "Demographers estimate a greater than 99% chance that the record age of 122 will be broken by 2100.",
+        "source": {
+          "label": "Pearce & Raftery, Demographic Research, 2021",
+          "url": "https://www.demographic-research.org/articles/volume/44/52"
+        },
+        "kind": "numbers",
+        "evidence": "Based on the Bayesian analysis, there is a greater than 99% probability that the current MRAD of 122 will be broken by 2100.",
+        "check": "Projection about the maximum reported age (122, Calment). Framed as a record, not as odds of dying."
+      }
+    ]
+  }
+]

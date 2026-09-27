@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         main: 'index.html',
         credits: 'credits.html',
+        graveyard: 'graveyard.html',
       },
     },
   },

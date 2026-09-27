@@ -88,3 +88,16 @@ export const AUDIO = {
   recordingTimeout: 15,
   initRecordingsWait: 4,
 } as const;
+
+/** The graveyard (a Neon Function; see backend/graveyard). */
+export const GRAVEYARD_API = 'https://br-steep-firefly-b4cj3xa2-graveyard.compute.c-6.us-east-2.aws.neon.tech';
+
+/** Graves are kept apart per build: development, preview, and the real release. */
+export const GRAVE_ENV: 'dev' | 'preview' | 'release' = import.meta.env.DEV
+  ? 'dev'
+  : LIFE_KEY === 'echooflife:life'
+    ? 'release'
+    : 'preview';
+
+/** Remembers that this device's grave has been laid, so it is sent once. */
+export const GRAVE_SENT_KEY = `${LIFE_KEY}:grave`;

@@ -50,6 +50,8 @@ export class Heartbeat {
   }
 
   private beat(time: number): void {
+    // A beat that is already late (the page stalled) is skipped rather than crammed in.
+    if (!this.ctx.isOffline && time < this.ctx.currentTime) return;
     let velocity = 0.9;
     if (time >= this.deathAt) {
       const since = time - this.deathAt;
@@ -69,8 +71,12 @@ export class Heartbeat {
     const gap = 0.35 * Math.sqrt(60 / this.bpm);
     this.recent.push(t);
     if (this.recent.length > 64) this.recent.shift();
-    this.synth.triggerAttackRelease(LUB, 0.08, t, velocity);
-    this.synth.triggerAttackRelease(DUB, 0.07, t + gap, velocity * 0.6);
+    try {
+      this.synth.triggerAttackRelease(LUB, 0.08, t, velocity);
+      this.synth.triggerAttackRelease(DUB, 0.07, t + gap, velocity * 0.6);
+    } catch {
+      return; // a scheduling hiccup must never stop the heart
+    }
     if (this.onBeat) this.ctx.draw.schedule(this.onBeat, t);
   }
 

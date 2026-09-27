@@ -14,13 +14,14 @@ export interface LifeStore {
 
 /**
  * The irreversibility guard. A stored life may only move forward:
- * same id, age never lower, and once ended it never changes again.
+ * same id, age never lower, a name once given is kept, and once ended it never changes again.
  */
 export function canReplace(prev: LifeRecord | null, next: LifeRecord): boolean {
   if (!prev) return true;
   if (prev.id !== next.id) return false;
   if (next.age < prev.age) return false;
-  if (prev.ended !== null) return next.ended === prev.ended && next.age === prev.age;
+  if (prev.name !== null && next.name !== prev.name) return false;
+  if (prev.ended !== null) return next.ended === prev.ended && next.age === prev.age && next.name === prev.name;
   return true;
 }
 

@@ -45,6 +45,15 @@ await r.download({ age: 34, seconds: 30 });  // a WAV to listen to
 - **Recordings** (`audio-sources/`, `scripts/audio/`) come from Wikimedia Commons. Each is licence-checked and sha1-verified, trimmed to its steadiest stretch, loudness-normalised, and looped without seams.
 - **Facts** (`content/facts/`) were researched, verified against the fetched source pages, and picked in `selection.json`.
 
+## The graveyard
+
+Every life begins with a name. When the life ends, the name and the age it reached are sent to the graveyard, which anyone can visit from the gate or the memorial (`graveyard.html`).
+
+- **Backend:** a Neon Function (`backend/graveyard/index.ts`) in the Neon project `echo-of-life`, backed by one table (`backend/graveyard/schema.sql`). It accepts a grave only if its name passes `src/shared/names.ts`, the same rules the page uses. It also limits each IP (hashed) to 12 graves an hour and ignores duplicates.
+- **Environments:** graves are kept apart by build: `dev`, `preview` and `release`. Tests never touch the real graveyard.
+- **Moderation:** to hide a grave, run `update graves set hidden = true where id = <id>;` in the Neon SQL editor.
+- **Redeploying the function:** run `node scripts/backend/build-graveyard.mjs`, then deploy `.cache/graveyard/function.zip` as the `graveyard` function, either with `neon functions deploy graveyard --src backend/graveyard/index.ts` or through the Neon API.
+
 ## Changing things
 
 - **Swap a recording:** edit `audio-sources/manifest.json`, giving a Commons file title, or a local file with its licence and author. Then run `npm run audio`, which fetches, processes and rebuilds the credits.

@@ -234,12 +234,80 @@ button {
   }
 }
 
-.gate-foot {
+.gate-foot,
+.memorial-foot {
   position: fixed;
   left: 50%;
   bottom: calc(22px + env(safe-area-inset-bottom));
   transform: translateX(-50%);
+  display: flex;
+  gap: 2.2rem;
+  white-space: nowrap;
+}
+
+.gate-foot {
   opacity: 0;
+}
+
+/* ---------- The name ---------- */
+
+.name-block {
+  display: grid;
+  justify-items: center;
+  gap: 0.55rem;
+}
+
+.name-input {
+  width: min(17rem, 78vw);
+  padding: 0.35rem 0.2rem 0.45rem;
+  border: 0;
+  border-bottom: 1px solid var(--g3);
+  border-radius: 0;
+  background: transparent;
+  color: var(--white);
+  font: inherit;
+  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  font-weight: 330;
+  text-align: center;
+  letter-spacing: 0.01em;
+  user-select: text;
+  -webkit-user-select: text;
+  outline: none;
+  transition: border-color 0.6s var(--ease-out);
+}
+
+.name-input::placeholder {
+  color: var(--g3);
+  font-style: italic;
+}
+
+.name-input:focus {
+  border-bottom-color: var(--g1);
+}
+
+.name-error {
+  min-height: 1.4em;
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--g1);
+}
+
+.name-note {
+  margin: 0;
+  max-width: 24rem;
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--g2);
+  text-wrap: balance;
+}
+
+.begin.waiting {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.begin.waiting::after {
+  animation: none;
 }
 
 /* ---------- The life ---------- */
@@ -584,6 +652,15 @@ button {
   margin: 0;
 }
 
+.memorial-name {
+  font-size: clamp(1.6rem, 1.3rem + 1.2vw, 2.2rem);
+  font-weight: 280;
+  font-variation-settings: 'opsz' 48;
+  line-height: 1.2;
+  color: var(--white);
+  text-wrap: balance;
+}
+
 .memorial-age {
   font-size: clamp(1.3rem, 1.1rem + 0.7vw, 1.625rem);
   font-weight: 340;
@@ -597,19 +674,29 @@ button {
   text-wrap: balance;
 }
 
-.memorial-foot {
-  position: fixed;
-  left: 50%;
-  bottom: calc(22px + env(safe-area-inset-bottom));
-  transform: translateX(-50%);
+.memorial-cause {
+  display: grid;
+  justify-items: center;
+  gap: 0.7rem;
+  max-width: 32rem;
+  margin-top: 1.4rem;
 }
+
+.memorial-cause p {
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--g2);
+  text-wrap: pretty;
+}
+
 
 .memorial .stage > *,
 .memorial-foot {
   pointer-events: none;
 }
 
-.memorial-foot .quiet-link {
+.memorial-foot .quiet-link,
+.memorial-cause .quiet-link {
   pointer-events: auto;
 }
 
