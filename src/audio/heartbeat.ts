@@ -2,6 +2,7 @@ import * as Tone from 'tone';
 import { AUDIO, DEATH, sec } from '../config';
 import { mulberry32 } from '../life/rng';
 import { heartGainDb, heartRate } from './curves';
+import { Instrument } from './native';
 
 const LUB = 55; // A1
 const DUB = 69.3; // C#2
@@ -11,12 +12,8 @@ const DUB = 69.3; // C#2
  * heart rate for the age, with a little natural variability, and it is the last thing to stop.
  */
 export class Heartbeat {
-  private readonly synth = new Tone.MembraneSynth({
-    pitchDecay: 0.03,
-    octaves: 2,
-    oscillator: { type: 'sine' },
-    envelope: { attack: 0.002, decay: 0.16, sustain: 0, release: 0.08 },
-  });
+  /** Tone's MembraneSynth settings, played by a native voice (a sine whose pitch falls into the note). */
+  private readonly synth: Instrument;
   private readonly gain: Tone.Gain;
   private readonly clock: Tone.Clock;
   private readonly rand = mulberry32(0x4ea27);
@@ -33,6 +30,7 @@ export class Heartbeat {
     private readonly onBeat?: () => void,
   ) {
     this.bpm = heartRate(age);
+    this.synth = new Instrument(ctx, { kind: 'membrane', pitchDecay: 0.03, octaves: 2, envelope: { attack: 0.002, decay: 0.16, sustain: 0, release: 0.08 } }, 2);
     this.gain = new Tone.Gain(Tone.dbToGain(heartGainDb(age)));
     this.synth.connect(this.gain);
     this.gain.connect(out);

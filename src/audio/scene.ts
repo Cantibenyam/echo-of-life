@@ -6,6 +6,7 @@ import { lerp, progressIn, type ChapterSpec, type Range, type RecordingUse } fro
 import { chord, hz, midi, pentaNote, scaleNote } from './music';
 import type { RecordingBank } from './recordings/bank';
 import { Looper } from './recordings/looper';
+import type { Instrument } from './native';
 import { makePad, makePluck, makePulse, makeVoice, type Poly } from './voices';
 
 export interface SceneDeps {
@@ -23,13 +24,16 @@ export interface SceneDeps {
 interface Bed {
   readonly use: RecordingUse;
   readonly gain: Tone.Gain;
-  readonly filter: Tone.Filter | null;
+  readonly filter: BiquadFilterNode | null;
   looper: Looper | null;
   loading: boolean;
   active: boolean;
 }
 
 const db = (v: number): number => Tone.dbToGain(v);
+
+/** Note callbacks run on time, and those dropped for arriving late (a stalled page): for dev checks. */
+export const timeliness = { onTime: 0, late: 0 };
 
 /**
  * Mix trims (dB) on top of each chapter's layer gains, set from measured levels so the drone is a bed
@@ -60,20 +64,26 @@ export class Scene {
   private readonly density = new Map<string, number>();
   private readonly nodes: { dispose(): unknown }[] = [];
   private readonly loops: Tone.Loop[] = [];
-  private readonly sources: (Tone.Oscillator | Tone.Noise)[] = [];
+  private readonly sources: Tone.Noise[] = [];
+  /** Native oscillators (drone, slow sweeps): started with the scene, stopped when it goes. */
+  private readonly oscillators: OscillatorNode[] = [];
+  /** Native filters and gains, let go when the scene goes. */
+  private readonly wires: AudioNode[] = [];
+  private readonly raw: BaseAudioContext;
   private readonly beds: Bed[] = [];
 
-  private pad: Tone.PolySynth<Tone.Synth> | null = null;
+  private pad: Instrument | null = null;
   private bells: Poly | null = null;
-  private pluck: Tone.PolySynth<Tone.Synth> | null = null;
+  private pluck: Instrument | null = null;
   private keys: Poly | null = null;
-  private pulse: Tone.MonoSynth | null = null;
+  private pulse: Instrument | null = null;
   private glass: Poly | null = null;
   private readonly motifVoice: Poly;
 
   constructor(chapter: ChapterSpec, age: number, deps: SceneDeps) {
     this.c = chapter;
     this.deps = deps;
+    this.raw = deps.ctx.rawContext as BaseAudioContext;
     this.age = age;
     this.t = progressIn(chapter, age);
     this.rand = mulberry32(hashString(`${chapter.id}:${age}`));
@@ -91,7 +101,7 @@ export class Scene {
       if (want('pulse')) this.buildPulse();
       if (want('glass')) this.buildGlass();
     }
-    this.motifVoice = makeVoice(chapter.motif.voice, 10);
+    this.motifVoice = makeVoice(deps.ctx, chapter.motif.voice, 10);
     this.motifVoice.connect(this.layerGain('motif', -14));
     this.nodes.push(this.motifVoice);
     this.buildBeds();
@@ -115,18 +125,39 @@ export class Scene {
     return lerp(r, this.t);
   }
 
+  /** A low-pass whose cutoff sweeps slowly between `lo` and `hi` on a sine (as Tone's LFO and AutoFilter did). */
+  private sweptLowpass(lo: number, hi: number, rate: number, q: number): BiquadFilterNode {
+    const filter = this.raw.createBiquadFilter();
+    filter.type = 'lowpass';
+    filter.Q.value = q;
+    filter.frequency.value = (lo + hi) / 2;
+    const lfo = this.raw.createOscillator();
+    lfo.frequency.value = rate;
+    const depth = this.raw.createGain();
+    depth.gain.value = (hi - lo) / 2;
+    lfo.connect(depth);
+    depth.connect(filter.frequency);
+    this.oscillators.push(lfo);
+    this.wires.push(filter, depth);
+    return filter;
+  }
+
   private buildDrone(): void {
     const g = this.layerGain('drone', this.at(this.c.drones.gain));
-    const filter = new Tone.Filter({ type: 'lowpass', frequency: 700, rolloff: -12 });
-    const lfo = new Tone.LFO({ frequency: 0.03, min: 380, max: 950 }).connect(filter.frequency);
-    filter.connect(g);
-    this.nodes.push(filter, lfo);
-    lfo.start();
+    const filter = this.sweptLowpass(380, 950, 0.03, 1);
+    Tone.connect(filter, g);
+    // Each drone tone at -9 dB, as before.
+    const level = this.raw.createGain();
+    level.gain.value = db(-9);
+    level.connect(filter);
+    this.wires.push(level);
     for (const note of this.c.drone) {
       for (const detune of [-4, 4]) {
-        const osc = new Tone.Oscillator({ frequency: hz(midi(note)), type: 'sine', detune, volume: -9 });
-        osc.connect(filter);
-        this.sources.push(osc);
+        const osc = this.raw.createOscillator();
+        osc.frequency.value = hz(midi(note));
+        osc.detune.value = detune;
+        osc.connect(level);
+        this.oscillators.push(osc);
       }
     }
   }
@@ -136,29 +167,24 @@ export class Scene {
     if (!a) return;
     const g = this.layerGain('air', this.at(a.gain));
     const noise = new Tone.Noise({ type: a.color, volume: -4 });
-    const auto = new Tone.AutoFilter({
-      frequency: a.rate,
-      baseFrequency: a.base,
-      octaves: a.octaves,
-      depth: 1,
-      wet: 1,
-      filter: { type: 'lowpass', rolloff: -12, Q: 0.8 },
-    }).start();
-    noise.connect(auto);
-    auto.connect(g);
+    const filter = this.sweptLowpass(a.base, a.base * 2 ** a.octaves, a.rate, 0.8);
+    noise.connect(filter);
+    Tone.connect(filter, g);
     this.sources.push(noise);
-    this.nodes.push(auto);
   }
 
   private buildPad(): void {
     const p = this.c.pad;
     if (!p) return;
     const g = this.layerGain('pad', this.at(p.gain));
-    const filter = new Tone.Filter({ type: 'lowpass', frequency: 1500, rolloff: -12 });
-    this.pad = makePad(this.at(p.attack), p.release);
+    const filter = this.raw.createBiquadFilter();
+    filter.type = 'lowpass';
+    filter.frequency.value = 1500;
+    Tone.connect(filter, g);
+    this.wires.push(filter);
+    this.pad = makePad(this.deps.ctx, this.at(p.attack), p.release);
     this.pad.connect(filter);
-    filter.connect(g);
-    this.nodes.push(filter, this.pad);
+    this.nodes.push(this.pad);
     const bars = Math.round(this.at(p.bars));
     this.loop(`${bars}m`, (time) => {
       if (!this.alive(time, sec(DEATH.padsRelease))) return;
@@ -174,7 +200,7 @@ export class Scene {
     const b = this.c.bells;
     if (!b) return;
     const g = this.layerGain('bells', this.at(b.gain));
-    this.bells = makeVoice(b.voice, 10);
+    this.bells = makeVoice(this.deps.ctx, b.voice, 10);
     this.nodes.push(this.bells);
     if (this.c.delay) {
       const delay = new Tone.PingPongDelay({ delayTime: '4n.', feedback: this.c.delay.feedback, wet: this.c.delay.wet });
@@ -196,7 +222,7 @@ export class Scene {
     const p = this.c.pluck;
     if (!p) return;
     const g = this.layerGain('pluck', this.at(p.gain));
-    this.pluck = makePluck();
+    this.pluck = makePluck(this.deps.ctx);
     this.pluck.connect(g);
     this.nodes.push(this.pluck);
     this.density.set('pluck', this.at(p.density));
@@ -212,7 +238,7 @@ export class Scene {
     const k = this.c.keys;
     if (!k) return;
     const g = this.layerGain('keys', this.at(k.gain));
-    this.keys = makeVoice('epiano', 12);
+    this.keys = makeVoice(this.deps.ctx, 'epiano', 12);
     this.keys.connect(g);
     this.nodes.push(this.keys);
     this.density.set('keys', this.at(k.density));
@@ -230,7 +256,7 @@ export class Scene {
     const p = this.c.pulse;
     if (!p) return;
     const g = this.layerGain('pulse', this.at(p.gain));
-    this.pulse = makePulse();
+    this.pulse = makePulse(this.deps.ctx);
     this.pulse.connect(g);
     this.nodes.push(this.pulse);
     this.density.set('pulse', this.at(p.density));
@@ -245,7 +271,7 @@ export class Scene {
     const gl = this.c.glass;
     if (!gl) return;
     const g = this.layerGain('glass', this.at(gl.gain));
-    this.glass = makeVoice('glass', 8);
+    this.glass = makeVoice(this.deps.ctx, 'glass', 8);
     this.glass.connect(g);
     this.nodes.push(this.glass);
     this.density.set('glass', this.at(gl.density));
@@ -259,11 +285,16 @@ export class Scene {
     for (const use of this.c.recordings) {
       if (!this.deps.bank.has(use.id)) continue;
       const gain = new Tone.Gain(0);
-      const filter = use.lpf ? new Tone.Filter({ type: 'lowpass', frequency: use.lpf, rolloff: -12 }) : null;
-      if (filter) filter.connect(gain);
+      let filter: BiquadFilterNode | null = null;
+      if (use.lpf) {
+        filter = this.raw.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.value = use.lpf;
+        Tone.connect(filter, gain);
+        this.wires.push(filter);
+      }
       gain.connect(this.out);
       this.nodes.push(gain);
-      if (filter) this.nodes.push(filter);
       this.beds.push({ use, gain, filter, looper: null, loading: false, active: false });
     }
   }
@@ -273,7 +304,12 @@ export class Scene {
   private loop(interval: Tone.Unit.Time, fn: (time: number) => void): void {
     const l = new Tone.Loop((time) => {
       // Late callbacks (the page stalled) are dropped rather than bunched together.
-      if (this.disposed || (!this.deps.ctx.isOffline && time < this.deps.ctx.currentTime)) return;
+      if (this.disposed) return;
+      if (!this.deps.ctx.isOffline && time < this.deps.ctx.currentTime) {
+        timeliness.late++;
+        return;
+      }
+      timeliness.onTime++;
       try {
         fn(time);
       } catch {
@@ -321,6 +357,7 @@ export class Scene {
 
   start(at: number): void {
     this.sources.forEach((s) => s.start(at));
+    this.oscillators.forEach((o) => o.start(at));
     const transport = this.deps.ctx.transport;
     const startTick = Math.ceil(transport.getTicksAtTime(at) + transport.PPQ / 8);
     this.loops.forEach((l) => l.start(`${startTick}i`));
@@ -363,7 +400,7 @@ export class Scene {
     dens('keys', this.c.keys?.density);
     dens('pulse', this.c.pulse?.density);
     dens('glass', this.c.glass?.density);
-    if (this.pad && this.c.pad) this.pad.set({ envelope: { attack: this.at(this.c.pad.attack) } });
+    if (this.pad && this.c.pad) this.pad.setAttack(this.at(this.c.pad.attack));
     this.updateBeds(at, false);
   }
 
@@ -404,7 +441,8 @@ export class Scene {
       if (!buffer || this.disposed || !bed.active || this.deathAt < Infinity) return;
       const info = this.deps.bank.meta(bed.use.id)!;
       bed.looper = new Looper(this.deps.ctx, buffer, info);
-      bed.looper.out.connect(bed.filter ?? bed.gain);
+      if (bed.filter) Tone.connect(bed.looper.out, bed.filter);
+      else bed.looper.out.connect(bed.gain);
       bed.looper.start(Math.max(at, this.deps.ctx.now()));
       fadeIn();
     });
@@ -441,8 +479,17 @@ export class Scene {
       }
       s.dispose();
     });
+    this.oscillators.forEach((o) => {
+      try {
+        o.stop();
+      } catch {
+        /* never started */
+      }
+      o.disconnect();
+    });
     this.beds.forEach((b) => b.looper?.dispose());
     this.nodes.forEach((n) => n.dispose());
+    this.wires.forEach((n) => n.disconnect());
     this.out.dispose();
   }
 }

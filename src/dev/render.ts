@@ -231,3 +231,84 @@ export async function layerBands(age: number): Promise<unknown[]> {
   }
   return rows;
 }
+
+// ---------- parity: the old Tone synths against the native voices, note for note ----------
+
+type Maker = () => { connect(d: Tone.InputNode): unknown; triggerAttackRelease(f: number, d: number, t: number, v: number): unknown };
+
+/** The instruments exactly as they were before the native voices (Tone's synths), for comparison. */
+function toneVoices(): Record<string, Maker> {
+  // Loosely typed on purpose: these are the old settings, passed as they were.
+  const fm = (o: object) => () => new Tone.PolySynth(Tone.FMSynth, o as never);
+  return {
+    musicbox: fm({ harmonicity: 3.5, modulationIndex: 5, oscillator: { type: 'sine' }, modulation: { type: 'sine' }, envelope: { attack: 0.002, decay: 1.6, sustain: 0, release: 1.6 }, modulationEnvelope: { attack: 0.002, decay: 0.35, sustain: 0, release: 0.3 } }),
+    marimba: fm({ harmonicity: 4, modulationIndex: 2, oscillator: { type: 'sine' }, modulation: { type: 'sine' }, envelope: { attack: 0.003, decay: 0.7, sustain: 0, release: 0.7 }, modulationEnvelope: { attack: 0.002, decay: 0.12, sustain: 0, release: 0.1 } }),
+    synth: fm({ harmonicity: 1, modulationIndex: 1.4, oscillator: { type: 'sine' }, modulation: { type: 'triangle' }, envelope: { attack: 0.03, decay: 1.0, sustain: 0.08, release: 1.4 }, modulationEnvelope: { attack: 0.05, decay: 0.6, sustain: 0.1, release: 0.8 } }),
+    epiano: fm({ harmonicity: 1, modulationIndex: 1.2, oscillator: { type: 'sine' }, modulation: { type: 'sine' }, envelope: { attack: 0.006, decay: 2.2, sustain: 0.12, release: 2.6 }, modulationEnvelope: { attack: 0.004, decay: 0.5, sustain: 0.05, release: 0.6 } }),
+    glass: () => new Tone.PolySynth(Tone.Synth, <never>{ oscillator: { type: 'sine' }, envelope: { attack: 0.35, decay: 1.4, sustain: 0.3, release: 4.5 } }),
+    pad: () => new Tone.PolySynth(Tone.Synth, <never>{ oscillator: { type: 'fattriangle', count: 3, spread: 18 }, envelope: { attack: 1.2, decay: 1.5, sustain: 0.8, release: 3 } }),
+    pluck: () => new Tone.PolySynth(Tone.Synth, <never>{ oscillator: { type: 'triangle' }, envelope: { attack: 0.004, decay: 0.7, sustain: 0, release: 0.6 } }),
+    pulse: () => new Tone.MonoSynth(<never>{ oscillator: { type: 'sine' }, envelope: { attack: 0.012, decay: 0.38, sustain: 0, release: 0.25 }, filter: { type: 'lowpass', rolloff: -12, Q: 0.5 }, filterEnvelope: { attack: 0.01, decay: 0.25, sustain: 0, release: 0.2, baseFrequency: 110, octaves: 1.6 } }),
+    heart: () => new Tone.MembraneSynth(<never>{ pitchDecay: 0.03, octaves: 2, oscillator: { type: 'sine' }, envelope: { attack: 0.002, decay: 0.16, sustain: 0, release: 0.08 } }),
+  };
+}
+
+async function nativeVoices(): Promise<Record<string, (ctx: Tone.BaseContext) => Maker extends () => infer R ? R : never>> {
+  const v = await import('../audio/voices');
+  const { Instrument } = await import('../audio/native');
+  return {
+    musicbox: (c) => v.makeVoice(c, 'musicbox', 10),
+    marimba: (c) => v.makeVoice(c, 'marimba', 10),
+    synth: (c) => v.makeVoice(c, 'synth', 10),
+    epiano: (c) => v.makeVoice(c, 'epiano', 12),
+    glass: (c) => v.makeVoice(c, 'glass', 8),
+    pad: (c) => v.makePad(c, 1.2, 3),
+    pluck: (c) => v.makePluck(c),
+    pulse: (c) => v.makePulse(c),
+    heart: (c) => new Instrument(c, { kind: 'membrane', pitchDecay: 0.03, octaves: 2, envelope: { attack: 0.002, decay: 0.16, sustain: 0, release: 0.08 } }, 2),
+  };
+}
+
+/** Per voice: the largest difference (dB) between old and new in 10 ms windows louder than -50 dB, and the overall level difference. */
+export async function voiceParity(): Promise<Record<string, unknown>[]> {
+  const tone = toneVoices();
+  const native = await nativeVoices();
+  // [frequency, duration, velocity]: a short note, and a note released during its decay.
+  const notes: Record<string, [number, number, number][]> = {
+    musicbox: [[784, 0.4, 0.5]], marimba: [[523, 0.4, 0.6]], synth: [[392, 0.6, 0.5]], epiano: [[330, 1.2, 0.4]],
+    glass: [[659, 2.5, 0.4]], pad: [[220, 4, 0.5], [277, 1.0, 0.5]], pluck: [[440, 0.3, 0.5]], pulse: [[98, 0.2, 0.6]], heart: [[55, 0.08, 0.9]],
+  };
+  const rows: Record<string, unknown>[] = [];
+  for (const name of Object.keys(tone)) {
+    const seconds = name === 'pad' ? 9 : name === 'glass' ? 8 : 4;
+    const play = async (build: (ctx: Tone.BaseContext) => ReturnType<Maker>) =>
+      (
+        await Tone.Offline((ctx) => {
+          const inst = build(ctx);
+          inst.connect(ctx.destination);
+          for (const [f, d, v] of notes[name]!) inst.triggerAttackRelease(f, d, 0.1, v);
+        }, seconds, 1, SR)
+      ).get()!;
+    const a = await play(() => tone[name]!());
+    const b = await play((ctx) => native[name]!(ctx));
+    const win = Math.floor(0.01 * SR);
+    let worst = 0;
+    for (let s = 0; s + win <= a.length; s += win) {
+      let ea = 0;
+      let eb = 0;
+      const da = a.getChannelData(0);
+      const dbb = b.getChannelData(0);
+      for (let i = s; i < s + win; i++) {
+        ea += da[i]! * da[i]!;
+        eb += dbb[i]! * dbb[i]!;
+      }
+      const la = 10 * Math.log10(ea / win + 1e-20);
+      const lb = 10 * Math.log10(eb / win + 1e-20);
+      if (Math.max(la, lb) > -50) worst = Math.max(worst, Math.abs(la - lb));
+    }
+    const ra = analyze(a).rmsDb;
+    const rb = analyze(b).rmsDb;
+    rows.push({ voice: name, oldDb: +ra.toFixed(2), newDb: +rb.toFixed(2), levelDiff: +(rb - ra).toFixed(2), worstWindowDiff: +worst.toFixed(2) });
+  }
+  return rows;
+}

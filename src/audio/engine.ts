@@ -7,7 +7,7 @@ import { bpmAt, chapterOf, recordingsAt } from './chapters';
 import { Heartbeat } from './heartbeat';
 import { hz, lifeMotif, pentaNote } from './music';
 import { RecordingBank } from './recordings/bank';
-import { Scene } from './scene';
+import { Scene, timeliness } from './scene';
 import { makeVoice, type Poly } from './voices';
 
 export interface EngineOptions {
@@ -125,7 +125,7 @@ export class Engine {
       this.current.fadeIn(at, fade);
 
       const echoGain = new Tone.Gain(Tone.dbToGain(-12));
-      this.echoVoice = makeVoice('glass', 8);
+      this.echoVoice = makeVoice(this.ctx, 'glass', 8);
       this.echoVoice.connect(echoGain);
       echoGain.connect(bus.echoIn);
       echoGain.connect(bus.input);
@@ -194,8 +194,8 @@ export class Engine {
   }
 
   /** For dev soak checks. */
-  stats(): { scenes: number; buffers: number } {
-    return { scenes: this.live.length, buffers: this.bank.size };
+  stats(): { scenes: number; buffers: number; onTime: number; late: number } {
+    return { scenes: this.live.length, buffers: this.bank.size, ...timeliness };
   }
 
   /** Recent heartbeat times, for checks. */

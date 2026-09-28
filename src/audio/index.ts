@@ -42,7 +42,9 @@ export const audio: AudioApi = {
   unlock() {
     playThroughSilentSwitch();
     if (!contextReady) {
-      Tone.setContext(new Tone.Context({ latencyHint: 'playback', lookAhead: 0.15 }), true);
+      // Notes are scheduled 0.3 s ahead: on a slow phone's busy page a shorter lead let a few notes
+      // arrive late (they are dropped, not bunched). A press's chime simply lands a moment later.
+      Tone.setContext(new Tone.Context({ latencyHint: 'playback', lookAhead: 0.3 }), true);
       contextReady = true;
     }
     void Tone.start().catch(() => {});
