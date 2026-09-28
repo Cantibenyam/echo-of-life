@@ -102,7 +102,7 @@
     "age": 9,
     "text": "In 2023 about 138 million people worldwide were 9 years old, according to UN estimates.",
     "source": {
-      "label": "UN DESA, World Population Prospects 2024 (WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv)",
+      "label": "UN DESA, World Population Prospects 2024",
       "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationBySingleAgeSex_Medium_1950-2023.csv.gz"
     },
     "kind": "numbers",
@@ -333,7 +333,7 @@
     "age": 30,
     "text": "The world’s median age was 30.4 in 2023: half of all people alive were younger, and half older, UN estimates show.",
     "source": {
-      "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+      "label": "UN DESA, World Population Prospects 2024",
       "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
     },
     "kind": "numbers",
@@ -465,7 +465,7 @@
     "age": 42,
     "text": "Europe had the oldest population of any world region in 2023, with a median age of 42.2, UN estimates show.",
     "source": {
-      "label": "UN DESA, World Population Prospects 2024 (WPP2024_Demographic_Indicators_Medium.csv)",
+      "label": "UN DESA, World Population Prospects 2024",
       "url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz"
     },
     "kind": "numbers",

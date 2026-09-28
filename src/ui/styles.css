@@ -124,17 +124,27 @@ button {
 
 /* ---------- Gate ---------- */
 
+/*
+ * The greeting is centred in the space above the links, which sit at the bottom. Both are in the
+ * flow, so however tall the greeting gets (a small phone, larger text, a phone on its side) the
+ * links follow it rather than covering Begin, and the gate scrolls if it must.
+ */
 .gate {
   position: fixed;
   inset: 0;
   z-index: 10;
-  display: grid;
-  place-content: center;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 1.4rem;
-  padding: 24px max(24px, env(safe-area-inset-right)) calc(112px + env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
+  overflow-y: auto;
+  padding: 24px max(24px, env(safe-area-inset-right)) calc(18px + env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
   text-align: center;
   cursor: default;
+}
+
+.gate > :first-child {
+  margin-top: auto;
 }
 
 .gate-line {
@@ -165,6 +175,7 @@ button {
   justify-items: center;
   gap: 1.6rem;
   margin-top: 1.2rem;
+  margin-bottom: auto;
   opacity: 0;
 }
 
@@ -235,10 +246,8 @@ button {
 }
 
 .gate-foot {
-  position: fixed;
-  left: 50%;
-  bottom: calc(18px + env(safe-area-inset-bottom));
-  transform: translateX(-50%);
+  flex-shrink: 0;
+  margin-top: 2.2rem;
 }
 
 .gate-foot,
@@ -272,6 +281,41 @@ button {
 
 .gate-foot {
   opacity: 0;
+}
+
+/* A phone on its side: the greeting tightens and the links sit side by side. */
+@media (max-height: 540px) {
+  .gate {
+    gap: 0.75rem;
+    padding-top: max(16px, env(safe-area-inset-top));
+  }
+
+  .gate-title {
+    margin-bottom: 0.3rem;
+    font-size: clamp(1.8rem, 1rem + 4vh, 2.6rem);
+  }
+
+  .gate-line {
+    max-width: 46ch;
+    font-size: clamp(1.125rem, 0.8rem + 2.2vh, 1.4rem);
+  }
+
+  .begin {
+    width: 72px;
+    height: 72px;
+  }
+
+  .gate-end {
+    gap: 0.9rem;
+    margin-top: 0.3rem;
+  }
+
+  .gate-foot {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1.4rem;
+    margin-top: 0.4rem;
+  }
 }
 
 /* ---------- The name ---------- */
@@ -358,7 +402,8 @@ button {
   height: 100%;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: minmax(0, 1fr) 48px minmax(0, 1fr);
+  /* --fact-room: the tallest fact on this screen (set by fact-fit); the line rises only if it must. */
+  grid-template-rows: minmax(0, 1fr) 48px minmax(var(--fact-room, 0px), 1fr);
   justify-items: center;
   padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
   pointer-events: none;
@@ -372,7 +417,8 @@ button {
   display: grid;
   margin-bottom: clamp(18px, 4vh, 44px);
   font-weight: 200;
-  font-size: clamp(4.5rem, 22vw, 10rem);
+  font-size: clamp(3.25rem, min(22vw, 24vh), 10rem);
+  font-size: clamp(3.25rem, min(22vw, 24svh), 10rem);
   line-height: 1;
   letter-spacing: -0.03em;
   font-variant-numeric: lining-nums tabular-nums;
@@ -524,6 +570,8 @@ button {
   grid-row: 3;
   align-self: start;
   display: grid;
+  /* Never wider than the screen, whatever a word or a source title does. */
+  grid-template-columns: minmax(0, 1fr);
   justify-items: center;
   align-content: start;
   gap: 0.9rem;
@@ -533,8 +581,10 @@ button {
 }
 
 .fact-text {
+  max-width: 100%;
   margin: 0;
-  font-size: clamp(1.1875rem, 1.05rem + 0.55vw, 1.4375rem);
+  font-size: calc(var(--fact-scale, 1) * clamp(1.1875rem, 1.05rem + 0.55vw, 1.4375rem));
+  overflow-wrap: anywhere;
   font-weight: 360;
   font-variation-settings: 'opsz' 18;
   line-height: 1.62;
@@ -544,6 +594,22 @@ button {
 
 .fact > * {
   will-change: opacity, transform;
+}
+
+.fact-source {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+/* Invisible copies, measured once per screen size to find the tallest fact (fact-fit.ts). */
+.fact-probe {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.fact-probe > * {
+  will-change: auto;
 }
 
 /* ---------- Hints ---------- */

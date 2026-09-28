@@ -1,6 +1,7 @@
 import { DEATH, ms, T } from '../config';
 import type { LifeRecord } from '../life/record';
 import { coarsePointer, el, fade } from './dom';
+import { fitFacts } from './fact-fit';
 import { Timeline } from './timeline';
 import { FactView, Numeral } from './views';
 
@@ -17,6 +18,12 @@ export class Stage {
   private readonly hint: HTMLElement;
   private hintTimer = 0;
   private hintShown = false;
+  private readonly stageEl: HTMLElement;
+  private fitTimer = 0;
+  private readonly onResize = () => {
+    window.clearTimeout(this.fitTimer);
+    this.fitTimer = window.setTimeout(() => this.fit(), 150);
+  };
 
   constructor(parent: HTMLElement, onPress: (e: MouseEvent) => void) {
     this.root = el('section', 'life');
@@ -27,6 +34,7 @@ export class Stage {
     this.advance.addEventListener('click', onPress);
 
     const stage = el('div', 'stage');
+    this.stageEl = stage;
     this.fact = new FactView();
     stage.append(this.numeral.el, this.timeline.el, this.fact.el);
     this.hint = el('p', 'hint');
@@ -34,6 +42,14 @@ export class Stage {
     this.root.append(this.advance, stage, this.hint);
     [this.numeral.el, this.timeline.el, this.fact.el].forEach((n) => (n.style.opacity = '0'));
     parent.append(this.root);
+    this.fit();
+    void document.fonts?.ready.then(() => this.fit());
+    window.addEventListener('resize', this.onResize);
+  }
+
+  /** Room for the tallest fact on this screen (see fact-fit). */
+  private fit(): void {
+    if (this.root.isConnected) fitFacts(this.stageEl, this.fact.el, this.numeral.el);
   }
 
   /** Interactive elements that must never be near-missed into spending a year. */
@@ -118,6 +134,8 @@ export class Stage {
   }
 
   leave(duration: number): Promise<void> {
+    window.removeEventListener('resize', this.onResize);
+    window.clearTimeout(this.fitTimer);
     return new Promise((resolve) => {
       this.root.style.pointerEvents = 'none';
       const anim = fade(this.root, 0, duration);

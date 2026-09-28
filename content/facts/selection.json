@@ -25,7 +25,8 @@
       "text": "In a US study, children of five to seven recalled 60% or more of events discussed at age three, while eight- and nine-year-olds recalled under 40%."
     },
     "9": {
-      "redo": 2
+      "redo": 2,
+      "sourceLabel": "UN DESA, World Population Prospects 2024"
     },
     "10": 1,
     "11": {
@@ -76,7 +77,8 @@
       "redo": 0
     },
     "30": {
-      "redo": 0
+      "redo": 0,
+      "sourceLabel": "UN DESA, World Population Prospects 2024"
     },
     "31": 0,
     "32": {
@@ -105,7 +107,8 @@
       "kind": "numbers"
     },
     "42": {
-      "redo": 0
+      "redo": 0,
+      "sourceLabel": "UN DESA, World Population Prospects 2024"
     },
     "43": {
       "redo": 0,

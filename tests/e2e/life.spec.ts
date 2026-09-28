@@ -363,3 +363,38 @@ test("if the graveyard can't be reached, the life still goes on", async ({ page 
   }).toBe(true);
   expect(errors.filter((e) => !/503|Failed to load resource/.test(e))).toEqual([]);
 });
+
+for (const [w, h, scale] of [
+  [320, 568, 1],
+  [360, 560, 1.3],
+  [667, 375, 1],
+] as const) {
+  test(`every fact fits a ${w}x${h} screen${scale !== 1 ? ' with larger text' : ''}, and Begin can be pressed`, async ({ page }) => {
+    await page.setViewportSize({ width: w, height: h });
+    if (scale !== 1) await page.addInitScript((s) => document.addEventListener('DOMContentLoaded', () => (document.documentElement.style.fontSize = `${s * 100}%`)), scale);
+    await page.goto('./');
+    await begin(page); // a click Playwright refuses if anything covers Begin
+    await page.waitForTimeout(4500);
+    const facts = (await import('../../src/content/facts.json', { with: { type: 'json' } })).default as { age: number; text: string; source: { label: string } }[];
+    const bad = await page.evaluate((facts) => {
+      const text = document.querySelector<HTMLElement>('.life .fact-text')!;
+      const link = document.querySelector<HTMLElement>('.life .fact-source')!;
+      const mute = document.querySelector('.mute')!.getBoundingClientRect();
+      const out: string[] = [];
+      for (const f of facts) {
+        for (const n of [text, link]) {
+          n.getAnimations().forEach((a) => a.cancel());
+          n.style.opacity = '1';
+        }
+        text.textContent = f.text;
+        link.textContent = f.source.label;
+        for (const r of [text.getBoundingClientRect(), link.getBoundingClientRect()]) {
+          if (r.left < -0.5 || r.right > innerWidth + 0.5 || r.bottom > innerHeight) out.push(`${f.age}: off screen`);
+          else if (r.bottom > mute.top && r.right > mute.left) out.push(`${f.age}: under the mute button`);
+        }
+      }
+      return out;
+    }, facts);
+    expect(bad).toEqual([]);
+  });
+}
