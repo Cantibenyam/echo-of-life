@@ -232,6 +232,11 @@ export async function layerBands(age: number): Promise<unknown[]> {
   return rows;
 }
 
+/** Note callbacks so far in this page (offline renders included): on time, late, and failed. */
+export async function noteStats(): Promise<{ onTime: number; late: number; errors: number }> {
+  return { ...(await import('../audio/scene')).noteStats };
+}
+
 // ---------- parity: the old Tone synths against the native voices, note for note ----------
 
 type Maker = () => { connect(d: Tone.InputNode): unknown; triggerAttackRelease(f: number, d: number, t: number, v: number): unknown };

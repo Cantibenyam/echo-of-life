@@ -3,6 +3,7 @@ import { AUDIO, DEATH, sec } from '../config';
 import { mulberry32 } from '../life/rng';
 import { heartGainDb, heartRate } from './curves';
 import { Instrument } from './native';
+import { noteStats } from './scene';
 
 const LUB = 55; // A1
 const DUB = 69.3; // C#2
@@ -73,6 +74,7 @@ export class Heartbeat {
       this.synth.triggerAttackRelease(LUB, 0.08, t, velocity);
       this.synth.triggerAttackRelease(DUB, 0.07, t + gap, velocity * 0.6);
     } catch {
+      noteStats.errors++;
       return; // a scheduling hiccup must never stop the heart
     }
     if (this.onBeat) this.ctx.draw.schedule(this.onBeat, t);

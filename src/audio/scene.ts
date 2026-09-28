@@ -32,8 +32,11 @@ interface Bed {
 
 const db = (v: number): number => Tone.dbToGain(v);
 
-/** Note callbacks run on time, and those dropped for arriving late (a stalled page): for dev checks. */
-export const timeliness = { onTime: 0, late: 0 };
+/**
+ * Note callbacks: run on time, dropped for arriving late (a stalled page), or failed (a note that threw
+ * is skipped so the music goes on, and counted here so it can never fail silently): for dev checks.
+ */
+export const noteStats = { onTime: 0, late: 0, errors: 0 };
 
 /**
  * Mix trims (dB) on top of each chapter's layer gains, set from measured levels so the drone is a bed
@@ -306,14 +309,14 @@ export class Scene {
       // Late callbacks (the page stalled) are dropped rather than bunched together.
       if (this.disposed) return;
       if (!this.deps.ctx.isOffline && time < this.deps.ctx.currentTime) {
-        timeliness.late++;
+        noteStats.late++;
         return;
       }
-      timeliness.onTime++;
+      noteStats.onTime++;
       try {
         fn(time);
       } catch {
-        /* a scheduling hiccup skips one note, never the music */
+        noteStats.errors++; // a scheduling hiccup skips one note, never the music
       }
     }, interval);
     this.loops.push(l);

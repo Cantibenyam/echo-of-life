@@ -7,7 +7,7 @@ import { bpmAt, chapterOf, recordingsAt } from './chapters';
 import { Heartbeat } from './heartbeat';
 import { hz, lifeMotif, pentaNote } from './music';
 import { RecordingBank } from './recordings/bank';
-import { Scene, timeliness } from './scene';
+import { Scene, noteStats } from './scene';
 import { makeVoice, type Poly } from './voices';
 
 export interface EngineOptions {
@@ -194,8 +194,8 @@ export class Engine {
   }
 
   /** For dev soak checks. */
-  stats(): { scenes: number; buffers: number; onTime: number; late: number } {
-    return { scenes: this.live.length, buffers: this.bank.size, ...timeliness };
+  stats(): { scenes: number; buffers: number; onTime: number; late: number; errors: number } {
+    return { scenes: this.live.length, buffers: this.bank.size, ...noteStats };
   }
 
   /** Recent heartbeat times, for checks. */
